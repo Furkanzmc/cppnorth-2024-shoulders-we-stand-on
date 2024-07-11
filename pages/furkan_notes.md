@@ -12,6 +12,8 @@
 > https://www.bookey.app/quote-author/dennis-ritchie
 > Maybe don't include it, I couldn't find the source for this...
 - Finish with the programming languages area so we can tie it to C++.
+- "We are going to show you rather than tell you how these innovations touched our lives."
+> https://www.youtube.com/watch?v=B6rKUf9DWRI
 
 # Areas
 
@@ -28,13 +30,21 @@
    - **Impact:** Led the development of the onboard flight software for NASA's Apollo missions.
    - **Human Touch:** Her work ensured the safety and success of manned lunar missions, showcasing
      the critical role of software in mission-critical applications.
+> **Notes**
+> - [Wikipedia](https://en.wikipedia.org/wiki/Margaret_Hamilton_(software_engineer))
+> - There's also an [actress](https://en.wikipedia.org/wiki/Margaret_Hamilton_(actress)) with the
+>   same name.
+> - [Untold Story of Woman Who Took America To the Moon](https://www.grunge.com/174465/the-untold-truth-of-the-woman-who-took-america-to-the-moon/)
 
 **Mary Shaw** (*)
    - **Impact:** Contributions to software architecture and design patterns.
    - **Human Touch:** Her work on architectural patterns helps developers create robust and scalable
      software systems.
->
+> **What to Mention**
+> **Notes**
 > - [Wikipedia](https://en.wikipedia.org/wiki/Mary_Shaw_(computer_scientist)) has some info on her.
+> - [Her publications](http://spoke.compose.cs.cmu.edu/shaweb/p/pubs.htm)
+> - [ ] Read her papers
 
 **Barbara Liskov** (*)
     - **Impact:** Liskov Substitution Principle and contributions to object-oriented programming.
@@ -193,3 +203,86 @@
    - **Impact:** Developer of LaTeX and pioneer in distributed systems and concurrent computing.
    - **Human Touch:** His work on formal methods and distributed algorithms has improved the
      reliability and correctness of complex software systems.
+
+# Draft
+
+Certainly. Let's structure the six acts with clear themes that form a coherent story arc,
+incorporating elements of the hero's journey:
+
+### **Act 1: The Spark of Innovation**
+- **Theme:** The birth of ideas and the initial spark that ignites innovation.
+- **Structure:** Introduce the concept of groundbreaking ideas and the visionaries who first
+  imagined what could be possible with computing. Set the stage for how these initial ideas laid the
+  foundation for future advancements.
+
+### **Act 2: The Theoretical Foundations**
+- **Theme:** Establishing the core principles and theories that underpin modern technology.
+- **Structure:** Explore the critical theoretical contributions that provided the necessary
+  framework for building complex systems. Highlight how abstract concepts eventually lead to
+  practical applications.
+
+### **Act 3: The Pioneers of Practice**
+- **Theme:** Transition from theory to practice, turning ideas into reality.
+- **Structure:** Focus on the individuals who took theoretical ideas and implemented them, creating
+  the first practical applications and systems. Emphasize the importance of early practical work in
+  making technology accessible and useful.
+
+### **Act 4: Building the Infrastructure**
+- **Theme:** Developing the infrastructure that supports modern computing and connectivity.
+- **Structure:** Examine the efforts to build robust systems and networks, which are the backbone of
+  today's technology. Discuss the challenges faced and the solutions developed to create a connected
+  world.
+
+### **Act 5: The Impact on Society**
+- **Theme:** The real-life impacts of technological advancements on society and everyday life.
+- **Structure:** Highlight how technological breakthroughs have transformed various aspects of life,
+  such as communication, healthcare, and accessibility. Show the human side of technology,
+  demonstrating its potential to improve lives and create opportunities.
+
+### **Act 6: The Future and Beyond**
+- **Theme:** Looking ahead to future innovations and the ongoing journey of technological progress.
+- **Structure:** Discuss the emerging trends and potential future developments in technology.
+  Reflect on how past contributions set the stage for future advancements and inspire the next
+  generation of innovators.
+
+> This is where we turn the story to the audience and tell them it took all of us to get here. We
+> were inspired by them, and we inspire others. Let's build together.
+
+### **Conclusion: The Journey Continues**
+- **Theme:** Summarizing the interconnected journey of technological progress.
+- **Structure:** Tie together the themes of each act, emphasizing the continuity of innovation and
+  the importance of building on past achievements. Encourage the audience to consider their role in
+  this ongoing journey.
+
+---
+
+### **Overview with Act Themes**
+
+#### **Introduction:**
+- **Setting the Stage:** Introduce the concept of parallel universes and the hero's journey of
+  technological progress.
+
+### **Act 1: The Spark of Innovation**
+- **Birth of Ideas:** Visionaries imagining the possibilities of computing.
+
+### **Act 2: The Theoretical Foundations**
+- **Core Principles:** Establishing the theoretical groundwork for modern technology.
+
+### **Act 3: The Pioneers of Practice**
+- **Turning Ideas into Reality:** Implementing theoretical concepts into practical applications.
+
+### **Act 4: Building the Infrastructure**
+- **Supporting Systems:** Creating the infrastructure for a connected world.
+
+### **Act 5: The Impact on Society**
+- **Transforming Lives:** Technological advancements improving everyday life.
+
+### **Act 6: The Future and Beyond**
+- **Continuing Innovation:** Emerging trends and the future of technology.
+
+#### **Conclusion: The Journey Continues**
+- **Summarizing the Journey:** Emphasizing the continuity and importance of innovation.
+
+This structure provides a coherent story arc that follows the evolution of technology from initial
+ideas to future possibilities, highlighting the emotional and real-life impacts along the way. Shall
+we proceed with this framework?
