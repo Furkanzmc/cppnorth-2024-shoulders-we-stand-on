@@ -1,0 +1,333 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2024-07-18">
+    <creator>NetworkX 3.3</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="1" title="description" type="string" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="act" type="string" />
+    </attributes>
+    <nodes>
+      <node id="Robert Noyce" label="Robert Noyce">
+        <attvalues>
+          <attvalue for="0" value="Act_4" />
+        </attvalues>
+      </node>
+      <node id="Integrated Circuits" label="Integrated Circuits">
+        <attvalues>
+          <attvalue for="0" value="Act_4" />
+        </attvalues>
+      </node>
+      <node id="Silicon Valley Culture" label="Silicon Valley Culture">
+        <attvalues>
+          <attvalue for="0" value="Act_4" />
+        </attvalues>
+      </node>
+      <node id="Open, Autonomous Work Atmosphere" label="Open, Autonomous Work Atmosphere">
+        <attvalues>
+          <attvalue for="0" value="Act_4" />
+        </attvalues>
+      </node>
+      <node id="Growth of the semiconductor industry" label="Growth of the semiconductor industry">
+        <attvalues>
+          <attvalue for="0" value="Act_4" />
+        </attvalues>
+      </node>
+      <node id="Hardware Development" label="Hardware Development">
+        <attvalues>
+          <attvalue for="0" value="Act_4" />
+        </attvalues>
+      </node>
+      <node id="Leadership and Ethics" label="Leadership and Ethics">
+        <attvalues>
+          <attvalue for="0" value="Act_4" />
+        </attvalues>
+      </node>
+      <node id="Vint Cerf &amp; Robert Kahn" label="Vint Cerf &amp; Robert Kahn">
+        <attvalues>
+          <attvalue for="0" value="Act_4" />
+        </attvalues>
+      </node>
+      <node id="Shockley Semiconductor" label="Shockley Semiconductor">
+        <attvalues>
+          <attvalue for="0" value="Act_4" />
+        </attvalues>
+      </node>
+      <node id="Jack Kilby" label="Jack Kilby">
+        <attvalues>
+          <attvalue for="0" value="Act_4" />
+        </attvalues>
+      </node>
+      <node id="Mark Dean" label="Mark Dean">
+        <attvalues>
+          <attvalue for="0" value="Act_4" />
+        </attvalues>
+      </node>
+      <node id="Industry Standard Architecture (ISA) Bus" label="Industry Standard Architecture (ISA) Bus">
+        <attvalues>
+          <attvalue for="0" value="Act_4" />
+        </attvalues>
+      </node>
+      <node id="Personal Computers" label="Personal Computers">
+        <attvalues>
+          <attvalue for="0" value="Act_4" />
+        </attvalues>
+      </node>
+      <node id="Color Monitor" label="Color Monitor">
+        <attvalues>
+          <attvalue for="0" value="Act_4" />
+        </attvalues>
+      </node>
+      <node id="Microprocessor Upgrades" label="Microprocessor Upgrades">
+        <attvalues>
+          <attvalue for="0" value="Act_4" />
+        </attvalues>
+      </node>
+      <node id="IBM" label="IBM">
+        <attvalues>
+          <attvalue for="0" value="Act_4" />
+        </attvalues>
+      </node>
+      <node id="Vint Cerf and Robert Kahn" label="Vint Cerf and Robert Kahn">
+        <attvalues>
+          <attvalue for="0" value="Act_4" />
+        </attvalues>
+      </node>
+      <node id="Transmission Control Protocol (TCP)" label="Transmission Control Protocol (TCP)">
+        <attvalues>
+          <attvalue for="0" value="Act_4" />
+        </attvalues>
+      </node>
+      <node id="Internet Protocol (IP)" label="Internet Protocol (IP)">
+        <attvalues>
+          <attvalue for="0" value="Act_4" />
+        </attvalues>
+      </node>
+      <node id="New TCP/IP architecture" label="New TCP/IP architecture">
+        <attvalues>
+          <attvalue for="0" value="Act_4" />
+        </attvalues>
+      </node>
+      <node id="Internet Communication Standards" label="Internet Communication Standards">
+        <attvalues>
+          <attvalue for="0" value="Act_4" />
+        </attvalues>
+      </node>
+      <node id="Modern Internet" label="Modern Internet">
+        <attvalues>
+          <attvalue for="0" value="Act_4" />
+        </attvalues>
+      </node>
+      <node id="ARPANET" label="ARPANET">
+        <attvalues>
+          <attvalue for="0" value="Act_4" />
+        </attvalues>
+      </node>
+      <node id="Global Networking Experts" label="Global Networking Experts">
+        <attvalues>
+          <attvalue for="0" value="Act_4" />
+        </attvalues>
+      </node>
+      <node id="Tim Berners-Lee" label="Tim Berners-Lee">
+        <attvalues>
+          <attvalue for="0" value="Act_4" />
+        </attvalues>
+      </node>
+      <node id="World Wide Web" label="World Wide Web">
+        <attvalues>
+          <attvalue for="0" value="Act_4" />
+        </attvalues>
+      </node>
+      <node id="Digital Economy" label="Digital Economy">
+        <attvalues>
+          <attvalue for="0" value="Act_4" />
+        </attvalues>
+      </node>
+      <node id="HTML and HTTP" label="HTML and HTTP">
+        <attvalues>
+          <attvalue for="0" value="Act_4" />
+        </attvalues>
+      </node>
+      <node id="Web Standards" label="Web Standards">
+        <attvalues>
+          <attvalue for="0" value="Act_4" />
+        </attvalues>
+      </node>
+      <node id="Linked Data" label="Linked Data">
+        <attvalues>
+          <attvalue for="0" value="Act_4" />
+        </attvalues>
+      </node>
+      <node id="Vannevar Bush" label="Vannevar Bush">
+        <attvalues>
+          <attvalue for="0" value="Act_4" />
+        </attvalues>
+      </node>
+      <node id="Douglas Engelbart" label="Douglas Engelbart">
+        <attvalues>
+          <attvalue for="0" value="Act_4" />
+        </attvalues>
+      </node>
+      <node id="Robert Cailliau" label="Robert Cailliau">
+        <attvalues>
+          <attvalue for="0" value="Act_4" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Robert Noyce" target="Integrated Circuits" id="0">
+        <attvalues>
+          <attvalue for="1" value="Noyce's development of the first monolithic integrated circuit revolutionized electronics, enabling the creation of smaller, more powerful, and more reliable devices." />
+        </attvalues>
+      </edge>
+      <edge source="Robert Noyce" target="Silicon Valley Culture" id="1">
+        <attvalues>
+          <attvalue for="1" value="Noyce's leadership style and workplace innovations contributed to the open and collaborative culture that became a hallmark of Silicon Valley." />
+        </attvalues>
+      </edge>
+      <edge source="Robert Noyce" target="Open, Autonomous Work Atmosphere" id="2">
+        <attvalues>
+          <attvalue for="1" value="Noyce fostered an open atmosphere and gave employees ample room to accomplish what they wanted." />
+        </attvalues>
+      </edge>
+      <edge source="Robert Noyce" target="Growth of the semiconductor industry" id="3">
+        <attvalues>
+          <attvalue for="1" value="Noyce's invention spurred the growth of the semiconductor industry and enabled the exponential growth of computing power, driving advancements in technology and transforming everyday life." />
+        </attvalues>
+      </edge>
+      <edge source="Robert Noyce" target="Hardware Development" id="4">
+        <attvalues>
+          <attvalue for="1" value="Noyce's work directly influenced the development of hardware that supports modern software applications." />
+        </attvalues>
+      </edge>
+      <edge source="Robert Noyce" target="Leadership and Ethics" id="5">
+        <attvalues>
+          <attvalue for="1" value="Noyce’s leadership style and ethical approach to business set an example for subsequent generations of tech leaders." />
+        </attvalues>
+      </edge>
+      <edge source="Robert Noyce" target="Vint Cerf &amp; Robert Kahn" id="6">
+        <attvalues>
+          <attvalue for="1" value="Cerf, in his various roles (including at DARPA, ICANN, and Google), has similarly emphasized ethical considerations and responsible stewardship of technology." />
+        </attvalues>
+      </edge>
+      <edge source="Robert Noyce" target="Shockley Semiconductor" id="7">
+        <attvalues>
+          <attvalue for="1" value="Noyce learned from Shockley’s mistakes and introduced a more open and autonomous working atmosphere at Fairchild Semiconductor and Intel." />
+        </attvalues>
+      </edge>
+      <edge source="Robert Noyce" target="Jack Kilby" id="8">
+        <attvalues>
+          <attvalue for="1" value="Noyce conceived the idea of manufacturing an entire circuit on a single chip, improving upon Jack Kilby’s initial methods of making individual components." />
+        </attvalues>
+      </edge>
+      <edge source="Mark Dean" target="Industry Standard Architecture (ISA) Bus" id="9">
+        <attvalues>
+          <attvalue for="1" value="He helped develop the ISA bus, which allowed different parts of a computer, like the keyboard, mouse, and printer, to connect and communicate with each other." />
+        </attvalues>
+      </edge>
+      <edge source="Mark Dean" target="Personal Computers" id="10">
+        <attvalues>
+          <attvalue for="1" value="Dean's contributions to the design of the IBM PC and its components have influenced the design of subsequent generations of personal computers and peripherals, promoting interoperability and standardization in the computer industry." />
+        </attvalues>
+      </edge>
+      <edge source="Mark Dean" target="Color Monitor" id="11">
+        <attvalues>
+          <attvalue for="1" value="Dean was instrumental in creating the first color computer monitor, which made computers more user-friendly and visually appealing." />
+        </attvalues>
+      </edge>
+      <edge source="Mark Dean" target="Microprocessor Upgrades" id="12">
+        <attvalues>
+          <attvalue for="1" value="He worked on improving microprocessors, the brains of the computer, allowing computers to run more complex programs and perform better overall." />
+        </attvalues>
+      </edge>
+      <edge source="Mark Dean" target="IBM" id="13">
+        <attvalues>
+          <attvalue for="1" value="Dean's work at IBM, where he co-created the IBM personal computer, set the standard for personal computers." />
+        </attvalues>
+      </edge>
+      <edge source="Vint Cerf and Robert Kahn" target="Transmission Control Protocol (TCP)" id="14">
+        <attvalues>
+          <attvalue for="1" value="TCP ensured reliable, ordered, and error-checked data delivery." />
+        </attvalues>
+      </edge>
+      <edge source="Vint Cerf and Robert Kahn" target="Internet Protocol (IP)" id="15">
+        <attvalues>
+          <attvalue for="1" value="IP managed addressing and routing of data packets across networks." />
+        </attvalues>
+      </edge>
+      <edge source="Vint Cerf and Robert Kahn" target="New TCP/IP architecture" id="16">
+        <attvalues>
+          <attvalue for="1" value="Cerf, Jon Postel, and Danny Cohen redefined TCP that simplified the operation of internet gateways and increased the number and diversity of networks connected to the Internet." />
+        </attvalues>
+      </edge>
+      <edge source="Vint Cerf and Robert Kahn" target="Internet Communication Standards" id="17">
+        <attvalues>
+          <attvalue for="1" value="Their protocols established a unified communication standard, allowing global communication and information sharing." />
+        </attvalues>
+      </edge>
+      <edge source="Vint Cerf and Robert Kahn" target="Modern Internet" id="18">
+        <attvalues>
+          <attvalue for="1" value="Cerf and Kahn's TCP/IP protocols laid the groundwork for the modern Internet, enabling different networks to communicate and creating a network of networks." />
+        </attvalues>
+      </edge>
+      <edge source="Vint Cerf and Robert Kahn" target="ARPANET" id="19">
+        <attvalues>
+          <attvalue for="1" value="Cerf and Kahn's work on ARPANET and their desire to connect different networks led to the development of TCP/IP protocols." />
+        </attvalues>
+      </edge>
+      <edge source="Vint Cerf and Robert Kahn" target="Global Networking Experts" id="20">
+        <attvalues>
+          <attvalue for="1" value="While working on the protocols,they invited global networking experts to contribute to Internet design, enhancing protocols and promoting global Internet expansion." />
+        </attvalues>
+      </edge>
+      <edge source="Vint Cerf and Robert Kahn" target="Robert Noyce" id="21">
+        <attvalues>
+          <attvalue for="1" value="Noyce's pioneering work in semiconductor technology and his entrepreneurial leadership created the technological and cultural foundation that enabled Cerf's development." />
+        </attvalues>
+      </edge>
+      <edge source="Tim Berners-Lee" target="World Wide Web" id="22">
+        <attvalues>
+          <attvalue for="1" value="Berners-Lee's invention made the internet accessible to the general public and fostered the development of countless web-based applications and services, driving the growth of the digital economy." />
+        </attvalues>
+      </edge>
+      <edge source="Tim Berners-Lee" target="Digital Economy" id="23">
+        <attvalues>
+          <attvalue for="1" value="The Web enabled new forms of social interaction and innovation, revolutionizing commerce and communication on a global scale." />
+        </attvalues>
+      </edge>
+      <edge source="Tim Berners-Lee" target="HTML and HTTP" id="24">
+        <attvalues>
+          <attvalue for="1" value="Berners-Lee developed the foundational technologies of the web, including HTML and HTTP, which are still used today." />
+        </attvalues>
+      </edge>
+      <edge source="Tim Berners-Lee" target="Web Standards" id="25">
+        <attvalues>
+          <attvalue for="1" value="His advocacy for open standards led to the creation of the World Wide Web Consortium (W3C), ensuring the web remains accessible and interoperable." />
+        </attvalues>
+      </edge>
+      <edge source="Tim Berners-Lee" target="Linked Data" id="26">
+        <attvalues>
+          <attvalue for="1" value="Berners-Lee's vision of a semantic web aims to connect and share data across different systems, enhancing the usability and accessibility of information." />
+        </attvalues>
+      </edge>
+      <edge source="Tim Berners-Lee" target="Vannevar Bush" id="27">
+        <attvalues>
+          <attvalue for="1" value="Bush's vision of hypertext and the Memex influenced Berners-Lee’s ideas on interconnected information systems." />
+        </attvalues>
+      </edge>
+      <edge source="Tim Berners-Lee" target="Douglas Engelbart" id="28">
+        <attvalues>
+          <attvalue for="1" value="Engelbart’s work on interactive computing and the development of the mouse influenced Berners-Lee’s development of the World Wide Web." />
+        </attvalues>
+      </edge>
+      <edge source="Tim Berners-Lee" target="Robert Cailliau" id="29">
+        <attvalues>
+          <attvalue for="1" value="Cailliau collaborated with Berners-Lee on the World Wide Web project, helping to refine and promote the concept." />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

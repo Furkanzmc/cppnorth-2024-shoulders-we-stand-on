@@ -1,0 +1,228 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2024-07-18">
+    <creator>NetworkX 3.3</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="1" title="description" type="string" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="act" type="string" />
+    </attributes>
+    <nodes>
+      <node id="John McCarthy" label="John McCarthy">
+        <attvalues>
+          <attvalue for="0" value="Act_2" />
+        </attvalues>
+      </node>
+      <node id="Artificial Intelligence" label="Artificial Intelligence">
+        <attvalues>
+          <attvalue for="0" value="Act_2" />
+        </attvalues>
+      </node>
+      <node id="Lisp" label="Lisp">
+        <attvalues>
+          <attvalue for="0" value="Act_2" />
+        </attvalues>
+      </node>
+      <node id="Edsger W. Dijkstra" label="Edsger W. Dijkstra">
+        <attvalues>
+          <attvalue for="0" value="Act_2" />
+        </attvalues>
+      </node>
+      <node id="Alan Turing" label="Alan Turing">
+        <attvalues>
+          <attvalue for="0" value="Act_2" />
+        </attvalues>
+      </node>
+      <node id="Donald Knuth" label="Donald Knuth">
+        <attvalues>
+          <attvalue for="0" value="Act_2" />
+        </attvalues>
+      </node>
+      <node id="Ada Lovelace" label="Ada Lovelace">
+        <attvalues>
+          <attvalue for="0" value="Act_2" />
+        </attvalues>
+      </node>
+      <node id="John von Neumann" label="John von Neumann">
+        <attvalues>
+          <attvalue for="0" value="Act_2" />
+        </attvalues>
+      </node>
+      <node id="Niklaus Wirth" label="Niklaus Wirth">
+        <attvalues>
+          <attvalue for="0" value="Act_2" />
+        </attvalues>
+      </node>
+      <node id="Alan Kay" label="Alan Kay">
+        <attvalues>
+          <attvalue for="0" value="Act_2" />
+        </attvalues>
+      </node>
+      <node id="Modula-2" label="Modula-2">
+        <attvalues>
+          <attvalue for="0" value="Act_2" />
+        </attvalues>
+      </node>
+      <node id="Karen Spärck Jones" label="Karen Spärck Jones">
+        <attvalues>
+          <attvalue for="0" value="Act_2" />
+        </attvalues>
+      </node>
+      <node id="Modern object-oriented programming languages (e.g. Java and C++)" label="Modern object-oriented programming languages (e.g. Java and C++)">
+        <attvalues>
+          <attvalue for="0" value="Act_2" />
+        </attvalues>
+      </node>
+      <node id="Douglas Engelbart" label="Douglas Engelbart">
+        <attvalues>
+          <attvalue for="0" value="Act_2" />
+        </attvalues>
+      </node>
+      <node id="J.C.R. Licklider" label="J.C.R. Licklider">
+        <attvalues>
+          <attvalue for="0" value="Act_2" />
+        </attvalues>
+      </node>
+      <node id="Robert William Taylor" label="Robert William Taylor">
+        <attvalues>
+          <attvalue for="0" value="Act_2" />
+        </attvalues>
+      </node>
+      <node id="Inverse Document Frequency (IDF)" label="Inverse Document Frequency (IDF)">
+        <attvalues>
+          <attvalue for="0" value="Act_2" />
+        </attvalues>
+      </node>
+      <node id="Search Engines" label="Search Engines">
+        <attvalues>
+          <attvalue for="0" value="Act_2" />
+        </attvalues>
+      </node>
+      <node id="Claude Shannon" label="Claude Shannon">
+        <attvalues>
+          <attvalue for="0" value="Act_2" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="John McCarthy" target="Artificial Intelligence" id="0">
+        <attvalues>
+          <attvalue for="1" value="McCarthy's work laid the foundations for artificial intelligence, coining the term in 1955." />
+        </attvalues>
+      </edge>
+      <edge source="John McCarthy" target="Lisp" id="1">
+        <attvalues>
+          <attvalue for="1" value="McCarthy created Lisp in 1958, pioneering its development and establishing it as a foundational language in artificial intelligence research." />
+        </attvalues>
+      </edge>
+      <edge source="John McCarthy" target="Edsger W. Dijkstra" id="2">
+        <attvalues>
+          <attvalue for="1" value="McCarthy's contributions to algorithmic thinking and programming language theory helped shape Edsger W. Dijkstra's rigorous approach to computing problems and structured programming." />
+        </attvalues>
+      </edge>
+      <edge source="John McCarthy" target="Alan Turing" id="3">
+        <attvalues>
+          <attvalue for="1" value="McCarthy was influenced by Alan Turing's groundbreaking work on computation and the Turing machine, which shaped McCarthy's development of artificial intelligence and formal methods." />
+        </attvalues>
+      </edge>
+      <edge source="Edsger W. Dijkstra" target="Donald Knuth" id="4">
+        <attvalues>
+          <attvalue for="1" value="Edsger W. Dijkstra influenced Donald Knuth through his advocacy of structured programming and formal verification, which became foundational elements in Knuth's work on algorithm analysis and programming practices." />
+        </attvalues>
+      </edge>
+      <edge source="Edsger W. Dijkstra" target="Ada Lovelace" id="5">
+        <attvalues>
+          <attvalue for="1" value="Ada Lovelace's pioneering work on algorithms and her vision of the potential of computing machines inspired Dijkstra's disciplined approach to programming and algorithm design." />
+        </attvalues>
+      </edge>
+      <edge source="Edsger W. Dijkstra" target="John von Neumann" id="6">
+        <attvalues>
+          <attvalue for="1" value="John von Neumann's development of computer architecture and his emphasis on mathematical rigor and algorithm theory significantly influenced Dijkstra's work on operating systems, formal methods, and algorithm design." />
+        </attvalues>
+      </edge>
+      <edge source="Donald Knuth" target="Niklaus Wirth" id="7">
+        <attvalues>
+          <attvalue for="1" value="Knuth's work on algorithms and programming influenced Wirth's development of programming languages." />
+        </attvalues>
+      </edge>
+      <edge source="Donald Knuth" target="Ada Lovelace" id="8">
+        <attvalues>
+          <attvalue for="1" value="Donald Knuth was influenced by Ada Lovelace's early vision of algorithmic computation, which inspired his comprehensive approach to documenting and analyzing algorithms." />
+        </attvalues>
+      </edge>
+      <edge source="Donald Knuth" target="John von Neumann" id="9">
+        <attvalues>
+          <attvalue for="1" value="Donald Knuth was influenced by John von Neumann's contributions to computer architecture and the theory of computation, which underpinned Knuth's development of efficient algorithms and his analytical approach to computer science." />
+        </attvalues>
+      </edge>
+      <edge source="Niklaus Wirth" target="Alan Kay" id="10">
+        <attvalues>
+          <attvalue for="1" value="Alan Kay's work on object-oriented programming and the development of Smalltalk was influenced by Wirth's contributions to programming language theory and design." />
+        </attvalues>
+      </edge>
+      <edge source="Niklaus Wirth" target="Modula-2" id="11">
+        <attvalues>
+          <attvalue for="1" value="Wirth's design and development of the Modula-2 programming language drew upon his earlier work on Pascal, emphasizing modularity and system programming." />
+        </attvalues>
+      </edge>
+      <edge source="Niklaus Wirth" target="Edsger W. Dijkstra" id="12">
+        <attvalues>
+          <attvalue for="1" value="Edsger W. Dijkstra's principles of structured programming and formal verification significantly shaped Wirth's approach to language design and software engineering." />
+        </attvalues>
+      </edge>
+      <edge source="Niklaus Wirth" target="Ada Lovelace" id="13">
+        <attvalues>
+          <attvalue for="1" value="Ada Lovelace's visionary concepts of algorithmic computation inspired Wirth's foundational work in programming languages and compiler construction." />
+        </attvalues>
+      </edge>
+      <edge source="Alan Kay" target="Karen Spärck Jones" id="14">
+        <attvalues>
+          <attvalue for="1" value="Karen Spärck Jones' work on natural language processing and information retrieval was influenced by Kay's concepts of human-computer interaction and computing as a communication medium." />
+        </attvalues>
+      </edge>
+      <edge source="Alan Kay" target="Modern object-oriented programming languages (e.g. Java and C++)" id="15">
+        <attvalues>
+          <attvalue for="1" value="Kay's development of Smalltalk and the principles of object-oriented programming had a profound impact on the design and evolution of modern programming languages like Java and C++." />
+        </attvalues>
+      </edge>
+      <edge source="Alan Kay" target="Douglas Engelbart" id="16">
+        <attvalues>
+          <attvalue for="1" value="Douglas Engelbart's pioneering work on human-computer interaction and the development of the mouse deeply influenced Alan Kay's vision for personal computing and interactive systems." />
+        </attvalues>
+      </edge>
+      <edge source="Alan Kay" target="J.C.R. Licklider" id="17">
+        <attvalues>
+          <attvalue for="1" value="J.C.R. Licklider's vision of interactive computing and his support for ARPANET research significantly shaped Kay's ideas about networked computing and collaborative work environments." />
+        </attvalues>
+      </edge>
+      <edge source="Alan Kay" target="Robert William Taylor" id="18">
+        <attvalues>
+          <attvalue for="1" value="Kay was influenced by Taylor's vision for collaborative computing environments and his leadership at Xerox PARC, which fostered innovations that significantly impacted Kay's work on personal computing and user interfaces." />
+        </attvalues>
+      </edge>
+      <edge source="Karen Spärck Jones" target="Inverse Document Frequency (IDF)" id="19">
+        <attvalues>
+          <attvalue for="1" value="Jones introduced and developed IDF, which improved the accuracy and relevance of search results." />
+        </attvalues>
+      </edge>
+      <edge source="Karen Spärck Jones" target="Search Engines" id="20">
+        <attvalues>
+          <attvalue for="1" value="Karen Spärck Jones' pioneering work on inverse document frequency and relevance weighting laid the groundwork for modern search engine algorithms and information retrieval systems." />
+        </attvalues>
+      </edge>
+      <edge source="Karen Spärck Jones" target="Alan Turing" id="21">
+        <attvalues>
+          <attvalue for="1" value="Alan Turing's foundational work in computation and artificial intelligence inspired Karen Spärck Jones' research in natural language processing and information retrieval." />
+        </attvalues>
+      </edge>
+      <edge source="Karen Spärck Jones" target="Claude Shannon" id="22">
+        <attvalues>
+          <attvalue for="1" value="Claude Shannon's theories of information and communication influenced Spärck Jones' approaches to statistical modeling and the representation of information in computational systems." />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

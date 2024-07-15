@@ -1,6 +1,6 @@
 ---
 # You can also start simply with 'default'
-theme: seriph
+theme: dracula
 # random image from a curated Unsplash collection by Anthony
 # like them? see https://unsplash.com/collections/94734566/slidev
 background: /assets/intro-background.jpg
@@ -26,6 +26,8 @@ mdc: true
 ---
 
 # The Shoulders We Stand On
+
+<div id="sigma-container" style="width: 600px; height: 400px;"></div>
 
 <div class="abs-br m-6 flex gap-2">
   <a href="https://github.com/Furkanzmc/cppnorth-2024-shoulders-we-stand-on" target="_blank" alt="GitHub" title="Open in GitHub"
@@ -198,7 +200,15 @@ src: ./pages/furkan.md
 ---
 
 ---
-src: ./pages/quinn.md
+src: ./pages/act-2.md
+---
+
+---
+src: ./pages/act-4.md
+---
+
+---
+src: ./pages/act-6.md
 ---
 
 ---

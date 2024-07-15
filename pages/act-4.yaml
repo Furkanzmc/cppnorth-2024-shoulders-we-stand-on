@@ -1,0 +1,74 @@
+Acts:
+  Act_4: 
+    - name: Robert Noyce
+      influenced-by:
+        - name: Shockley Semiconductor
+          description: "Noyce learned from Shockley’s mistakes and introduced a more open and autonomous working atmosphere at Fairchild Semiconductor and Intel."
+        - name: Jack Kilby
+          description: "Noyce conceived the idea of manufacturing an entire circuit on a single chip, improving upon Jack Kilby’s initial methods of making individual components."
+      influences:
+        - name: Integrated Circuits
+          description: "Noyce's development of the first monolithic integrated circuit revolutionized electronics, enabling the creation of smaller, more powerful, and more reliable devices."
+        - name: Silicon Valley Culture
+          description: "Noyce's leadership style and workplace innovations contributed to the open and collaborative culture that became a hallmark of Silicon Valley."
+        - name: Open, Autonomous Work Atmosphere
+          description: "Noyce fostered an open atmosphere and gave employees ample room to accomplish what they wanted."
+        - name: Growth of the semiconductor industry
+          description: "Noyce's invention spurred the growth of the semiconductor industry and enabled the exponential growth of computing power, driving advancements in technology and transforming everyday life."
+        - name: Hardware Development
+          description: "Noyce's work directly influenced the development of hardware that supports modern software applications."
+        - name: Leadership and Ethics
+          description: "Noyce’s leadership style and ethical approach to business set an example for subsequent generations of tech leaders."
+        - name: Vint Cerf & Robert Kahn
+          description: "Cerf, in his various roles (including at DARPA, ICANN, and Google), has similarly emphasized ethical considerations and responsible stewardship of technology."
+    - name: Mark Dean
+      influenced-by:
+        - name: IBM
+          description: "Dean's work at IBM, where he co-created the IBM personal computer, set the standard for personal computers."
+      influences:
+        - name: Industry Standard Architecture (ISA) Bus
+          description: "He helped develop the ISA bus, which allowed different parts of a computer, like the keyboard, mouse, and printer, to connect and communicate with each other."
+        - name: Personal Computers
+          description: "Dean's contributions to the design of the IBM PC and its components have influenced the design of subsequent generations of personal computers and peripherals, promoting interoperability and standardization in the computer industry."
+        - name: Color Monitor
+          description: "Dean was instrumental in creating the first color computer monitor, which made computers more user-friendly and visually appealing."
+        - name: Microprocessor Upgrades
+          description: "He worked on improving microprocessors, the brains of the computer, allowing computers to run more complex programs and perform better overall."
+    - name: Vint Cerf and Robert Kahn
+      influenced-by:
+        - name: ARPANET
+          description: "Cerf and Kahn's work on ARPANET and their desire to connect different networks led to the development of TCP/IP protocols."
+        - name: Global Networking Experts
+          description: "While working on the protocols,they invited global networking experts to contribute to Internet design, enhancing protocols and promoting global Internet expansion."
+        - name: Robert Noyce
+          description: "Noyce's pioneering work in semiconductor technology and his entrepreneurial leadership created the technological and cultural foundation that enabled Cerf's development."
+      influences:
+        - name: Transmission Control Protocol (TCP)
+          description: "TCP ensured reliable, ordered, and error-checked data delivery."
+        - name: Internet Protocol (IP)
+          description: "IP managed addressing and routing of data packets across networks."
+        - name: New TCP/IP architecture
+          description: "Cerf, Jon Postel, and Danny Cohen redefined TCP that simplified the operation of internet gateways and increased the number and diversity of networks connected to the Internet."
+        - name: Internet Communication Standards
+          description: "Their protocols established a unified communication standard, allowing global communication and information sharing."
+        - name: Modern Internet
+          description: "Cerf and Kahn's TCP/IP protocols laid the groundwork for the modern Internet, enabling different networks to communicate and creating a network of networks."
+    - name: Tim Berners-Lee
+      influenced-by:
+        - name: Vannevar Bush
+          description: "Bush's vision of hypertext and the Memex influenced Berners-Lee’s ideas on interconnected information systems."
+        - name: Douglas Engelbart
+          description: "Engelbart’s work on interactive computing and the development of the mouse influenced Berners-Lee’s development of the World Wide Web."
+        - name: Robert Cailliau
+          description: "Cailliau collaborated with Berners-Lee on the World Wide Web project, helping to refine and promote the concept."
+      influences:
+        - name: World Wide Web
+          description: "Berners-Lee's invention made the internet accessible to the general public and fostered the development of countless web-based applications and services, driving the growth of the digital economy."
+        - name: Digital Economy
+          description: "The Web enabled new forms of social interaction and innovation, revolutionizing commerce and communication on a global scale."
+        - name: HTML and HTTP
+          description: "Berners-Lee developed the foundational technologies of the web, including HTML and HTTP, which are still used today."
+        - name: Web Standards
+          description: "His advocacy for open standards led to the creation of the World Wide Web Consortium (W3C), ensuring the web remains accessible and interoperable."
+        - name: Linked Data
+          description: "Berners-Lee's vision of a semantic web aims to connect and share data across different systems, enhancing the usability and accessibility of information."
