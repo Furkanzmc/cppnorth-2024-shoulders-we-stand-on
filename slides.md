@@ -51,6 +51,18 @@ The last comment block of each slide will be treated as slide notes. It will be 
 -->
 
 ---
+
+## Page 2 - Furkan
+
+<sigma-act-1-1 />
+
+---
+
+## Page 2 - Furkan
+
+<!-- <sigma-act-1-2 /> -->
+
+---
 src: ./pages/furkan.md
 ---
 
