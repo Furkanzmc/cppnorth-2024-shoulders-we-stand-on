@@ -1,6 +1,6 @@
 ---
 # You can also start simply with 'default'
-theme: seriph
+theme: dracula
 # random image from a curated Unsplash collection by Anthony
 # like them? see https://unsplash.com/collections/94734566/slidev
 background: https://cover.sli.dev
@@ -33,6 +33,8 @@ Presentation slides for developers
     Press Space for next page <carbon:arrow-right class="inline"/>
   </span>
 </div>
+
+<div id="sigma-container" style="width: 600px; height: 400px;"></div>
 
 <div class="abs-br m-6 flex gap-2">
   <button @click="$slidev.nav.openInEditor()" title="Open in Editor" class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
@@ -74,7 +76,15 @@ src: ./pages/furkan.md
 ---
 
 ---
-src: ./pages/quinn.md
+src: ./pages/act-2.md
+---
+
+---
+src: ./pages/act-4.md
+---
+
+---
+src: ./pages/act-6.md
 ---
 
 ---
