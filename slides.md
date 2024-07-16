@@ -49,16 +49,25 @@ The last comment block of each slide will be treated as slide notes. It will be 
 -->
 
 ---
+layout: iframe
 
-## Page 2 - Furkan
+# the web page source
+url: https://ouestware.gitlab.io/retina/1.0.0-beta.1/#/graph/?url=https%3A%2F%2Fouestware.gitlab.io%2Fretina%2F1.0.0-beta.1%2Fdataset.gexf&sa%5B%5D=s&sa%5B%5D=r&ca%5B%5D=t&ca%5B%5D=c
 
-<sigma-act-1-1 />
-
+# a custom class name to the content
+class: my-custom-class
 ---
 
-## Page 2 - Furkan
 
-<!-- <sigma-act-1-2 /> -->
+---
+layout: iframe-left
+
+# the web page source
+url: https://ouestware.gitlab.io/retina/1.0.0-beta.1/#/graph/?url=https%3A%2F%2Fouestware.gitlab.io%2Fretina%2F1.0.0-beta.1%2Fdataset.gexf&sa%5B%5D=s&sa%5B%5D=r&ca%5B%5D=t&ca%5B%5D=c
+
+# a custom class name to the content
+class: my-custom-class
+---
 
 ---
 src: ./pages/furkan.md

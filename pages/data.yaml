@@ -1,0 +1,120 @@
+# The following YAML represents a GEXF graph. It is describing the major people in software
+# enginering and computer science, their work and who they influcened. Create a Python script that
+# converts this file to a GEXF file.
+
+Acts:
+  Act_1:
+    - name: Charles Babbage
+      influences:
+        - name: Ada Lovelace
+          description: "Worked on Babbage's Analytical Engine, considered the first computer programmer."
+    - name: Ada Lovelace
+      influences:
+        - name: Alan Turing
+          description: "Inspired Turing's work on the Turing machine and theoretical computer science."
+    - name: Vannevar Bush
+      influences:
+        - name: Alan Turing
+          description: "Bush's work on analog computing influenced Turing's development of digital computing concepts."
+        - name: John von Neumann
+          description: "Bush's Memex concept influenced von Neumann's work on stored-program computers."
+    - name: John von Neumann
+      influences:
+        - name: J.C.R. Licklider
+          description: "Von Neumann's architecture and concepts influenced Licklider's vision for interactive computing."
+    - name: J.C.R. Licklider
+      influences:
+        - name: Douglas Engelbart
+          description: "Licklider's vision for human-computer interaction influenced Engelbart's development of the mouse and hypertext."
+    - name: Douglas Engelbart
+      influences:
+        - name: Ivan Sutherland
+          description: "Engelbart's work on interactive computing influenced Sutherland's development of computer graphics and virtual reality."
+
+  Act_2:
+    - name: John McCarthy
+      influences:
+        - name: Edsger W. Dijkstra
+          description: "McCarthy's work on artificial intelligence influenced Dijkstra's development of algorithms."
+    - name: Edsger W. Dijkstra
+      influences:
+        - name: Donald Knuth
+          description: "Dijkstra's work on structured programming influenced Knuth's work on algorithm analysis."
+    - name: Donald Knuth
+      influences:
+        - name: Niklaus Wirth
+          description: "Knuth's work on algorithms and programming influenced Wirth's development of programming languages."
+    - name: Niklaus Wirth
+      influences:
+        - name: Alan Kay
+          description: "Wirth's work on programming languages influenced Kay's development of object-oriented programming."
+    - name: Alan Kay
+      influences:
+        - name: Karen Spärck Jones
+          description: "Kay's work on object-oriented programming influenced Spärck Jones's research on information retrieval and natural language processing."
+
+  Act_3:
+    - name: Grace Hopper
+      influences:
+        - name: Margaret Hamilton
+          description: "Hopper's work on compilers influenced Hamilton's development of software engineering principles."
+    - name: Margaret Hamilton
+      influences:
+        - name: Bjarne Stroustrup
+          description: "Hamilton's work on error detection and recovery influenced Stroustrup's development of C++."
+    - name: Bjarne Stroustrup
+      influences:
+        - name: Linus Torvalds
+          description: "Stroustrup's C++ influenced Torvalds's development of the Linux kernel."
+    - name: Linus Torvalds
+      influences:
+        - name: James Gosling
+          description: "Torvalds's work on Linux influenced Gosling's development of Java for cross-platform compatibility."
+    - name: James Gosling
+      influences:
+        - name: Richard Stallman
+          description: "Gosling's Java influenced Stallman's work on free software and the GNU project."
+
+  Act_4:
+    - name: Robert Noyce
+      influences:
+        - name: Mark Dean
+          description: "Noyce's invention of the integrated circuit influenced Dean's work on the IBM PC."
+    - name: Mark Dean
+      influences:
+        - name: Vint Cerf
+          description: "Dean's work on personal computing influenced Cerf's development of internet protocols."
+    - name: Vint Cerf
+      influences:
+        - name: Robert Kahn
+          description: "Cerf's collaboration with Kahn led to the creation of TCP/IP protocols."
+    - name: Robert Kahn
+      influences:
+        - name: Tim Berners-Lee
+          description: "Kahn's work on internet protocols influenced Berners-Lee's invention of the World Wide Web."
+
+  Act_5:
+    - name: Ray Tomlinson
+      influences:
+        - name: Mitchell Baker
+          description: "Tomlinson's invention of email influenced Baker's development of the Mozilla Firefox browser."
+    - name: Mitchell Baker
+      influences:
+        - name: Shafi Goldwasser
+          description: "Baker's work on open-source software influenced Goldwasser's research on cryptography."
+    - name: Shafi Goldwasser
+      influences:
+        - name: Martin Hellman
+          description: "Goldwasser's work on cryptographic algorithms influenced Hellman's development of public-key cryptography."
+    - name: Martin Hellman
+      influences:
+        - name: Whitfield Diffie
+          description: "Hellman's collaboration with Diffie led to the invention of Diffie-Hellman key exchange."
+    - name: Whitfield Diffie
+      influences:
+        - name: Sophie Wilson
+          description: "Diffie's work on cryptography influenced Wilson's development of the ARM architecture for secure computing."
+    - name: Sophie Wilson
+      influences:
+        - name: John Carmack
+          description: "Wilson's ARM architecture influenced Carmack's work on game development and 3D graphics."

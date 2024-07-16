@@ -492,6 +492,9 @@ end Hello_World;
 
 ## Bjarne Stroustrup
 
+Only briefly mention him and talk about all the things people built using C++. And then link to all
+the things that was built using C++.
+
 - **Creation of C++**
    - **Impact:** Developed C++ as an extension of the C programming language, introducing
      object-oriented programming while retaining the efficiency and flexibility of C.
@@ -532,7 +535,8 @@ end Hello_World;
 
 ## James Gosling
 
-Only briefly mention him and talk about all the things people built using Java.
+Only briefly mention him and talk about all the things people built using Java. And then link to all
+the things that was built using Java.
 
 - **Creation of Java**
    - **Impact:** Developed the Java programming language, which has become one of the most popular
@@ -562,3 +566,220 @@ Only briefly mention him and talk about all the things people built using Java.
    - **Contribution:**
      - Developed various extensions and modes for Emacs, enhancing its functionality and usability
        for developers.
+
+## Dennis Ritchie
+
+1. **Creation of the C Programming Language**
+   - **Impact:** Co-created the C programming language with Brian Kernighan.
+   - **Influence:** C became one of the most widely used programming languages in history,
+     influencing many other languages and systems.
+   - **Contribution:**
+     - Designed C as a general-purpose, procedural programming language that provided low-level
+       access to memory and system resources.
+     - Introduced key programming constructs like data types, control structures (loops and
+       conditionals), functions, and pointers.
+     - Defined the syntax and semantics that allowed C to be highly portable across different
+       computer architectures.
+2. **Development of Unix**
+   - **Impact:** Co-developed the Unix operating system with Ken Thompson and others at Bell Labs.
+   - **Influence:** Unix pioneered many concepts in operating system design and became a model for
+     subsequent operating systems.
+   - **Contribution:**
+     - Contributed to the design and implementation of the Unix kernel and system utilities,
+       including the file system, process management, and inter-process communication.
+     - Advocated for simplicity, flexibility, and efficiency in system design, which led to Unix's
+       modular architecture and the concept of small, single-purpose utilities connected through
+       pipes.
+     - Unix's design principles influenced the development of Linux, BSD Unix variants, and other
+       modern operating systems.
+3. **Standardization and Portability**
+   - **Impact:** Played a crucial role in standardizing both C and Unix, ensuring their widespread
+     adoption and compatibility.
+   - **Influence:** His efforts contributed to the growth of open systems and interoperability in
+     computing.
+   - **Contribution:**
+     - Participated in the development of the ANSI C standard (ANSI X3.159-1989), which defined a
+       standardized version of the C programming language.
+     - Helped define POSIX (Portable Operating System Interface), which standardized Unix-like
+       operating systems and ensured compatibility across different Unix implementations.
+     - Advocated for portable software development practices, enabling software to run on different
+       hardware platforms and operating systems.
+4. **Technical Publications and Influence**
+   - **Impact:** Authored several influential technical papers and books on programming languages,
+     systems programming, and operating systems.
+   - **Influence:** His writings educated and inspired generations of programmers and computer
+     scientists.
+   - **Contribution:**
+     - Co-authored "The C Programming Language" (often referred to as K&R C), a seminal book that
+       served as the authoritative guide to C programming for many years.
+     - Published research papers on programming languages, algorithms, and system design,
+       contributing to the academic and practical understanding of computer science topics.
+
+## Brian Kernighan
+
+1. **Co-author of "The C Programming Language"**
+   - **Impact:** Co-wrote the definitive book on the C programming language with Dennis Ritchie,
+     often referred to as "K&R."
+   - **Influence:** This book served as the primary resource for learning C for many years and
+     played a crucial role in popularizing the language.
+   - **Contribution:** Provided clear explanations and practical examples, making C accessible to a
+     wide range of programmers.
+2. **Development of AWK Programming Language**
+   - **Impact:** Co-created the AWK programming language with Alfred Aho and Peter Weinberger.
+   - **Influence:** AWK is widely used for text processing and data extraction tasks, particularly
+     in Unix environments.
+   - **Contribution:** Designed AWK to be a powerful and flexible language for pattern scanning and
+     processing, simplifying the handling of textual data.
+3. **Contribution to Unix Development**
+   - **Impact:** Contributed to the development of the Unix operating system at Bell Labs.
+   - **Influence:** His work on Unix helped shape the operating system's philosophy of simplicity,
+     modularity, and reusability.
+   - **Contribution:** Worked on various Unix tools and utilities, enhancing the overall
+     functionality and usability of the system.
+4. **Development of Software Tools**
+   - **Impact:** Played a key role in creating and improving several Unix tools, which have become
+     standard in Unix-like systems.
+   - **Influence:** These tools have influenced the design and functionality of modern command-line
+     utilities and scripting languages.
+   - **Contribution:** Developed tools such as `echo`, `expr`, and `eqn`, which are integral to Unix
+     systems.
+5. **Co-author of "The Unix Programming Environment"**
+   - **Impact:** Co-wrote this influential book with Rob Pike.
+   - **Influence:** The book provided an in-depth look at Unix programming and system
+     administration, guiding many programmers in their use of Unix.
+   - **Contribution:** Explained the Unix philosophy and demonstrated how to effectively use Unix
+     tools and shell scripting.
+6. **Research and Advocacy in Computer Science Education**
+   - **Impact:** Contributed to the field of computer science education through his research,
+     writing, and teaching.
+   - **Influence:** His books and papers have been widely used in academic settings, influencing how
+     computer science is taught and learned.
+   - **Contribution:** Authored numerous textbooks and research papers on programming, algorithms,
+     and software engineering, providing valuable resources for students and educators.
+7. **Co-author of "The Practice of Programming"**
+   - **Impact:** Co-wrote this practical guide with Rob Pike.
+   - **Influence:** The book emphasizes the importance of writing clear, efficient, and maintainable
+     code, offering practical advice and examples.
+   - **Contribution:** Covered a wide range of topics, including debugging, testing, performance
+     optimization, and code readability, helping programmers improve their skills.
+8. **Pioneering Work in Software Engineering**
+   - **Impact:** Made significant contributions to the principles and practices of software
+     engineering.
+   - **Influence:** His work has influenced best practices in software development, particularly in
+     areas like code quality, testing, and maintenance.
+   - **Contribution:** Emphasized the importance of practical, hands-on experience and provided
+     tools and techniques to improve software development processes.
+
+## Richard Stallman
+
+1. **GNU Project**
+   - **Impact:** Founded the GNU Project in 1983 to develop a free Unix-like operating system.
+   - **Influence:** The GNU Project laid the groundwork for the free software movement and
+     contributed to the development of the GNU/Linux operating system.
+   - **Contribution:** Developed many essential components of the GNU system, including compilers,
+     libraries, and utilities, that are used widely in Unix-like operating systems.
+2. **Free Software Foundation (FSF)**
+   - **Impact:** Founded the Free Software Foundation in 1985 to promote and defend the rights of
+     users to use, study, copy, modify, and redistribute computer programs.
+   - **Influence:** The FSF has been a major advocate for software freedom, influencing the
+     development and distribution of free software worldwide.
+   - **Contribution:** The FSF provides legal and structural support for the free software community
+     and promotes the principles of free software through advocacy and education.
+3. **GNU General Public License (GPL)**
+   - **Impact:** Authored the GNU General Public License (GPL), which is the most widely used free
+     software license.
+   - **Influence:** The GPL has set the standard for copyleft licensing, ensuring that software
+     remains free for all users and that derivative works are also free.
+   - **Contribution:** The GPL has been crucial in maintaining the freedoms of software users and
+     developers, fostering a collaborative and open software ecosystem.
+4. **Emacs Text Editor**
+   - **Impact:** Developed GNU Emacs, a highly extensible and customizable text editor.
+   - **Influence:** Emacs has become one of the most popular and powerful text editors, especially
+     among programmers and computer scientists.
+   - **Contribution:** Stallman created Emacs with a focus on extensibility and user empowerment,
+     allowing users to customize and extend the editor to fit their needs.
+5. **Advocacy for Software Freedom**
+   - **Impact:** Stallman is a tireless advocate for software freedom, giving numerous talks and
+     writing extensively on the subject.
+   - **Influence:** His advocacy has raised awareness about the ethical and social implications of
+     software, influencing public policy and the development practices of many software projects.
+   - **Contribution:** Through his speeches, writings, and personal advocacy, Stallman has inspired
+     a global movement dedicated to software freedom and user rights.
+6. **Influence on Open Source Movement**
+   - **Impact:** While distinct from the free software movement, the open source movement has been
+     significantly influenced by Stallman's work and principles.
+   - **Influence:** Many open source projects adopt practices and licenses that align with
+     Stallman's advocacy for user freedoms and collaborative development.
+   - **Contribution:** Although Stallman differentiates between free software and open source, his
+     contributions have undeniably shaped the broader landscape of collaborative software
+     development.
+7. **Philosophical and Ethical Contributions**
+   - **Impact:** Developed a comprehensive philosophy around software freedom and the ethics of
+     software development and distribution.
+   - **Influence:** His writings, such as "The GNU Manifesto," articulate the ethical imperatives
+     behind the free software movement and have influenced many developers and organizations.
+   - **Contribution:** Stallman’s philosophical contributions provide a moral and ethical framework
+     for the free software community, emphasizing the importance of user rights and software ethics.
+
+## Linus Torvalds
+
+1. **Creation of the Linux Kernel**
+   - **Impact:** Developed the Linux kernel, the core component of the Linux operating system.
+   - **Influence:** Linux has become one of the most widely used operating systems in the world,
+     powering everything from servers and supercomputers to smartphones and embedded devices.
+   - **Contribution:**
+     - Released the first version of the Linux kernel in 1991 while a student at the University of
+       Helsinki.
+     - Continues to lead the development of the Linux kernel, overseeing contributions from
+       thousands of developers worldwide.
+     - Advocated for open-source development, encouraging collaboration and contributions from the
+       global community.
+2. **Development of Git**
+   - **Impact:** Created Git, a distributed version control system.
+   - **Influence:** Git has become the most popular version control system in the world, used by
+     developers and organizations to manage source code and collaborate on software projects.
+   - **Contribution:**
+     - Developed Git in 2005 to manage the Linux kernel's source code after a dispute with the
+       maintainers of the proprietary BitKeeper system.
+     - Designed Git to handle large projects with speed and efficiency, supporting non-linear
+       development workflows.
+     - Made Git open-source, allowing widespread adoption and community contributions.
+3. **Advocacy for Open Source Software**
+   - **Impact:** A vocal advocate for open-source software and collaborative development.
+   - **Influence:** His advocacy has helped shape the open-source movement, promoting the benefits
+     of transparency, collaboration, and community-driven development.
+   - **Contribution:**
+     - Promoted the principles of open-source software through his work on Linux and Git.
+     - Encouraged companies and developers to adopt and contribute to open-source projects,
+       fostering a collaborative ecosystem.
+4. **Technical Leadership and Community Building**
+   - **Impact:** Provided technical leadership and guidance to the Linux and Git communities.
+   - **Influence:** His leadership has ensured the continued development and success of both
+     projects, maintaining high standards of quality and innovation.
+   - **Contribution:**
+     - Manages the Linux kernel's development process, including code reviews and integration of
+       contributions from developers.
+     - Engages with the open-source community, providing direction and resolving disputes to
+       maintain the integrity of the projects.
+     - Contributed to the establishment of the Linux Foundation, which supports the development and
+       adoption of Linux and open-source software.
+5. **Influence on Modern Computing**
+   - **Impact:** His work has had a profound impact on modern computing infrastructure and software
+     development practices.
+   - **Influence:** Linux powers a significant portion of the internet's infrastructure, cloud
+     computing platforms, and enterprise systems.
+   - **Contribution:**
+     - Enabled the development of a robust, scalable, and secure operating system that is freely
+       available and widely used.
+     - Influenced software development methodologies through the adoption of Git, which supports
+       collaborative and distributed development.
+6. **Awards and Recognition**
+   - **Impact:** Received numerous awards and honors for his contributions to computer science and
+     open-source software.
+   - **Influence:** His recognition highlights the importance and impact of his work on the global
+     technology landscape.
+   - **Contribution:**
+     - Received awards such as the Millennium Technology Prize (2012) and the IEEE Computer
+       Society's Computer Pioneer Award (2014).
+     - Acknowledged for his contributions to the development of open-source software and the
+       advancement of computing technology.
