@@ -1,23 +1,69 @@
-# The following YAML represents a GEXF graph. It is describing the major people in software
-# enginering and computer science, their work and who they influcened. Create a Python script that
-# converts this file to a GEXF file.
-
 Acts:
   Act_1:
+    - name: Antikythera mechanism
+      influences:
+        - name: Charles Babbage
+          description: ""
+        - name: Blaise Pascal
+          description: "Pascal's Calculator: https://en.wikipedia.org/wiki/Pascal%27s_calculator"
+        - name: Gottfried Wilhelm Leibniz
+          description: "Pinwheel calculator: https://en.wikipedia.org/wiki/Pinwheel_calculator"
     - name: Charles Babbage
+      influences:
+        - name: Analytical Engine
+          description: "Source: https://en.wikipedia.org/wiki/Analytical_engine"
+        - name: Difference Engine
+          description: "Source: https://en.wikipedia.org/wiki/Difference_engine"
+        - name: Programming Concepts
+          description: "Babbage's work introduced key concepts like storage, sequential control, and the separation of memory from processing - fundamental principles in modern computing. Source: https://en.wikipedia.org/wiki/Analytical_engine"
+        - name: The Difference Engine by William Gibson and Bruce Sterling
+          description: "The Difference Engine (1990) is an alternative history novel by William Gibson and Bruce Sterling. It is widely regarded as a book that helped establish the genre conventions of steampunk. Source: https://en.wikipedia.org/wiki/The_Difference_Engine"
+    - name: Analytical Engine
+      description: ""
       influences:
         - name: Ada Lovelace
           description: "Worked on Babbage's Analytical Engine, considered the first computer programmer."
     - name: Ada Lovelace
       influences:
         - name: Alan Turing
-          description: "Inspired Turing's work on the Turing machine and theoretical computer science."
+          description: "Computing Machinery and Intelligence: Alan Turing addresses Lovelace and her ideas on the machine's ability to think. Source: https://en.wikipedia.org/wiki/Computing_Machinery_and_Intelligence"
+        - name: AI
+          description: "She had ideas about where AI could go before even the first computer was constructed. Source: https://www.nist.gov/blogs/taking-measure/ada-lovelace-worlds-first-computer-programmer-who-predicted-artificial"
+        - name: Selmer Bringsjord
+          description: ""
+        - name: Paul Bello
+          description: ""
+        - name: David Ferrucci
+          description: ""
+        - name: Ada Programming Language
+          description: "Programming language named after Ada: https://ada-lang.io/"
+    - name: Selmer Bringsjord
+      description: ""
+      influences:
+        - name: The Lovelace Test
+          description: "Source: https://slate.com/technology/2014/12/lovelace-test-of-artificial-intelligence-creativity-better-than-the-turing-test-of-intelligence.html"
+    - name: Paul Bello
+      description: ""
+      influences:
+        - name: The Lovelace Test
+          description: "Source: https://slate.com/technology/2014/12/lovelace-test-of-artificial-intelligence-creativity-better-than-the-turing-test-of-intelligence.html"
+    - name: David Ferrucci
+      description: ""
+      influences:
+        - name: The Lovelace Test
+          description: "Source: https://slate.com/technology/2014/12/lovelace-test-of-artificial-intelligence-creativity-better-than-the-turing-test-of-intelligence.html"
+    - name: Alan Turing
+      influences:
+        - name: AI
+          description: "She had ideas about where AI could go before even the first computer was constructed. Source: https://www.nist.gov/blogs/taking-measure/ada-lovelace-worlds-first-computer-programmer-who-predicted-artificial"
     - name: Vannevar Bush
       influences:
         - name: Alan Turing
           description: "Bush's work on analog computing influenced Turing's development of digital computing concepts."
         - name: John von Neumann
           description: "Bush's Memex concept influenced von Neumann's work on stored-program computers."
+        - name: AI
+          description: ""
     - name: John von Neumann
       influences:
         - name: J.C.R. Licklider
@@ -29,6 +75,10 @@ Acts:
     - name: Douglas Engelbart
       influences:
         - name: Ivan Sutherland
+          description: "Engelbart's work on interactive computing influenced Sutherland's development of computer graphics and virtual reality."
+        - name: Furkan Uzumcu
+          description: "Engelbart's work on interactive computing influenced Sutherland's development of computer graphics and virtual reality."
+        - name: Quinn Hou
           description: "Engelbart's work on interactive computing influenced Sutherland's development of computer graphics and virtual reality."
 
   Act_2:

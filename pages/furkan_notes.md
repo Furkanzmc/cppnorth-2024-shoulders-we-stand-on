@@ -142,6 +142,7 @@ end Hello_World;
 ### Resources
 
 - https://en.wikipedia.org/wiki/Ada_Lovelace
+- https://www.nist.gov/blogs/taking-measure/ada-lovelace-worlds-first-computer-programmer-who-predicted-artificial
 
 ## Alan Turing
 
