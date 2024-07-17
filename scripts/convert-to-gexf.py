@@ -10,7 +10,16 @@ def yaml_to_gexf(yaml_data, output_file):
     for act, people in yaml_data["Acts"].items():
         for person in people:
             G.add_node(person["name"], act=act)
-            for influence in person["influences"]:
+
+            for influence in person.setdefault("influences", []):
+                G.add_node(influence["name"], act=act)
+                G.add_edge(
+                    person["name"],
+                    influence["name"],
+                    description=influence["description"],
+                )
+
+            for influence in person.setdefault("influenced-by", []):
                 G.add_node(influence["name"], act=act)
                 G.add_edge(
                     person["name"],

@@ -2,13 +2,14 @@ Acts:
   Act_1:
     - name: Antikythera mechanism
       influences:
-        - name: Charles Babbage
-          description: ""
         - name: Blaise Pascal
           description: "Pascal's Calculator: https://en.wikipedia.org/wiki/Pascal%27s_calculator"
         - name: Gottfried Wilhelm Leibniz
           description: "Pinwheel calculator: https://en.wikipedia.org/wiki/Pinwheel_calculator"
     - name: Charles Babbage
+      influenced-by:
+        - name: Antikythera mechanism
+          description: ""
       influences:
         - name: Analytical Engine
           description: "Source: https://en.wikipedia.org/wiki/Analytical_engine"
@@ -18,44 +19,44 @@ Acts:
           description: "Babbage's work introduced key concepts like storage, sequential control, and the separation of memory from processing - fundamental principles in modern computing. Source: https://en.wikipedia.org/wiki/Analytical_engine"
         - name: The Difference Engine by William Gibson and Bruce Sterling
           description: "The Difference Engine (1990) is an alternative history novel by William Gibson and Bruce Sterling. It is widely regarded as a book that helped establish the genre conventions of steampunk. Source: https://en.wikipedia.org/wiki/The_Difference_Engine"
-    - name: Analytical Engine
-      description: ""
-      influences:
-        - name: Ada Lovelace
-          description: "Worked on Babbage's Analytical Engine, considered the first computer programmer."
     - name: Ada Lovelace
+      influenced-by:
+        - name: Analytical Engine
+          description: "Worked on Babbage's Analytical Engine, considered the first computer programmer."
+        - name: Charles Babbage
+          description: ""
       influences:
-        - name: Alan Turing
-          description: "Computing Machinery and Intelligence: Alan Turing addresses Lovelace and her ideas on the machine's ability to think. Source: https://en.wikipedia.org/wiki/Computing_Machinery_and_Intelligence"
         - name: AI
           description: "She had ideas about where AI could go before even the first computer was constructed. Source: https://www.nist.gov/blogs/taking-measure/ada-lovelace-worlds-first-computer-programmer-who-predicted-artificial"
-        - name: Selmer Bringsjord
-          description: ""
-        - name: Paul Bello
-          description: ""
-        - name: David Ferrucci
-          description: ""
-        - name: Ada Programming Language
-          description: "Programming language named after Ada: https://ada-lang.io/"
-    - name: Selmer Bringsjord
-      description: ""
-      influences:
         - name: The Lovelace Test
           description: "Source: https://slate.com/technology/2014/12/lovelace-test-of-artificial-intelligence-creativity-better-than-the-turing-test-of-intelligence.html"
-    - name: Paul Bello
-      description: ""
-      influences:
-        - name: The Lovelace Test
-          description: "Source: https://slate.com/technology/2014/12/lovelace-test-of-artificial-intelligence-creativity-better-than-the-turing-test-of-intelligence.html"
-    - name: David Ferrucci
-      description: ""
-      influences:
-        - name: The Lovelace Test
-          description: "Source: https://slate.com/technology/2014/12/lovelace-test-of-artificial-intelligence-creativity-better-than-the-turing-test-of-intelligence.html"
+        - name: Programming Concepts
+          description: "Charles Babbage saw Analytical Engine purely from numbers perspective but Lovelace thought that numbers could represent other things. Source: https://en.wikipedia.org/wiki/Ada_Lovelace"
     - name: Alan Turing
+      influenced-by:
+        - name: Ada Lovelace
+          description: "Computing Machinery and Intelligence: Alan Turing addresses Lovelace and her ideas on the machine's ability to think. Source: https://en.wikipedia.org/wiki/Computing_Machinery_and_Intelligence"
       influences:
         - name: AI
-          description: "She had ideas about where AI could go before even the first computer was constructed. Source: https://www.nist.gov/blogs/taking-measure/ada-lovelace-worlds-first-computer-programmer-who-predicted-artificial"
+          description: "Turing was a pioneer in the field of AI. He proposed the 'imitation game' (now called the Turing Test) in 1950, which is still used as a benchmark for machine intelligence"
+        - name: Turing Machine
+          description: "Turing's concept of the 'automatic machine' (now known as the Turing machine) laid the theoretical foundation for modern computers. This idea inspired the development of programmable computers"
+        - name: Cryptography
+          description: "His work at Bletchley Park during World War II, particularly in breaking the Enigma code, significantly advanced the field of cryptography and is estimated to have shortened the war by years"
+        - name: Gordon Welchman
+          description: "Worked closely with Turing on improving the bombe machine used to crack Enigma codes."
+        - name: Stuart Milner-Barry
+          description: "Worked in Hut 6 on Army and Air Force Enigma, collaborating with Turing on broader codebreaking strategies."
+        - name: Hugh Alexander
+          description: "A chess champion who worked alongside Turing in Hut 8, focusing on Naval Enigma."
+        - name: Joan Clarke
+          description: "A talented mathematician who worked with Turing on breaking Naval Enigma codes. She was briefly engaged to Turing."
+        - name: Peter Twinn
+          description: "One of the first cryptanalysts to work on Enigma and collaborated with Turing."
+        - name: Dilly Knox
+          description: "A senior codebreaker who initially worked on Enigma and mentored Turing when he first arrived at Bletchley Park."
+        - name: Tommy Flowers
+          description: "While not directly working on Enigma, Flowers collaborated with Turing on the development of the Colossus computer, used to break the more complex Lorenz cipher."
     - name: Vannevar Bush
       influences:
         - name: Alan Turing
