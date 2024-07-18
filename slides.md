@@ -3,14 +3,15 @@
 theme: seriph
 # random image from a curated Unsplash collection by Anthony
 # like them? see https://unsplash.com/collections/94734566/slidev
-background: https://cover.sli.dev
+background: /assets/intro-background.jpg
 # some information about your slides (markdown enabled)
-title: Welcome to Slidev
+title: The Shoulders We Stand On
 info: |
-  ## Slidev Starter Template
-  Presentation slides for developers.
+  ## The Shoulders We Stand On
+  
+  A reflection on all the people who helped us get to where we are today.
 
-  Learn more at [Sli.dev](https://sli.dev)
+  Contribute at [GitHub](https://github.com/Furkanzmc/cppnorth-2024-shoulders-we-stand-on)
 # apply unocss classes to the current slide
 class: text-center
 # https://sli.dev/custom/highlighters.html
@@ -24,29 +25,116 @@ transition: slide-left
 mdc: true
 ---
 
-# Welcome to Slidev
-
-Presentation slides for developers
-
-<div class="pt-12">
-  <span @click="$slidev.nav.next" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
-    Press Space for next page <carbon:arrow-right class="inline"/>
-  </span>
-</div>
+# The Shoulders We Stand On
 
 <div class="abs-br m-6 flex gap-2">
-  <button @click="$slidev.nav.openInEditor()" title="Open in Editor" class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
-    <carbon:edit />
-  </button>
-  <a href="https://github.com/slidevjs/slidev" target="_blank" alt="GitHub" title="Open in GitHub"
+  <a href="https://github.com/Furkanzmc/cppnorth-2024-shoulders-we-stand-on" target="_blank" alt="GitHub" title="Open in GitHub"
     class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
     <carbon-logo-github />
   </a>
 </div>
 
+<br> <br> <br> <br>
+
+<div style="display: flex; flex-direction: row;">
+    <div style="flex: 1; margin: 10px;">
+        <span style="display: block; margin-bottom: 5px; font-weight: bold;">Furkan Uzumcu</span>
+        <p style="font-weight: normal;">Senior Software Engineer | Autodesk</p>
+    </div>
+    <div style="flex: 1; margin: 10px;">
+        <span style="display: block; margin-bottom: 5px; font-weight: bold;">Quinn Hou</span>
+        <p style="font-weight: normal;">Engineering Manager | DapperLabs</p>
+    </div>
+</div>
+
+---
+layout: image-left
+image: https://i.pinimg.com/736x/15/d5/e1/15d5e17569e6f3ef1595c61c8ab56518--fred-rogers-successful-people.jpg
+---
+
+Would you just take, along with me, 10 seconds to think of the people who have helped you become who
+you are, those who cared about you and wanted what was best for you in life.
+
+- Fred Rogers
+
+---
+dragPos:
+  square: 2,390,276,162
+---
+
+<img v-drag="'square'" src="/assets/how-did-i-get-here.jpg" style="border-radius: 50%;">
+
+<img v-drag="'square'" src="/assets/how-did-i-get-here.jpg" style="border-radius: 50%;">
+
+<v-click>
+
+```mermaid
+gitGraph
+    commit id: "Born"
+    commit id: "Uncle in IT"
+    branch new-interest
+    checkout new-interest
+    commit id: "School resources"
+    checkout main
+    merge new-interest
+    commit id: "Coming to Canada"
+    commit id: "Start up life"
+    commit id: "People I've met"
+    branch social-life
+    checkout social-life
+    commit id: "People I can depend on"
+    commit id: "Friend who pushes me"
+    checkout main
+    commit id: "A bunch of other stuff"
+    checkout social-life
+    branch career
+    checkout career
+    commit id: "Mentors"
+    commit id: "C++ Study Group"
+    checkout social-life
+    merge career
+    checkout main
+    merge social-life
+    commit id: "Here"
+```
+
+</v-click>
+
 <!--
-The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
+- We have to pick a starting point.
+- Different choices would different versions of me.
 -->
+
+---
+dragPos:
+  square: 356,27,167,_,-8
+---
+
+<img v-drag="'square'" src="/assets/people/alan-turing.jpg" style="border-radius: 50%;">
+
+<v-drag pos="801,91,167,_,-8">
+    <img src="/assets/people/edsger-dijkstra.jpg" style="border-radius: 50%;">
+</v-drag>
+
+<v-drag pos="38,342,167,_,-8">
+    <img src="/assets/people/charles-babbage.jpg" style="border-radius: 50%;">
+</v-drag>
+
+<v-drag pos="562,5,261,_,-15">
+    <img src="/assets/people/dennis-ritchie-ken-thomson.jpg" style="border-radius: 50%;">
+</v-drag>
+
+<v-drag pos="582,210,261,_,12">
+    <img src="/assets/people/grace-hopper.jpg" style="border-radius: 50%;">
+</v-drag>
+
+<v-drag pos="43,1,261,_,-15">
+    <img src="/assets/people/linus-torvalds.jpg" style="border-radius: 50%;">
+</v-drag>
+
+<v-drag pos="223,287,261,_,-15">
+    <img src="/assets/people/margaret-hamilton.jpeg" style="border-radius: 50%;">
+</v-drag>
 
 ---
 layout: iframe
@@ -584,7 +672,7 @@ database "MySql" {
 ---
 foo: bar
 dragPos:
-  square: 691,32,167,_,-16
+  square: 542,76,167,_,-16
 ---
 
 # Draggable Elements
