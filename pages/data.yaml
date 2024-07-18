@@ -107,29 +107,252 @@ Acts:
           description: "IBM's first commercial scientific computer, the IBM 701, was influenced by Turing's theoretical work on computation. Source: https://en.wikipedia.org/wiki/IBM_701"
 
     - name: Vannevar Bush
+      influenced-by:
+        - name: Frank B. Jewett
+          description: "Jewett's work in electrical engineering and as the head of Bell Labs provided Bush with significant support and inspiration. Source: https://en.wikipedia.org/wiki/Frank_B._Jewett"
+        - name: Arthur Edwin Kennelly
+          description: "Kennelly, a pioneer in electrical engineering, influenced Bush's early academic career. Source: https://en.wikipedia.org/wiki/Arthur_Edwin_Kennelly"
+        - name: Edwin Howard Armstrong
+          description: "Armstrong, the inventor of FM radio, had an impact on Bush's understanding of electronic communication and engineering. Source: https://en.wikipedia.org/wiki/Edwin_Howard_Armstrong"
       influences:
         - name: Alan Turing
           description: "Bush's work on analog computing influenced Turing's development of digital computing concepts."
         - name: John von Neumann
           description: "Bush's Memex concept influenced von Neumann's work on stored-program computers."
-        - name: AI
-          description: ""
+        - name: Claude Shannon
+          description: "Bush supervised Shannon's master's thesis at MIT, which laid the groundwork for information theory. Source: https://en.wikipedia.org/wiki/Claude_Shannon"
+        - name: J.C.R. Licklider
+          description: "Bush's ideas about interactive computing and the Memex influenced Licklider's vision of human-computer interaction. Source: https://en.wikipedia.org/wiki/J._C._R._Licklider"
+        - name: Douglas Engelbart
+          description: "Engelbart was inspired by Bush's Memex and went on to develop the concept of interactive computing, including the invention of the mouse. Source: https://en.wikipedia.org/wiki/Douglas_Engelbart"
+        - name: Ted Nelson
+          description: "Nelson's work on hypertext and project Xanadu was influenced by Bush's Memex concept. Source: https://en.wikipedia.org/wiki/Ted_Nelson"
+        - name: Hypertext
+          description: "Bush's idea of the Memex, a system for storing and linking information, directly influenced the development of hypertext systems. Source: https://en.wikipedia.org/wiki/Hypertext"
+        - name: World Wide Web
+          description: "Tim Berners-Lee's invention of the World Wide Web was influenced by Bush's Memex and the idea of linking information. Source: https://en.wikipedia.org/wiki/Tim_Berners-Lee"
+        - name: Digital Libraries
+          description: "The concept of digital libraries and searchable electronic information systems can be traced back to Bush's vision of the Memex. Source: https://en.wikipedia.org/wiki/Digital_library"
+        - name: Personal Computers
+          description: "Bush's ideas about user-friendly computing environments inspired the development of personal computers and graphical user interfaces."
+        - name: ARPANET
+          description: "Bush's vision of interconnected information systems influenced the development of ARPANET, the precursor to the modern Internet. Source: https://en.wikipedia.org/wiki/ARPANET"
+        - name: Information Retrieval Systems
+          description: "Bush's work on the Memex concept laid the foundation for modern information retrieval systems used in databases and search engines. Source: https://en.wikipedia.org/wiki/Information_retrieval"
+        - name: Project Whirlwind
+          description: "Bush's support for digital computing research helped in the development of Project Whirlwind, one of the first computers to use real-time computing. Source: https://en.wikipedia.org/wiki/Whirlwind_(computer)"
+        - name: ENIAC
+          description: "Bush's leadership in wartime research and his vision for postwar scientific development supported the creation of the ENIAC, one of the earliest general-purpose computers. Source: https://en.wikipedia.org/wiki/ENIAC"
+        - name: SAGE
+          description: "The Semi-Automatic Ground Environment (SAGE) air defense system was influenced by Bush's work on large-scale computing systems and real-time data processing. Source: https://en.wikipedia.org/wiki/Semi-Automatic_Ground_Environment"
+        - name: Computer Science as a Field
+          description: "Bush's emphasis on the importance of scientific research and development helped establish computer science as a distinct academic discipline."
+        - name: Government-Funded Research
+          description: "Bush's report 'Science, the Endless Frontier' laid the groundwork for government-funded scientific research in the United States, influencing numerous technological advancements. Source: https://en.wikipedia.org/wiki/Science,_the_Endless_Frontier"
+
     - name: John von Neumann
+      influenced-by:
+        - name: David Hilbert
+          description: "Hilbert's work in mathematics, particularly his formalism and contributions to mathematical logic, profoundly influenced von Neumann. Source: https://en.wikipedia.org/wiki/David_Hilbert"
+        - name: Kurt Gödel
+          description: "Gödel's incompleteness theorems had a significant impact on von Neumann's work in mathematical logic and the foundations of mathematics. Source: https://en.wikipedia.org/wiki/Kurt_Gödel"
+        - name: Alan Turing
+          description: "Turing's concept of the Turing machine influenced von Neumann's work on the theoretical foundations of computing. Source: https://en.wikipedia.org/wiki/Alan_Turing"
       influences:
         - name: J.C.R. Licklider
-          description: "Von Neumann's architecture and concepts influenced Licklider's vision for interactive computing."
+          description: "Von Neumann's architecture and concepts influenced Licklider's vision for interactive computing. Source: https://en.wikipedia.org/wiki/J._C._R._Licklider"
+        - name: Claude Shannon
+          description: "Von Neumann's work in digital computing and information theory influenced Shannon's development of information theory and digital circuit design. Source: https://en.wikipedia.org/wiki/Claude_Shannon"
+        - name: Alan Turing
+          description: "Von Neumann further developed and disseminated Turing's ideas on computation and the universal machine. Source: https://en.wikipedia.org/wiki/John_von_Neumann"
+        - name: Stanisław Ulam
+          description: "Collaborated with von Neumann on the Monte Carlo method, which is fundamental in computational mathematics. Source: https://en.wikipedia.org/wiki/Stanis%C5%82aw_Ulam"
+        - name: Julian Bigelow
+          description: "Worked with von Neumann on the development of the IAS machine, one of the first stored-program computers. Source: https://en.wikipedia.org/wiki/Julian_Bigelow"
+        - name: Herman Goldstine
+          description: "Collaborated with von Neumann on the development of the ENIAC and EDVAC computers. Source: https://en.wikipedia.org/wiki/Herman_Goldstine"
+        - name: Oskar Morgenstern
+          description: "Co-authored 'Theory of Games and Economic Behavior' with von Neumann, laying the foundations of game theory. Source: https://en.wikipedia.org/wiki/Oskar_Morgenstern"
+        - name: John Forbes Nash Jr.
+          description: "Von Neumann's work in game theory influenced Nash's further developments in the field, including the Nash equilibrium. Source: https://en.wikipedia.org/wiki/John_Forbes_Nash_Jr."
+        - name: Edward Teller
+          description: "Von Neumann's work on hydrodynamics and shock waves influenced Teller's work on nuclear weapons development. Source: https://en.wikipedia.org/wiki/Edward_Teller"
+        - name: Norbert Wiener
+          description: "Von Neumann's contributions to mathematics and computing influenced Wiener's development of cybernetics. Source: https://en.wikipedia.org/wiki/Norbert_Wiener"
+        - name: Marvin Minsky
+          description: "Von Neumann's work on automata theory and neural networks influenced Minsky's research in artificial intelligence. Source: https://en.wikipedia.org/wiki/Marvin_Minsky"
+        - name: IBM 701
+          description: "Von Neumann's stored-program architecture influenced the design of IBM's 701 computer, the company's first commercial scientific computer. Source: https://en.wikipedia.org/wiki/IBM_701"
+        - name: UNIVAC I
+          description: "The architecture and concepts introduced by von Neumann influenced the design and development of UNIVAC I, one of the first commercial computers. Source: https://en.wikipedia.org/wiki/UNIVAC_I"
+        - name: ENIAC
+          description: "Von Neumann's work with the ENIAC team helped transition it from a hard-wired program machine to a stored-program computer. Source: https://en.wikipedia.org/wiki/ENIAC"
+        - name: EDVAC
+          description: "Von Neumann's 'First Draft of a Report on the EDVAC' laid out the principles of the stored-program computer, which were implemented in EDVAC. Source: https://en.wikipedia.org/wiki/EDVAC"
+        - name: IAS Machine
+          description: "The IAS machine, designed by von Neumann, was one of the earliest implementations of the stored-program architecture. Source: https://en.wikipedia.org/wiki/IAS_machine"
+        - name: Modern Computer Architecture
+          description: "Von Neumann's architecture, with its concept of stored-program computers, is the foundation of virtually all modern computer architectures. Source: https://en.wikipedia.org/wiki/Von_Neumann_architecture"
+        - name: Game Theory
+          description: "Von Neumann's foundational work in game theory has had widespread applications in economics, evolutionary biology, and computer science. Source: https://en.wikipedia.org/wiki/Game_theory"
+        - name: Cellular Automata
+          description: "Von Neumann's work on cellular automata laid the groundwork for later developments in computational models and artificial life. Source: https://en.wikipedia.org/wiki/Cellular_automaton"
+        - name: Quantum Computing
+          description: "Von Neumann's contributions to quantum mechanics and computing have influenced ongoing research in quantum computing. Source: https://en.wikipedia.org/wiki/Quantum_computing"
+        - name: Weather Prediction Models
+          description: "Von Neumann's work on numerical weather prediction models helped develop the first computerized weather forecasts. Source: https://en.wikipedia.org/wiki/Numerical_weather_prediction"
+        - name: Monte Carlo Method
+          description: "Von Neumann co-developed the Monte Carlo method, a crucial technique in computational physics, engineering, and finance. Source: https://en.wikipedia.org/wiki/Monte_Carlo_method"
+        - name: Artificial Life
+          description: "Von Neumann's theories on self-replicating machines influenced research in artificial life and robotics. Source: https://en.wikipedia.org/wiki/Artificial_life"
+        - name: Economic Modeling
+          description: "Von Neumann's work in mathematics and economics influenced the development of complex economic modeling techniques. Source: https://en.wikipedia.org/wiki/John_von_Neumann"
+        - name: Defense Systems
+          description: "Von Neumann's contributions to computing and mathematics were instrumental in the development of early defense systems and simulations. Source: https://en.wikipedia.org/wiki/John_von_Neumann"
+
     - name: J.C.R. Licklider
+      influenced-by:
+        - name: Vannevar Bush
+          description: "Bush's work on analog computing and the concept of the Memex influenced Licklider's vision of interactive computing. Source: https://en.wikipedia.org/wiki/Vannevar_Bush"
+        - name: John von Neumann
+          description: "Von Neumann's architecture and theoretical work in computing influenced Licklider's understanding of computer systems and their potential. Source: https://en.wikipedia.org/wiki/John_von_Neumann"
       influences:
         - name: Douglas Engelbart
-          description: "Licklider's vision for human-computer interaction influenced Engelbart's development of the mouse and hypertext."
+          description: "Licklider's vision for human-computer interaction influenced Engelbart's development of the computer mouse and hypertext systems. Source: https://en.wikipedia.org/wiki/Douglas_Engelbart"
+        - name: Robert Taylor
+          description: "Licklider's ideas about computer networks and interactive computing influenced Taylor's work at ARPA, leading to the creation of the ARPANET. Source: https://en.wikipedia.org/wiki/Robert_Taylor_(computer_scientist)"
+        - name: Larry Roberts
+          description: "Licklider's work at ARPA and his vision for computer networking influenced Roberts' development of the ARPANET, the precursor to the Internet. Source: https://en.wikipedia.org/wiki/Lawrence_Roberts_(scientist)"
+        - name: Tim Berners-Lee
+          description: "Licklider's early concepts of a globally connected network influenced Berners-Lee's invention of the World Wide Web. Source: https://en.wikipedia.org/wiki/Tim_Berners-Lee"
+        - name: Internet
+          description: "Licklider's work on ARPANET and his vision for a networked world laid the foundation for the development of the Internet. Source: https://en.wikipedia.org/wiki/ARPANET"
+        - name: Computer Networks
+          description: "Licklider's advocacy for time-sharing systems and networked computing influenced the development of modern computer networks. Source: https://en.wikipedia.org/wiki/Time-sharing"
+        - name: Interactive Computing
+          description: "Licklider's vision of human-computer symbiosis inspired the development of interactive computing systems. Source: https://en.wikipedia.org/wiki/Intergalactic_Computer_Network"
+        - name: Personal Computing
+          description: "Licklider's ideas about accessible and interactive computing environments influenced the rise of personal computing. Source: https://en.wikipedia.org/wiki/History_of_personal_computers"
+        - name: Paul Baran
+          description: "Licklider's work on packet-switching networks influenced Baran's research and development in the same field, contributing to the foundation of modern digital communication. Source: https://en.wikipedia.org/wiki/Paul_Baran"
+        - name: Ivan Sutherland
+          description: "Licklider's work on human-computer interaction influenced Sutherland's pioneering work in computer graphics and virtual reality. Source: https://en.wikipedia.org/wiki/Ivan_Sutherland"
+        - name: Artificial Intelligence
+          description: "Licklider's vision for computers as partners in thought processes influenced early research and developments in artificial intelligence. Source: https://en.wikipedia.org/wiki/Artificial_intelligence"
+        - name: John McCarthy
+          description: "Licklider's support and vision for AI research influenced McCarthy's work in developing the field of artificial intelligence. Source: https://en.wikipedia.org/wiki/John_McCarthy_(computer_scientist)"
+        - name: Norbert Wiener
+          description: "Licklider's work on human-computer symbiosis was influenced by Wiener's theories on cybernetics and control systems. Source: https://en.wikipedia.org/wiki/Norbert_Wiener"
+        - name: Project MAC
+          description: "Licklider's vision for interactive computing directly influenced the establishment and direction of Project MAC at MIT, which played a crucial role in the development of operating systems and computer graphics. Source: https://en.wikipedia.org/wiki/Project_MAC"
+        - name: UNIX
+          description: "Licklider's ideas about time-sharing systems and interactive computing environments influenced the development of the UNIX operating system. Source: https://en.wikipedia.org/wiki/Unix"
+        - name: Multics
+          description: "Licklider's concept of a computer utility influenced the development of the Multics time-sharing operating system. Source: https://en.wikipedia.org/wiki/Multics"
+        - name: Cloud Computing
+          description: "Licklider's early ideas about time-sharing and distributed computing can be seen as precursors to the modern concept of cloud computing. Source: https://en.wikipedia.org/wiki/Cloud_computing"
+
     - name: Douglas Engelbart
+      influenced-by:
+        - name: J.C.R. Licklider
+          description: "Licklider's vision for human-computer interaction and his work on interactive computing heavily influenced Engelbart's development of the computer mouse and hypertext systems. Source: https://en.wikipedia.org/wiki/Douglas_Engelbart"
+        - name: Vannevar Bush
+          description: "Bush's concept of the Memex, an early vision of hypertext, inspired Engelbart's work on augmenting human intellect and his development of NLS (oN-Line System). Source: https://en.wikipedia.org/wiki/Douglas_Engelbart"
       influences:
         - name: Ivan Sutherland
-          description: "Engelbart's work on interactive computing influenced Sutherland's development of computer graphics and virtual reality."
-        - name: Furkan Uzumcu
-          description: "Engelbart's work on interactive computing influenced Sutherland's development of computer graphics and virtual reality."
-        - name: Quinn Hou
-          description: "Engelbart's work on interactive computing influenced Sutherland's development of computer graphics and virtual reality."
+          description: "Engelbart's work on interactive computing and graphical interfaces influenced Sutherland's development of computer graphics and virtual reality. Source: https://en.wikipedia.org/wiki/Ivan_Sutherland"
+        - name: Tim Berners-Lee
+          description: "Engelbart's invention of hypertext was a direct precursor to the World Wide Web, which was invented by Tim Berners-Lee. Source: https://en.wikipedia.org/wiki/Tim_Berners-Lee"
+        - name: Hypertext
+          description: "Engelbart's invention of hypertext systems is foundational to modern information systems and the World Wide Web. Source: https://en.wikipedia.org/wiki/Hypertext"
+        - name: Graphical User Interface (GUI)
+          description: "Engelbart's work on interactive computing and the development of the first GUI elements influenced the design of modern graphical user interfaces. Source: https://en.wikipedia.org/wiki/Graphical_user_interface"
+        - name: Computer Mouse
+          description: "Engelbart invented the computer mouse, a key input device for modern computing. Source: https://en.wikipedia.org/wiki/Computer_mouse"
+        - name: Xerox PARC
+          description: "Engelbart's work on interactive computing and user interfaces influenced research and development at Xerox PARC, leading to the creation of the Alto computer. Source: https://en.wikipedia.org/wiki/Douglas_Engelbart"
+        - name: Apple Macintosh
+          description: "Engelbart's innovations in user interfaces and interactive computing influenced the design and development of the Apple Macintosh. Source: https://en.wikipedia.org/wiki/Douglas_Engelbart"
+        - name: Windows Operating System
+          description: "Engelbart's work on graphical user interfaces and interactive computing influenced the development of the Microsoft Windows operating system. Source: https://en.wikipedia.org/wiki/Douglas_Engelbart"
+        - name: Collaborative Software
+          description: "Engelbart's vision for interactive computing and groupware influenced the development of collaborative software and group communication tools. Source: https://en.wikipedia.org/wiki/Collaborative_software"
+        - name: Google Docs
+          description: "Engelbart's early work on collaborative software and interactive computing laid the groundwork for modern collaborative tools like Google Docs. Source: https://en.wikipedia.org/wiki/Douglas_Engelbart"
+        - name: Augment
+          description: "Engelbart's NLS (oN-Line System) later evolved into Augment, which was used to pioneer many aspects of modern computing, including hypertext, networked computers, and collaborative software. Source: https://en.wikipedia.org/wiki/History_of_hypertext"
+        - name: Personal Computing
+          description: "Engelbart's pioneering work on interactive computing and user interfaces contributed to the evolution of personal computing. Source: https://en.wikipedia.org/wiki/Douglas_Engelbart"
+        - name: Steve Jobs
+          description: "Engelbart's innovations in computing and user interfaces had a significant influence on Steve Jobs and the development of Apple products. Source: https://en.wikipedia.org/wiki/Douglas_Engelbart"
+        - name: Apple Lisa
+          description: "The first commercial computer with a graphical user interface (GUI) and a mouse, directly influenced by Engelbart's work. Source: https://en.wikipedia.org/wiki/Apple_Lisa"
+        - name: Apple Macintosh
+          description: "One of the first widely successful personal computers with a GUI and mouse, heavily influenced by Engelbart's innovations. Source: https://en.wikipedia.org/wiki/Macintosh"
+        - name: Microsoft Windows
+          description: "The Windows operating system, with its GUI and mouse support, was influenced by Engelbart's work on interactive computing. Source: https://en.wikipedia.org/wiki/Microsoft_Windows"
+        - name: Xerox Alto
+          description: "An early personal computer developed at Xerox PARC that featured a GUI and mouse, directly influenced by Engelbart's work. Source: https://en.wikipedia.org/wiki/Xerox_Alto"
+        - name: HyperCard
+          description: "A software application and development kit for Apple Macintosh, influenced by Engelbart's work on hypertext. Source: https://en.wikipedia.org/wiki/HyperCard"
+        - name: NLS (oN-Line System)
+          description: "Engelbart's own groundbreaking system that introduced many elements of modern computing, such as the mouse, hypertext, and collaborative software. Source: https://en.wikipedia.org/wiki/NLS_(computer_system)"
+        - name: Adobe Creative Suite
+          description: "Professional software for graphic design and multimedia, utilizing GUI principles influenced by Engelbart's innovations. Source: https://en.wikipedia.org/wiki/Adobe_Creative_Cloud"
+        - name: Google Docs
+          description: "An online word processor that supports collaborative editing, influenced by Engelbart's work on interactive computing and groupware. Source: https://en.wikipedia.org/wiki/Google_Docs"
+
+    - name: Ivan Sutherland
+      influenced-by:
+        - name: Douglas Engelbart
+          description: "Engelbart's work on interactive computing and graphical interfaces heavily influenced Sutherland's development of computer graphics and virtual reality. Source: https://en.wikipedia.org/wiki/Ivan_Sutherland"
+        - name: David Evans
+          description: "Evans mentored Sutherland during his PhD studies at MIT, influencing his early work on computer graphics and interactive systems. Source: https://en.wikipedia.org/wiki/Ivan_Sutherland"
+        - name: Claude Shannon
+          description: "Shannon's work on information theory and digital circuits inspired Sutherland's research in computer graphics and computational geometry. Source: https://en.wikipedia.org/wiki/Ivan_Sutherland"
+        - name: William Fetter
+          description: "Fetter's concept of computer-generated imagery (CGI) influenced Sutherland's work on Sketchpad and later computer graphics systems. Source: https://en.wikipedia.org/wiki/Ivan_Sutherland"
+      influences:
+        - name: Virtual Reality (VR)
+          description: "Sutherland's work on VR systems, including the development of the first head-mounted display (HMD), laid the foundation for modern virtual reality technology. Source: https://en.wikipedia.org/wiki/Virtual_reality"
+        - name: Computer Graphics
+          description: "Sutherland's pioneering work in computer graphics established fundamental principles and techniques still used in areas such as gaming, animation, and scientific visualization. Source: https://en.wikipedia.org/wiki/Ivan_Sutherland"
+        - name: Object-Oriented Programming (OOP)
+          description: "Sutherland's development of object-oriented graphics and programming concepts influenced the broader adoption of OOP in software engineering. Source: https://en.wikipedia.org/wiki/Object-oriented_programming"
+        - name: Silicon Graphics (SGI)
+          description: "Sutherland's work on computer graphics and VR technology influenced the development of SGI workstations, which became prominent in the graphics industry. Source: https://en.wikipedia.org/wiki/Silicon_Graphics"
+        - name: OpenGL
+          description: "The OpenGL API for rendering 2D and 3D vector graphics, influenced by Sutherland's contributions to computer graphics. Source: https://en.wikipedia.org/wiki/OpenGL"
+        - name: CAD (Computer-Aided Design)
+          description: "Sutherland's work on Sketchpad laid the foundation for CAD systems, revolutionizing engineering and design processes. Source: https://en.wikipedia.org/wiki/Computer-aided_design"
+        - name: Head-Mounted Display (HMD)
+          description: "Sutherland's invention of the first HMD paved the way for applications in virtual reality and augmented reality. Source: https://en.wikipedia.org/wiki/Head-mounted_display"
+        - name: Flight Simulator
+          description: "Sutherland's early work on interactive graphics and simulation influenced the development of flight simulators used for training and entertainment. Source: https://en.wikipedia.org/wiki/Flight_simulator"
+        - name: Computer Animation
+          description: "Sutherland's contributions to computer graphics laid the groundwork for computer-generated animation techniques used in movies, games, and simulations. Source: https://en.wikipedia.org/wiki/Computer_animation"
+        - name: Personal Computing
+          description: "Sutherland's work on interactive computing and graphical interfaces contributed to the evolution of personal computing devices and user interfaces. Source: https://en.wikipedia.org/wiki/Personal_computer"
+        - name: Gaming Industry
+          description: "Sutherland's advancements in computer graphics technology have had a profound impact on the gaming industry, influencing game development and visual effects. Source: https://en.wikipedia.org/wiki/Video_game_industry"
+        - name: Pixar Animation Studios
+          description: "Sutherland's work on computer graphics laid the foundation for technologies used by Pixar in animated filmmaking. Source: https://en.wikipedia.org/wiki/Pixar"
+        - name: Sketchpad
+          description: "The first interactive computer graphics program, developed by Sutherland, which introduced the concept of direct manipulation and graphical user interfaces. Source: https://en.wikipedia.org/wiki/Sketchpad"
+        - name: Head-Mounted Display (HMD)
+          description: "Sutherland's invention of the first HMD led to developments in virtual reality and augmented reality systems. Source: https://en.wikipedia.org/wiki/Head-mounted_display"
+        - name: Silicon Graphics Workstations
+          description: "SGI workstations, influenced by Sutherland's work on computer graphics, became widely used in industries requiring advanced graphics capabilities. Source: https://en.wikipedia.org/wiki/Silicon_Graphics"
+        - name: CAD Software
+          description: "Computer-aided design software, inspired by Sutherland's Sketchpad, revolutionized engineering and architectural design processes. Source: https://en.wikipedia.org/wiki/Computer-aided_design"
+        - name: Flight Simulators
+          description: "Flight simulation technology, influenced by Sutherland's work on interactive graphics, is used for pilot training and aerospace research. Source: https://en.wikipedia.org/wiki/Flight_simulator"
+        - name: Virtual Reality Systems
+          description: "Modern VR systems, built upon Sutherland's early work on immersive technology, are used in gaming, education, healthcare, and more. Source: https://en.wikipedia.org/wiki/Virtual_reality"
+        - name: Computer Animation Software
+          description: "Software tools for computer-generated animation, leveraging techniques pioneered by Sutherland, are used extensively in movies, games, and simulations. Source: https://en.wikipedia.org/wiki/Computer_animation"
+        - name: Pixar Animation Technology
+          description: "Technologies developed by Pixar, influenced by Sutherland's work, have revolutionized animated filmmaking and visual effects. Source: https://en.wikipedia.org/wiki/Pixar"
 
   Act_2:
     - name: John McCarthy
