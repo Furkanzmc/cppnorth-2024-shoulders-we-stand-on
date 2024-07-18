@@ -378,25 +378,658 @@ Acts:
 
   Act_3:
     - name: Grace Hopper
+      influenced-by:
+        - name: John von Neumann
+          description: "Hopper was influenced by von Neumann's work on computer architecture and programming, which shaped her approach to software development. Source: https://en.wikipedia.org/wiki/Grace_Hopper"
+        - name: Howard Aiken
+          description: "Hopper worked with Aiken on the Harvard Mark I computer, where she gained early experience in programming and computer science. Source: https://en.wikipedia.org/wiki/Grace_Hopper"
+        - name: Richard Hamming
+          description: "Hopper collaborated with Hamming on early programming languages and contributed to the development of COBOL. Source: https://en.wikipedia.org/wiki/Grace_Hopper"
+        - name: Jean Bartik
+          description: "Bartik's work on the ENIAC and early computers inspired Hopper's interest in programming and software development. Source: https://en.wikipedia.org/wiki/Grace_Hopper"
       influences:
-        - name: Margaret Hamilton
-          description: "Hopper's work on compilers influenced Hamilton's development of software engineering principles."
+        - name: COBOL
+          description: "Hopper's leadership in the development of COBOL, one of the first high-level programming languages, revolutionized software development. Source: https://en.wikipedia.org/wiki/COBOL"
+        - name: Compiler Construction
+          description: "Hopper's work on compiler development laid the foundation for modern programming languages and software engineering practices. Source: https://en.wikipedia.org/wiki/Compiler"
+        - name: Automatic Programming
+          description: "Hopper's contributions to automatic programming systems and language translation influenced the evolution of software development tools. Source: https://en.wikipedia.org/wiki/Automatic_programming"
+        - name: Debugging Techniques
+          description: "Hopper pioneered techniques for debugging computer programs, improving software reliability and efficiency. Source: https://en.wikipedia.org/wiki/Grace_Hopper"
+        - name: Navy Programming Languages
+          description: "Hopper's development of programming languages for the U.S. Navy set standards for military and commercial software applications. Source: https://en.wikipedia.org/wiki/Grace_Hopper"
+        - name: Legacy in Education
+          description: "Hopper's advocacy for computing education and STEM initiatives continues to inspire future generations of computer scientists and engineers. Source: https://en.wikipedia.org/wiki/Grace_Hopper"
+        - name: Nanosecond
+          description: "Hopper famously used nanoseconds to illustrate the speed of electronic circuits, popularizing the concept in computing. Source: https://en.wikipedia.org/wiki/Nanosecond"
+        - name: UNIVAC
+          description: "Hopper's work on the UNIVAC I computer and its software applications contributed to early advancements in commercial computing. Source: https://en.wikipedia.org/wiki/UNIVAC_I"
+        - name: Navy Coding Manuals
+          description: "Hopper's development of coding standards and manuals for the U.S. Navy established best practices in software documentation and maintenance. Source: https://en.wikipedia.org/wiki/Grace_Hopper"
+        - name: Open Source Movement
+          description: "Hopper's advocacy for open standards and collaboration in software development laid groundwork for the open source movement. Source: https://en.wikipedia.org/wiki/Open_source"
+        - name: Term 'Bug'
+          description: "Hopper coined the term 'bug' for computer glitches, based on an actual moth found in the Mark II computer. Source: https://en.wikipedia.org/wiki/Grace_Hopper"
+        - name: COBOL
+          description: "Common Business-Oriented Language, developed by Hopper and team, became a standard for business and administrative computing. Source: https://en.wikipedia.org/wiki/COBOL"
+        - name: Compiler
+          description: "Hopper's development of the A-0 compiler and subsequent compiler technologies automated program translation, enabling higher-level programming. Source: https://en.wikipedia.org/wiki/Compiler"
+        - name: UNIVAC I
+          description: "The UNIVAC I, for which Hopper developed early software applications, was one of the first commercially successful mainframe computers. Source: https://en.wikipedia.org/wiki/UNIVAC_I"
+        - name: Nanosecond
+          description: "Hopper's use of the nanosecond as a measure of time highlighted the speed of electronic circuits and influenced precision timing in computing. Source: https://en.wikipedia.org/wiki/Nanosecond"
+        - name: Navy Coding Manuals
+          description: "Standardized coding practices and manuals developed by Hopper set benchmarks for software quality and reliability in military applications. Source: https://en.wikipedia.org/wiki/Grace_Hopper"
+        - name: Legacy in Education Programs
+          description: "Hopper's initiatives in computing education continue to impact STEM programs and inspire new generations of computer scientists. Source: https://en.wikipedia.org/wiki/Grace_Hopper"
+        - name: Open Source Advocacy
+          description: "Hopper's early advocacy for open standards and collaborative software development principles laid foundations for the modern open source movement. Source: https://en.wikipedia.org/wiki/Open_source"
+
     - name: Margaret Hamilton
-      influences:
+      influenced-by:
+        - name: Grace Hopper
+          description: "Hopper's work on compilers and standardization of programming languages influenced Hamilton's approach to software engineering principles and system design."
+        - name: John McCarthy
+          description: "McCarthy's work on artificial intelligence and formal methods influenced Hamilton's approach to rigorous software development."
         - name: Bjarne Stroustrup
-          description: "Hamilton's work on error detection and recovery influenced Stroustrup's development of C++."
-    - name: Bjarne Stroustrup
-      influences:
+          description: "Stroustrup's development of C++ and contributions to programming language design influenced Hamilton's work in software development and system architecture."
         - name: Linus Torvalds
-          description: "Stroustrup's C++ influenced Torvalds's development of the Linux kernel."
+          description: "Torvalds's creation of the Linux kernel and advocacy for open-source software influenced Hamilton's views on collaborative software development and systems design."
+      influences:
+        - name: Apollo Guidance Computer (AGC)
+          description: "Hamilton led the team that developed software for the Apollo missions, including the Apollo Guidance Computer (AGC), which was crucial for navigation and guidance during the Apollo lunar landings."
+          source: "https://www.nasa.gov/centers/johnson/news/releases/2003/j03-028.html"
+        - name: Software Engineering
+          description: "Hamilton's pioneering work in software engineering, including the development of methodologies for real-time systems and error detection techniques, laid the foundation for modern software engineering practices."
+          source: "https://www.computerhistory.org/fellowawards/hall/margaret-hamilton/"
+        - name: Systems Design
+          description: "Hamilton's contributions to system design concepts, such as prioritizing mission-critical tasks and error recovery mechanisms, have influenced the design of complex software systems."
+          source: "https://www.nasa.gov/feature/margaret-hamilton-apollo-software-engineer-awarded-presidential-medal-of-freedom"
+        - name: Universal Systems Language (USL)
+          description: "Hamilton developed USL, a formal systems engineering language used to describe complex systems, contributing to advances in system architecture and design methodologies."
+          source: "https://www.nasa.gov/content/margaret-hamilton-apollo-software-engineer-awarded-presidential-medal-of-freedom"
+        - name: Error Detection and Recovery
+          description: "Hamilton's work on error detection and recovery mechanisms in software systems influenced reliability engineering practices across various industries."
+          source: "https://www.nasa.gov/content/margaret-hamilton-apollo-software-engineer-awarded-presidential-medal-of-freedom"
+
+    - name: Bjarne Stroustrup
+      influenced-by:
+        - name: Grace Hopper
+          description: "Hopper's work on compilers and early programming languages influenced Stroustrup's approach to language design and software engineering."
+          sources:
+            - "https://en.wikipedia.org/wiki/Grace_Hopper"
+            - "https://history-computer.com/ModernComputer/Software/Compiler.html"
+        - name: Dennis Ritchie
+          description: "Ritchie's creation of C programming language inspired Stroustrup to develop C++ as an extension with object-oriented features and enhancements."
+          sources:
+            - "https://en.wikipedia.org/wiki/Dennis_Ritchie"
+            - "https://www.bell-labs.com/usr/dmr/www/"
+        - name: Simula
+          description: "Stroustrup drew inspiration from the Simula programming language for object-oriented programming concepts, which influenced C++."
+          sources:
+            - "https://en.wikipedia.org/wiki/Simula"
+            - "https://www.simula.no/"
+      influences:
+        - name: C++
+          description: "Stroustrup's creation of C++ introduced object-oriented programming features, generic programming, and improved type safety, leading to its widespread adoption in system software, game development, and large-scale applications."
+          sources:
+            - "http://www.stroustrup.com/hopl2.pdf"
+            - "https://isocpp.org/"
+        - name: Standard Template Library (STL)
+          description: "Stroustrup contributed to the development of STL, a powerful library of generic algorithms, containers, and functions that significantly enhance C++ programming productivity and performance."
+          sources:
+            - "https://www.stroustrup.com/bs_faq.html#stl"
+            - "https://en.cppreference.com/w/cpp/algorithm"
+        - name: Microsoft Windows Operating System
+          description: "C++ is used extensively in the development of the Windows operating system, from kernel components to user interface libraries, leveraging C++'s performance and flexibility."
+          sources:
+            - "https://www.microsoft.com/en-us/"
+            - "https://docs.microsoft.com/en-us/cpp/"
+        - name: Adobe Systems Software
+          description: "Adobe products like Photoshop and Illustrator are built using C++ for their performance-critical components, graphical user interfaces, and cross-platform capabilities."
+          sources:
+            - "https://www.adobe.com/"
+            - "https://theblog.adobe.com/"
+        - name: Mozilla Firefox Browser
+          description: "Mozilla Firefox utilizes C++ for its rendering engine (Gecko), JavaScript engine (SpiderMonkey), and browser components, ensuring speed, security, and cross-platform compatibility."
+          sources:
+            - "https://www.mozilla.org/"
+            - "https://developer.mozilla.org/en-US/docs/Mozilla/About"
+        - name: Game Engines (e.g., Unreal Engine)
+          description: "C++ serves as the backbone for many game engines like Unreal Engine, enabling high-performance graphics rendering, physics simulation, and complex game logic."
+          sources:
+            - "https://www.unrealengine.com/"
+            - "https://docs.unrealengine.com/"
+        - name: MySQL Database
+          description: "MySQL, a popular open-source relational database management system, uses C++ for its core server implementation, offering scalability, reliability, and performance."
+          sources:
+            - "https://www.mysql.com/"
+            - "https://dev.mysql.com/doc/"
+        - name: MongoDB Database
+          description: "MongoDB, a leading NoSQL database, relies on C++ for its core database server, providing high availability, horizontal scalability, and real-time analytics."
+          sources:
+            - "https://www.mongodb.com/"
+            - "https://docs.mongodb.com/"
+        - name: Amazon Web Services (AWS)
+          description: "Various AWS services, such as Amazon S3 (Simple Storage Service) and Amazon EC2 (Elastic Compute Cloud), are powered by C++ for their backend infrastructure and client libraries."
+          sources:
+            - "https://aws.amazon.com/"
+            - "https://aws.amazon.com/documentation/"
+        - name: CAD and CAM Software
+          description: "Computer-aided design (CAD) and computer-aided manufacturing (CAM) software, like AutoCAD and SolidWorks, utilize C++ for their 2D/3D modeling, simulation, and rendering capabilities."
+          sources:
+            - "https://www.autodesk.com/"
+            - "https://www.solidworks.com/"
+        - name: Financial Trading Platforms
+          description: "High-frequency trading platforms and financial analytics software, such as Bloomberg Terminal and MATLAB, leverage C++ for real-time data processing, algorithmic trading, and quantitative analysis."
+          sources:
+            - "https://www.bloomberg.com/professional/"
+            - "https://www.mathworks.com/products/matlab.html"
+
     - name: Linus Torvalds
-      influences:
-        - name: James Gosling
-          description: "Torvalds's work on Linux influenced Gosling's development of Java for cross-platform compatibility."
-    - name: James Gosling
-      influences:
+      influenced-by:
+        - name: Andrew S. Tanenbaum
+          description: "Torvalds was influenced by Tanenbaum's MINIX operating system while developing Linux."
+          sources:
+            - "https://en.wikipedia.org/wiki/Andrew_S._Tanenbaum"
+            - "https://www.cs.vu.nl/~ast/minix.html"
         - name: Richard Stallman
-          description: "Gosling's Java influenced Stallman's work on free software and the GNU project."
+          description: "Torvalds was influenced by Stallman's GNU Project, which provided many of the necessary tools for Linux."
+          sources:
+            - "https://en.wikipedia.org/wiki/Richard_Stallman"
+            - "https://www.gnu.org/"
+        - name: Dennis Ritchie
+          description: "Torvalds was influenced by Ritchie's creation of the C programming language, which he used to write the Linux kernel."
+          sources:
+            - "https://en.wikipedia.org/wiki/Dennis_Ritchie"
+            - "https://dl.acm.org/doi/10.1145/234286.1057828"
+        - name: Ken Thompson
+          description: "Torvalds benefited from Thompson's work on the Unix operating system, which inspired the design and development of Linux."
+          sources:
+            - "https://en.wikipedia.org/wiki/Ken_Thompson"
+            - "https://dl.acm.org/doi/10.1145/234286.1057828"
+      influences:
+        - name: Linux Kernel
+          description: "Torvalds created the Linux kernel, which became the foundation of many operating systems, emphasizing open-source development and community collaboration."
+          sources:
+            - "https://www.kernel.org/"
+            - "https://en.wikipedia.org/wiki/Linux_kernel"
+        - name: Git
+          description: "Torvalds created Git, a distributed version control system, to manage the development of the Linux kernel. Git has since become the most widely used version control system in software development."
+          sources:
+            - "https://git-scm.com/"
+            - "https://en.wikipedia.org/wiki/Git"
+        - name: Android Operating System
+          description: "Android OS, developed by Google, is based on the Linux kernel and powers the majority of smartphones worldwide."
+          sources:
+            - "https://www.android.com/"
+            - "https://en.wikipedia.org/wiki/Android_(operating_system)"
+        - name: Ubuntu
+          description: "Ubuntu is one of the most popular Linux distributions, known for its ease of use and widespread adoption in desktop and server environments."
+          sources:
+            - "https://ubuntu.com/"
+            - "https://en.wikipedia.org/wiki/Ubuntu"
+        - name: Red Hat Enterprise Linux (RHEL)
+          description: "RHEL is a commercially supported distribution of Linux, widely used in enterprise environments for its stability and support services."
+          sources:
+            - "https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux"
+            - "https://en.wikipedia.org/wiki/Red_Hat_Enterprise_Linux"
+        - name: Docker
+          description: "Docker, a platform for developing, shipping, and running applications in containers, uses Linux container technologies."
+          sources:
+            - "https://www.docker.com/"
+            - "https://en.wikipedia.org/wiki/Docker_(software)"
+        - name: Kubernetes
+          description: "Kubernetes, an open-source system for automating the deployment, scaling, and management of containerized applications, heavily relies on Linux."
+          sources:
+            - "https://kubernetes.io/"
+            - "https://en.wikipedia.org/wiki/Kubernetes"
+        - name: Supercomputing
+          description: "Linux dominates the supercomputing world, with nearly all of the top 500 supercomputers running on Linux."
+          sources:
+            - "https://www.top500.org/statistics/sublist/"
+            - "https://en.wikipedia.org/wiki/Supercomputer"
+        - name: Cloud Computing
+          description: "Major cloud service providers like AWS, Google Cloud, and Microsoft Azure use Linux extensively to run their infrastructure and services."
+          sources:
+            - "https://aws.amazon.com/"
+            - "https://cloud.google.com/"
+            - "https://azure.microsoft.com/"
+        - name: Embedded Systems
+          description: "Linux is widely used in embedded systems, from smart TVs and routers to industrial automation and automotive systems."
+          sources:
+            - "https://en.wikipedia.org/wiki/Embedded_Linux"
+            - "https://www.linuxfoundation.org/embedded-linux/"
+        - name: Scientific Research
+          description: "Linux is used in scientific research for tasks ranging from data analysis to running experiments, particularly in fields like bioinformatics and physics."
+          sources:
+            - "https://www.sciencedirect.com/topics/computer-science/linux-operating-systems"
+            - "https://en.wikipedia.org/wiki/Linux"
+        - name: Web Servers
+          description: "The majority of web servers on the internet run on Linux, including popular web server software like Apache and Nginx."
+          sources:
+            - "https://httpd.apache.org/"
+            - "https://nginx.org/"
+            - "https://w3techs.com/technologies/overview/web_server"
+        - name: MySQL
+          description: "MySQL, one of the most popular relational database management systems, is often run on Linux servers."
+          sources:
+            - "https://www.mysql.com/"
+            - "https://en.wikipedia.org/wiki/MySQL"
+        - name: Network Routing
+          description: "Linux is used in network routing and switching equipment, enabling the backbone of the internet."
+          sources:
+            - "https://en.wikipedia.org/wiki/Network_router"
+            - "https://opensource.com/article/18/6/getting-started-linux-router"
+
+    - name: James Gosling
+      influenced-by:
+        - name: Bjarne Stroustrup
+          description: "Gosling's work on the Oak programming language (which became Java) was influenced by C++, particularly in its syntax and object-oriented features."
+          sources:
+            - "https://en.wikipedia.org/wiki/James_Gosling"
+            - "https://www.stroustrup.com/"
+        - name: Objective-C
+          description: "Gosling was influenced by Objective-C's message-passing paradigm and dynamic typing when designing Java."
+          sources:
+            - "https://en.wikipedia.org/wiki/Objective-C"
+            - "https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html"
+      influences:
+        - name: Java Programming Language
+          description: "James Gosling created Java, a general-purpose programming language known for its portability, security features (like bytecode verification), and robustness."
+          sources:
+            - "https://www.oracle.com/java/"
+            - "https://docs.oracle.com/javase/specs/"
+        - name: Java Virtual Machine (JVM)
+          description: "The JVM, integral to Java's 'write once, run anywhere' principle, enables Java bytecode execution across diverse platforms."
+          sources:
+            - "https://docs.oracle.com/en/java/"
+            - "https://en.wikipedia.org/wiki/Java_virtual_machine"
+        - name: Android Operating System
+          description: "Android OS utilizes Java as its primary programming language for app development, leveraging its performance, scalability, and extensive ecosystem."
+          sources:
+            - "https://www.android.com/"
+            - "https://developer.android.com/"
+        - name: Eclipse IDE
+          description: "Eclipse, a popular integrated development environment, is written in Java and supports various programming languages, offering tools for software development."
+          sources:
+            - "https://www.eclipse.org/"
+            - "https://www.eclipse.org/downloads/"
+        - name: Apache Tomcat
+          description: "Tomcat, an open-source servlet container, uses Java to provide a web server environment for Java-based applications."
+          sources:
+            - "https://tomcat.apache.org/"
+            - "https://en.wikipedia.org/wiki/Apache_Tomcat"
+        - name: Spring Framework
+          description: "Spring, a lightweight Java framework, simplifies Java EE development by providing comprehensive infrastructure support."
+          sources:
+            - "https://spring.io/"
+            - "https://docs.spring.io/spring-framework/docs/current/reference/html/"
+        - name: Minecraft
+          description: "Minecraft, a popular sandbox video game, is written in Java and features block-building, exploration, and creative gameplay."
+          sources:
+            - "https://www.minecraft.net/"
+            - "https://en.wikipedia.org/wiki/Minecraft"
+        - name: Hadoop
+          description: "Apache Hadoop, a framework for distributed storage and processing of large datasets, is implemented in Java."
+          sources:
+            - "https://hadoop.apache.org/"
+            - "https://en.wikipedia.org/wiki/Apache_Hadoop"
+        - name: Netflix Streaming Service
+          description: "Netflix uses Java for its backend services and microservices architecture, supporting scalable and reliable video streaming."
+          sources:
+            - "https://www.netflix.com/"
+            - "https://netflixtechblog.com/"
+        - name: Twitter Backend
+          description: "Twitter's backend systems, including messaging, data processing, and analytics, are predominantly built in Java for performance and scalability."
+          sources:
+            - "https://twitter.com/"
+            - "https://blog.twitter.com/engineering/en_us.html"
+        - name: Amazon Web Services (AWS)
+          description: "Various AWS services, such as Amazon DynamoDB and Amazon Elastic Beanstalk, offer Java SDKs for cloud-based applications and services."
+          sources:
+            - "https://aws.amazon.com/"
+            - "https://aws.amazon.com/developer/"
+
+    - name: Dennis Ritchie
+      influenced-by:
+        - name: John McCarthy
+          description: "McCarthy's work on the Lisp programming language influenced Ritchie's development of C."
+          sources:
+            - "https://en.wikipedia.org/wiki/John_McCarthy_(computer_scientist)"
+            - "https://www.lispworks.com/documentation/HyperSpec/Body/preface.htm"
+        - name: Ken Thompson
+          description: "Thompson's development of the B programming language and the Unix operating system directly influenced Ritchie's creation of the C programming language."
+          sources:
+            - "https://en.wikipedia.org/wiki/Ken_Thompson"
+            - "https://dl.acm.org/doi/10.1145/234286.1057828"
+      influences:
+        - name: C Programming Language
+          description: "Ritchie co-created the C programming language, which became one of the most widely used programming languages in the world."
+          sources:
+            - "https://en.wikipedia.org/wiki/C_(programming_language)"
+            - "https://dl.acm.org/doi/10.1145/234286.1057828"
+        - name: Unix Operating System
+          description: "Ritchie, along with Ken Thompson, developed the Unix operating system, which has influenced many modern operating systems."
+          sources:
+            - "https://en.wikipedia.org/wiki/Unix"
+            - "https://dl.acm.org/doi/10.1145/234286.1057828"
+        - name: Ken Thompson
+          description: "Collaborated with Ritchie on Unix and the B and C programming languages."
+          sources:
+            - "https://en.wikipedia.org/wiki/Ken_Thompson"
+            - "https://dl.acm.org/doi/10.1145/234286.1057828"
+        - name: Unix-like Operating Systems
+          description: "Operating systems such as Linux, BSD, and macOS are directly influenced by Unix."
+          sources:
+            - "https://en.wikipedia.org/wiki/Linux"
+            - "https://en.wikipedia.org/wiki/Berkeley_Software_Distribution"
+            - "https://en.wikipedia.org/wiki/MacOS"
+        - name: C++
+          description: "Bjarne Stroustrup's C++ programming language was developed as an extension of C, incorporating object-oriented features."
+          sources:
+            - "https://en.wikipedia.org/wiki/C%2B%2B"
+            - "https://dl.acm.org/doi/10.1145/234286.1057828"
+        - name: Operating Systems
+          description: "Many operating systems, including Windows and various embedded systems, are written in C or heavily influenced by it."
+          sources:
+            - "https://en.wikipedia.org/wiki/Microsoft_Windows"
+            - "https://en.wikipedia.org/wiki/Embedded_system"
+        - name: Database Management Systems
+          description: "Popular databases such as MySQL, PostgreSQL, and SQLite are written in C."
+          sources:
+            - "https://en.wikipedia.org/wiki/MySQL"
+            - "https://en.wikipedia.org/wiki/PostgreSQL"
+            - "https://en.wikipedia.org/wiki/SQLite"
+        - name: Compilers and Interpreters
+          description: "Compilers for various programming languages are often written in C due to its efficiency and control."
+          sources:
+            - "https://en.wikipedia.org/wiki/Compiler"
+            - "https://en.wikipedia.org/wiki/Interpreter_(computing)"
+        - name: Network Protocols
+          description: "Network protocols and applications, such as TCP/IP and HTTP servers, are commonly implemented in C."
+          sources:
+            - "https://en.wikipedia.org/wiki/Internet_protocol_suite"
+            - "https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol"
+        - name: Embedded Systems
+          description: "C is extensively used in embedded systems programming for its efficiency and control over hardware."
+          sources:
+            - "https://en.wikipedia.org/wiki/Embedded_system"
+            - "https://www.linuxfoundation.org/embedded-linux/"
+        - name: Web Servers
+          description: "Web servers like Apache and Nginx are written in C."
+          sources:
+            - "https://httpd.apache.org/"
+            - "https://nginx.org/"
+            - "https://w3techs.com/technologies/overview/web_server"
+        - name: Operating Systems Kernels
+          description: "The kernels of many operating systems, such as the Linux kernel, are written in C."
+          sources:
+            - "https://www.kernel.org/"
+            - "https://en.wikipedia.org/wiki/Linux_kernel"
+        - name: Programming Languages
+          description: "Many modern programming languages, including Python, Ruby, and PHP, have their interpreters or core libraries written in C."
+          sources:
+            - "https://en.wikipedia.org/wiki/Python_(programming_language)"
+            - "https://en.wikipedia.org/wiki/Ruby_(programming_language)"
+            - "https://en.wikipedia.org/wiki/PHP"
+        - name: Device Drivers
+          description: "Device drivers for various hardware components are often written in C to interact closely with hardware."
+          sources:
+            - "https://en.wikipedia.org/wiki/Device_driver"
+            - "https://www.kernel.org/doc/html/latest/driver-api/index.html"
+
+    - name: Ken Thompson
+      influenced-by:
+        - name: John McCarthy
+          description: "Thompson was influenced by McCarthy's work on artificial intelligence and LISP, which impacted Thompson's approach to programming languages and operating systems."
+          sources:
+            - "https://en.wikipedia.org/wiki/John_McCarthy_(computer_scientist)"
+            - "https://dl.acm.org/doi/10.1145/567297.567319"
+        - name: Dennis Ritchie
+          description: "Ritchie and Thompson co-developed the Unix operating system, and Ritchie's work on the C programming language significantly influenced Thompson's work."
+          sources:
+            - "https://en.wikipedia.org/wiki/Dennis_Ritchie"
+            - "https://dl.acm.org/doi/10.1145/567327.567336"
+      influences:
+        - name: Unix
+          description: "Thompson co-created the Unix operating system, which has had a profound influence on modern operating systems, software development, and computing environments."
+          sources:
+            - "https://en.wikipedia.org/wiki/Unix"
+            - "https://dl.acm.org/doi/10.1145/567327.567336"
+        - name: B Programming Language
+          description: "Thompson developed the B programming language, a precursor to the C programming language."
+          sources:
+            - "https://en.wikipedia.org/wiki/B_(programming_language)"
+            - "https://dl.acm.org/doi/10.1145/567327.567336"
+        - name: C Programming Language
+          description: "While not the primary author, Thompson's work on Unix influenced the development of the C programming language by Dennis Ritchie."
+          sources:
+            - "https://en.wikipedia.org/wiki/C_(programming_language)"
+            - "https://dl.acm.org/doi/10.1145/567327.567336"
+        - name: Plan 9 from Bell Labs
+          description: "Thompson co-created Plan 9, a distributed operating system designed as the successor to Unix."
+          sources:
+            - "https://en.wikipedia.org/wiki/Plan_9_from_Bell_Labs"
+            - "https://dl.acm.org/doi/10.1145/567327.567336"
+        - name: Go Programming Language
+          description: "Thompson contributed to the development of the Go programming language, known for its simplicity and efficiency."
+          sources:
+            - "https://en.wikipedia.org/wiki/Go_(programming_language)"
+            - "https://dl.acm.org/doi/10.1145/3386325.3386329"
+        - name: Regular Expressions
+          description: "Thompson introduced regular expressions to computer science, which are now widely used in text processing and search algorithms."
+          sources:
+            - "https://en.wikipedia.org/wiki/Regular_expression"
+            - "https://dl.acm.org/doi/10.1145/567327.567336"
+        - name: Multics
+          description: "Thompson worked on the Multics operating system project before developing Unix, and many concepts from Multics influenced Unix."
+          sources:
+            - "https://en.wikipedia.org/wiki/Multics"
+            - "https://dl.acm.org/doi/10.1145/567327.567336"
+        - name: Unix Philosophy
+          description: "Thompson's design principles and philosophies in Unix have influenced software engineering practices and the development of various Unix-like systems."
+          sources:
+            - "https://en.wikipedia.org/wiki/Unix_philosophy"
+            - "https://dl.acm.org/doi/10.1145/567327.567336"
+        - name: Thompson's Hack
+          description: "Thompson created the first known computer virus as a demonstration of the importance of secure software development."
+          sources:
+            - "https://en.wikipedia.org/wiki/Thompson%27s_hack"
+            - "https://dl.acm.org/doi/10.1145/567327.567336"
+        - name: Shell Scripting
+          description: "Thompson developed the first Unix shell, which has influenced the design and functionality of many modern shell environments."
+          sources:
+            - "https://en.wikipedia.org/wiki/Thompson_shell"
+            - "https://dl.acm.org/doi/10.1145/567327.567336"
+        - name: Unix Tools and Utilities
+          description: "Thompson's work led to the creation and improvement of numerous Unix tools and utilities that are still in use today."
+          sources:
+            - "https://en.wikipedia.org/wiki/List_of_Unix_commands"
+            - "https://dl.acm.org/doi/10.1145/567327.567336"
+        - name: Distributed Systems
+          description: "Thompson's work on Plan 9 and other projects has influenced the development and understanding of distributed systems."
+          sources:
+            - "https://en.wikipedia.org/wiki/Distributed_computing"
+            - "https://dl.acm.org/doi/10.1145/567327.567336"
+        - name: Programming Languages
+          description: "Thompson's principles and practices have influenced the design and implementation of various programming languages."
+          sources:
+            - "https://en.wikipedia.org/wiki/Programming_language"
+            - "https://dl.acm.org/doi/10.1145/567327.567336"
+        - name: Software Engineering Education
+          description: "Thompson's books, papers, and software have been instrumental in educating software engineers and influencing software engineering curricula."
+          sources:
+            - "https://en.wikipedia.org/wiki/Ken_Thompson"
+            - "https://dl.acm.org/doi/10.1145/567327.567336"
+
+    - name: Brian Kernighan
+      influenced-by:
+        - name: Dennis Ritchie
+          description: "Ritchie and Kernighan co-authored 'The C Programming Language' book, which had a significant impact on the development of software engineering."
+          sources:
+            - "https://en.wikipedia.org/wiki/Dennis_Ritchie"
+            - "https://en.wikipedia.org/wiki/The_C_Programming_Language"
+        - name: Ken Thompson
+          description: "Thompson's work on Unix and the B programming language influenced Kernighan's contributions to Unix and his development of AWK and AMPL."
+          sources:
+            - "https://en.wikipedia.org/wiki/Ken_Thompson"
+            - "https://en.wikipedia.org/wiki/Unix"
+      influences:
+        - name: The C Programming Language (Book)
+          description: "Co-authored by Kernighan and Ritchie, this book is one of the most influential texts in computer science and has educated countless programmers."
+          sources:
+            - "https://en.wikipedia.org/wiki/The_C_Programming_Language"
+            - "https://dl.acm.org/doi/10.1145/5666.5673"
+        - name: Unix
+          description: "Kernighan contributed to the development and documentation of the Unix operating system, which has influenced many modern operating systems."
+          sources:
+            - "https://en.wikipedia.org/wiki/Unix"
+            - "https://dl.acm.org/doi/10.1145/234286.1057828"
+        - name: AWK Programming Language
+          description: "Kernighan co-created AWK, a powerful text-processing programming language used in Unix-like operating systems."
+          sources:
+            - "https://en.wikipedia.org/wiki/AWK"
+            - "https://dl.acm.org/doi/10.1145/800029.808471"
+        - name: AMPL (A Mathematical Programming Language)
+          description: "Kernighan co-developed AMPL, a high-level language for describing and solving large-scale optimization problems."
+          sources:
+            - "https://en.wikipedia.org/wiki/AMPL"
+            - "https://www.ampl.com/about-ampl/"
+        - name: The Practice of Programming (Book)
+          description: "Co-authored with Rob Pike, this book emphasizes the importance of writing clear and efficient code."
+          sources:
+            - "https://en.wikipedia.org/wiki/The_Practice_of_Programming"
+            - "https://dl.acm.org/doi/10.5555/300679"
+        - name: Unix Tools and Utilities
+          description: "Kernighan's work has led to the creation and improvement of numerous Unix tools and utilities."
+          sources:
+            - "https://en.wikipedia.org/wiki/List_of_Unix_commands"
+            - "https://www.usenix.org/legacy/publications/library/proceedings/tcl95/full_papers/ouster/ouster.pdf"
+        - name: Software Engineering Education
+          description: "Kernighan's books and papers have been instrumental in educating software engineers and influencing software engineering curricula."
+          sources:
+            - "https://en.wikipedia.org/wiki/Brian_Kernighan"
+            - "https://dl.acm.org/doi/10.1145/3381528"
+        - name: C Programming Language Evolution
+          description: "Kernighan's work with Ritchie influenced the evolution of the C programming language and its widespread adoption."
+          sources:
+            - "https://en.wikipedia.org/wiki/C_(programming_language)"
+            - "https://dl.acm.org/doi/10.1145/234286.1057828"
+        - name: Programming Languages
+          description: "Kernighan's principles and practices have influenced the design and implementation of various programming languages."
+          sources:
+            - "https://en.wikipedia.org/wiki/Programming_language"
+            - "https://dl.acm.org/doi/10.1145/5673.5674"
+        - name: Shell Scripting
+          description: "Kernighan's contributions to Unix have also influenced the development and use of shell scripting."
+          sources:
+            - "https://en.wikipedia.org/wiki/Shell_script"
+            - "https://dl.acm.org/doi/10.1145/800029.808471"
+        - name: Linux
+          description: "The Unix principles and tools Kernighan contributed to have heavily influenced the development of Linux."
+          sources:
+            - "https://en.wikipedia.org/wiki/Linux"
+            - "https://dl.acm.org/doi/10.1145/234286.1057828"
+        - name: Plan 9 from Bell Labs
+          description: "Kernighan's Unix experience influenced his contributions to the Plan 9 operating system."
+          sources:
+            - "https://en.wikipedia.org/wiki/Plan_9_from_Bell_Labs"
+            - "https://dl.acm.org/doi/10.1145/129892.129893"
+        - name: Data Structures and Algorithms
+          description: "Kernighan's educational materials have significantly influenced the teaching and understanding of data structures and algorithms."
+          sources:
+            - "https://en.wikipedia.org/wiki/Data_structure"
+            - "https://en.wikipedia.org/wiki/Algorithm"
+
+    - name: Richard Stallman
+      influenced-by:
+        - name: Ken Thompson
+          description: "Stallman was influenced by Thompson's work on Unix, which inspired the development of the GNU operating system."
+          sources:
+            - "https://en.wikipedia.org/wiki/Ken_Thompson"
+            - "https://www.gnu.org/gnu/rms-lisp.html"
+        - name: Dennis Ritchie
+          description: "Ritchie's development of the C programming language and Unix system programming significantly influenced Stallman's work."
+          sources:
+            - "https://en.wikipedia.org/wiki/Dennis_Ritchie"
+            - "https://www.gnu.org/gnu/rms-lisp.html"
+      influences:
+        - name: GNU Project
+          description: "Stallman founded the GNU Project to create a free Unix-like operating system, which laid the groundwork for the free software movement."
+          sources:
+            - "https://en.wikipedia.org/wiki/GNU_Project"
+            - "https://www.gnu.org/gnu/thegnuproject.html"
+        - name: Free Software Foundation (FSF)
+          description: "Stallman established the FSF to promote computer users' rights to use, study, copy, modify, and redistribute computer programs."
+          sources:
+            - "https://en.wikipedia.org/wiki/Free_Software_Foundation"
+            - "https://www.fsf.org/about/staff-and-board"
+        - name: Emacs
+          description: "Stallman developed the Emacs text editor, which has become one of the most popular and extensible text editors in use today."
+          sources:
+            - "https://en.wikipedia.org/wiki/Emacs"
+            - "https://www.gnu.org/software/emacs/emacs.html"
+        - name: GNU General Public License (GPL)
+          description: "Stallman authored the GPL, a widely used free software license that ensures software freedom for all users."
+          sources:
+            - "https://en.wikipedia.org/wiki/GNU_General_Public_License"
+            - "https://www.gnu.org/licenses/gpl-3.0.html"
+        - name: Free Software Movement
+          description: "Stallman's advocacy and principles have been foundational to the free software movement, influencing countless developers and projects."
+          sources:
+            - "https://en.wikipedia.org/wiki/Free_software_movement"
+            - "https://www.gnu.org/philosophy/"
+        - name: Copyleft
+          description: "Stallman introduced the concept of copyleft, which uses copyright law to protect the rights of users to freely use, modify, and share software."
+          sources:
+            - "https://en.wikipedia.org/wiki/Copyleft"
+            - "https://www.gnu.org/copyleft/copyleft.html"
+        - name: Software Freedom
+          description: "Stallman's work has deeply influenced the principles and practices of software freedom, impacting software development and distribution worldwide."
+          sources:
+            - "https://en.wikipedia.org/wiki/Software_freedom"
+            - "https://www.gnu.org/philosophy/free-sw.html"
+        - name: Open Source Movement
+          description: "While distinct from the free software movement, the open source movement has been influenced by Stallman's ideas and advocacy."
+          sources:
+            - "https://en.wikipedia.org/wiki/Open-source_movement"
+            - "https://opensource.org/history"
+        - name: Linux Kernel
+          description: "Stallman's GNU tools and utilities, combined with the Linux kernel, have resulted in many widely used GNU/Linux distributions."
+          sources:
+            - "https://en.wikipedia.org/wiki/Linux_kernel"
+            - "https://www.gnu.org/gnu/gnu-linux-faq.html"
+        - name: Debian
+          description: "Stallman's work on free software principles influenced the Debian project, one of the oldest and most significant GNU/Linux distributions."
+          sources:
+            - "https://en.wikipedia.org/wiki/Debian"
+            - "https://www.debian.org/intro/philosophy"
+        - name: Creative Commons
+          description: "Stallman's advocacy for free software and copyleft principles influenced the creation of the Creative Commons licenses."
+          sources:
+            - "https://en.wikipedia.org/wiki/Creative_Commons"
+            - "https://creativecommons.org/about/history/"
+        - name: Ethical Software Development
+          description: "Stallman's work has fostered a global conversation on the ethical implications of software development and distribution."
+          sources:
+            - "https://en.wikipedia.org/wiki/Richard_Stallman"
+            - "https://www.gnu.org/philosophy/"
+        - name: Internet Privacy and Freedom
+          description: "Stallman has been a vocal advocate for internet privacy and freedom, influencing policies and awareness around these issues."
+          sources:
+            - "https://en.wikipedia.org/wiki/Internet_privacy"
+            - "https://www.gnu.org/philosophy/surveillance-vs-democracy.html"
+        - name: Open Hardware
+          description: "Stallman's ideas have also influenced the open hardware movement, which seeks to apply open-source principles to hardware design and development."
+          sources:
+            - "https://en.wikipedia.org/wiki/Open-source_hardware"
+            - "https://www.oshwa.org/"
+        - name: LibrePlanet
+          description: "Stallman started the LibrePlanet project to support free software advocacy and community events worldwide."
+          sources:
+            - "https://en.wikipedia.org/wiki/LibrePlanet"
+            - "https://www.libreplanet.org/wiki/Main_Page"
 
   Act_4:
     - name: Robert Noyce
