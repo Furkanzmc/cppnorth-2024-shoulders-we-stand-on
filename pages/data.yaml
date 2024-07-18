@@ -93,6 +93,18 @@ Acts:
           description: "Turing's work on AI and machine intelligence paved the way for advancements in robotics, enabling machines to perform tasks that require intelligence."
         - name: Natural Language Processing
           description: "Turing's ideas on machine intelligence and language understanding have influenced the development of natural language processing technologies used in today's AI systems."
+        - name: Colossus
+          description: "Developed during World War II, the Colossus computer used to break the Lorenz cipher was directly influenced by Turing's theoretical work. Source: https://en.wikipedia.org/wiki/Colossus_computer"
+        - name: Manchester Mark I
+          description: "Turing worked on the design of the Manchester Mark I, one of the earliest stored-program computers. Source: https://en.wikipedia.org/wiki/Manchester_Mark_I"
+        - name: EDSAC
+          description: "The Electronic Delay Storage Automatic Calculator (EDSAC), built by Maurice Wilkes, was inspired by Turing's theoretical concepts. Source: https://en.wikipedia.org/wiki/EDSAC"
+        - name: ENIAC
+          description: "The Electronic Numerical Integrator and Computer (ENIAC) was influenced by Turing's work on algorithms and computation. Source: https://en.wikipedia.org/wiki/ENIAC"
+        - name: UNIVAC I
+          description: "The Universal Automatic Computer I (UNIVAC I), one of the first commercially produced computers, was influenced by Turing's concepts. Source: https://en.wikipedia.org/wiki/UNIVAC_I"
+        - name: IBM 701
+          description: "IBM's first commercial scientific computer, the IBM 701, was influenced by Turing's theoretical work on computation. Source: https://en.wikipedia.org/wiki/IBM_701"
 
     - name: Vannevar Bush
       influences:
