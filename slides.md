@@ -59,12 +59,12 @@ you are, those who cared about you and wanted what was best for you in life.
 
 ---
 dragPos:
-  square: 2,390,276,162
+  square: 247,129,476,287
 ---
 
-<img v-drag="'square'" src="/assets/how-did-i-get-here.jpg" style="border-radius: 50%;">
-
-<img v-drag="'square'" src="/assets/how-did-i-get-here.jpg" style="border-radius: 50%;">
+<div v-click.hide="1">
+    <img v-drag="'square'" src="/assets/how-did-i-get-here.jpg" style="border-radius: 50%;">
+</div>
 
 <v-click>
 
@@ -134,6 +134,42 @@ dragPos:
 
 <v-drag pos="223,287,261,_,-15">
     <img src="/assets/people/margaret-hamilton.jpeg" style="border-radius: 50%;">
+</v-drag>
+
+---
+layout: image
+image: /assets/placeholder-graph.png
+---
+
+<!--
+- Imagine this was your dependency graph.
+- But this is how advancements in human knowledge works. One person depending on another, one giant
+  standing on the shoulder of another.
+- Jonathan Blows talk [Preventing the Collapse of
+  Civilization](https://www.youtube.com/watch?v=ZSRHeXYDLko) gives similar examples. He talks about
+  how we need to create a culture of teaching each other and keeping knowledge alive to keep
+  progressing the technology. Recommended watch.
+- If anybody there didn't have the influence or the life they did, we could have ended up in a
+  different place.
+- Let's listen to Mr Rogers, and do him one better, and instead of taking 10 seconds, take the rest
+  of the talk to go through these influences, discover what they did for us, and exercise our minds
+  about how things could have turned out if that person ended up in a different path.
+-->
+
+---
+layout: iframe-left
+
+# the web page source
+url: https://ouestware.gitlab.io/retina/1.0.0-beta.1/#/graph/?url=https%3A%2F%2Fouestware.gitlab.io%2Fretina%2F1.0.0-beta.1%2Fdataset.gexf&sa%5B%5D=s&sa%5B%5D=r&ca%5B%5D=t&ca%5B%5D=c
+
+# a custom class name to the content
+class: my-custom-class
+---
+
+# Charles Babbage
+
+<v-drag pos="600,140,301,_,-11">
+    <img src="/assets/people/charles-babbage.jpg" style="border-radius: 50%;">
 </v-drag>
 
 ---

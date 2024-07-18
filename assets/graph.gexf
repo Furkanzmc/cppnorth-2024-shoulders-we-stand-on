@@ -1,0 +1,2836 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2024-07-17">
+    <creator>NetworkX 3.3</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="1" title="description" type="string" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="act" type="string" />
+    </attributes>
+    <nodes>
+      <node id="Antikythera mechanism" label="Antikythera mechanism">
+        <viz:color r="255" g="0" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Blaise Pascal" label="Blaise Pascal">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Gottfried Wilhelm Leibniz" label="Gottfried Wilhelm Leibniz">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Charles Babbage" label="Charles Babbage">
+        <viz:color r="255" g="0" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Analytical Engine" label="Analytical Engine">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Difference Engine" label="Difference Engine">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Programming Concepts" label="Programming Concepts">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="The Difference Engine by William Gibson and Bruce Sterling" label="The Difference Engine by William Gibson and Bruce Sterling">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Ada Lovelace" label="Ada Lovelace">
+        <viz:color r="255" g="0" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="AI" label="AI">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="The Lovelace Test" label="The Lovelace Test">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Alan Turing" label="Alan Turing">
+        <viz:color r="255" g="0" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Turing Machine" label="Turing Machine">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Cryptography" label="Cryptography">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Gordon Welchman" label="Gordon Welchman">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Stuart Milner-Barry" label="Stuart Milner-Barry">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Hugh Alexander" label="Hugh Alexander">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Joan Clarke" label="Joan Clarke">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Peter Twinn" label="Peter Twinn">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Dilly Knox" label="Dilly Knox">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Tommy Flowers" label="Tommy Flowers">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Donald Michie" label="Donald Michie">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="John von Neumann" label="John von Neumann">
+        <viz:color r="255" g="0" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Claude Shannon" label="Claude Shannon">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Marvin Minsky" label="Marvin Minsky">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Stephen Kleene" label="Stephen Kleene">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Maurice Wilkes" label="Maurice Wilkes">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Christopher Strachey" label="Christopher Strachey">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Modern Computers" label="Modern Computers">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Machine Learning" label="Machine Learning">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Cybersecurity" label="Cybersecurity">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Robotics" label="Robotics">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Natural Language Processing" label="Natural Language Processing">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Colossus" label="Colossus">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Manchester Mark I" label="Manchester Mark I">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="EDSAC" label="EDSAC">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="ENIAC" label="ENIAC">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="UNIVAC I" label="UNIVAC I">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="IBM 701" label="IBM 701">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Vannevar Bush" label="Vannevar Bush">
+        <viz:color r="255" g="0" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Alonzo Church" label="Alonzo Church">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Ludwig Wittgenstein" label="Ludwig Wittgenstein">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="J.C.R. Licklider" label="J.C.R. Licklider">
+        <viz:color r="255" g="0" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Douglas Engelbart" label="Douglas Engelbart">
+        <viz:color r="255" g="0" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Ted Nelson" label="Ted Nelson">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Hypertext" label="Hypertext">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="World Wide Web" label="World Wide Web">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Digital Libraries" label="Digital Libraries">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Personal Computers" label="Personal Computers">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="ARPANET" label="ARPANET">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Information Retrieval Systems" label="Information Retrieval Systems">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Project Whirlwind" label="Project Whirlwind">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="SAGE" label="SAGE">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Computer Science as a Field" label="Computer Science as a Field">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Government-Funded Research" label="Government-Funded Research">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Frank B. Jewett" label="Frank B. Jewett">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Arthur Edwin Kennelly" label="Arthur Edwin Kennelly">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Edwin Howard Armstrong" label="Edwin Howard Armstrong">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Stanisław Ulam" label="Stanisław Ulam">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Julian Bigelow" label="Julian Bigelow">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Herman Goldstine" label="Herman Goldstine">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Oskar Morgenstern" label="Oskar Morgenstern">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="John Forbes Nash Jr." label="John Forbes Nash Jr.">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Edward Teller" label="Edward Teller">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Norbert Wiener" label="Norbert Wiener">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="EDVAC" label="EDVAC">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="IAS Machine" label="IAS Machine">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Modern Computer Architecture" label="Modern Computer Architecture">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Game Theory" label="Game Theory">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Cellular Automata" label="Cellular Automata">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Quantum Computing" label="Quantum Computing">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Weather Prediction Models" label="Weather Prediction Models">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Monte Carlo Method" label="Monte Carlo Method">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Artificial Life" label="Artificial Life">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Economic Modeling" label="Economic Modeling">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Defense Systems" label="Defense Systems">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="David Hilbert" label="David Hilbert">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Kurt Gödel" label="Kurt Gödel">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Robert Taylor" label="Robert Taylor">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Larry Roberts" label="Larry Roberts">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Tim Berners-Lee" label="Tim Berners-Lee">
+        <attvalues>
+          <attvalue for="0" value="Act_4" />
+        </attvalues>
+      </node>
+      <node id="Internet" label="Internet">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Computer Networks" label="Computer Networks">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Interactive Computing" label="Interactive Computing">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Personal Computing" label="Personal Computing">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Paul Baran" label="Paul Baran">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Ivan Sutherland" label="Ivan Sutherland">
+        <viz:color r="255" g="0" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Artificial Intelligence" label="Artificial Intelligence">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="John McCarthy" label="John McCarthy">
+        <viz:color r="255" g="0" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Project MAC" label="Project MAC">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="UNIX" label="UNIX">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Multics" label="Multics">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Cloud Computing" label="Cloud Computing">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Graphical User Interface (GUI)" label="Graphical User Interface (GUI)">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Computer Mouse" label="Computer Mouse">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Xerox PARC" label="Xerox PARC">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Apple Macintosh" label="Apple Macintosh">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Windows Operating System" label="Windows Operating System">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Collaborative Software" label="Collaborative Software">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Google Docs" label="Google Docs">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Augment" label="Augment">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Steve Jobs" label="Steve Jobs">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Apple Lisa" label="Apple Lisa">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Microsoft Windows" label="Microsoft Windows">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Xerox Alto" label="Xerox Alto">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="HyperCard" label="HyperCard">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="NLS (oN-Line System)" label="NLS (oN-Line System)">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Adobe Creative Suite" label="Adobe Creative Suite">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Virtual Reality (VR)" label="Virtual Reality (VR)">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Computer Graphics" label="Computer Graphics">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Object-Oriented Programming (OOP)" label="Object-Oriented Programming (OOP)">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Silicon Graphics (SGI)" label="Silicon Graphics (SGI)">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="OpenGL" label="OpenGL">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="CAD (Computer-Aided Design)" label="CAD (Computer-Aided Design)">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Head-Mounted Display (HMD)" label="Head-Mounted Display (HMD)">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Flight Simulator" label="Flight Simulator">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Computer Animation" label="Computer Animation">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Gaming Industry" label="Gaming Industry">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Pixar Animation Studios" label="Pixar Animation Studios">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Sketchpad" label="Sketchpad">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Silicon Graphics Workstations" label="Silicon Graphics Workstations">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="CAD Software" label="CAD Software">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Flight Simulators" label="Flight Simulators">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Virtual Reality Systems" label="Virtual Reality Systems">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Computer Animation Software" label="Computer Animation Software">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Pixar Animation Technology" label="Pixar Animation Technology">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="David Evans" label="David Evans">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="William Fetter" label="William Fetter">
+        <attvalues>
+          <attvalue for="0" value="Act_1" />
+        </attvalues>
+      </node>
+      <node id="Edsger W. Dijkstra" label="Edsger W. Dijkstra">
+        <viz:color r="255" g="0" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="Act_2" />
+        </attvalues>
+      </node>
+      <node id="Donald Knuth" label="Donald Knuth">
+        <viz:color r="255" g="0" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="Act_2" />
+        </attvalues>
+      </node>
+      <node id="Niklaus Wirth" label="Niklaus Wirth">
+        <viz:color r="255" g="0" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="Act_2" />
+        </attvalues>
+      </node>
+      <node id="Alan Kay" label="Alan Kay">
+        <viz:color r="255" g="0" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="Act_2" />
+        </attvalues>
+      </node>
+      <node id="Karen Spärck Jones" label="Karen Spärck Jones">
+        <attvalues>
+          <attvalue for="0" value="Act_2" />
+        </attvalues>
+      </node>
+      <node id="Grace Hopper" label="Grace Hopper">
+        <viz:color r="255" g="0" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="COBOL" label="COBOL">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Compiler Construction" label="Compiler Construction">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Automatic Programming" label="Automatic Programming">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Debugging Techniques" label="Debugging Techniques">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Navy Programming Languages" label="Navy Programming Languages">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Legacy in Education" label="Legacy in Education">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Nanosecond" label="Nanosecond">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="UNIVAC" label="UNIVAC">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Navy Coding Manuals" label="Navy Coding Manuals">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Open Source Movement" label="Open Source Movement">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Term 'Bug'" label="Term 'Bug'">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Compiler" label="Compiler">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Legacy in Education Programs" label="Legacy in Education Programs">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Open Source Advocacy" label="Open Source Advocacy">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Howard Aiken" label="Howard Aiken">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Richard Hamming" label="Richard Hamming">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Jean Bartik" label="Jean Bartik">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Margaret Hamilton" label="Margaret Hamilton">
+        <viz:color r="255" g="0" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Apollo Guidance Computer (AGC)" label="Apollo Guidance Computer (AGC)">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Software Engineering" label="Software Engineering">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Systems Design" label="Systems Design">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Universal Systems Language (USL)" label="Universal Systems Language (USL)">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Error Detection and Recovery" label="Error Detection and Recovery">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Bjarne Stroustrup" label="Bjarne Stroustrup">
+        <viz:color r="255" g="0" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Linus Torvalds" label="Linus Torvalds">
+        <viz:color r="255" g="0" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="C++" label="C++">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Standard Template Library (STL)" label="Standard Template Library (STL)">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Microsoft Windows Operating System" label="Microsoft Windows Operating System">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Adobe Systems Software" label="Adobe Systems Software">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Mozilla Firefox Browser" label="Mozilla Firefox Browser">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Game Engines (e.g., Unreal Engine)" label="Game Engines (e.g., Unreal Engine)">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="MySQL Database" label="MySQL Database">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="MongoDB Database" label="MongoDB Database">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Amazon Web Services (AWS)" label="Amazon Web Services (AWS)">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="CAD and CAM Software" label="CAD and CAM Software">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Financial Trading Platforms" label="Financial Trading Platforms">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Dennis Ritchie" label="Dennis Ritchie">
+        <viz:color r="255" g="0" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Simula" label="Simula">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Linux Kernel" label="Linux Kernel">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Git" label="Git">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Android Operating System" label="Android Operating System">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Ubuntu" label="Ubuntu">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Red Hat Enterprise Linux (RHEL)" label="Red Hat Enterprise Linux (RHEL)">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Docker" label="Docker">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Kubernetes" label="Kubernetes">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Supercomputing" label="Supercomputing">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Embedded Systems" label="Embedded Systems">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Scientific Research" label="Scientific Research">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Web Servers" label="Web Servers">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="MySQL" label="MySQL">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Network Routing" label="Network Routing">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Andrew S. Tanenbaum" label="Andrew S. Tanenbaum">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Richard Stallman" label="Richard Stallman">
+        <viz:color r="255" g="0" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Ken Thompson" label="Ken Thompson">
+        <viz:color r="255" g="0" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="James Gosling" label="James Gosling">
+        <viz:color r="255" g="0" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Java Programming Language" label="Java Programming Language">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Java Virtual Machine (JVM)" label="Java Virtual Machine (JVM)">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Eclipse IDE" label="Eclipse IDE">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Apache Tomcat" label="Apache Tomcat">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Spring Framework" label="Spring Framework">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Minecraft" label="Minecraft">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Hadoop" label="Hadoop">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Netflix Streaming Service" label="Netflix Streaming Service">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Twitter Backend" label="Twitter Backend">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Objective-C" label="Objective-C">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="C Programming Language" label="C Programming Language">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Unix Operating System" label="Unix Operating System">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Unix-like Operating Systems" label="Unix-like Operating Systems">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Operating Systems" label="Operating Systems">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Database Management Systems" label="Database Management Systems">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Compilers and Interpreters" label="Compilers and Interpreters">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Network Protocols" label="Network Protocols">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Operating Systems Kernels" label="Operating Systems Kernels">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Programming Languages" label="Programming Languages">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Device Drivers" label="Device Drivers">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Unix" label="Unix">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="B Programming Language" label="B Programming Language">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Plan 9 from Bell Labs" label="Plan 9 from Bell Labs">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Go Programming Language" label="Go Programming Language">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Regular Expressions" label="Regular Expressions">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Unix Philosophy" label="Unix Philosophy">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Thompson's Hack" label="Thompson's Hack">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Shell Scripting" label="Shell Scripting">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Unix Tools and Utilities" label="Unix Tools and Utilities">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Distributed Systems" label="Distributed Systems">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Software Engineering Education" label="Software Engineering Education">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Brian Kernighan" label="Brian Kernighan">
+        <viz:color r="255" g="0" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="The C Programming Language (Book)" label="The C Programming Language (Book)">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="AWK Programming Language" label="AWK Programming Language">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="AMPL (A Mathematical Programming Language)" label="AMPL (A Mathematical Programming Language)">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="The Practice of Programming (Book)" label="The Practice of Programming (Book)">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="C Programming Language Evolution" label="C Programming Language Evolution">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Linux" label="Linux">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Data Structures and Algorithms" label="Data Structures and Algorithms">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="GNU Project" label="GNU Project">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Free Software Foundation (FSF)" label="Free Software Foundation (FSF)">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Emacs" label="Emacs">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="GNU General Public License (GPL)" label="GNU General Public License (GPL)">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Free Software Movement" label="Free Software Movement">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Copyleft" label="Copyleft">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Software Freedom" label="Software Freedom">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Debian" label="Debian">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Creative Commons" label="Creative Commons">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Ethical Software Development" label="Ethical Software Development">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Internet Privacy and Freedom" label="Internet Privacy and Freedom">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Open Hardware" label="Open Hardware">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="LibrePlanet" label="LibrePlanet">
+        <attvalues>
+          <attvalue for="0" value="Act_3" />
+        </attvalues>
+      </node>
+      <node id="Robert Noyce" label="Robert Noyce">
+        <viz:color r="255" g="0" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="Act_4" />
+        </attvalues>
+      </node>
+      <node id="Mark Dean" label="Mark Dean">
+        <viz:color r="255" g="0" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="Act_4" />
+        </attvalues>
+      </node>
+      <node id="Vint Cerf" label="Vint Cerf">
+        <viz:color r="255" g="0" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="Act_4" />
+        </attvalues>
+      </node>
+      <node id="Robert Kahn" label="Robert Kahn">
+        <viz:color r="255" g="0" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="Act_4" />
+        </attvalues>
+      </node>
+      <node id="Ray Tomlinson" label="Ray Tomlinson">
+        <viz:color r="255" g="0" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="Act_5" />
+        </attvalues>
+      </node>
+      <node id="Mitchell Baker" label="Mitchell Baker">
+        <viz:color r="255" g="0" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="Act_5" />
+        </attvalues>
+      </node>
+      <node id="Shafi Goldwasser" label="Shafi Goldwasser">
+        <viz:color r="255" g="0" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="Act_5" />
+        </attvalues>
+      </node>
+      <node id="Martin Hellman" label="Martin Hellman">
+        <viz:color r="255" g="0" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="Act_5" />
+        </attvalues>
+      </node>
+      <node id="Whitfield Diffie" label="Whitfield Diffie">
+        <viz:color r="255" g="0" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="Act_5" />
+        </attvalues>
+      </node>
+      <node id="Sophie Wilson" label="Sophie Wilson">
+        <viz:color r="255" g="0" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="Act_5" />
+        </attvalues>
+      </node>
+      <node id="John Carmack" label="John Carmack">
+        <attvalues>
+          <attvalue for="0" value="Act_5" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Antikythera mechanism" target="Blaise Pascal" id="0">
+        <attvalues>
+          <attvalue for="1" value="Pascal's Calculator: https://en.wikipedia.org/wiki/Pascal%27s_calculator" />
+        </attvalues>
+      </edge>
+      <edge source="Antikythera mechanism" target="Gottfried Wilhelm Leibniz" id="1">
+        <attvalues>
+          <attvalue for="1" value="Pinwheel calculator: https://en.wikipedia.org/wiki/Pinwheel_calculator" />
+        </attvalues>
+      </edge>
+      <edge source="Charles Babbage" target="Analytical Engine" id="2">
+        <attvalues>
+          <attvalue for="1" value="Source: https://en.wikipedia.org/wiki/Analytical_engine" />
+        </attvalues>
+      </edge>
+      <edge source="Charles Babbage" target="Difference Engine" id="3">
+        <attvalues>
+          <attvalue for="1" value="Source: https://en.wikipedia.org/wiki/Difference_engine" />
+        </attvalues>
+      </edge>
+      <edge source="Charles Babbage" target="Programming Concepts" id="4">
+        <attvalues>
+          <attvalue for="1" value="Babbage's work introduced key concepts like storage, sequential control, and the separation of memory from processing - fundamental principles in modern computing. Source: https://en.wikipedia.org/wiki/Analytical_engine" />
+        </attvalues>
+      </edge>
+      <edge source="Charles Babbage" target="The Difference Engine by William Gibson and Bruce Sterling" id="5">
+        <attvalues>
+          <attvalue for="1" value="The Difference Engine (1990) is an alternative history novel by William Gibson and Bruce Sterling. It is widely regarded as a book that helped establish the genre conventions of steampunk. Source: https://en.wikipedia.org/wiki/The_Difference_Engine" />
+        </attvalues>
+      </edge>
+      <edge source="Charles Babbage" target="Antikythera mechanism" id="6">
+        <attvalues>
+          <attvalue for="1" value="" />
+        </attvalues>
+      </edge>
+      <edge source="Ada Lovelace" target="AI" id="7">
+        <attvalues>
+          <attvalue for="1" value="She had ideas about where AI could go before even the first computer was constructed. Source: https://www.nist.gov/blogs/taking-measure/ada-lovelace-worlds-first-computer-programmer-who-predicted-artificial" />
+        </attvalues>
+      </edge>
+      <edge source="Ada Lovelace" target="The Lovelace Test" id="8">
+        <attvalues>
+          <attvalue for="1" value="Source: https://slate.com/technology/2014/12/lovelace-test-of-artificial-intelligence-creativity-better-than-the-turing-test-of-intelligence.html" />
+        </attvalues>
+      </edge>
+      <edge source="Ada Lovelace" target="Programming Concepts" id="9">
+        <attvalues>
+          <attvalue for="1" value="Charles Babbage saw Analytical Engine purely from numbers perspective but Lovelace thought that numbers could represent other things. Source: https://en.wikipedia.org/wiki/Ada_Lovelace" />
+        </attvalues>
+      </edge>
+      <edge source="Ada Lovelace" target="Analytical Engine" id="10">
+        <attvalues>
+          <attvalue for="1" value="Worked on Babbage's Analytical Engine, considered the first computer programmer." />
+        </attvalues>
+      </edge>
+      <edge source="Ada Lovelace" target="Charles Babbage" id="11">
+        <attvalues>
+          <attvalue for="1" value="" />
+        </attvalues>
+      </edge>
+      <edge source="Alan Turing" target="AI" id="12">
+        <attvalues>
+          <attvalue for="1" value="Turing was a pioneer in the field of AI. He proposed the 'imitation game' (now called the Turing Test) in 1950, which is still used as a benchmark for machine intelligence." />
+        </attvalues>
+      </edge>
+      <edge source="Alan Turing" target="Turing Machine" id="13">
+        <attvalues>
+          <attvalue for="1" value="Turing's concept of the 'automatic machine' (now known as the Turing machine) laid the theoretical foundation for modern computers. This idea inspired the development of programmable computers." />
+        </attvalues>
+      </edge>
+      <edge source="Alan Turing" target="Cryptography" id="14">
+        <attvalues>
+          <attvalue for="1" value="His work at Bletchley Park during World War II, particularly in breaking the Enigma code, significantly advanced the field of cryptography and is estimated to have shortened the war by years." />
+        </attvalues>
+      </edge>
+      <edge source="Alan Turing" target="Gordon Welchman" id="15">
+        <attvalues>
+          <attvalue for="1" value="Worked closely with Turing on improving the bombe machine used to crack Enigma codes." />
+        </attvalues>
+      </edge>
+      <edge source="Alan Turing" target="Stuart Milner-Barry" id="16">
+        <attvalues>
+          <attvalue for="1" value="Worked in Hut 6 on Army and Air Force Enigma, collaborating with Turing on broader codebreaking strategies." />
+        </attvalues>
+      </edge>
+      <edge source="Alan Turing" target="Hugh Alexander" id="17">
+        <attvalues>
+          <attvalue for="1" value="A chess champion who worked alongside Turing in Hut 8, focusing on Naval Enigma." />
+        </attvalues>
+      </edge>
+      <edge source="Alan Turing" target="Joan Clarke" id="18">
+        <attvalues>
+          <attvalue for="1" value="A talented mathematician who worked with Turing on breaking Naval Enigma codes. She was briefly engaged to Turing." />
+        </attvalues>
+      </edge>
+      <edge source="Alan Turing" target="Peter Twinn" id="19">
+        <attvalues>
+          <attvalue for="1" value="One of the first cryptanalysts to work on Enigma and collaborated with Turing." />
+        </attvalues>
+      </edge>
+      <edge source="Alan Turing" target="Dilly Knox" id="20">
+        <attvalues>
+          <attvalue for="1" value="A senior codebreaker who initially worked on Enigma and mentored Turing when he first arrived at Bletchley Park." />
+        </attvalues>
+      </edge>
+      <edge source="Alan Turing" target="Tommy Flowers" id="21">
+        <attvalues>
+          <attvalue for="1" value="While not directly working on Enigma, Flowers collaborated with Turing on the development of the Colossus computer, used to break the more complex Lorenz cipher." />
+        </attvalues>
+      </edge>
+      <edge source="Alan Turing" target="Donald Michie" id="22">
+        <attvalues>
+          <attvalue for="1" value="A pioneer in artificial intelligence who was inspired by Turing's work and collaborated with him during World War II. Source: https://en.wikipedia.org/wiki/Donald_Michie" />
+        </attvalues>
+      </edge>
+      <edge source="Alan Turing" target="John von Neumann" id="23">
+        <attvalues>
+          <attvalue for="1" value="Turing's work on the Turing machine and stored-program computers influenced von Neumann's architecture. Source: https://en.wikipedia.org/wiki/John_von_Neumann" />
+        </attvalues>
+      </edge>
+      <edge source="Alan Turing" target="Claude Shannon" id="24">
+        <attvalues>
+          <attvalue for="1" value="Shannon's development of information theory was influenced by Turing's theoretical work on computation. Source: https://en.wikipedia.org/wiki/Claude_Shannon" />
+        </attvalues>
+      </edge>
+      <edge source="Alan Turing" target="Marvin Minsky" id="25">
+        <attvalues>
+          <attvalue for="1" value="Minsky's work in artificial intelligence was greatly influenced by Turing's ideas. Source: https://en.wikipedia.org/wiki/Marvin_Minsky" />
+        </attvalues>
+      </edge>
+      <edge source="Alan Turing" target="Stephen Kleene" id="26">
+        <attvalues>
+          <attvalue for="1" value="Kleene's work on recursion theory and automata theory was influenced by Turing's concepts. Source: https://en.wikipedia.org/wiki/Stephen_Cole_Kleene" />
+        </attvalues>
+      </edge>
+      <edge source="Alan Turing" target="Maurice Wilkes" id="27">
+        <attvalues>
+          <attvalue for="1" value="Wilkes, who built the EDSAC, one of the earliest stored-program computers, was influenced by Turing's work on machine theory. Source: https://en.wikipedia.org/wiki/Maurice_Wilkes" />
+        </attvalues>
+      </edge>
+      <edge source="Alan Turing" target="Christopher Strachey" id="28">
+        <attvalues>
+          <attvalue for="1" value="A pioneer in programming language design and computer science, influenced by Turing's theoretical and practical contributions. Source: https://en.wikipedia.org/wiki/Christopher_Strachey" />
+        </attvalues>
+      </edge>
+      <edge source="Alan Turing" target="Modern Computers" id="29">
+        <attvalues>
+          <attvalue for="1" value="Turing's theoretical work on computation laid the foundation for the design and construction of modern computers." />
+        </attvalues>
+      </edge>
+      <edge source="Alan Turing" target="Machine Learning" id="30">
+        <attvalues>
+          <attvalue for="1" value="Turing's ideas on machine learning and artificial intelligence inspired the development of algorithms that allow computers to learn from data." />
+        </attvalues>
+      </edge>
+      <edge source="Alan Turing" target="Cybersecurity" id="31">
+        <attvalues>
+          <attvalue for="1" value="Turing's work on cryptography and codebreaking during World War II contributed to the development of modern cybersecurity practices." />
+        </attvalues>
+      </edge>
+      <edge source="Alan Turing" target="Robotics" id="32">
+        <attvalues>
+          <attvalue for="1" value="Turing's work on AI and machine intelligence paved the way for advancements in robotics, enabling machines to perform tasks that require intelligence." />
+        </attvalues>
+      </edge>
+      <edge source="Alan Turing" target="Natural Language Processing" id="33">
+        <attvalues>
+          <attvalue for="1" value="Turing's ideas on machine intelligence and language understanding have influenced the development of natural language processing technologies used in today's AI systems." />
+        </attvalues>
+      </edge>
+      <edge source="Alan Turing" target="Colossus" id="34">
+        <attvalues>
+          <attvalue for="1" value="Developed during World War II, the Colossus computer used to break the Lorenz cipher was directly influenced by Turing's theoretical work. Source: https://en.wikipedia.org/wiki/Colossus_computer" />
+        </attvalues>
+      </edge>
+      <edge source="Alan Turing" target="Manchester Mark I" id="35">
+        <attvalues>
+          <attvalue for="1" value="Turing worked on the design of the Manchester Mark I, one of the earliest stored-program computers. Source: https://en.wikipedia.org/wiki/Manchester_Mark_I" />
+        </attvalues>
+      </edge>
+      <edge source="Alan Turing" target="EDSAC" id="36">
+        <attvalues>
+          <attvalue for="1" value="The Electronic Delay Storage Automatic Calculator (EDSAC), built by Maurice Wilkes, was inspired by Turing's theoretical concepts. Source: https://en.wikipedia.org/wiki/EDSAC" />
+        </attvalues>
+      </edge>
+      <edge source="Alan Turing" target="ENIAC" id="37">
+        <attvalues>
+          <attvalue for="1" value="The Electronic Numerical Integrator and Computer (ENIAC) was influenced by Turing's work on algorithms and computation. Source: https://en.wikipedia.org/wiki/ENIAC" />
+        </attvalues>
+      </edge>
+      <edge source="Alan Turing" target="UNIVAC I" id="38">
+        <attvalues>
+          <attvalue for="1" value="The Universal Automatic Computer I (UNIVAC I), one of the first commercially produced computers, was influenced by Turing's concepts. Source: https://en.wikipedia.org/wiki/UNIVAC_I" />
+        </attvalues>
+      </edge>
+      <edge source="Alan Turing" target="IBM 701" id="39">
+        <attvalues>
+          <attvalue for="1" value="IBM's first commercial scientific computer, the IBM 701, was influenced by Turing's theoretical work on computation. Source: https://en.wikipedia.org/wiki/IBM_701" />
+        </attvalues>
+      </edge>
+      <edge source="Alan Turing" target="Ada Lovelace" id="40">
+        <attvalues>
+          <attvalue for="1" value="Computing Machinery and Intelligence: Alan Turing addresses Lovelace and her ideas on the machine's ability to think. Source: https://en.wikipedia.org/wiki/Computing_Machinery_and_Intelligence" />
+        </attvalues>
+      </edge>
+      <edge source="Alan Turing" target="Vannevar Bush" id="41">
+        <attvalues>
+          <attvalue for="1" value="Bush's work on analog computing influenced Turing's development of digital computing concepts." />
+        </attvalues>
+      </edge>
+      <edge source="Alan Turing" target="Alonzo Church" id="42">
+        <attvalues>
+          <attvalue for="1" value="Church's work on lambda calculus significantly influenced Turing's development of the concept of algorithms and computability. Source: https://en.wikipedia.org/wiki/Alonzo_Church" />
+        </attvalues>
+      </edge>
+      <edge source="Alan Turing" target="Ludwig Wittgenstein" id="43">
+        <attvalues>
+          <attvalue for="1" value="Wittgenstein's work in philosophy, particularly the philosophy of language, influenced Turing's thinking about artificial intelligence and the nature of computation. Source: https://en.wikipedia.org/wiki/Ludwig_Wittgenstein" />
+        </attvalues>
+      </edge>
+      <edge source="John von Neumann" target="J.C.R. Licklider" id="44">
+        <attvalues>
+          <attvalue for="1" value="Von Neumann's architecture and concepts influenced Licklider's vision for interactive computing. Source: https://en.wikipedia.org/wiki/J._C._R._Licklider" />
+        </attvalues>
+      </edge>
+      <edge source="John von Neumann" target="Claude Shannon" id="45">
+        <attvalues>
+          <attvalue for="1" value="Von Neumann's work in digital computing and information theory influenced Shannon's development of information theory and digital circuit design. Source: https://en.wikipedia.org/wiki/Claude_Shannon" />
+        </attvalues>
+      </edge>
+      <edge source="John von Neumann" target="Alan Turing" id="46">
+        <attvalues>
+          <attvalue for="1" value="Turing's concept of the Turing machine influenced von Neumann's work on the theoretical foundations of computing. Source: https://en.wikipedia.org/wiki/Alan_Turing" />
+        </attvalues>
+      </edge>
+      <edge source="John von Neumann" target="Stanisław Ulam" id="47">
+        <attvalues>
+          <attvalue for="1" value="Collaborated with von Neumann on the Monte Carlo method, which is fundamental in computational mathematics. Source: https://en.wikipedia.org/wiki/Stanis%C5%82aw_Ulam" />
+        </attvalues>
+      </edge>
+      <edge source="John von Neumann" target="Julian Bigelow" id="48">
+        <attvalues>
+          <attvalue for="1" value="Worked with von Neumann on the development of the IAS machine, one of the first stored-program computers. Source: https://en.wikipedia.org/wiki/Julian_Bigelow" />
+        </attvalues>
+      </edge>
+      <edge source="John von Neumann" target="Herman Goldstine" id="49">
+        <attvalues>
+          <attvalue for="1" value="Collaborated with von Neumann on the development of the ENIAC and EDVAC computers. Source: https://en.wikipedia.org/wiki/Herman_Goldstine" />
+        </attvalues>
+      </edge>
+      <edge source="John von Neumann" target="Oskar Morgenstern" id="50">
+        <attvalues>
+          <attvalue for="1" value="Co-authored 'Theory of Games and Economic Behavior' with von Neumann, laying the foundations of game theory. Source: https://en.wikipedia.org/wiki/Oskar_Morgenstern" />
+        </attvalues>
+      </edge>
+      <edge source="John von Neumann" target="John Forbes Nash Jr." id="51">
+        <attvalues>
+          <attvalue for="1" value="Von Neumann's work in game theory influenced Nash's further developments in the field, including the Nash equilibrium. Source: https://en.wikipedia.org/wiki/John_Forbes_Nash_Jr." />
+        </attvalues>
+      </edge>
+      <edge source="John von Neumann" target="Edward Teller" id="52">
+        <attvalues>
+          <attvalue for="1" value="Von Neumann's work on hydrodynamics and shock waves influenced Teller's work on nuclear weapons development. Source: https://en.wikipedia.org/wiki/Edward_Teller" />
+        </attvalues>
+      </edge>
+      <edge source="John von Neumann" target="Norbert Wiener" id="53">
+        <attvalues>
+          <attvalue for="1" value="Von Neumann's contributions to mathematics and computing influenced Wiener's development of cybernetics. Source: https://en.wikipedia.org/wiki/Norbert_Wiener" />
+        </attvalues>
+      </edge>
+      <edge source="John von Neumann" target="Marvin Minsky" id="54">
+        <attvalues>
+          <attvalue for="1" value="Von Neumann's work on automata theory and neural networks influenced Minsky's research in artificial intelligence. Source: https://en.wikipedia.org/wiki/Marvin_Minsky" />
+        </attvalues>
+      </edge>
+      <edge source="John von Neumann" target="IBM 701" id="55">
+        <attvalues>
+          <attvalue for="1" value="Von Neumann's stored-program architecture influenced the design of IBM's 701 computer, the company's first commercial scientific computer. Source: https://en.wikipedia.org/wiki/IBM_701" />
+        </attvalues>
+      </edge>
+      <edge source="John von Neumann" target="UNIVAC I" id="56">
+        <attvalues>
+          <attvalue for="1" value="The architecture and concepts introduced by von Neumann influenced the design and development of UNIVAC I, one of the first commercial computers. Source: https://en.wikipedia.org/wiki/UNIVAC_I" />
+        </attvalues>
+      </edge>
+      <edge source="John von Neumann" target="ENIAC" id="57">
+        <attvalues>
+          <attvalue for="1" value="Von Neumann's work with the ENIAC team helped transition it from a hard-wired program machine to a stored-program computer. Source: https://en.wikipedia.org/wiki/ENIAC" />
+        </attvalues>
+      </edge>
+      <edge source="John von Neumann" target="EDVAC" id="58">
+        <attvalues>
+          <attvalue for="1" value="Von Neumann's 'First Draft of a Report on the EDVAC' laid out the principles of the stored-program computer, which were implemented in EDVAC. Source: https://en.wikipedia.org/wiki/EDVAC" />
+        </attvalues>
+      </edge>
+      <edge source="John von Neumann" target="IAS Machine" id="59">
+        <attvalues>
+          <attvalue for="1" value="The IAS machine, designed by von Neumann, was one of the earliest implementations of the stored-program architecture. Source: https://en.wikipedia.org/wiki/IAS_machine" />
+        </attvalues>
+      </edge>
+      <edge source="John von Neumann" target="Modern Computer Architecture" id="60">
+        <attvalues>
+          <attvalue for="1" value="Von Neumann's architecture, with its concept of stored-program computers, is the foundation of virtually all modern computer architectures. Source: https://en.wikipedia.org/wiki/Von_Neumann_architecture" />
+        </attvalues>
+      </edge>
+      <edge source="John von Neumann" target="Game Theory" id="61">
+        <attvalues>
+          <attvalue for="1" value="Von Neumann's foundational work in game theory has had widespread applications in economics, evolutionary biology, and computer science. Source: https://en.wikipedia.org/wiki/Game_theory" />
+        </attvalues>
+      </edge>
+      <edge source="John von Neumann" target="Cellular Automata" id="62">
+        <attvalues>
+          <attvalue for="1" value="Von Neumann's work on cellular automata laid the groundwork for later developments in computational models and artificial life. Source: https://en.wikipedia.org/wiki/Cellular_automaton" />
+        </attvalues>
+      </edge>
+      <edge source="John von Neumann" target="Quantum Computing" id="63">
+        <attvalues>
+          <attvalue for="1" value="Von Neumann's contributions to quantum mechanics and computing have influenced ongoing research in quantum computing. Source: https://en.wikipedia.org/wiki/Quantum_computing" />
+        </attvalues>
+      </edge>
+      <edge source="John von Neumann" target="Weather Prediction Models" id="64">
+        <attvalues>
+          <attvalue for="1" value="Von Neumann's work on numerical weather prediction models helped develop the first computerized weather forecasts. Source: https://en.wikipedia.org/wiki/Numerical_weather_prediction" />
+        </attvalues>
+      </edge>
+      <edge source="John von Neumann" target="Monte Carlo Method" id="65">
+        <attvalues>
+          <attvalue for="1" value="Von Neumann co-developed the Monte Carlo method, a crucial technique in computational physics, engineering, and finance. Source: https://en.wikipedia.org/wiki/Monte_Carlo_method" />
+        </attvalues>
+      </edge>
+      <edge source="John von Neumann" target="Artificial Life" id="66">
+        <attvalues>
+          <attvalue for="1" value="Von Neumann's theories on self-replicating machines influenced research in artificial life and robotics. Source: https://en.wikipedia.org/wiki/Artificial_life" />
+        </attvalues>
+      </edge>
+      <edge source="John von Neumann" target="Economic Modeling" id="67">
+        <attvalues>
+          <attvalue for="1" value="Von Neumann's work in mathematics and economics influenced the development of complex economic modeling techniques. Source: https://en.wikipedia.org/wiki/John_von_Neumann" />
+        </attvalues>
+      </edge>
+      <edge source="John von Neumann" target="Defense Systems" id="68">
+        <attvalues>
+          <attvalue for="1" value="Von Neumann's contributions to computing and mathematics were instrumental in the development of early defense systems and simulations. Source: https://en.wikipedia.org/wiki/John_von_Neumann" />
+        </attvalues>
+      </edge>
+      <edge source="John von Neumann" target="David Hilbert" id="69">
+        <attvalues>
+          <attvalue for="1" value="Hilbert's work in mathematics, particularly his formalism and contributions to mathematical logic, profoundly influenced von Neumann. Source: https://en.wikipedia.org/wiki/David_Hilbert" />
+        </attvalues>
+      </edge>
+      <edge source="John von Neumann" target="Kurt Gödel" id="70">
+        <attvalues>
+          <attvalue for="1" value="Gödel's incompleteness theorems had a significant impact on von Neumann's work in mathematical logic and the foundations of mathematics. Source: https://en.wikipedia.org/wiki/Kurt_Gödel" />
+        </attvalues>
+      </edge>
+      <edge source="Vannevar Bush" target="Alan Turing" id="71">
+        <attvalues>
+          <attvalue for="1" value="Bush's work on analog computing influenced Turing's development of digital computing concepts." />
+        </attvalues>
+      </edge>
+      <edge source="Vannevar Bush" target="John von Neumann" id="72">
+        <attvalues>
+          <attvalue for="1" value="Bush's Memex concept influenced von Neumann's work on stored-program computers." />
+        </attvalues>
+      </edge>
+      <edge source="Vannevar Bush" target="Claude Shannon" id="73">
+        <attvalues>
+          <attvalue for="1" value="Bush supervised Shannon's master's thesis at MIT, which laid the groundwork for information theory. Source: https://en.wikipedia.org/wiki/Claude_Shannon" />
+        </attvalues>
+      </edge>
+      <edge source="Vannevar Bush" target="J.C.R. Licklider" id="74">
+        <attvalues>
+          <attvalue for="1" value="Bush's ideas about interactive computing and the Memex influenced Licklider's vision of human-computer interaction. Source: https://en.wikipedia.org/wiki/J._C._R._Licklider" />
+        </attvalues>
+      </edge>
+      <edge source="Vannevar Bush" target="Douglas Engelbart" id="75">
+        <attvalues>
+          <attvalue for="1" value="Engelbart was inspired by Bush's Memex and went on to develop the concept of interactive computing, including the invention of the mouse. Source: https://en.wikipedia.org/wiki/Douglas_Engelbart" />
+        </attvalues>
+      </edge>
+      <edge source="Vannevar Bush" target="Ted Nelson" id="76">
+        <attvalues>
+          <attvalue for="1" value="Nelson's work on hypertext and project Xanadu was influenced by Bush's Memex concept. Source: https://en.wikipedia.org/wiki/Ted_Nelson" />
+        </attvalues>
+      </edge>
+      <edge source="Vannevar Bush" target="Hypertext" id="77">
+        <attvalues>
+          <attvalue for="1" value="Bush's idea of the Memex, a system for storing and linking information, directly influenced the development of hypertext systems. Source: https://en.wikipedia.org/wiki/Hypertext" />
+        </attvalues>
+      </edge>
+      <edge source="Vannevar Bush" target="World Wide Web" id="78">
+        <attvalues>
+          <attvalue for="1" value="Tim Berners-Lee's invention of the World Wide Web was influenced by Bush's Memex and the idea of linking information. Source: https://en.wikipedia.org/wiki/Tim_Berners-Lee" />
+        </attvalues>
+      </edge>
+      <edge source="Vannevar Bush" target="Digital Libraries" id="79">
+        <attvalues>
+          <attvalue for="1" value="The concept of digital libraries and searchable electronic information systems can be traced back to Bush's vision of the Memex. Source: https://en.wikipedia.org/wiki/Digital_library" />
+        </attvalues>
+      </edge>
+      <edge source="Vannevar Bush" target="Personal Computers" id="80">
+        <attvalues>
+          <attvalue for="1" value="Bush's ideas about user-friendly computing environments inspired the development of personal computers and graphical user interfaces." />
+        </attvalues>
+      </edge>
+      <edge source="Vannevar Bush" target="ARPANET" id="81">
+        <attvalues>
+          <attvalue for="1" value="Bush's vision of interconnected information systems influenced the development of ARPANET, the precursor to the modern Internet. Source: https://en.wikipedia.org/wiki/ARPANET" />
+        </attvalues>
+      </edge>
+      <edge source="Vannevar Bush" target="Information Retrieval Systems" id="82">
+        <attvalues>
+          <attvalue for="1" value="Bush's work on the Memex concept laid the foundation for modern information retrieval systems used in databases and search engines. Source: https://en.wikipedia.org/wiki/Information_retrieval" />
+        </attvalues>
+      </edge>
+      <edge source="Vannevar Bush" target="Project Whirlwind" id="83">
+        <attvalues>
+          <attvalue for="1" value="Bush's support for digital computing research helped in the development of Project Whirlwind, one of the first computers to use real-time computing. Source: https://en.wikipedia.org/wiki/Whirlwind_(computer)" />
+        </attvalues>
+      </edge>
+      <edge source="Vannevar Bush" target="ENIAC" id="84">
+        <attvalues>
+          <attvalue for="1" value="Bush's leadership in wartime research and his vision for postwar scientific development supported the creation of the ENIAC, one of the earliest general-purpose computers. Source: https://en.wikipedia.org/wiki/ENIAC" />
+        </attvalues>
+      </edge>
+      <edge source="Vannevar Bush" target="SAGE" id="85">
+        <attvalues>
+          <attvalue for="1" value="The Semi-Automatic Ground Environment (SAGE) air defense system was influenced by Bush's work on large-scale computing systems and real-time data processing. Source: https://en.wikipedia.org/wiki/Semi-Automatic_Ground_Environment" />
+        </attvalues>
+      </edge>
+      <edge source="Vannevar Bush" target="Computer Science as a Field" id="86">
+        <attvalues>
+          <attvalue for="1" value="Bush's emphasis on the importance of scientific research and development helped establish computer science as a distinct academic discipline." />
+        </attvalues>
+      </edge>
+      <edge source="Vannevar Bush" target="Government-Funded Research" id="87">
+        <attvalues>
+          <attvalue for="1" value="Bush's report 'Science, the Endless Frontier' laid the groundwork for government-funded scientific research in the United States, influencing numerous technological advancements. Source: https://en.wikipedia.org/wiki/Science,_the_Endless_Frontier" />
+        </attvalues>
+      </edge>
+      <edge source="Vannevar Bush" target="Frank B. Jewett" id="88">
+        <attvalues>
+          <attvalue for="1" value="Jewett's work in electrical engineering and as the head of Bell Labs provided Bush with significant support and inspiration. Source: https://en.wikipedia.org/wiki/Frank_B._Jewett" />
+        </attvalues>
+      </edge>
+      <edge source="Vannevar Bush" target="Arthur Edwin Kennelly" id="89">
+        <attvalues>
+          <attvalue for="1" value="Kennelly, a pioneer in electrical engineering, influenced Bush's early academic career. Source: https://en.wikipedia.org/wiki/Arthur_Edwin_Kennelly" />
+        </attvalues>
+      </edge>
+      <edge source="Vannevar Bush" target="Edwin Howard Armstrong" id="90">
+        <attvalues>
+          <attvalue for="1" value="Armstrong, the inventor of FM radio, had an impact on Bush's understanding of electronic communication and engineering. Source: https://en.wikipedia.org/wiki/Edwin_Howard_Armstrong" />
+        </attvalues>
+      </edge>
+      <edge source="J.C.R. Licklider" target="Douglas Engelbart" id="91">
+        <attvalues>
+          <attvalue for="1" value="Licklider's vision for human-computer interaction influenced Engelbart's development of the computer mouse and hypertext systems. Source: https://en.wikipedia.org/wiki/Douglas_Engelbart" />
+        </attvalues>
+      </edge>
+      <edge source="J.C.R. Licklider" target="Robert Taylor" id="92">
+        <attvalues>
+          <attvalue for="1" value="Licklider's ideas about computer networks and interactive computing influenced Taylor's work at ARPA, leading to the creation of the ARPANET. Source: https://en.wikipedia.org/wiki/Robert_Taylor_(computer_scientist)" />
+        </attvalues>
+      </edge>
+      <edge source="J.C.R. Licklider" target="Larry Roberts" id="93">
+        <attvalues>
+          <attvalue for="1" value="Licklider's work at ARPA and his vision for computer networking influenced Roberts' development of the ARPANET, the precursor to the Internet. Source: https://en.wikipedia.org/wiki/Lawrence_Roberts_(scientist)" />
+        </attvalues>
+      </edge>
+      <edge source="J.C.R. Licklider" target="Tim Berners-Lee" id="94">
+        <attvalues>
+          <attvalue for="1" value="Licklider's early concepts of a globally connected network influenced Berners-Lee's invention of the World Wide Web. Source: https://en.wikipedia.org/wiki/Tim_Berners-Lee" />
+        </attvalues>
+      </edge>
+      <edge source="J.C.R. Licklider" target="Internet" id="95">
+        <attvalues>
+          <attvalue for="1" value="Licklider's work on ARPANET and his vision for a networked world laid the foundation for the development of the Internet. Source: https://en.wikipedia.org/wiki/ARPANET" />
+        </attvalues>
+      </edge>
+      <edge source="J.C.R. Licklider" target="Computer Networks" id="96">
+        <attvalues>
+          <attvalue for="1" value="Licklider's advocacy for time-sharing systems and networked computing influenced the development of modern computer networks. Source: https://en.wikipedia.org/wiki/Time-sharing" />
+        </attvalues>
+      </edge>
+      <edge source="J.C.R. Licklider" target="Interactive Computing" id="97">
+        <attvalues>
+          <attvalue for="1" value="Licklider's vision of human-computer symbiosis inspired the development of interactive computing systems. Source: https://en.wikipedia.org/wiki/Intergalactic_Computer_Network" />
+        </attvalues>
+      </edge>
+      <edge source="J.C.R. Licklider" target="Personal Computing" id="98">
+        <attvalues>
+          <attvalue for="1" value="Licklider's ideas about accessible and interactive computing environments influenced the rise of personal computing. Source: https://en.wikipedia.org/wiki/History_of_personal_computers" />
+        </attvalues>
+      </edge>
+      <edge source="J.C.R. Licklider" target="Paul Baran" id="99">
+        <attvalues>
+          <attvalue for="1" value="Licklider's work on packet-switching networks influenced Baran's research and development in the same field, contributing to the foundation of modern digital communication. Source: https://en.wikipedia.org/wiki/Paul_Baran" />
+        </attvalues>
+      </edge>
+      <edge source="J.C.R. Licklider" target="Ivan Sutherland" id="100">
+        <attvalues>
+          <attvalue for="1" value="Licklider's work on human-computer interaction influenced Sutherland's pioneering work in computer graphics and virtual reality. Source: https://en.wikipedia.org/wiki/Ivan_Sutherland" />
+        </attvalues>
+      </edge>
+      <edge source="J.C.R. Licklider" target="Artificial Intelligence" id="101">
+        <attvalues>
+          <attvalue for="1" value="Licklider's vision for computers as partners in thought processes influenced early research and developments in artificial intelligence. Source: https://en.wikipedia.org/wiki/Artificial_intelligence" />
+        </attvalues>
+      </edge>
+      <edge source="J.C.R. Licklider" target="John McCarthy" id="102">
+        <attvalues>
+          <attvalue for="1" value="Licklider's support and vision for AI research influenced McCarthy's work in developing the field of artificial intelligence. Source: https://en.wikipedia.org/wiki/John_McCarthy_(computer_scientist)" />
+        </attvalues>
+      </edge>
+      <edge source="J.C.R. Licklider" target="Norbert Wiener" id="103">
+        <attvalues>
+          <attvalue for="1" value="Licklider's work on human-computer symbiosis was influenced by Wiener's theories on cybernetics and control systems. Source: https://en.wikipedia.org/wiki/Norbert_Wiener" />
+        </attvalues>
+      </edge>
+      <edge source="J.C.R. Licklider" target="Project MAC" id="104">
+        <attvalues>
+          <attvalue for="1" value="Licklider's vision for interactive computing directly influenced the establishment and direction of Project MAC at MIT, which played a crucial role in the development of operating systems and computer graphics. Source: https://en.wikipedia.org/wiki/Project_MAC" />
+        </attvalues>
+      </edge>
+      <edge source="J.C.R. Licklider" target="UNIX" id="105">
+        <attvalues>
+          <attvalue for="1" value="Licklider's ideas about time-sharing systems and interactive computing environments influenced the development of the UNIX operating system. Source: https://en.wikipedia.org/wiki/Unix" />
+        </attvalues>
+      </edge>
+      <edge source="J.C.R. Licklider" target="Multics" id="106">
+        <attvalues>
+          <attvalue for="1" value="Licklider's concept of a computer utility influenced the development of the Multics time-sharing operating system. Source: https://en.wikipedia.org/wiki/Multics" />
+        </attvalues>
+      </edge>
+      <edge source="J.C.R. Licklider" target="Cloud Computing" id="107">
+        <attvalues>
+          <attvalue for="1" value="Licklider's early ideas about time-sharing and distributed computing can be seen as precursors to the modern concept of cloud computing. Source: https://en.wikipedia.org/wiki/Cloud_computing" />
+        </attvalues>
+      </edge>
+      <edge source="J.C.R. Licklider" target="Vannevar Bush" id="108">
+        <attvalues>
+          <attvalue for="1" value="Bush's work on analog computing and the concept of the Memex influenced Licklider's vision of interactive computing. Source: https://en.wikipedia.org/wiki/Vannevar_Bush" />
+        </attvalues>
+      </edge>
+      <edge source="J.C.R. Licklider" target="John von Neumann" id="109">
+        <attvalues>
+          <attvalue for="1" value="Von Neumann's architecture and theoretical work in computing influenced Licklider's understanding of computer systems and their potential. Source: https://en.wikipedia.org/wiki/John_von_Neumann" />
+        </attvalues>
+      </edge>
+      <edge source="Douglas Engelbart" target="Ivan Sutherland" id="110">
+        <attvalues>
+          <attvalue for="1" value="Engelbart's work on interactive computing and graphical interfaces influenced Sutherland's development of computer graphics and virtual reality. Source: https://en.wikipedia.org/wiki/Ivan_Sutherland" />
+        </attvalues>
+      </edge>
+      <edge source="Douglas Engelbart" target="Tim Berners-Lee" id="111">
+        <attvalues>
+          <attvalue for="1" value="Engelbart's invention of hypertext was a direct precursor to the World Wide Web, which was invented by Tim Berners-Lee. Source: https://en.wikipedia.org/wiki/Tim_Berners-Lee" />
+        </attvalues>
+      </edge>
+      <edge source="Douglas Engelbart" target="Hypertext" id="112">
+        <attvalues>
+          <attvalue for="1" value="Engelbart's invention of hypertext systems is foundational to modern information systems and the World Wide Web. Source: https://en.wikipedia.org/wiki/Hypertext" />
+        </attvalues>
+      </edge>
+      <edge source="Douglas Engelbart" target="Graphical User Interface (GUI)" id="113">
+        <attvalues>
+          <attvalue for="1" value="Engelbart's work on interactive computing and the development of the first GUI elements influenced the design of modern graphical user interfaces. Source: https://en.wikipedia.org/wiki/Graphical_user_interface" />
+        </attvalues>
+      </edge>
+      <edge source="Douglas Engelbart" target="Computer Mouse" id="114">
+        <attvalues>
+          <attvalue for="1" value="Engelbart invented the computer mouse, a key input device for modern computing. Source: https://en.wikipedia.org/wiki/Computer_mouse" />
+        </attvalues>
+      </edge>
+      <edge source="Douglas Engelbart" target="Xerox PARC" id="115">
+        <attvalues>
+          <attvalue for="1" value="Engelbart's work on interactive computing and user interfaces influenced research and development at Xerox PARC, leading to the creation of the Alto computer. Source: https://en.wikipedia.org/wiki/Douglas_Engelbart" />
+        </attvalues>
+      </edge>
+      <edge source="Douglas Engelbart" target="Apple Macintosh" id="116">
+        <attvalues>
+          <attvalue for="1" value="One of the first widely successful personal computers with a GUI and mouse, heavily influenced by Engelbart's innovations. Source: https://en.wikipedia.org/wiki/Macintosh" />
+        </attvalues>
+      </edge>
+      <edge source="Douglas Engelbart" target="Windows Operating System" id="117">
+        <attvalues>
+          <attvalue for="1" value="Engelbart's work on graphical user interfaces and interactive computing influenced the development of the Microsoft Windows operating system. Source: https://en.wikipedia.org/wiki/Douglas_Engelbart" />
+        </attvalues>
+      </edge>
+      <edge source="Douglas Engelbart" target="Collaborative Software" id="118">
+        <attvalues>
+          <attvalue for="1" value="Engelbart's vision for interactive computing and groupware influenced the development of collaborative software and group communication tools. Source: https://en.wikipedia.org/wiki/Collaborative_software" />
+        </attvalues>
+      </edge>
+      <edge source="Douglas Engelbart" target="Google Docs" id="119">
+        <attvalues>
+          <attvalue for="1" value="An online word processor that supports collaborative editing, influenced by Engelbart's work on interactive computing and groupware. Source: https://en.wikipedia.org/wiki/Google_Docs" />
+        </attvalues>
+      </edge>
+      <edge source="Douglas Engelbart" target="Augment" id="120">
+        <attvalues>
+          <attvalue for="1" value="Engelbart's NLS (oN-Line System) later evolved into Augment, which was used to pioneer many aspects of modern computing, including hypertext, networked computers, and collaborative software. Source: https://en.wikipedia.org/wiki/History_of_hypertext" />
+        </attvalues>
+      </edge>
+      <edge source="Douglas Engelbart" target="Personal Computing" id="121">
+        <attvalues>
+          <attvalue for="1" value="Engelbart's pioneering work on interactive computing and user interfaces contributed to the evolution of personal computing. Source: https://en.wikipedia.org/wiki/Douglas_Engelbart" />
+        </attvalues>
+      </edge>
+      <edge source="Douglas Engelbart" target="Steve Jobs" id="122">
+        <attvalues>
+          <attvalue for="1" value="Engelbart's innovations in computing and user interfaces had a significant influence on Steve Jobs and the development of Apple products. Source: https://en.wikipedia.org/wiki/Douglas_Engelbart" />
+        </attvalues>
+      </edge>
+      <edge source="Douglas Engelbart" target="Apple Lisa" id="123">
+        <attvalues>
+          <attvalue for="1" value="The first commercial computer with a graphical user interface (GUI) and a mouse, directly influenced by Engelbart's work. Source: https://en.wikipedia.org/wiki/Apple_Lisa" />
+        </attvalues>
+      </edge>
+      <edge source="Douglas Engelbart" target="Microsoft Windows" id="124">
+        <attvalues>
+          <attvalue for="1" value="The Windows operating system, with its GUI and mouse support, was influenced by Engelbart's work on interactive computing. Source: https://en.wikipedia.org/wiki/Microsoft_Windows" />
+        </attvalues>
+      </edge>
+      <edge source="Douglas Engelbart" target="Xerox Alto" id="125">
+        <attvalues>
+          <attvalue for="1" value="An early personal computer developed at Xerox PARC that featured a GUI and mouse, directly influenced by Engelbart's work. Source: https://en.wikipedia.org/wiki/Xerox_Alto" />
+        </attvalues>
+      </edge>
+      <edge source="Douglas Engelbart" target="HyperCard" id="126">
+        <attvalues>
+          <attvalue for="1" value="A software application and development kit for Apple Macintosh, influenced by Engelbart's work on hypertext. Source: https://en.wikipedia.org/wiki/HyperCard" />
+        </attvalues>
+      </edge>
+      <edge source="Douglas Engelbart" target="NLS (oN-Line System)" id="127">
+        <attvalues>
+          <attvalue for="1" value="Engelbart's own groundbreaking system that introduced many elements of modern computing, such as the mouse, hypertext, and collaborative software. Source: https://en.wikipedia.org/wiki/NLS_(computer_system)" />
+        </attvalues>
+      </edge>
+      <edge source="Douglas Engelbart" target="Adobe Creative Suite" id="128">
+        <attvalues>
+          <attvalue for="1" value="Professional software for graphic design and multimedia, utilizing GUI principles influenced by Engelbart's innovations. Source: https://en.wikipedia.org/wiki/Adobe_Creative_Cloud" />
+        </attvalues>
+      </edge>
+      <edge source="Douglas Engelbart" target="J.C.R. Licklider" id="129">
+        <attvalues>
+          <attvalue for="1" value="Licklider's vision for human-computer interaction and his work on interactive computing heavily influenced Engelbart's development of the computer mouse and hypertext systems. Source: https://en.wikipedia.org/wiki/Douglas_Engelbart" />
+        </attvalues>
+      </edge>
+      <edge source="Douglas Engelbart" target="Vannevar Bush" id="130">
+        <attvalues>
+          <attvalue for="1" value="Bush's concept of the Memex, an early vision of hypertext, inspired Engelbart's work on augmenting human intellect and his development of NLS (oN-Line System). Source: https://en.wikipedia.org/wiki/Douglas_Engelbart" />
+        </attvalues>
+      </edge>
+      <edge source="Ivan Sutherland" target="Virtual Reality (VR)" id="131">
+        <attvalues>
+          <attvalue for="1" value="Sutherland's work on VR systems, including the development of the first head-mounted display (HMD), laid the foundation for modern virtual reality technology. Source: https://en.wikipedia.org/wiki/Virtual_reality" />
+        </attvalues>
+      </edge>
+      <edge source="Ivan Sutherland" target="Computer Graphics" id="132">
+        <attvalues>
+          <attvalue for="1" value="Sutherland's pioneering work in computer graphics established fundamental principles and techniques still used in areas such as gaming, animation, and scientific visualization. Source: https://en.wikipedia.org/wiki/Ivan_Sutherland" />
+        </attvalues>
+      </edge>
+      <edge source="Ivan Sutherland" target="Object-Oriented Programming (OOP)" id="133">
+        <attvalues>
+          <attvalue for="1" value="Sutherland's development of object-oriented graphics and programming concepts influenced the broader adoption of OOP in software engineering. Source: https://en.wikipedia.org/wiki/Object-oriented_programming" />
+        </attvalues>
+      </edge>
+      <edge source="Ivan Sutherland" target="Silicon Graphics (SGI)" id="134">
+        <attvalues>
+          <attvalue for="1" value="Sutherland's work on computer graphics and VR technology influenced the development of SGI workstations, which became prominent in the graphics industry. Source: https://en.wikipedia.org/wiki/Silicon_Graphics" />
+        </attvalues>
+      </edge>
+      <edge source="Ivan Sutherland" target="OpenGL" id="135">
+        <attvalues>
+          <attvalue for="1" value="The OpenGL API for rendering 2D and 3D vector graphics, influenced by Sutherland's contributions to computer graphics. Source: https://en.wikipedia.org/wiki/OpenGL" />
+        </attvalues>
+      </edge>
+      <edge source="Ivan Sutherland" target="CAD (Computer-Aided Design)" id="136">
+        <attvalues>
+          <attvalue for="1" value="Sutherland's work on Sketchpad laid the foundation for CAD systems, revolutionizing engineering and design processes. Source: https://en.wikipedia.org/wiki/Computer-aided_design" />
+        </attvalues>
+      </edge>
+      <edge source="Ivan Sutherland" target="Head-Mounted Display (HMD)" id="137">
+        <attvalues>
+          <attvalue for="1" value="Sutherland's invention of the first HMD led to developments in virtual reality and augmented reality systems. Source: https://en.wikipedia.org/wiki/Head-mounted_display" />
+        </attvalues>
+      </edge>
+      <edge source="Ivan Sutherland" target="Flight Simulator" id="138">
+        <attvalues>
+          <attvalue for="1" value="Sutherland's early work on interactive graphics and simulation influenced the development of flight simulators used for training and entertainment. Source: https://en.wikipedia.org/wiki/Flight_simulator" />
+        </attvalues>
+      </edge>
+      <edge source="Ivan Sutherland" target="Computer Animation" id="139">
+        <attvalues>
+          <attvalue for="1" value="Sutherland's contributions to computer graphics laid the groundwork for computer-generated animation techniques used in movies, games, and simulations. Source: https://en.wikipedia.org/wiki/Computer_animation" />
+        </attvalues>
+      </edge>
+      <edge source="Ivan Sutherland" target="Personal Computing" id="140">
+        <attvalues>
+          <attvalue for="1" value="Sutherland's work on interactive computing and graphical interfaces contributed to the evolution of personal computing devices and user interfaces. Source: https://en.wikipedia.org/wiki/Personal_computer" />
+        </attvalues>
+      </edge>
+      <edge source="Ivan Sutherland" target="Gaming Industry" id="141">
+        <attvalues>
+          <attvalue for="1" value="Sutherland's advancements in computer graphics technology have had a profound impact on the gaming industry, influencing game development and visual effects. Source: https://en.wikipedia.org/wiki/Video_game_industry" />
+        </attvalues>
+      </edge>
+      <edge source="Ivan Sutherland" target="Pixar Animation Studios" id="142">
+        <attvalues>
+          <attvalue for="1" value="Sutherland's work on computer graphics laid the foundation for technologies used by Pixar in animated filmmaking. Source: https://en.wikipedia.org/wiki/Pixar" />
+        </attvalues>
+      </edge>
+      <edge source="Ivan Sutherland" target="Sketchpad" id="143">
+        <attvalues>
+          <attvalue for="1" value="The first interactive computer graphics program, developed by Sutherland, which introduced the concept of direct manipulation and graphical user interfaces. Source: https://en.wikipedia.org/wiki/Sketchpad" />
+        </attvalues>
+      </edge>
+      <edge source="Ivan Sutherland" target="Silicon Graphics Workstations" id="144">
+        <attvalues>
+          <attvalue for="1" value="SGI workstations, influenced by Sutherland's work on computer graphics, became widely used in industries requiring advanced graphics capabilities. Source: https://en.wikipedia.org/wiki/Silicon_Graphics" />
+        </attvalues>
+      </edge>
+      <edge source="Ivan Sutherland" target="CAD Software" id="145">
+        <attvalues>
+          <attvalue for="1" value="Computer-aided design software, inspired by Sutherland's Sketchpad, revolutionized engineering and architectural design processes. Source: https://en.wikipedia.org/wiki/Computer-aided_design" />
+        </attvalues>
+      </edge>
+      <edge source="Ivan Sutherland" target="Flight Simulators" id="146">
+        <attvalues>
+          <attvalue for="1" value="Flight simulation technology, influenced by Sutherland's work on interactive graphics, is used for pilot training and aerospace research. Source: https://en.wikipedia.org/wiki/Flight_simulator" />
+        </attvalues>
+      </edge>
+      <edge source="Ivan Sutherland" target="Virtual Reality Systems" id="147">
+        <attvalues>
+          <attvalue for="1" value="Modern VR systems, built upon Sutherland's early work on immersive technology, are used in gaming, education, healthcare, and more. Source: https://en.wikipedia.org/wiki/Virtual_reality" />
+        </attvalues>
+      </edge>
+      <edge source="Ivan Sutherland" target="Computer Animation Software" id="148">
+        <attvalues>
+          <attvalue for="1" value="Software tools for computer-generated animation, leveraging techniques pioneered by Sutherland, are used extensively in movies, games, and simulations. Source: https://en.wikipedia.org/wiki/Computer_animation" />
+        </attvalues>
+      </edge>
+      <edge source="Ivan Sutherland" target="Pixar Animation Technology" id="149">
+        <attvalues>
+          <attvalue for="1" value="Technologies developed by Pixar, influenced by Sutherland's work, have revolutionized animated filmmaking and visual effects. Source: https://en.wikipedia.org/wiki/Pixar" />
+        </attvalues>
+      </edge>
+      <edge source="Ivan Sutherland" target="Douglas Engelbart" id="150">
+        <attvalues>
+          <attvalue for="1" value="Engelbart's work on interactive computing and graphical interfaces heavily influenced Sutherland's development of computer graphics and virtual reality. Source: https://en.wikipedia.org/wiki/Ivan_Sutherland" />
+        </attvalues>
+      </edge>
+      <edge source="Ivan Sutherland" target="David Evans" id="151">
+        <attvalues>
+          <attvalue for="1" value="Evans mentored Sutherland during his PhD studies at MIT, influencing his early work on computer graphics and interactive systems. Source: https://en.wikipedia.org/wiki/Ivan_Sutherland" />
+        </attvalues>
+      </edge>
+      <edge source="Ivan Sutherland" target="Claude Shannon" id="152">
+        <attvalues>
+          <attvalue for="1" value="Shannon's work on information theory and digital circuits inspired Sutherland's research in computer graphics and computational geometry. Source: https://en.wikipedia.org/wiki/Ivan_Sutherland" />
+        </attvalues>
+      </edge>
+      <edge source="Ivan Sutherland" target="William Fetter" id="153">
+        <attvalues>
+          <attvalue for="1" value="Fetter's concept of computer-generated imagery (CGI) influenced Sutherland's work on Sketchpad and later computer graphics systems. Source: https://en.wikipedia.org/wiki/Ivan_Sutherland" />
+        </attvalues>
+      </edge>
+      <edge source="John McCarthy" target="Edsger W. Dijkstra" id="154">
+        <attvalues>
+          <attvalue for="1" value="McCarthy's work on artificial intelligence influenced Dijkstra's development of algorithms." />
+        </attvalues>
+      </edge>
+      <edge source="Edsger W. Dijkstra" target="Donald Knuth" id="155">
+        <attvalues>
+          <attvalue for="1" value="Dijkstra's work on structured programming influenced Knuth's work on algorithm analysis." />
+        </attvalues>
+      </edge>
+      <edge source="Donald Knuth" target="Niklaus Wirth" id="156">
+        <attvalues>
+          <attvalue for="1" value="Knuth's work on algorithms and programming influenced Wirth's development of programming languages." />
+        </attvalues>
+      </edge>
+      <edge source="Niklaus Wirth" target="Alan Kay" id="157">
+        <attvalues>
+          <attvalue for="1" value="Wirth's work on programming languages influenced Kay's development of object-oriented programming." />
+        </attvalues>
+      </edge>
+      <edge source="Alan Kay" target="Karen Spärck Jones" id="158">
+        <attvalues>
+          <attvalue for="1" value="Kay's work on object-oriented programming influenced Spärck Jones's research on information retrieval and natural language processing." />
+        </attvalues>
+      </edge>
+      <edge source="Grace Hopper" target="COBOL" id="159">
+        <attvalues>
+          <attvalue for="1" value="Common Business-Oriented Language, developed by Hopper and team, became a standard for business and administrative computing. Source: https://en.wikipedia.org/wiki/COBOL" />
+        </attvalues>
+      </edge>
+      <edge source="Grace Hopper" target="Compiler Construction" id="160">
+        <attvalues>
+          <attvalue for="1" value="Hopper's work on compiler development laid the foundation for modern programming languages and software engineering practices. Source: https://en.wikipedia.org/wiki/Compiler" />
+        </attvalues>
+      </edge>
+      <edge source="Grace Hopper" target="Automatic Programming" id="161">
+        <attvalues>
+          <attvalue for="1" value="Hopper's contributions to automatic programming systems and language translation influenced the evolution of software development tools. Source: https://en.wikipedia.org/wiki/Automatic_programming" />
+        </attvalues>
+      </edge>
+      <edge source="Grace Hopper" target="Debugging Techniques" id="162">
+        <attvalues>
+          <attvalue for="1" value="Hopper pioneered techniques for debugging computer programs, improving software reliability and efficiency. Source: https://en.wikipedia.org/wiki/Grace_Hopper" />
+        </attvalues>
+      </edge>
+      <edge source="Grace Hopper" target="Navy Programming Languages" id="163">
+        <attvalues>
+          <attvalue for="1" value="Hopper's development of programming languages for the U.S. Navy set standards for military and commercial software applications. Source: https://en.wikipedia.org/wiki/Grace_Hopper" />
+        </attvalues>
+      </edge>
+      <edge source="Grace Hopper" target="Legacy in Education" id="164">
+        <attvalues>
+          <attvalue for="1" value="Hopper's advocacy for computing education and STEM initiatives continues to inspire future generations of computer scientists and engineers. Source: https://en.wikipedia.org/wiki/Grace_Hopper" />
+        </attvalues>
+      </edge>
+      <edge source="Grace Hopper" target="Nanosecond" id="165">
+        <attvalues>
+          <attvalue for="1" value="Hopper's use of the nanosecond as a measure of time highlighted the speed of electronic circuits and influenced precision timing in computing. Source: https://en.wikipedia.org/wiki/Nanosecond" />
+        </attvalues>
+      </edge>
+      <edge source="Grace Hopper" target="UNIVAC" id="166">
+        <attvalues>
+          <attvalue for="1" value="Hopper's work on the UNIVAC I computer and its software applications contributed to early advancements in commercial computing. Source: https://en.wikipedia.org/wiki/UNIVAC_I" />
+        </attvalues>
+      </edge>
+      <edge source="Grace Hopper" target="Navy Coding Manuals" id="167">
+        <attvalues>
+          <attvalue for="1" value="Standardized coding practices and manuals developed by Hopper set benchmarks for software quality and reliability in military applications. Source: https://en.wikipedia.org/wiki/Grace_Hopper" />
+        </attvalues>
+      </edge>
+      <edge source="Grace Hopper" target="Open Source Movement" id="168">
+        <attvalues>
+          <attvalue for="1" value="Hopper's advocacy for open standards and collaboration in software development laid groundwork for the open source movement. Source: https://en.wikipedia.org/wiki/Open_source" />
+        </attvalues>
+      </edge>
+      <edge source="Grace Hopper" target="Term 'Bug'" id="169">
+        <attvalues>
+          <attvalue for="1" value="Hopper coined the term 'bug' for computer glitches, based on an actual moth found in the Mark II computer. Source: https://en.wikipedia.org/wiki/Grace_Hopper" />
+        </attvalues>
+      </edge>
+      <edge source="Grace Hopper" target="Compiler" id="170">
+        <attvalues>
+          <attvalue for="1" value="Hopper's development of the A-0 compiler and subsequent compiler technologies automated program translation, enabling higher-level programming. Source: https://en.wikipedia.org/wiki/Compiler" />
+        </attvalues>
+      </edge>
+      <edge source="Grace Hopper" target="UNIVAC I" id="171">
+        <attvalues>
+          <attvalue for="1" value="The UNIVAC I, for which Hopper developed early software applications, was one of the first commercially successful mainframe computers. Source: https://en.wikipedia.org/wiki/UNIVAC_I" />
+        </attvalues>
+      </edge>
+      <edge source="Grace Hopper" target="Legacy in Education Programs" id="172">
+        <attvalues>
+          <attvalue for="1" value="Hopper's initiatives in computing education continue to impact STEM programs and inspire new generations of computer scientists. Source: https://en.wikipedia.org/wiki/Grace_Hopper" />
+        </attvalues>
+      </edge>
+      <edge source="Grace Hopper" target="Open Source Advocacy" id="173">
+        <attvalues>
+          <attvalue for="1" value="Hopper's early advocacy for open standards and collaborative software development principles laid foundations for the modern open source movement. Source: https://en.wikipedia.org/wiki/Open_source" />
+        </attvalues>
+      </edge>
+      <edge source="Grace Hopper" target="John von Neumann" id="174">
+        <attvalues>
+          <attvalue for="1" value="Hopper was influenced by von Neumann's work on computer architecture and programming, which shaped her approach to software development. Source: https://en.wikipedia.org/wiki/Grace_Hopper" />
+        </attvalues>
+      </edge>
+      <edge source="Grace Hopper" target="Howard Aiken" id="175">
+        <attvalues>
+          <attvalue for="1" value="Hopper worked with Aiken on the Harvard Mark I computer, where she gained early experience in programming and computer science. Source: https://en.wikipedia.org/wiki/Grace_Hopper" />
+        </attvalues>
+      </edge>
+      <edge source="Grace Hopper" target="Richard Hamming" id="176">
+        <attvalues>
+          <attvalue for="1" value="Hopper collaborated with Hamming on early programming languages and contributed to the development of COBOL. Source: https://en.wikipedia.org/wiki/Grace_Hopper" />
+        </attvalues>
+      </edge>
+      <edge source="Grace Hopper" target="Jean Bartik" id="177">
+        <attvalues>
+          <attvalue for="1" value="Bartik's work on the ENIAC and early computers inspired Hopper's interest in programming and software development. Source: https://en.wikipedia.org/wiki/Grace_Hopper" />
+        </attvalues>
+      </edge>
+      <edge source="Margaret Hamilton" target="Apollo Guidance Computer (AGC)" id="178">
+        <attvalues>
+          <attvalue for="1" value="Hamilton led the team that developed software for the Apollo missions, including the Apollo Guidance Computer (AGC), which was crucial for navigation and guidance during the Apollo lunar landings." />
+        </attvalues>
+      </edge>
+      <edge source="Margaret Hamilton" target="Software Engineering" id="179">
+        <attvalues>
+          <attvalue for="1" value="Hamilton's pioneering work in software engineering, including the development of methodologies for real-time systems and error detection techniques, laid the foundation for modern software engineering practices." />
+        </attvalues>
+      </edge>
+      <edge source="Margaret Hamilton" target="Systems Design" id="180">
+        <attvalues>
+          <attvalue for="1" value="Hamilton's contributions to system design concepts, such as prioritizing mission-critical tasks and error recovery mechanisms, have influenced the design of complex software systems." />
+        </attvalues>
+      </edge>
+      <edge source="Margaret Hamilton" target="Universal Systems Language (USL)" id="181">
+        <attvalues>
+          <attvalue for="1" value="Hamilton developed USL, a formal systems engineering language used to describe complex systems, contributing to advances in system architecture and design methodologies." />
+        </attvalues>
+      </edge>
+      <edge source="Margaret Hamilton" target="Error Detection and Recovery" id="182">
+        <attvalues>
+          <attvalue for="1" value="Hamilton's work on error detection and recovery mechanisms in software systems influenced reliability engineering practices across various industries." />
+        </attvalues>
+      </edge>
+      <edge source="Margaret Hamilton" target="Grace Hopper" id="183">
+        <attvalues>
+          <attvalue for="1" value="Hopper's work on compilers and standardization of programming languages influenced Hamilton's approach to software engineering principles and system design." />
+        </attvalues>
+      </edge>
+      <edge source="Margaret Hamilton" target="John McCarthy" id="184">
+        <attvalues>
+          <attvalue for="1" value="McCarthy's work on artificial intelligence and formal methods influenced Hamilton's approach to rigorous software development." />
+        </attvalues>
+      </edge>
+      <edge source="Margaret Hamilton" target="Bjarne Stroustrup" id="185">
+        <attvalues>
+          <attvalue for="1" value="Stroustrup's development of C++ and contributions to programming language design influenced Hamilton's work in software development and system architecture." />
+        </attvalues>
+      </edge>
+      <edge source="Margaret Hamilton" target="Linus Torvalds" id="186">
+        <attvalues>
+          <attvalue for="1" value="Torvalds's creation of the Linux kernel and advocacy for open-source software influenced Hamilton's views on collaborative software development and systems design." />
+        </attvalues>
+      </edge>
+      <edge source="Bjarne Stroustrup" target="C++" id="187">
+        <attvalues>
+          <attvalue for="1" value="Stroustrup's creation of C++ introduced object-oriented programming features, generic programming, and improved type safety, leading to its widespread adoption in system software, game development, and large-scale applications." />
+        </attvalues>
+      </edge>
+      <edge source="Bjarne Stroustrup" target="Standard Template Library (STL)" id="188">
+        <attvalues>
+          <attvalue for="1" value="Stroustrup contributed to the development of STL, a powerful library of generic algorithms, containers, and functions that significantly enhance C++ programming productivity and performance." />
+        </attvalues>
+      </edge>
+      <edge source="Bjarne Stroustrup" target="Microsoft Windows Operating System" id="189">
+        <attvalues>
+          <attvalue for="1" value="C++ is used extensively in the development of the Windows operating system, from kernel components to user interface libraries, leveraging C++'s performance and flexibility." />
+        </attvalues>
+      </edge>
+      <edge source="Bjarne Stroustrup" target="Adobe Systems Software" id="190">
+        <attvalues>
+          <attvalue for="1" value="Adobe products like Photoshop and Illustrator are built using C++ for their performance-critical components, graphical user interfaces, and cross-platform capabilities." />
+        </attvalues>
+      </edge>
+      <edge source="Bjarne Stroustrup" target="Mozilla Firefox Browser" id="191">
+        <attvalues>
+          <attvalue for="1" value="Mozilla Firefox utilizes C++ for its rendering engine (Gecko), JavaScript engine (SpiderMonkey), and browser components, ensuring speed, security, and cross-platform compatibility." />
+        </attvalues>
+      </edge>
+      <edge source="Bjarne Stroustrup" target="Game Engines (e.g., Unreal Engine)" id="192">
+        <attvalues>
+          <attvalue for="1" value="C++ serves as the backbone for many game engines like Unreal Engine, enabling high-performance graphics rendering, physics simulation, and complex game logic." />
+        </attvalues>
+      </edge>
+      <edge source="Bjarne Stroustrup" target="MySQL Database" id="193">
+        <attvalues>
+          <attvalue for="1" value="MySQL, a popular open-source relational database management system, uses C++ for its core server implementation, offering scalability, reliability, and performance." />
+        </attvalues>
+      </edge>
+      <edge source="Bjarne Stroustrup" target="MongoDB Database" id="194">
+        <attvalues>
+          <attvalue for="1" value="MongoDB, a leading NoSQL database, relies on C++ for its core database server, providing high availability, horizontal scalability, and real-time analytics." />
+        </attvalues>
+      </edge>
+      <edge source="Bjarne Stroustrup" target="Amazon Web Services (AWS)" id="195">
+        <attvalues>
+          <attvalue for="1" value="Various AWS services, such as Amazon S3 (Simple Storage Service) and Amazon EC2 (Elastic Compute Cloud), are powered by C++ for their backend infrastructure and client libraries." />
+        </attvalues>
+      </edge>
+      <edge source="Bjarne Stroustrup" target="CAD and CAM Software" id="196">
+        <attvalues>
+          <attvalue for="1" value="Computer-aided design (CAD) and computer-aided manufacturing (CAM) software, like AutoCAD and SolidWorks, utilize C++ for their 2D/3D modeling, simulation, and rendering capabilities." />
+        </attvalues>
+      </edge>
+      <edge source="Bjarne Stroustrup" target="Financial Trading Platforms" id="197">
+        <attvalues>
+          <attvalue for="1" value="High-frequency trading platforms and financial analytics software, such as Bloomberg Terminal and MATLAB, leverage C++ for real-time data processing, algorithmic trading, and quantitative analysis." />
+        </attvalues>
+      </edge>
+      <edge source="Bjarne Stroustrup" target="Grace Hopper" id="198">
+        <attvalues>
+          <attvalue for="1" value="Hopper's work on compilers and early programming languages influenced Stroustrup's approach to language design and software engineering." />
+        </attvalues>
+      </edge>
+      <edge source="Bjarne Stroustrup" target="Dennis Ritchie" id="199">
+        <attvalues>
+          <attvalue for="1" value="Ritchie's creation of C programming language inspired Stroustrup to develop C++ as an extension with object-oriented features and enhancements." />
+        </attvalues>
+      </edge>
+      <edge source="Bjarne Stroustrup" target="Simula" id="200">
+        <attvalues>
+          <attvalue for="1" value="Stroustrup drew inspiration from the Simula programming language for object-oriented programming concepts, which influenced C++." />
+        </attvalues>
+      </edge>
+      <edge source="Linus Torvalds" target="Linux Kernel" id="201">
+        <attvalues>
+          <attvalue for="1" value="Torvalds created the Linux kernel, which became the foundation of many operating systems, emphasizing open-source development and community collaboration." />
+        </attvalues>
+      </edge>
+      <edge source="Linus Torvalds" target="Git" id="202">
+        <attvalues>
+          <attvalue for="1" value="Torvalds created Git, a distributed version control system, to manage the development of the Linux kernel. Git has since become the most widely used version control system in software development." />
+        </attvalues>
+      </edge>
+      <edge source="Linus Torvalds" target="Android Operating System" id="203">
+        <attvalues>
+          <attvalue for="1" value="Android OS, developed by Google, is based on the Linux kernel and powers the majority of smartphones worldwide." />
+        </attvalues>
+      </edge>
+      <edge source="Linus Torvalds" target="Ubuntu" id="204">
+        <attvalues>
+          <attvalue for="1" value="Ubuntu is one of the most popular Linux distributions, known for its ease of use and widespread adoption in desktop and server environments." />
+        </attvalues>
+      </edge>
+      <edge source="Linus Torvalds" target="Red Hat Enterprise Linux (RHEL)" id="205">
+        <attvalues>
+          <attvalue for="1" value="RHEL is a commercially supported distribution of Linux, widely used in enterprise environments for its stability and support services." />
+        </attvalues>
+      </edge>
+      <edge source="Linus Torvalds" target="Docker" id="206">
+        <attvalues>
+          <attvalue for="1" value="Docker, a platform for developing, shipping, and running applications in containers, uses Linux container technologies." />
+        </attvalues>
+      </edge>
+      <edge source="Linus Torvalds" target="Kubernetes" id="207">
+        <attvalues>
+          <attvalue for="1" value="Kubernetes, an open-source system for automating the deployment, scaling, and management of containerized applications, heavily relies on Linux." />
+        </attvalues>
+      </edge>
+      <edge source="Linus Torvalds" target="Supercomputing" id="208">
+        <attvalues>
+          <attvalue for="1" value="Linux dominates the supercomputing world, with nearly all of the top 500 supercomputers running on Linux." />
+        </attvalues>
+      </edge>
+      <edge source="Linus Torvalds" target="Cloud Computing" id="209">
+        <attvalues>
+          <attvalue for="1" value="Major cloud service providers like AWS, Google Cloud, and Microsoft Azure use Linux extensively to run their infrastructure and services." />
+        </attvalues>
+      </edge>
+      <edge source="Linus Torvalds" target="Embedded Systems" id="210">
+        <attvalues>
+          <attvalue for="1" value="Linux is widely used in embedded systems, from smart TVs and routers to industrial automation and automotive systems." />
+        </attvalues>
+      </edge>
+      <edge source="Linus Torvalds" target="Scientific Research" id="211">
+        <attvalues>
+          <attvalue for="1" value="Linux is used in scientific research for tasks ranging from data analysis to running experiments, particularly in fields like bioinformatics and physics." />
+        </attvalues>
+      </edge>
+      <edge source="Linus Torvalds" target="Web Servers" id="212">
+        <attvalues>
+          <attvalue for="1" value="The majority of web servers on the internet run on Linux, including popular web server software like Apache and Nginx." />
+        </attvalues>
+      </edge>
+      <edge source="Linus Torvalds" target="MySQL" id="213">
+        <attvalues>
+          <attvalue for="1" value="MySQL, one of the most popular relational database management systems, is often run on Linux servers." />
+        </attvalues>
+      </edge>
+      <edge source="Linus Torvalds" target="Network Routing" id="214">
+        <attvalues>
+          <attvalue for="1" value="Linux is used in network routing and switching equipment, enabling the backbone of the internet." />
+        </attvalues>
+      </edge>
+      <edge source="Linus Torvalds" target="Andrew S. Tanenbaum" id="215">
+        <attvalues>
+          <attvalue for="1" value="Torvalds was influenced by Tanenbaum's MINIX operating system while developing Linux." />
+        </attvalues>
+      </edge>
+      <edge source="Linus Torvalds" target="Richard Stallman" id="216">
+        <attvalues>
+          <attvalue for="1" value="Torvalds was influenced by Stallman's GNU Project, which provided many of the necessary tools for Linux." />
+        </attvalues>
+      </edge>
+      <edge source="Linus Torvalds" target="Dennis Ritchie" id="217">
+        <attvalues>
+          <attvalue for="1" value="Torvalds was influenced by Ritchie's creation of the C programming language, which he used to write the Linux kernel." />
+        </attvalues>
+      </edge>
+      <edge source="Linus Torvalds" target="Ken Thompson" id="218">
+        <attvalues>
+          <attvalue for="1" value="Torvalds benefited from Thompson's work on the Unix operating system, which inspired the design and development of Linux." />
+        </attvalues>
+      </edge>
+      <edge source="Dennis Ritchie" target="C Programming Language" id="219">
+        <attvalues>
+          <attvalue for="1" value="Ritchie co-created the C programming language, which became one of the most widely used programming languages in the world." />
+        </attvalues>
+      </edge>
+      <edge source="Dennis Ritchie" target="Unix Operating System" id="220">
+        <attvalues>
+          <attvalue for="1" value="Ritchie, along with Ken Thompson, developed the Unix operating system, which has influenced many modern operating systems." />
+        </attvalues>
+      </edge>
+      <edge source="Dennis Ritchie" target="Ken Thompson" id="221">
+        <attvalues>
+          <attvalue for="1" value="Thompson's development of the B programming language and the Unix operating system directly influenced Ritchie's creation of the C programming language." />
+        </attvalues>
+      </edge>
+      <edge source="Dennis Ritchie" target="Unix-like Operating Systems" id="222">
+        <attvalues>
+          <attvalue for="1" value="Operating systems such as Linux, BSD, and macOS are directly influenced by Unix." />
+        </attvalues>
+      </edge>
+      <edge source="Dennis Ritchie" target="C++" id="223">
+        <attvalues>
+          <attvalue for="1" value="Bjarne Stroustrup's C++ programming language was developed as an extension of C, incorporating object-oriented features." />
+        </attvalues>
+      </edge>
+      <edge source="Dennis Ritchie" target="Operating Systems" id="224">
+        <attvalues>
+          <attvalue for="1" value="Many operating systems, including Windows and various embedded systems, are written in C or heavily influenced by it." />
+        </attvalues>
+      </edge>
+      <edge source="Dennis Ritchie" target="Database Management Systems" id="225">
+        <attvalues>
+          <attvalue for="1" value="Popular databases such as MySQL, PostgreSQL, and SQLite are written in C." />
+        </attvalues>
+      </edge>
+      <edge source="Dennis Ritchie" target="Compilers and Interpreters" id="226">
+        <attvalues>
+          <attvalue for="1" value="Compilers for various programming languages are often written in C due to its efficiency and control." />
+        </attvalues>
+      </edge>
+      <edge source="Dennis Ritchie" target="Network Protocols" id="227">
+        <attvalues>
+          <attvalue for="1" value="Network protocols and applications, such as TCP/IP and HTTP servers, are commonly implemented in C." />
+        </attvalues>
+      </edge>
+      <edge source="Dennis Ritchie" target="Embedded Systems" id="228">
+        <attvalues>
+          <attvalue for="1" value="C is extensively used in embedded systems programming for its efficiency and control over hardware." />
+        </attvalues>
+      </edge>
+      <edge source="Dennis Ritchie" target="Web Servers" id="229">
+        <attvalues>
+          <attvalue for="1" value="Web servers like Apache and Nginx are written in C." />
+        </attvalues>
+      </edge>
+      <edge source="Dennis Ritchie" target="Operating Systems Kernels" id="230">
+        <attvalues>
+          <attvalue for="1" value="The kernels of many operating systems, such as the Linux kernel, are written in C." />
+        </attvalues>
+      </edge>
+      <edge source="Dennis Ritchie" target="Programming Languages" id="231">
+        <attvalues>
+          <attvalue for="1" value="Many modern programming languages, including Python, Ruby, and PHP, have their interpreters or core libraries written in C." />
+        </attvalues>
+      </edge>
+      <edge source="Dennis Ritchie" target="Device Drivers" id="232">
+        <attvalues>
+          <attvalue for="1" value="Device drivers for various hardware components are often written in C to interact closely with hardware." />
+        </attvalues>
+      </edge>
+      <edge source="Dennis Ritchie" target="John McCarthy" id="233">
+        <attvalues>
+          <attvalue for="1" value="McCarthy's work on the Lisp programming language influenced Ritchie's development of C." />
+        </attvalues>
+      </edge>
+      <edge source="Richard Stallman" target="GNU Project" id="234">
+        <attvalues>
+          <attvalue for="1" value="Stallman founded the GNU Project to create a free Unix-like operating system, which laid the groundwork for the free software movement." />
+        </attvalues>
+      </edge>
+      <edge source="Richard Stallman" target="Free Software Foundation (FSF)" id="235">
+        <attvalues>
+          <attvalue for="1" value="Stallman established the FSF to promote computer users' rights to use, study, copy, modify, and redistribute computer programs." />
+        </attvalues>
+      </edge>
+      <edge source="Richard Stallman" target="Emacs" id="236">
+        <attvalues>
+          <attvalue for="1" value="Stallman developed the Emacs text editor, which has become one of the most popular and extensible text editors in use today." />
+        </attvalues>
+      </edge>
+      <edge source="Richard Stallman" target="GNU General Public License (GPL)" id="237">
+        <attvalues>
+          <attvalue for="1" value="Stallman authored the GPL, a widely used free software license that ensures software freedom for all users." />
+        </attvalues>
+      </edge>
+      <edge source="Richard Stallman" target="Free Software Movement" id="238">
+        <attvalues>
+          <attvalue for="1" value="Stallman's advocacy and principles have been foundational to the free software movement, influencing countless developers and projects." />
+        </attvalues>
+      </edge>
+      <edge source="Richard Stallman" target="Copyleft" id="239">
+        <attvalues>
+          <attvalue for="1" value="Stallman introduced the concept of copyleft, which uses copyright law to protect the rights of users to freely use, modify, and share software." />
+        </attvalues>
+      </edge>
+      <edge source="Richard Stallman" target="Software Freedom" id="240">
+        <attvalues>
+          <attvalue for="1" value="Stallman's work has deeply influenced the principles and practices of software freedom, impacting software development and distribution worldwide." />
+        </attvalues>
+      </edge>
+      <edge source="Richard Stallman" target="Open Source Movement" id="241">
+        <attvalues>
+          <attvalue for="1" value="While distinct from the free software movement, the open source movement has been influenced by Stallman's ideas and advocacy." />
+        </attvalues>
+      </edge>
+      <edge source="Richard Stallman" target="Linux Kernel" id="242">
+        <attvalues>
+          <attvalue for="1" value="Stallman's GNU tools and utilities, combined with the Linux kernel, have resulted in many widely used GNU/Linux distributions." />
+        </attvalues>
+      </edge>
+      <edge source="Richard Stallman" target="Debian" id="243">
+        <attvalues>
+          <attvalue for="1" value="Stallman's work on free software principles influenced the Debian project, one of the oldest and most significant GNU/Linux distributions." />
+        </attvalues>
+      </edge>
+      <edge source="Richard Stallman" target="Creative Commons" id="244">
+        <attvalues>
+          <attvalue for="1" value="Stallman's advocacy for free software and copyleft principles influenced the creation of the Creative Commons licenses." />
+        </attvalues>
+      </edge>
+      <edge source="Richard Stallman" target="Ethical Software Development" id="245">
+        <attvalues>
+          <attvalue for="1" value="Stallman's work has fostered a global conversation on the ethical implications of software development and distribution." />
+        </attvalues>
+      </edge>
+      <edge source="Richard Stallman" target="Internet Privacy and Freedom" id="246">
+        <attvalues>
+          <attvalue for="1" value="Stallman has been a vocal advocate for internet privacy and freedom, influencing policies and awareness around these issues." />
+        </attvalues>
+      </edge>
+      <edge source="Richard Stallman" target="Open Hardware" id="247">
+        <attvalues>
+          <attvalue for="1" value="Stallman's ideas have also influenced the open hardware movement, which seeks to apply open-source principles to hardware design and development." />
+        </attvalues>
+      </edge>
+      <edge source="Richard Stallman" target="LibrePlanet" id="248">
+        <attvalues>
+          <attvalue for="1" value="Stallman started the LibrePlanet project to support free software advocacy and community events worldwide." />
+        </attvalues>
+      </edge>
+      <edge source="Richard Stallman" target="Ken Thompson" id="249">
+        <attvalues>
+          <attvalue for="1" value="Stallman was influenced by Thompson's work on Unix, which inspired the development of the GNU operating system." />
+        </attvalues>
+      </edge>
+      <edge source="Richard Stallman" target="Dennis Ritchie" id="250">
+        <attvalues>
+          <attvalue for="1" value="Ritchie's development of the C programming language and Unix system programming significantly influenced Stallman's work." />
+        </attvalues>
+      </edge>
+      <edge source="Ken Thompson" target="Unix" id="251">
+        <attvalues>
+          <attvalue for="1" value="Thompson co-created the Unix operating system, which has had a profound influence on modern operating systems, software development, and computing environments." />
+        </attvalues>
+      </edge>
+      <edge source="Ken Thompson" target="B Programming Language" id="252">
+        <attvalues>
+          <attvalue for="1" value="Thompson developed the B programming language, a precursor to the C programming language." />
+        </attvalues>
+      </edge>
+      <edge source="Ken Thompson" target="C Programming Language" id="253">
+        <attvalues>
+          <attvalue for="1" value="While not the primary author, Thompson's work on Unix influenced the development of the C programming language by Dennis Ritchie." />
+        </attvalues>
+      </edge>
+      <edge source="Ken Thompson" target="Plan 9 from Bell Labs" id="254">
+        <attvalues>
+          <attvalue for="1" value="Thompson co-created Plan 9, a distributed operating system designed as the successor to Unix." />
+        </attvalues>
+      </edge>
+      <edge source="Ken Thompson" target="Go Programming Language" id="255">
+        <attvalues>
+          <attvalue for="1" value="Thompson contributed to the development of the Go programming language, known for its simplicity and efficiency." />
+        </attvalues>
+      </edge>
+      <edge source="Ken Thompson" target="Regular Expressions" id="256">
+        <attvalues>
+          <attvalue for="1" value="Thompson introduced regular expressions to computer science, which are now widely used in text processing and search algorithms." />
+        </attvalues>
+      </edge>
+      <edge source="Ken Thompson" target="Multics" id="257">
+        <attvalues>
+          <attvalue for="1" value="Thompson worked on the Multics operating system project before developing Unix, and many concepts from Multics influenced Unix." />
+        </attvalues>
+      </edge>
+      <edge source="Ken Thompson" target="Unix Philosophy" id="258">
+        <attvalues>
+          <attvalue for="1" value="Thompson's design principles and philosophies in Unix have influenced software engineering practices and the development of various Unix-like systems." />
+        </attvalues>
+      </edge>
+      <edge source="Ken Thompson" target="Thompson's Hack" id="259">
+        <attvalues>
+          <attvalue for="1" value="Thompson created the first known computer virus as a demonstration of the importance of secure software development." />
+        </attvalues>
+      </edge>
+      <edge source="Ken Thompson" target="Shell Scripting" id="260">
+        <attvalues>
+          <attvalue for="1" value="Thompson developed the first Unix shell, which has influenced the design and functionality of many modern shell environments." />
+        </attvalues>
+      </edge>
+      <edge source="Ken Thompson" target="Unix Tools and Utilities" id="261">
+        <attvalues>
+          <attvalue for="1" value="Thompson's work led to the creation and improvement of numerous Unix tools and utilities that are still in use today." />
+        </attvalues>
+      </edge>
+      <edge source="Ken Thompson" target="Distributed Systems" id="262">
+        <attvalues>
+          <attvalue for="1" value="Thompson's work on Plan 9 and other projects has influenced the development and understanding of distributed systems." />
+        </attvalues>
+      </edge>
+      <edge source="Ken Thompson" target="Programming Languages" id="263">
+        <attvalues>
+          <attvalue for="1" value="Thompson's principles and practices have influenced the design and implementation of various programming languages." />
+        </attvalues>
+      </edge>
+      <edge source="Ken Thompson" target="Software Engineering Education" id="264">
+        <attvalues>
+          <attvalue for="1" value="Thompson's books, papers, and software have been instrumental in educating software engineers and influencing software engineering curricula." />
+        </attvalues>
+      </edge>
+      <edge source="Ken Thompson" target="John McCarthy" id="265">
+        <attvalues>
+          <attvalue for="1" value="Thompson was influenced by McCarthy's work on artificial intelligence and LISP, which impacted Thompson's approach to programming languages and operating systems." />
+        </attvalues>
+      </edge>
+      <edge source="Ken Thompson" target="Dennis Ritchie" id="266">
+        <attvalues>
+          <attvalue for="1" value="Ritchie and Thompson co-developed the Unix operating system, and Ritchie's work on the C programming language significantly influenced Thompson's work." />
+        </attvalues>
+      </edge>
+      <edge source="James Gosling" target="Java Programming Language" id="267">
+        <attvalues>
+          <attvalue for="1" value="James Gosling created Java, a general-purpose programming language known for its portability, security features (like bytecode verification), and robustness." />
+        </attvalues>
+      </edge>
+      <edge source="James Gosling" target="Java Virtual Machine (JVM)" id="268">
+        <attvalues>
+          <attvalue for="1" value="The JVM, integral to Java's 'write once, run anywhere' principle, enables Java bytecode execution across diverse platforms." />
+        </attvalues>
+      </edge>
+      <edge source="James Gosling" target="Android Operating System" id="269">
+        <attvalues>
+          <attvalue for="1" value="Android OS utilizes Java as its primary programming language for app development, leveraging its performance, scalability, and extensive ecosystem." />
+        </attvalues>
+      </edge>
+      <edge source="James Gosling" target="Eclipse IDE" id="270">
+        <attvalues>
+          <attvalue for="1" value="Eclipse, a popular integrated development environment, is written in Java and supports various programming languages, offering tools for software development." />
+        </attvalues>
+      </edge>
+      <edge source="James Gosling" target="Apache Tomcat" id="271">
+        <attvalues>
+          <attvalue for="1" value="Tomcat, an open-source servlet container, uses Java to provide a web server environment for Java-based applications." />
+        </attvalues>
+      </edge>
+      <edge source="James Gosling" target="Spring Framework" id="272">
+        <attvalues>
+          <attvalue for="1" value="Spring, a lightweight Java framework, simplifies Java EE development by providing comprehensive infrastructure support." />
+        </attvalues>
+      </edge>
+      <edge source="James Gosling" target="Minecraft" id="273">
+        <attvalues>
+          <attvalue for="1" value="Minecraft, a popular sandbox video game, is written in Java and features block-building, exploration, and creative gameplay." />
+        </attvalues>
+      </edge>
+      <edge source="James Gosling" target="Hadoop" id="274">
+        <attvalues>
+          <attvalue for="1" value="Apache Hadoop, a framework for distributed storage and processing of large datasets, is implemented in Java." />
+        </attvalues>
+      </edge>
+      <edge source="James Gosling" target="Netflix Streaming Service" id="275">
+        <attvalues>
+          <attvalue for="1" value="Netflix uses Java for its backend services and microservices architecture, supporting scalable and reliable video streaming." />
+        </attvalues>
+      </edge>
+      <edge source="James Gosling" target="Twitter Backend" id="276">
+        <attvalues>
+          <attvalue for="1" value="Twitter's backend systems, including messaging, data processing, and analytics, are predominantly built in Java for performance and scalability." />
+        </attvalues>
+      </edge>
+      <edge source="James Gosling" target="Amazon Web Services (AWS)" id="277">
+        <attvalues>
+          <attvalue for="1" value="Various AWS services, such as Amazon DynamoDB and Amazon Elastic Beanstalk, offer Java SDKs for cloud-based applications and services." />
+        </attvalues>
+      </edge>
+      <edge source="James Gosling" target="Bjarne Stroustrup" id="278">
+        <attvalues>
+          <attvalue for="1" value="Gosling's work on the Oak programming language (which became Java) was influenced by C++, particularly in its syntax and object-oriented features." />
+        </attvalues>
+      </edge>
+      <edge source="James Gosling" target="Objective-C" id="279">
+        <attvalues>
+          <attvalue for="1" value="Gosling was influenced by Objective-C's message-passing paradigm and dynamic typing when designing Java." />
+        </attvalues>
+      </edge>
+      <edge source="Brian Kernighan" target="The C Programming Language (Book)" id="280">
+        <attvalues>
+          <attvalue for="1" value="Co-authored by Kernighan and Ritchie, this book is one of the most influential texts in computer science and has educated countless programmers." />
+        </attvalues>
+      </edge>
+      <edge source="Brian Kernighan" target="Unix" id="281">
+        <attvalues>
+          <attvalue for="1" value="Kernighan contributed to the development and documentation of the Unix operating system, which has influenced many modern operating systems." />
+        </attvalues>
+      </edge>
+      <edge source="Brian Kernighan" target="AWK Programming Language" id="282">
+        <attvalues>
+          <attvalue for="1" value="Kernighan co-created AWK, a powerful text-processing programming language used in Unix-like operating systems." />
+        </attvalues>
+      </edge>
+      <edge source="Brian Kernighan" target="AMPL (A Mathematical Programming Language)" id="283">
+        <attvalues>
+          <attvalue for="1" value="Kernighan co-developed AMPL, a high-level language for describing and solving large-scale optimization problems." />
+        </attvalues>
+      </edge>
+      <edge source="Brian Kernighan" target="The Practice of Programming (Book)" id="284">
+        <attvalues>
+          <attvalue for="1" value="Co-authored with Rob Pike, this book emphasizes the importance of writing clear and efficient code." />
+        </attvalues>
+      </edge>
+      <edge source="Brian Kernighan" target="Unix Tools and Utilities" id="285">
+        <attvalues>
+          <attvalue for="1" value="Kernighan's work has led to the creation and improvement of numerous Unix tools and utilities." />
+        </attvalues>
+      </edge>
+      <edge source="Brian Kernighan" target="Software Engineering Education" id="286">
+        <attvalues>
+          <attvalue for="1" value="Kernighan's books and papers have been instrumental in educating software engineers and influencing software engineering curricula." />
+        </attvalues>
+      </edge>
+      <edge source="Brian Kernighan" target="C Programming Language Evolution" id="287">
+        <attvalues>
+          <attvalue for="1" value="Kernighan's work with Ritchie influenced the evolution of the C programming language and its widespread adoption." />
+        </attvalues>
+      </edge>
+      <edge source="Brian Kernighan" target="Programming Languages" id="288">
+        <attvalues>
+          <attvalue for="1" value="Kernighan's principles and practices have influenced the design and implementation of various programming languages." />
+        </attvalues>
+      </edge>
+      <edge source="Brian Kernighan" target="Shell Scripting" id="289">
+        <attvalues>
+          <attvalue for="1" value="Kernighan's contributions to Unix have also influenced the development and use of shell scripting." />
+        </attvalues>
+      </edge>
+      <edge source="Brian Kernighan" target="Linux" id="290">
+        <attvalues>
+          <attvalue for="1" value="The Unix principles and tools Kernighan contributed to have heavily influenced the development of Linux." />
+        </attvalues>
+      </edge>
+      <edge source="Brian Kernighan" target="Plan 9 from Bell Labs" id="291">
+        <attvalues>
+          <attvalue for="1" value="Kernighan's Unix experience influenced his contributions to the Plan 9 operating system." />
+        </attvalues>
+      </edge>
+      <edge source="Brian Kernighan" target="Data Structures and Algorithms" id="292">
+        <attvalues>
+          <attvalue for="1" value="Kernighan's educational materials have significantly influenced the teaching and understanding of data structures and algorithms." />
+        </attvalues>
+      </edge>
+      <edge source="Brian Kernighan" target="Dennis Ritchie" id="293">
+        <attvalues>
+          <attvalue for="1" value="Ritchie and Kernighan co-authored 'The C Programming Language' book, which had a significant impact on the development of software engineering." />
+        </attvalues>
+      </edge>
+      <edge source="Brian Kernighan" target="Ken Thompson" id="294">
+        <attvalues>
+          <attvalue for="1" value="Thompson's work on Unix and the B programming language influenced Kernighan's contributions to Unix and his development of AWK and AMPL." />
+        </attvalues>
+      </edge>
+      <edge source="Robert Noyce" target="Mark Dean" id="295">
+        <attvalues>
+          <attvalue for="1" value="Noyce's invention of the integrated circuit influenced Dean's work on the IBM PC." />
+        </attvalues>
+      </edge>
+      <edge source="Mark Dean" target="Vint Cerf" id="296">
+        <attvalues>
+          <attvalue for="1" value="Dean's work on personal computing influenced Cerf's development of internet protocols." />
+        </attvalues>
+      </edge>
+      <edge source="Vint Cerf" target="Robert Kahn" id="297">
+        <attvalues>
+          <attvalue for="1" value="Cerf's collaboration with Kahn led to the creation of TCP/IP protocols." />
+        </attvalues>
+      </edge>
+      <edge source="Robert Kahn" target="Tim Berners-Lee" id="298">
+        <attvalues>
+          <attvalue for="1" value="Kahn's work on internet protocols influenced Berners-Lee's invention of the World Wide Web." />
+        </attvalues>
+      </edge>
+      <edge source="Ray Tomlinson" target="Mitchell Baker" id="299">
+        <attvalues>
+          <attvalue for="1" value="Tomlinson's invention of email influenced Baker's development of the Mozilla Firefox browser." />
+        </attvalues>
+      </edge>
+      <edge source="Mitchell Baker" target="Shafi Goldwasser" id="300">
+        <attvalues>
+          <attvalue for="1" value="Baker's work on open-source software influenced Goldwasser's research on cryptography." />
+        </attvalues>
+      </edge>
+      <edge source="Shafi Goldwasser" target="Martin Hellman" id="301">
+        <attvalues>
+          <attvalue for="1" value="Goldwasser's work on cryptographic algorithms influenced Hellman's development of public-key cryptography." />
+        </attvalues>
+      </edge>
+      <edge source="Martin Hellman" target="Whitfield Diffie" id="302">
+        <attvalues>
+          <attvalue for="1" value="Hellman's collaboration with Diffie led to the invention of Diffie-Hellman key exchange." />
+        </attvalues>
+      </edge>
+      <edge source="Whitfield Diffie" target="Sophie Wilson" id="303">
+        <attvalues>
+          <attvalue for="1" value="Diffie's work on cryptography influenced Wilson's development of the ARM architecture for secure computing." />
+        </attvalues>
+      </edge>
+      <edge source="Sophie Wilson" target="John Carmack" id="304">
+        <attvalues>
+          <attvalue for="1" value="Wilson's ARM architecture influenced Carmack's work on game development and 3D graphics." />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
