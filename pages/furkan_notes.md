@@ -28,6 +28,7 @@
   a job for a while.
 - After the graduation, he relied on his father's support, and when his father died he inherited
   about $15M in today's value.
+- Around age 8, he had a life threatening fever.
 - He helped found the Royal Astronomical Society. They goal was to standardize astronomical
   calculations and circulate data.
 > https://en.wikipedia.org/wiki/Royal_Astronomical_Society

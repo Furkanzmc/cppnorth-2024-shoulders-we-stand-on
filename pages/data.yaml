@@ -11,7 +11,19 @@ Acts:
       influenced-by:
         - name: Antikythera mechanism
           description: ""
+        - name: Robert Woodhouse
+          description: ""
+        - name: Joseph Louis Lagrange
+          description: ""
+        - name: Marie Agnesi
+          description: ""
+        - name: John Herschel
+          description: ""
+        - name: George Peacock
+          description: ""
       influences:
+        - name: Analytical Society
+          description: "Source: https://en.wikipedia.org/wiki/Analytical_Society"
         - name: Analytical Engine
           description: "Source: https://en.wikipedia.org/wiki/Analytical_engine"
         - name: Difference Engine
@@ -1051,26 +1063,486 @@ Acts:
 
   Act_5:
     - name: Ray Tomlinson
+      influenced-by:
+        - name: ARPANET
+          description: "Tomlinson's work on email was made possible by the development of ARPANET, the precursor to the modern Internet."
+          sources:
+            - "https://en.wikipedia.org/wiki/ARPANET"
+            - "https://www.computerhistory.org/revolution/networking/19/314"
+        - name: Leonard Kleinrock
+          description: "Kleinrock's work on packet-switching theory was fundamental to the development of ARPANET, which Tomlinson used to create email."
+          sources:
+            - "https://en.wikipedia.org/wiki/Leonard_Kleinrock"
+            - "https://www.computerhistory.org/revolution/networking/19/388"
+        - name: Paul Baran
+          description: "Baran's concept of packet-switching influenced the development of ARPANET, enabling Tomlinson's creation of the first email system."
+          sources:
+            - "https://en.wikipedia.org/wiki/Paul_Baran"
+            - "https://www.internetsociety.org/internet/history-internet/brief-history-packet-switching"
+        - name: J.C.R. Licklider
+          description: "Licklider's vision for a connected global network laid the groundwork for the development of ARPANET, which supported Tomlinson's email innovation."
+          sources:
+            - "https://en.wikipedia.org/wiki/J._C._R._Licklider"
+            - "https://www.computerhistory.org/revolution/networking/19/351"
+        - name: Vint Cerf
+          description: "Cerf's work on TCP/IP protocols was crucial for the functionality of ARPANET and subsequent internet systems used for email communication."
+          sources:
+            - "https://en.wikipedia.org/wiki/Vint_Cerf"
+            - "https://www.internetsociety.org/internet/history-internet/brief-history-internet-related-networks"
+        - name: Robert Kahn
+          description: "Kahn, along with Cerf, developed TCP/IP protocols that made ARPANET scalable, indirectly supporting Tomlinson's email system."
+          sources:
+            - "https://en.wikipedia.org/wiki/Bob_Kahn"
+            - "https://www.internetsociety.org/internet/history-internet/brief-history-internet-related-networks"
       influences:
-        - name: Mitchell Baker
-          description: "Tomlinson's invention of email influenced Baker's development of the Mozilla Firefox browser."
+        - name: Email
+          description: "Tomlinson is best known for implementing the first email program on the ARPANET system, the precursor to the Internet."
+          sources:
+            - "https://en.wikipedia.org/wiki/Email"
+            - "https://www.computerhistory.org/revolution/networking/19/389"
+        - name: \@ Symbol in Email Addresses
+          description: "Tomlinson chose the @ symbol to separate the username from the destination address, a convention still used in email addresses today."
+          sources:
+            - "https://en.wikipedia.org/wiki/Email_address#Domain_part"
+            - "https://www.computerhistory.org/revolution/networking/19/389"
+        - name: Networked Communication
+          description: "Tomlinson's work on email demonstrated the potential for direct, electronic communication between people, laying the groundwork for future networked communication technologies."
+          sources:
+            - "https://en.wikipedia.org/wiki/Email"
+            - "https://www.wired.com/2012/04/ray-tomlinson-email/"
+        - name: MIME (Multipurpose Internet Mail Extensions)
+          description: "Tomlinson's email protocol influenced the development of MIME, which extended email to support multimedia content."
+          sources:
+            - "https://en.wikipedia.org/wiki/MIME"
+            - "https://tools.ietf.org/html/rfc2045"
+        - name: Web-based Email
+          description: "Tomlinson's pioneering work laid the foundation for the development of web-based email services like Hotmail and Gmail."
+          sources:
+            - "https://en.wikipedia.org/wiki/Hotmail"
+            - "https://en.wikipedia.org/wiki/Gmail"
+        - name: Email Clients
+          description: "Tomlinson's innovations influenced the development of various email clients, such as Microsoft Outlook, Mozilla Thunderbird, and Apple Mail."
+          sources:
+            - "https://en.wikipedia.org/wiki/Email_client"
+            - "https://www.lifewire.com/best-free-email-client-programs-1171825"
+        - name: Instant Messaging
+          description: "The principles of Tomlinson's email system contributed to the development of instant messaging services."
+          sources:
+            - "https://en.wikipedia.org/wiki/Instant_messaging"
+            - "https://www.techrepublic.com/article/the-evolution-of-email-from-personal-communication-to-internet-staple/"
+        - name: Collaborative Software
+          description: "Tomlinson's work on networked communication paved the way for collaborative software tools such as Slack, Microsoft Teams, and Trello."
+          sources:
+            - "https://en.wikipedia.org/wiki/Collaborative_software"
+            - "https://slack.com/"
+            - "https://www.microsoft.com/en-us/microsoft-365/microsoft-teams/group-chat-software"
+        - name: Cloud Services
+          description: "Email's integration into cloud services and its use as a primary communication tool influenced the development of cloud-based applications."
+          sources:
+            - "https://en.wikipedia.org/wiki/Cloud_computing"
+            - "https://www.salesforce.com/cloud-computing/"
+        - name: Spam Filtering
+          description: "Tomlinson's creation of email systems necessitated the development of spam filtering technologies to manage unsolicited emails."
+          sources:
+            - "https://en.wikipedia.org/wiki/Email_spam"
+            - "https://www.spamlaws.com/spam-filter.html"
+        - name: Email Security
+          description: "Tomlinson's work highlighted the importance of secure communication, influencing the development of email security protocols like PGP and SSL/TLS."
+          sources:
+            - "https://en.wikipedia.org/wiki/Pretty_Good_Privacy"
+            - "https://en.wikipedia.org/wiki/Transport_Layer_Security"
+
     - name: Mitchell Baker
+      influenced-by:
+        - name: Netscape
+          description: "Baker's career began at Netscape Communications Corporation, where she played a pivotal role in the company's open-source initiatives."
+          sources:
+            - "https://en.wikipedia.org/wiki/Netscape_Communications_Corporation"
+            - "https://www.computerhistory.org/atchm/the-netscape-launch-20-years-later/"
+        - name: Mozilla Foundation
+          description: "Baker was instrumental in the creation of the Mozilla Foundation, which took over the management of the Mozilla project from Netscape."
+          sources:
+            - "https://en.wikipedia.org/wiki/Mozilla_Foundation"
+            - "https://www.mozilla.org/en-US/foundation/"
+        - name: Open Source Movement
+          description: "Baker was influenced by the principles of the open-source movement, advocating for software freedom and transparency."
+          sources:
+            - "https://en.wikipedia.org/wiki/Open-source_software"
+            - "https://opensource.com/resources/what-open-source"
+        - name: Jamie Zawinski
+          description: "As a fellow Netscape employee and key figure in the Mozilla project, Zawinski's contributions and advocacy for open source influenced Baker."
+          sources:
+            - "https://en.wikipedia.org/wiki/Jamie_Zawinski"
+            - "https://www.jwz.org/"
       influences:
-        - name: Shafi Goldwasser
-          description: "Baker's work on open-source software influenced Goldwasser's research on cryptography."
+        - name: Mozilla Firefox
+          description: "As the 'chief lizard wrangler' at Mozilla, Baker's leadership was crucial in the development and success of Mozilla Firefox, a popular open-source web browser."
+          sources:
+            - "https://en.wikipedia.org/wiki/Firefox"
+            - "https://www.mozilla.org/en-US/firefox/new/"
+        - name: Open Source Advocacy
+          description: "Baker's work at Mozilla helped to promote and advance the principles of the open-source movement in the software industry."
+          sources:
+            - "https://en.wikipedia.org/wiki/Mitchell_Baker"
+            - "https://www.mozilla.org/en-US/foundation/missions/open-source/"
+        - name: Bugzilla
+          description: "Under Baker's leadership, Mozilla developed Bugzilla, a widely used open-source bug tracking system."
+          sources:
+            - "https://en.wikipedia.org/wiki/Bugzilla"
+            - "https://www.bugzilla.org/"
+        - name: Thunderbird
+          description: "Baker's influence extended to Mozilla Thunderbird, an open-source email client developed by Mozilla."
+          sources:
+            - "https://en.wikipedia.org/wiki/Mozilla_Thunderbird"
+            - "https://www.thunderbird.net/"
+        - name: Web Standards
+          description: "Baker's work helped push for the adoption and implementation of web standards, making the web more accessible and interoperable."
+          sources:
+            - "https://en.wikipedia.org/wiki/Web_standards"
+            - "https://www.webstandards.org/"
+        - name: Privacy and Security
+          description: "Baker has been a strong advocate for privacy and security on the internet, influencing Mozilla's policies and product features."
+          sources:
+            - "https://www.mozilla.org/en-US/privacy/"
+            - "https://www.mozilla.org/en-US/security/"
+        - name: Open Data
+          description: "Baker's advocacy for open data has influenced how organizations approach data transparency and accessibility."
+          sources:
+            - "https://en.wikipedia.org/wiki/Open_data"
+            - "https://www.opendatainstitute.org/"
+        - name: Collaborative Software Development
+          description: "Baker's leadership in open-source projects has influenced the development of collaborative software development practices and tools."
+          sources:
+            - "https://en.wikipedia.org/wiki/Collaborative_software"
+            - "https://www.atlassian.com/software/jira"
+        - name: Digital Rights
+          description: "Baker's work has supported the broader movement for digital rights, ensuring that the internet remains open and free."
+          sources:
+            - "https://en.wikipedia.org/wiki/Digital_rights"
+            - "https://www.eff.org/issues/digital-civil-liberties"
+        - name: Rust Programming Language
+          description: "Mozilla, under Baker's influence, developed the Rust programming language, known for its safety and performance."
+          sources:
+            - "https://en.wikipedia.org/wiki/Rust_(programming_language)"
+            - "https://www.rust-lang.org/"
+        - name: Fennec (Firefox for Android)
+          description: "Baker's influence extended to mobile platforms with the development of Fennec, the mobile version of Firefox for Android."
+          sources:
+            - "https://en.wikipedia.org/wiki/Firefox_for_Android"
+            - "https://www.mozilla.org/en-US/firefox/mobile/"
+        - name: SeaMonkey
+          description: "Baker's leadership helped maintain the SeaMonkey project, a continuation of the Mozilla Application Suite offering an all-in-one internet suite."
+          sources:
+            - "https://en.wikipedia.org/wiki/SeaMonkey"
+            - "https://www.seamonkey-project.org/"
+        - name: Firefox OS
+          description: "Baker played a role in the development of Firefox OS, a mobile operating system based on open web standards."
+          sources:
+            - "https://en.wikipedia.org/wiki/Firefox_OS"
+            - "https://www.mozilla.org/en-US/firefoxos/"
+
     - name: Shafi Goldwasser
-      influences:
+      influenced-by:
         - name: Martin Hellman
-          description: "Goldwasser's work on cryptographic algorithms influenced Hellman's development of public-key cryptography."
-    - name: Martin Hellman
-      influences:
+          description: "Goldwasser's work on cryptographic algorithms was influenced by Hellman's pioneering work in public-key cryptography."
+          sources:
+            - "https://en.wikipedia.org/wiki/Martin_Hellman"
+            - "https://www.computerhistory.org/events/bio/Martin,Hellman"
         - name: Whitfield Diffie
-          description: "Hellman's collaboration with Diffie led to the invention of Diffie-Hellman key exchange."
+          description: "Goldwasser was influenced by Diffie's contributions to cryptography, particularly the Diffie-Hellman key exchange protocol."
+          sources:
+            - "https://en.wikipedia.org/wiki/Whitfield_Diffie"
+            - "https://www.computerhistory.org/events/bio/Whitfield,Diffie"
+        - name: Leonard Adleman
+          description: "Adleman's work in cryptography, particularly the RSA algorithm, influenced Goldwasser's research."
+          sources:
+            - "https://en.wikipedia.org/wiki/Leonard_Adleman"
+            - "https://math.usc.edu/leonard-adleman/"
+        - name: Silvio Micali
+          description: "Goldwasser's collaborator and co-recipient of the Turing Award, Micali significantly influenced her work in cryptography."
+          sources:
+            - "https://en.wikipedia.org/wiki/Silvio_Micali"
+            - "https://amturing.acm.org/award_winners/micali_1378728.cfm"
+        - name: John McCarthy
+          description: "McCarthy's work in artificial intelligence and formal methods influenced Goldwasser's approach to computational complexity and cryptography."
+          sources:
+            - "https://en.wikipedia.org/wiki/John_McCarthy_(computer_scientist)"
+            - "https://amturing.acm.org/award_winners/mccarthy_1062396.cfm"
+      influences:
+        - name: Zero-Knowledge Proofs
+          description: "Goldwasser co-invented zero-knowledge proofs, a fundamental concept in cryptography that allows one party to prove to another that they know a value without revealing the value itself."
+          sources:
+            - "https://en.wikipedia.org/wiki/Zero-knowledge_proof"
+            - "https://www.ibm.com/topics/zero-knowledge-proof"
+        - name: Probabilistic Encryption
+          description: "Goldwasser's research introduced probabilistic encryption, enhancing the security of cryptographic schemes by incorporating randomness."
+          sources:
+            - "https://en.wikipedia.org/wiki/Probabilistic_encryption"
+            - "https://www.encyclopedia.com/science/dictionaries-thesauruses-pictures-and-press-releases/probabilistic-encryption"
+        - name: Complexity Theory
+          description: "Her work has deepened the understanding of computational complexity, particularly in the context of cryptographic algorithms."
+          sources:
+            - "https://en.wikipedia.org/wiki/Computational_complexity_theory"
+            - "https://www.sciencedirect.com/topics/computer-science/computational-complexity-theory"
+        - name: Interactive Proof Systems
+          description: "Goldwasser's contributions to interactive proof systems have laid the groundwork for modern secure computation and cryptographic protocols."
+          sources:
+            - "https://en.wikipedia.org/wiki/Interactive_proof_system"
+            - "https://www.cs.cmu.edu/~15780/files/Interactive-Proof-Systems.pdf"
+        - name: Modern Cryptographic Protocols
+          description: "Her pioneering work in cryptography has influenced the development of secure communication protocols used in modern computing."
+          sources:
+            - "https://en.wikipedia.org/wiki/Cryptographic_protocol"
+            - "https://www.iacr.org/"
+        - name: Public-Key Cryptography
+          description: "Goldwasser's research has enhanced the field of public-key cryptography, making secure digital communications more robust."
+          sources:
+            - "https://en.wikipedia.org/wiki/Public-key_cryptography"
+            - "https://searchsecurity.techtarget.com/definition/public-key-cryptography"
+        - name: Privacy-Preserving Computation
+          description: "Her work on privacy-preserving computation techniques has been instrumental in advancing secure data analysis and sharing."
+          sources:
+            - "https://en.wikipedia.org/wiki/Privacy-preserving_computation"
+            - "https://dl.acm.org/doi/10.1145/3458891"
+        - name: Homomorphic Encryption
+          description: "Goldwasser's contributions have been pivotal in the development of homomorphic encryption, allowing computation on encrypted data without decryption."
+          sources:
+            - "https://en.wikipedia.org/wiki/Homomorphic_encryption"
+            - "https://www.microsoft.com/en-us/research/project/homomorphic-encryption/"
+        - name: Blockchain Technology
+          description: "The cryptographic principles developed by Goldwasser have influenced the security protocols used in blockchain technology."
+          sources:
+            - "https://en.wikipedia.org/wiki/Blockchain"
+            - "https://blockgeeks.com/guides/what-is-blockchain-technology/"
+        - name: Digital Signatures
+          description: "Her work on cryptographic algorithms has improved the security and reliability of digital signatures, essential for authentication and data integrity."
+          sources:
+            - "https://en.wikipedia.org/wiki/Digital_signature"
+            - "https://www.docusign.com/how-it-works/electronic-signature/digital-signature/digital-signature-algorithms"
+        - name: Secure Multiparty Computation
+          description: "Goldwasser's research has significantly advanced secure multiparty computation, enabling parties to jointly compute a function while keeping inputs private."
+          sources:
+            - "https://en.wikipedia.org/wiki/Secure_multi-party_computation"
+            - "https://crypto.stanford.edu/~dabo/courses/cs355_spring09/handouts/lecture7.pdf"
+        - name: Trusted Computing
+          description: "Her cryptographic frameworks have been foundational in the development of trusted computing technologies, ensuring system integrity and security."
+          sources:
+            - "https://en.wikipedia.org/wiki/Trusted_computing"
+            - "https://www.trustedcomputinggroup.org/"
+
+    - name: Martin Hellman
+      influenced-by:
+        - name: Claude Shannon
+          description: "Shannon's work on information theory and communication significantly influenced Hellman's approach to cryptographic systems."
+          sources:
+            - "https://en.wikipedia.org/wiki/Claude_Shannon"
+            - "https://amturing.acm.org/award_winners/shannon_4608072.cfm"
+        - name: Whitfield Diffie
+          description: "Hellman collaborated with Diffie on the development of public-key cryptography, and their partnership was mutually influential."
+          sources:
+            - "https://en.wikipedia.org/wiki/Whitfield_Diffie"
+            - "https://amturing.acm.org/award_winners/diffie_8888261.cfm"
+        - name: Ralph Merkle
+          description: "Merkle's work on public-key distribution and cryptographic protocols influenced Hellman's research."
+          sources:
+            - "https://en.wikipedia.org/wiki/Ralph_Merkle"
+            - "https://amturing.acm.org/award_winners/merkle_9190262.cfm"
+      influences:
+        - name: Diffie-Hellman Key Exchange
+          description: "Hellman co-invented the Diffie-Hellman key exchange protocol, a fundamental breakthrough in cryptography allowing secure exchange of cryptographic keys over a public channel."
+          sources:
+            - "https://en.wikipedia.org/wiki/Diffie–Hellman_key_exchange"
+            - "https://cryptography.io/en/latest/hazmat/primitives/asymmetric/dh/"
+        - name: Public-Key Cryptography
+          description: "His work with Whitfield Diffie laid the groundwork for public-key cryptography, which is essential for secure communications in the digital age."
+          sources:
+            - "https://en.wikipedia.org/wiki/Public-key_cryptography"
+            - "https://searchsecurity.techtarget.com/definition/public-key-cryptography"
+        - name: Internet Security
+          description: "Hellman's contributions to cryptographic protocols have been instrumental in developing secure internet communication standards."
+          sources:
+            - "https://en.wikipedia.org/wiki/Internet_security"
+            - "https://www.cisco.com/c/en/us/products/security/what-is-internet-security.html"
+        - name: Digital Signatures
+          description: "The principles of public-key cryptography developed by Hellman have enabled the creation and implementation of digital signatures, crucial for verifying the authenticity of digital documents."
+          sources:
+            - "https://en.wikipedia.org/wiki/Digital_signature"
+            - "https://www.docusign.com/how-it-works/electronic-signature/digital-signature/digital-signature-algorithms"
+        - name: Secure Email
+          description: "Hellman's cryptographic innovations underpin many secure email systems, ensuring privacy and authenticity of electronic communications."
+          sources:
+            - "https://en.wikipedia.org/wiki/Email_encryption"
+            - "https://www.acs.org.au/content/dam/acs/acs-publications/Email%20Encryption.pdf"
+        - name: E-commerce Security
+          description: "His work in cryptography has enabled secure online transactions, forming the backbone of e-commerce security."
+          sources:
+            - "https://en.wikipedia.org/wiki/E-commerce_security"
+            - "https://www.investopedia.com/terms/e/e-commerce.asp"
+        - name: SSL/TLS Protocols
+          description: "Hellman's contributions to cryptography have influenced the development of SSL/TLS protocols, which secure web communications."
+          sources:
+            - "https://en.wikipedia.org/wiki/Transport_Layer_Security"
+            - "https://www.cloudflare.com/learning/ssl/what-is-ssl/"
+        - name: VPN Technology
+          description: "The secure communication principles developed by Hellman have been applied in VPN technology, ensuring private and secure internet connections."
+          sources:
+            - "https://en.wikipedia.org/wiki/Virtual_private_network"
+            - "https://www.cisco.com/c/en/us/products/security/vpn-endpoint-security-clients/what-is-vpn.html"
+        - name: Blockchain Security
+          description: "Hellman's cryptographic methods have been foundational in developing the security protocols used in blockchain technology."
+          sources:
+            - "https://en.wikipedia.org/wiki/Blockchain"
+            - "https://blockgeeks.com/guides/what-is-blockchain-technology/"
+        - name: Cryptanalysis
+          description: "His work has also advanced the field of cryptanalysis, improving methods for evaluating and breaking cryptographic systems."
+          sources:
+            - "https://en.wikipedia.org/wiki/Cryptanalysis"
+            - "https://www.encyclopedia.com/science/dictionaries-thesauruses-pictures-and-press-releases/cryptanalysis"
+        - name: Quantum Cryptography
+          description: "Hellman's research has influenced the emerging field of quantum cryptography, which aims to develop secure communication methods resistant to quantum computing attacks."
+          sources:
+            - "https://en.wikipedia.org/wiki/Quantum_cryptography"
+            - "https://www.ibm.com/quantum-computing/what-is-quantum-computing/quantum-cryptography/"
+
     - name: Whitfield Diffie
+      influenced-by:
+        - name: Claude Shannon
+          description: "Shannon's work on information theory provided a theoretical foundation for Diffie's cryptographic research."
+          sources:
+            - "https://en.wikipedia.org/wiki/Claude_Shannon"
+            - "https://amturing.acm.org/award_winners/shannon_4608072.cfm"
+        - name: Ralph Merkle
+          description: "Merkle's ideas on public-key cryptosystems were foundational to Diffie's development of key exchange methods."
+          sources:
+            - "https://en.wikipedia.org/wiki/Ralph_Merkle"
+            - "https://amturing.acm.org/award_winners/merkle_9190262.cfm"
+        - name: Martin Hellman
+          description: "Diffie collaborated with Hellman to create the Diffie-Hellman key exchange, a pioneering method in cryptography."
+          sources:
+            - "https://en.wikipedia.org/wiki/Martin_Hellman"
+            - "https://amturing.acm.org/award_winners/hellman_8888262.cfm"
       influences:
-        - name: Sophie Wilson
-          description: "Diffie's work on cryptography influenced Wilson's development of the ARM architecture for secure computing."
+        - name: Diffie-Hellman Key Exchange
+          description: "Diffie co-invented the Diffie-Hellman key exchange protocol, which allows secure key exchange over an insecure channel."
+          sources:
+            - "https://en.wikipedia.org/wiki/Diffie–Hellman_key_exchange"
+            - "https://cryptography.io/en/latest/hazmat/primitives/asymmetric/dh/"
+        - name: Public-Key Cryptography
+          description: "Diffie's work with Hellman laid the groundwork for public-key cryptography, a critical technology for secure digital communications."
+          sources:
+            - "https://en.wikipedia.org/wiki/Public-key_cryptography"
+            - "https://searchsecurity.techtarget.com/definition/public-key-cryptography"
+        - name: Internet Security
+          description: "Diffie's contributions to cryptography are fundamental to the development of secure internet protocols and communications."
+          sources:
+            - "https://en.wikipedia.org/wiki/Internet_security"
+            - "https://www.cisco.com/c/en/us/products/security/what-is-internet-security.html"
+        - name: Digital Signatures
+          description: "The principles of public-key cryptography developed by Diffie enable the use of digital signatures to verify authenticity."
+          sources:
+            - "https://en.wikipedia.org/wiki/Digital_signature"
+            - "https://www.docusign.com/how-it-works/electronic-signature/digital-signature/digital-signature-algorithms"
+        - name: Secure Email
+          description: "Diffie's innovations in cryptography underpin secure email systems, ensuring privacy and integrity of electronic communications."
+          sources:
+            - "https://en.wikipedia.org/wiki/Email_encryption"
+            - "https://www.acs.org.au/content/dam/acs/acs-publications/Email%20Encryption.pdf"
+        - name: E-commerce Security
+          description: "His work in cryptography has been crucial for enabling secure online transactions in e-commerce."
+          sources:
+            - "https://en.wikipedia.org/wiki/E-commerce_security"
+            - "https://www.investopedia.com/terms/e/e-commerce.asp"
+        - name: SSL/TLS Protocols
+          description: "Diffie's contributions to cryptographic methods have influenced the development of SSL/TLS protocols for securing web communications."
+          sources:
+            - "https://en.wikipedia.org/wiki/Transport_Layer_Security"
+            - "https://www.cloudflare.com/learning/ssl/what-is-ssl/"
+        - name: VPN Technology
+          description: "The secure communication principles developed by Diffie are applied in VPN technology to ensure private internet connections."
+          sources:
+            - "https://en.wikipedia.org/wiki/Virtual_private_network"
+            - "https://www.cisco.com/c/en/us/products/security/vpn-endpoint-security-clients/what-is-vpn.html"
+        - name: Blockchain Security
+          description: "Diffie's cryptographic methods have been foundational for the security protocols used in blockchain technology."
+          sources:
+            - "https://en.wikipedia.org/wiki/Blockchain"
+            - "https://blockgeeks.com/guides/what-is-blockchain-technology/"
+        - name: Cryptanalysis
+          description: "His work has advanced the field of cryptanalysis, improving methods for evaluating and breaking cryptographic systems."
+          sources:
+            - "https://en.wikipedia.org/wiki/Cryptanalysis"
+            - "https://www.encyclopedia.com/science/dictionaries-thesauruses-pictures-and-press-releases/cryptanalysis"
+        - name: Quantum Cryptography
+          description: "Diffie's research has influenced the emerging field of quantum cryptography, aiming to develop secure communication methods resistant to quantum computing attacks."
+          sources:
+            - "https://en.wikipedia.org/wiki/Quantum_cryptography"
+            - "https://www.ibm.com/quantum-computing/what-is-quantum-computing/quantum-cryptography/"
+
     - name: Sophie Wilson
+      influenced-by:
+        - name: John von Neumann
+          description: "Wilson's work on computer architecture was influenced by von Neumann's pioneering concepts in stored-program computers."
+          sources:
+            - "https://en.wikipedia.org/wiki/John_von_Neumann"
+            - "https://amturing.acm.org/award_winners/vonneumann_1026324.cfm"
+        - name: Alan Turing
+          description: "Wilson's work in computing and her contributions to microprocessor design were inspired by Turing's foundational theories in computer science."
+          sources:
+            - "https://en.wikipedia.org/wiki/Alan_Turing"
+            - "https://amturing.acm.org/award_winners/turing_4816837.cfm"
+        - name: Steve Furber
+          description: "Collaborated closely with Furber on the design of the ARM architecture, which has become a dominant force in microprocessors."
+          sources:
+            - "https://en.wikipedia.org/wiki/Steve_Furber"
+            - "https://www.computerhistory.org/fellowawards/hall/steve-furber/"
       influences:
-        - name: John Carmack
-          description: "Wilson's ARM architecture influenced Carmack's work on game development and 3D graphics."
+        - name: ARM Architecture
+          description: "Wilson co-designed the ARM architecture, which has become a cornerstone in modern microprocessors, used extensively in mobile and embedded devices."
+          sources:
+            - "https://en.wikipedia.org/wiki/ARM_architecture"
+            - "https://www.arm.com/company/history"
+        - name: RISC Architecture
+          description: "Her work on ARM architecture contributed to the development and popularization of RISC (Reduced Instruction Set Computing) principles."
+          sources:
+            - "https://en.wikipedia.org/wiki/Reduced_instruction_set_computer"
+            - "https://www.techopedia.com/definition/17662/reduced-instruction-set-computer-risc"
+        - name: Mobile Devices
+          description: "The ARM architecture designed by Wilson is used in nearly all mobile devices today, including smartphones and tablets."
+          sources:
+            - "https://en.wikipedia.org/wiki/Smartphone"
+            - "https://www.computerworld.com/article/2490500/arm-chips-in-90--of-smartphones--tablets.html"
+        - name: Embedded Systems
+          description: "ARM processors, thanks to Wilson's design, are a mainstay in embedded systems, ranging from automotive to IoT devices."
+          sources:
+            - "https://en.wikipedia.org/wiki/Embedded_system"
+            - "https://www.i-scoop.eu/internet-of-things-iot/internet-things-smart-products-applications/embedded-iot-devices/"
+        - name: Raspberry Pi
+          description: "The popular Raspberry Pi single-board computers use ARM processors, bringing computing to education and hobbyists worldwide."
+          sources:
+            - "https://en.wikipedia.org/wiki/Raspberry_Pi"
+            - "https://www.raspberrypi.org/about/"
+        - name: Digital Signal Processing (DSP)
+          description: "Wilson's ARM architecture has significantly impacted DSP applications, improving performance in audio and video processing."
+          sources:
+            - "https://en.wikipedia.org/wiki/Digital_signal_processing"
+            - "https://www.analog.com/en/education/education-library/articles/dsp-for-beginners.html"
+        - name: Networking Equipment
+          description: "ARM processors are widely used in networking equipment, providing efficient processing for routers, switches, and other devices."
+          sources:
+            - "https://en.wikipedia.org/wiki/Router_(computing)"
+            - "https://www.techradar.com/news/the-impact-of-arm-processors-on-networking"
+        - name: Consumer Electronics
+          description: "Many consumer electronics, including smart TVs and wearables, rely on ARM-based processors designed from Wilson's architecture."
+          sources:
+            - "https://en.wikipedia.org/wiki/Consumer_electronics"
+            - "https://www.makeuseof.com/tag/what-are-arm-processors-and-how-do-they-compare-with-x86/"
+        - name: Cloud Computing
+          description: "ARM-based servers are becoming more prevalent in data centers, enhancing cloud computing with energy-efficient processing."
+          sources:
+            - "https://en.wikipedia.org/wiki/Cloud_computing"
+            - "https://www.datacenterknowledge.com/hardware/why-cloud-computing-loves-arm-processors"
+        - name: Video Game Consoles
+          description: "Several video game consoles incorporate ARM processors, benefiting from their efficient performance and power usage."
+          sources:
+            - "https://en.wikipedia.org/wiki/Video_game_console"
+            - "https://www.digitaltrends.com/gaming/what-is-arm/"

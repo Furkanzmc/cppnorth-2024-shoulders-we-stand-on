@@ -159,20 +159,35 @@ image: /assets/placeholder-graph.png
 -->
 
 ---
-layout: iframe-left
-
-# the web page source
-url: https://ouestware.gitlab.io/retina/1.0.0-beta.1/#/graph/?url=https%3A%2F%2Fouestware.gitlab.io%2Fretina%2F1.0.0-beta.1%2Fdataset.gexf&sa%5B%5D=s&sa%5B%5D=r&ca%5B%5D=t&ca%5B%5D=c
-
-# a custom class name to the content
-class: my-custom-class
+layout: image-left
+image: /assets/people/charles-babbage.jpg
 ---
 
 # Charles Babbage
 
-<v-drag pos="600,140,301,_,-11">
-    <img src="/assets/people/charles-babbage.jpg" style="border-radius: 50%;">
-</v-drag>
+<!--
+- Every journey has a beginning. The beginning for this one is endless, but we'll have to choose
+  somewhere. So this is where we begin.
+-->
+
+---
+
+```mermaid
+journey
+    title Charles Babbage
+    section Early Days
+      Afluent family: 9
+      Life-threatening fever: 1: Pivotal Point
+      Good school: 9
+    section University Years
+      University of Cambridge: 9
+      The Ghost Club: 7: Pivotal Point
+      Analytical Society: 9
+    section After University
+      University of Cambridge: 9
+      The Ghost Club: 7: Pivotal Point
+      Analytical Society: 9
+```
 
 ---
 layout: iframe
