@@ -120,6 +120,118 @@ image: /assets/people/charles-babbage.jpg
 -->
 
 ---
+layout: center
+clicks: 2
+dragPos:
+  square: 686,55,268,408,11
+---
+
+```mermaid
+timeline
+    Early Days : Afluent family
+               : Life-threatening fever**
+               : Good school
+```
+
+
+
+<div v-if="$slidev.nav.clicks === 1">
+
+<img v-drag="'square'" src="/assets/charles-babbage-brain.png" style="border-radius: 10%;">
+
+</div>
+
+<!--
+## Intro
+
+- He was quite a chap!
+- Keen interest in mathematics. A number driven person.
+- Known as the father of computers.
+- His father was a banker and when he died, he left a considerable inheritance for him. During this
+  university years, he relied on his father's support.
+- Had a Life-threatening fever, what would have happened if he died?...
+- Went to good schools, had access to books and tutors. Pivotal moment!
+-->
+
+---
+clicks: 3
+---
+
+<div style="text-align: center;" v-if="$slidev.nav.clicks < 3">
+<div style="auto">
+
+```mermaid
+timeline
+    University Years : University of Cambridge
+                     : The Ghost Club**
+                     : Analytical Society
+```
+
+</div>
+</div>
+
+<div style="text-align: center;" v-if="$slidev.nav.clicks === 3">
+<div style="auto">
+
+```mermaid
+timeline
+    Early Days : Afluent family
+               : Life-threatening fever**
+               : Good school
+    University Years : University of Cambridge
+                     : The Ghost Club**
+                     : Analytical Society
+```
+
+</div>
+</div>
+
+<div v-if="$slidev.nav.clicks === 1">
+
+<v-drag pos="601,54,334,_,-6">
+    <img src="/assets/the-ghost-club.png" style="border-radius: 8%;">
+</v-drag>
+
+</div>
+
+<div v-if="$slidev.nav.clicks === 2">
+
+<v-drag pos="601,54,300,_,-6">
+    <img src="/assets/1812-human-computers-french.png" style="border-radius: 8%;">
+</v-drag>
+
+</div>
+
+<!--
+- During university, came in contact with other mathematicians and influential people.
+- He joined [The Ghost Club](https://www.ghostclub.org.uk/), which is still active today! What would
+  have happened if he got too into it and didn't pursue science?
+- In 1812, the French government calculated these tables in a different way. Their mathematicians
+  distributed the work to 80 human computers who only knew what work they were doing and subtraction
+  and addition. For the first time, mass production was applied to mathematics and Babbage thought
+  this work could be taken over by machines entirely.
+-->
+
+---
+clicks: 3
+---
+
+<div style="text-align: center;" v-if="$slidev.nav.clicks < 3">
+<div style="auto">
+
+```mermaid
+timeline
+    Later Years : Royal Astronomical Society
+                : The Difference Engine
+                : Analytical Engine**
+                
+```
+
+</div>
+</div>
+
+<div style="text-align: center;" v-if="$slidev.nav.clicks === 3">
+<div style="auto">
 
 ```mermaid
 timeline
@@ -134,24 +246,27 @@ timeline
                 : Analytical Engine**
                 
 ```
+
+</div>
+</div>
+
+<div v-if="$slidev.nav.clicks === 1">
+
+<v-drag pos="237,72,544,_,6">
+    <img src="/assets/charles-babbage-difference-engine.jpg" style="border-radius: 8%;">
+</v-drag>
+
+</div>
+
+<div v-if="$slidev.nav.clicks === 2">
+
+<v-drag pos="106,-15,813,_,-6">
+    <img src="/assets/analytical-engine.jpg" style="border-radius: 8%;">
+</v-drag>
+
+</div>
+
 <!--
-## Intro
-
-- He was quite a chap!
-- Keen interest in mathematics. A number driven person.
-- Known as the father of computers.
-- His father was a banker and when he died, he left a considerable inheritance for him. During this
-  university years, he relied on his father's support.
-- Had a Life-threatening fever, what would have happened if he died?...
-- Went to good schools, had access to books and tutors. Pivotal moment!
-- During university, came in contact with other mathematicians and influential people.
-- He joined [The Ghost Club](https://www.ghostclub.org.uk/), which is still active today! What would
-  have happened if he got too into it and didn't pursue science?
-- In 1812, the French government calculated these tables in a different way. Their mathematicians
-  distributed the work to 80 human computers who only knew what work they were doing and subtraction
-  and addition. For the first time, mass production was applied to mathematics and Babbage thought
-  this work could be taken over by machines entirely.
-
 ## Difference Engine
 
 - Difference engine was meant for solving polynomial equations. He created this to help with
