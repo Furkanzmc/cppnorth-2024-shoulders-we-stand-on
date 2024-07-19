@@ -135,7 +135,7 @@ timeline
                 
 ```
 <!--
-## Intor
+## Intro
 
 - He was quite a chap!
 - Keen interest in mathematics. A number driven person.
