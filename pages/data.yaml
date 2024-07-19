@@ -1546,3 +1546,63 @@ Acts:
           sources:
             - "https://en.wikipedia.org/wiki/Video_game_console"
             - "https://www.digitaltrends.com/gaming/what-is-arm/"
+
+    - name: Steve Jobs
+      influenced-by:
+        - name: Douglas Engelbart
+          sources:
+            - "Engelbart's work on interactive computing influenced Jobs's development of the graphical user interface for the Macintosh. Source: https://en.wikipedia.org/wiki/Douglas_Engelbart"
+        - name: Robert Noyce
+          sources:
+            - "Noyce's invention of the integrated circuit was critical for the development of personal computers. Source: https://en.wikipedia.org/wiki/Robert_Noyce"
+
+    - name: Mark Zuckerberg
+      influenced-by:
+        - name: Vannevar Bush
+          sources:
+            - "Bush's Memex concept influenced the idea of interconnected information systems, a precursor to social networks. Source: https://en.wikipedia.org/wiki/Vannevar_Bush"
+        - name: Tim Berners-Lee
+          sources:
+            - "The World Wide Web, invented by Berners-Lee, provided the platform on which Facebook was built. Source: https://en.wikipedia.org/wiki/Tim_Berners-Lee"
+
+    - name: Larry Page
+      influenced-by:
+        - name: John McCarthy
+          sources:
+            - "McCarthy's work on AI and computing had a significant impact on the development of search algorithms. Source: https://en.wikipedia.org/wiki/John_McCarthy_(computer_scientist)"
+        - name: Vannevar Bush
+          sources:
+            - "Bush's work on information systems influenced the development of Google's search engine. Source: https://en.wikipedia.org/wiki/Vannevar_Bush"
+
+    - name: Sergey Brin
+      influenced-by:
+        - name: John McCarthy
+          sources:
+            - "McCarthy's work on AI and computing had a significant impact on the development of search algorithms. Source: https://en.wikipedia.org/wiki/John_McCarthy_(computer_scientist)"
+        - name: Vannevar Bush
+          sources:
+            - "Bush's work on information systems influenced the development of Google's search engine. Source: https://en.wikipedia.org/wiki/Vannevar_Bush"
+
+    - name: Elon Musk
+      influenced-by:
+        - name: Robert Noyce
+          sources:
+            - "Noyce's integrated circuit technology was foundational for advancements in electric vehicles and space technology. Source: https://en.wikipedia.org/wiki/Robert_Noyce"
+
+    - name: Jeff Bezos
+      influenced-by:
+        - name: Robert Noyce
+          sources:
+            - "Noyce's work on integrated circuits enabled the development of the personal computing technologies that power Amazon's infrastructure. Source: https://en.wikipedia.org/wiki/Robert_Noyce"
+
+    - name: Bill Gates
+      influenced-by:
+        - name: John von Neumann
+          sources:
+            - "Von Neumann's architecture for computers influenced the development of Microsoft's software. Source: https://en.wikipedia.org/wiki/John_von_Neumann"
+
+    - name: Satya Nadella
+      influenced-by:
+        - name: John von Neumann
+          sources:
+            - "Von Neumann's work laid the groundwork for the digital computing systems that are central to Microsoft's cloud services. Source: https://en.wikipedia.org/wiki/John_von_Neumann"

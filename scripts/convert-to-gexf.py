@@ -30,7 +30,7 @@ def yaml_to_gexf(yaml_data, output_file):
                 G.add_edge(
                     person["name"],
                     influence["name"],
-                    description=influence["description"],
+                    description=influence.get("description", ""),
                 )
 
             for influence in person.setdefault("influenced-by", []):
@@ -38,7 +38,7 @@ def yaml_to_gexf(yaml_data, output_file):
                 G.add_edge(
                     person["name"],
                     influence["name"],
-                    description=influence["description"],
+                    description=influence.get("description", ""),
                 )
 
     nx.write_gexf(G, output_file)

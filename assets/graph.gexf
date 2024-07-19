@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <gexf xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
-  <meta lastmodifieddate="2024-07-18">
+  <meta lastmodifieddate="2024-07-19">
     <creator>NetworkX 3.3</creator>
   </meta>
   <graph defaultedgetype="directed" mode="static" name="">
@@ -244,7 +244,7 @@
       <node id="Vannevar Bush" label="Vannevar Bush">
         <viz:color r="255" g="0" b="0" a="1.0" />
         <attvalues>
-          <attvalue for="0" value="Act_1" />
+          <attvalue for="0" value="Act_5" />
         </attvalues>
       </node>
       <node id="Alonzo Church" label="Alonzo Church">
@@ -266,7 +266,7 @@
       <node id="Douglas Engelbart" label="Douglas Engelbart">
         <viz:color r="255" g="0" b="0" a="1.0" />
         <attvalues>
-          <attvalue for="0" value="Act_1" />
+          <attvalue for="0" value="Act_5" />
         </attvalues>
       </node>
       <node id="Ted Nelson" label="Ted Nelson">
@@ -451,7 +451,7 @@
       </node>
       <node id="Tim Berners-Lee" label="Tim Berners-Lee">
         <attvalues>
-          <attvalue for="0" value="Act_4" />
+          <attvalue for="0" value="Act_5" />
         </attvalues>
       </node>
       <node id="Internet" label="Internet">
@@ -557,8 +557,9 @@
         </attvalues>
       </node>
       <node id="Steve Jobs" label="Steve Jobs">
+        <viz:color r="255" g="0" b="0" a="1.0" />
         <attvalues>
-          <attvalue for="0" value="Act_1" />
+          <attvalue for="0" value="Act_5" />
         </attvalues>
       </node>
       <node id="Apple Lisa" label="Apple Lisa">
@@ -1272,7 +1273,7 @@
       <node id="Robert Noyce" label="Robert Noyce">
         <viz:color r="255" g="0" b="0" a="1.0" />
         <attvalues>
-          <attvalue for="0" value="Act_4" />
+          <attvalue for="0" value="Act_5" />
         </attvalues>
       </node>
       <node id="Mark Dean" label="Mark Dean">
@@ -1620,6 +1621,48 @@
         </attvalues>
       </node>
       <node id="Steve Furber" label="Steve Furber">
+        <attvalues>
+          <attvalue for="0" value="Act_5" />
+        </attvalues>
+      </node>
+      <node id="Mark Zuckerberg" label="Mark Zuckerberg">
+        <viz:color r="255" g="0" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="Act_5" />
+        </attvalues>
+      </node>
+      <node id="Larry Page" label="Larry Page">
+        <viz:color r="255" g="0" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="Act_5" />
+        </attvalues>
+      </node>
+      <node id="Sergey Brin" label="Sergey Brin">
+        <viz:color r="255" g="0" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="Act_5" />
+        </attvalues>
+      </node>
+      <node id="Elon Musk" label="Elon Musk">
+        <viz:color r="255" g="0" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="Act_5" />
+        </attvalues>
+      </node>
+      <node id="Jeff Bezos" label="Jeff Bezos">
+        <viz:color r="255" g="0" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="Act_5" />
+        </attvalues>
+      </node>
+      <node id="Bill Gates" label="Bill Gates">
+        <viz:color r="255" g="0" b="0" a="1.0" />
+        <attvalues>
+          <attvalue for="0" value="Act_5" />
+        </attvalues>
+      </node>
+      <node id="Satya Nadella" label="Satya Nadella">
+        <viz:color r="255" g="0" b="0" a="1.0" />
         <attvalues>
           <attvalue for="0" value="Act_5" />
         </attvalues>
@@ -2431,1184 +2474,1244 @@
           <attvalue for="1" value="McCarthy's work on artificial intelligence influenced Dijkstra's development of algorithms." />
         </attvalues>
       </edge>
-      <edge source="Edsger W. Dijkstra" target="Donald Knuth" id="161">
+      <edge source="Steve Jobs" target="Douglas Engelbart" id="161">
+        <attvalues>
+          <attvalue for="1" value="" />
+        </attvalues>
+      </edge>
+      <edge source="Steve Jobs" target="Robert Noyce" id="162">
+        <attvalues>
+          <attvalue for="1" value="" />
+        </attvalues>
+      </edge>
+      <edge source="Edsger W. Dijkstra" target="Donald Knuth" id="163">
         <attvalues>
           <attvalue for="1" value="Dijkstra's work on structured programming influenced Knuth's work on algorithm analysis." />
         </attvalues>
       </edge>
-      <edge source="Donald Knuth" target="Niklaus Wirth" id="162">
+      <edge source="Donald Knuth" target="Niklaus Wirth" id="164">
         <attvalues>
           <attvalue for="1" value="Knuth's work on algorithms and programming influenced Wirth's development of programming languages." />
         </attvalues>
       </edge>
-      <edge source="Niklaus Wirth" target="Alan Kay" id="163">
+      <edge source="Niklaus Wirth" target="Alan Kay" id="165">
         <attvalues>
           <attvalue for="1" value="Wirth's work on programming languages influenced Kay's development of object-oriented programming." />
         </attvalues>
       </edge>
-      <edge source="Alan Kay" target="Karen Spärck Jones" id="164">
+      <edge source="Alan Kay" target="Karen Spärck Jones" id="166">
         <attvalues>
           <attvalue for="1" value="Kay's work on object-oriented programming influenced Spärck Jones's research on information retrieval and natural language processing." />
         </attvalues>
       </edge>
-      <edge source="Grace Hopper" target="COBOL" id="165">
+      <edge source="Grace Hopper" target="COBOL" id="167">
         <attvalues>
           <attvalue for="1" value="Common Business-Oriented Language, developed by Hopper and team, became a standard for business and administrative computing. Source: https://en.wikipedia.org/wiki/COBOL" />
         </attvalues>
       </edge>
-      <edge source="Grace Hopper" target="Compiler Construction" id="166">
+      <edge source="Grace Hopper" target="Compiler Construction" id="168">
         <attvalues>
           <attvalue for="1" value="Hopper's work on compiler development laid the foundation for modern programming languages and software engineering practices. Source: https://en.wikipedia.org/wiki/Compiler" />
         </attvalues>
       </edge>
-      <edge source="Grace Hopper" target="Automatic Programming" id="167">
+      <edge source="Grace Hopper" target="Automatic Programming" id="169">
         <attvalues>
           <attvalue for="1" value="Hopper's contributions to automatic programming systems and language translation influenced the evolution of software development tools. Source: https://en.wikipedia.org/wiki/Automatic_programming" />
         </attvalues>
       </edge>
-      <edge source="Grace Hopper" target="Debugging Techniques" id="168">
+      <edge source="Grace Hopper" target="Debugging Techniques" id="170">
         <attvalues>
           <attvalue for="1" value="Hopper pioneered techniques for debugging computer programs, improving software reliability and efficiency. Source: https://en.wikipedia.org/wiki/Grace_Hopper" />
         </attvalues>
       </edge>
-      <edge source="Grace Hopper" target="Navy Programming Languages" id="169">
+      <edge source="Grace Hopper" target="Navy Programming Languages" id="171">
         <attvalues>
           <attvalue for="1" value="Hopper's development of programming languages for the U.S. Navy set standards for military and commercial software applications. Source: https://en.wikipedia.org/wiki/Grace_Hopper" />
         </attvalues>
       </edge>
-      <edge source="Grace Hopper" target="Legacy in Education" id="170">
+      <edge source="Grace Hopper" target="Legacy in Education" id="172">
         <attvalues>
           <attvalue for="1" value="Hopper's advocacy for computing education and STEM initiatives continues to inspire future generations of computer scientists and engineers. Source: https://en.wikipedia.org/wiki/Grace_Hopper" />
         </attvalues>
       </edge>
-      <edge source="Grace Hopper" target="Nanosecond" id="171">
+      <edge source="Grace Hopper" target="Nanosecond" id="173">
         <attvalues>
           <attvalue for="1" value="Hopper's use of the nanosecond as a measure of time highlighted the speed of electronic circuits and influenced precision timing in computing. Source: https://en.wikipedia.org/wiki/Nanosecond" />
         </attvalues>
       </edge>
-      <edge source="Grace Hopper" target="UNIVAC" id="172">
+      <edge source="Grace Hopper" target="UNIVAC" id="174">
         <attvalues>
           <attvalue for="1" value="Hopper's work on the UNIVAC I computer and its software applications contributed to early advancements in commercial computing. Source: https://en.wikipedia.org/wiki/UNIVAC_I" />
         </attvalues>
       </edge>
-      <edge source="Grace Hopper" target="Navy Coding Manuals" id="173">
+      <edge source="Grace Hopper" target="Navy Coding Manuals" id="175">
         <attvalues>
           <attvalue for="1" value="Standardized coding practices and manuals developed by Hopper set benchmarks for software quality and reliability in military applications. Source: https://en.wikipedia.org/wiki/Grace_Hopper" />
         </attvalues>
       </edge>
-      <edge source="Grace Hopper" target="Open Source Movement" id="174">
+      <edge source="Grace Hopper" target="Open Source Movement" id="176">
         <attvalues>
           <attvalue for="1" value="Hopper's advocacy for open standards and collaboration in software development laid groundwork for the open source movement. Source: https://en.wikipedia.org/wiki/Open_source" />
         </attvalues>
       </edge>
-      <edge source="Grace Hopper" target="Term 'Bug'" id="175">
+      <edge source="Grace Hopper" target="Term 'Bug'" id="177">
         <attvalues>
           <attvalue for="1" value="Hopper coined the term 'bug' for computer glitches, based on an actual moth found in the Mark II computer. Source: https://en.wikipedia.org/wiki/Grace_Hopper" />
         </attvalues>
       </edge>
-      <edge source="Grace Hopper" target="Compiler" id="176">
+      <edge source="Grace Hopper" target="Compiler" id="178">
         <attvalues>
           <attvalue for="1" value="Hopper's development of the A-0 compiler and subsequent compiler technologies automated program translation, enabling higher-level programming. Source: https://en.wikipedia.org/wiki/Compiler" />
         </attvalues>
       </edge>
-      <edge source="Grace Hopper" target="UNIVAC I" id="177">
+      <edge source="Grace Hopper" target="UNIVAC I" id="179">
         <attvalues>
           <attvalue for="1" value="The UNIVAC I, for which Hopper developed early software applications, was one of the first commercially successful mainframe computers. Source: https://en.wikipedia.org/wiki/UNIVAC_I" />
         </attvalues>
       </edge>
-      <edge source="Grace Hopper" target="Legacy in Education Programs" id="178">
+      <edge source="Grace Hopper" target="Legacy in Education Programs" id="180">
         <attvalues>
           <attvalue for="1" value="Hopper's initiatives in computing education continue to impact STEM programs and inspire new generations of computer scientists. Source: https://en.wikipedia.org/wiki/Grace_Hopper" />
         </attvalues>
       </edge>
-      <edge source="Grace Hopper" target="Open Source Advocacy" id="179">
+      <edge source="Grace Hopper" target="Open Source Advocacy" id="181">
         <attvalues>
           <attvalue for="1" value="Hopper's early advocacy for open standards and collaborative software development principles laid foundations for the modern open source movement. Source: https://en.wikipedia.org/wiki/Open_source" />
         </attvalues>
       </edge>
-      <edge source="Grace Hopper" target="John von Neumann" id="180">
+      <edge source="Grace Hopper" target="John von Neumann" id="182">
         <attvalues>
           <attvalue for="1" value="Hopper was influenced by von Neumann's work on computer architecture and programming, which shaped her approach to software development. Source: https://en.wikipedia.org/wiki/Grace_Hopper" />
         </attvalues>
       </edge>
-      <edge source="Grace Hopper" target="Howard Aiken" id="181">
+      <edge source="Grace Hopper" target="Howard Aiken" id="183">
         <attvalues>
           <attvalue for="1" value="Hopper worked with Aiken on the Harvard Mark I computer, where she gained early experience in programming and computer science. Source: https://en.wikipedia.org/wiki/Grace_Hopper" />
         </attvalues>
       </edge>
-      <edge source="Grace Hopper" target="Richard Hamming" id="182">
+      <edge source="Grace Hopper" target="Richard Hamming" id="184">
         <attvalues>
           <attvalue for="1" value="Hopper collaborated with Hamming on early programming languages and contributed to the development of COBOL. Source: https://en.wikipedia.org/wiki/Grace_Hopper" />
         </attvalues>
       </edge>
-      <edge source="Grace Hopper" target="Jean Bartik" id="183">
+      <edge source="Grace Hopper" target="Jean Bartik" id="185">
         <attvalues>
           <attvalue for="1" value="Bartik's work on the ENIAC and early computers inspired Hopper's interest in programming and software development. Source: https://en.wikipedia.org/wiki/Grace_Hopper" />
         </attvalues>
       </edge>
-      <edge source="Margaret Hamilton" target="Apollo Guidance Computer (AGC)" id="184">
+      <edge source="Margaret Hamilton" target="Apollo Guidance Computer (AGC)" id="186">
         <attvalues>
           <attvalue for="1" value="Hamilton led the team that developed software for the Apollo missions, including the Apollo Guidance Computer (AGC), which was crucial for navigation and guidance during the Apollo lunar landings." />
         </attvalues>
       </edge>
-      <edge source="Margaret Hamilton" target="Software Engineering" id="185">
+      <edge source="Margaret Hamilton" target="Software Engineering" id="187">
         <attvalues>
           <attvalue for="1" value="Hamilton's pioneering work in software engineering, including the development of methodologies for real-time systems and error detection techniques, laid the foundation for modern software engineering practices." />
         </attvalues>
       </edge>
-      <edge source="Margaret Hamilton" target="Systems Design" id="186">
+      <edge source="Margaret Hamilton" target="Systems Design" id="188">
         <attvalues>
           <attvalue for="1" value="Hamilton's contributions to system design concepts, such as prioritizing mission-critical tasks and error recovery mechanisms, have influenced the design of complex software systems." />
         </attvalues>
       </edge>
-      <edge source="Margaret Hamilton" target="Universal Systems Language (USL)" id="187">
+      <edge source="Margaret Hamilton" target="Universal Systems Language (USL)" id="189">
         <attvalues>
           <attvalue for="1" value="Hamilton developed USL, a formal systems engineering language used to describe complex systems, contributing to advances in system architecture and design methodologies." />
         </attvalues>
       </edge>
-      <edge source="Margaret Hamilton" target="Error Detection and Recovery" id="188">
+      <edge source="Margaret Hamilton" target="Error Detection and Recovery" id="190">
         <attvalues>
           <attvalue for="1" value="Hamilton's work on error detection and recovery mechanisms in software systems influenced reliability engineering practices across various industries." />
         </attvalues>
       </edge>
-      <edge source="Margaret Hamilton" target="Grace Hopper" id="189">
+      <edge source="Margaret Hamilton" target="Grace Hopper" id="191">
         <attvalues>
           <attvalue for="1" value="Hopper's work on compilers and standardization of programming languages influenced Hamilton's approach to software engineering principles and system design." />
         </attvalues>
       </edge>
-      <edge source="Margaret Hamilton" target="John McCarthy" id="190">
+      <edge source="Margaret Hamilton" target="John McCarthy" id="192">
         <attvalues>
           <attvalue for="1" value="McCarthy's work on artificial intelligence and formal methods influenced Hamilton's approach to rigorous software development." />
         </attvalues>
       </edge>
-      <edge source="Margaret Hamilton" target="Bjarne Stroustrup" id="191">
+      <edge source="Margaret Hamilton" target="Bjarne Stroustrup" id="193">
         <attvalues>
           <attvalue for="1" value="Stroustrup's development of C++ and contributions to programming language design influenced Hamilton's work in software development and system architecture." />
         </attvalues>
       </edge>
-      <edge source="Margaret Hamilton" target="Linus Torvalds" id="192">
+      <edge source="Margaret Hamilton" target="Linus Torvalds" id="194">
         <attvalues>
           <attvalue for="1" value="Torvalds's creation of the Linux kernel and advocacy for open-source software influenced Hamilton's views on collaborative software development and systems design." />
         </attvalues>
       </edge>
-      <edge source="Bjarne Stroustrup" target="C++" id="193">
+      <edge source="Bjarne Stroustrup" target="C++" id="195">
         <attvalues>
           <attvalue for="1" value="Stroustrup's creation of C++ introduced object-oriented programming features, generic programming, and improved type safety, leading to its widespread adoption in system software, game development, and large-scale applications." />
         </attvalues>
       </edge>
-      <edge source="Bjarne Stroustrup" target="Standard Template Library (STL)" id="194">
+      <edge source="Bjarne Stroustrup" target="Standard Template Library (STL)" id="196">
         <attvalues>
           <attvalue for="1" value="Stroustrup contributed to the development of STL, a powerful library of generic algorithms, containers, and functions that significantly enhance C++ programming productivity and performance." />
         </attvalues>
       </edge>
-      <edge source="Bjarne Stroustrup" target="Microsoft Windows Operating System" id="195">
+      <edge source="Bjarne Stroustrup" target="Microsoft Windows Operating System" id="197">
         <attvalues>
           <attvalue for="1" value="C++ is used extensively in the development of the Windows operating system, from kernel components to user interface libraries, leveraging C++'s performance and flexibility." />
         </attvalues>
       </edge>
-      <edge source="Bjarne Stroustrup" target="Adobe Systems Software" id="196">
+      <edge source="Bjarne Stroustrup" target="Adobe Systems Software" id="198">
         <attvalues>
           <attvalue for="1" value="Adobe products like Photoshop and Illustrator are built using C++ for their performance-critical components, graphical user interfaces, and cross-platform capabilities." />
         </attvalues>
       </edge>
-      <edge source="Bjarne Stroustrup" target="Mozilla Firefox Browser" id="197">
+      <edge source="Bjarne Stroustrup" target="Mozilla Firefox Browser" id="199">
         <attvalues>
           <attvalue for="1" value="Mozilla Firefox utilizes C++ for its rendering engine (Gecko), JavaScript engine (SpiderMonkey), and browser components, ensuring speed, security, and cross-platform compatibility." />
         </attvalues>
       </edge>
-      <edge source="Bjarne Stroustrup" target="Game Engines (e.g., Unreal Engine)" id="198">
+      <edge source="Bjarne Stroustrup" target="Game Engines (e.g., Unreal Engine)" id="200">
         <attvalues>
           <attvalue for="1" value="C++ serves as the backbone for many game engines like Unreal Engine, enabling high-performance graphics rendering, physics simulation, and complex game logic." />
         </attvalues>
       </edge>
-      <edge source="Bjarne Stroustrup" target="MySQL Database" id="199">
+      <edge source="Bjarne Stroustrup" target="MySQL Database" id="201">
         <attvalues>
           <attvalue for="1" value="MySQL, a popular open-source relational database management system, uses C++ for its core server implementation, offering scalability, reliability, and performance." />
         </attvalues>
       </edge>
-      <edge source="Bjarne Stroustrup" target="MongoDB Database" id="200">
+      <edge source="Bjarne Stroustrup" target="MongoDB Database" id="202">
         <attvalues>
           <attvalue for="1" value="MongoDB, a leading NoSQL database, relies on C++ for its core database server, providing high availability, horizontal scalability, and real-time analytics." />
         </attvalues>
       </edge>
-      <edge source="Bjarne Stroustrup" target="Amazon Web Services (AWS)" id="201">
+      <edge source="Bjarne Stroustrup" target="Amazon Web Services (AWS)" id="203">
         <attvalues>
           <attvalue for="1" value="Various AWS services, such as Amazon S3 (Simple Storage Service) and Amazon EC2 (Elastic Compute Cloud), are powered by C++ for their backend infrastructure and client libraries." />
         </attvalues>
       </edge>
-      <edge source="Bjarne Stroustrup" target="CAD and CAM Software" id="202">
+      <edge source="Bjarne Stroustrup" target="CAD and CAM Software" id="204">
         <attvalues>
           <attvalue for="1" value="Computer-aided design (CAD) and computer-aided manufacturing (CAM) software, like AutoCAD and SolidWorks, utilize C++ for their 2D/3D modeling, simulation, and rendering capabilities." />
         </attvalues>
       </edge>
-      <edge source="Bjarne Stroustrup" target="Financial Trading Platforms" id="203">
+      <edge source="Bjarne Stroustrup" target="Financial Trading Platforms" id="205">
         <attvalues>
           <attvalue for="1" value="High-frequency trading platforms and financial analytics software, such as Bloomberg Terminal and MATLAB, leverage C++ for real-time data processing, algorithmic trading, and quantitative analysis." />
         </attvalues>
       </edge>
-      <edge source="Bjarne Stroustrup" target="Grace Hopper" id="204">
+      <edge source="Bjarne Stroustrup" target="Grace Hopper" id="206">
         <attvalues>
           <attvalue for="1" value="Hopper's work on compilers and early programming languages influenced Stroustrup's approach to language design and software engineering." />
         </attvalues>
       </edge>
-      <edge source="Bjarne Stroustrup" target="Dennis Ritchie" id="205">
+      <edge source="Bjarne Stroustrup" target="Dennis Ritchie" id="207">
         <attvalues>
           <attvalue for="1" value="Ritchie's creation of C programming language inspired Stroustrup to develop C++ as an extension with object-oriented features and enhancements." />
         </attvalues>
       </edge>
-      <edge source="Bjarne Stroustrup" target="Simula" id="206">
+      <edge source="Bjarne Stroustrup" target="Simula" id="208">
         <attvalues>
           <attvalue for="1" value="Stroustrup drew inspiration from the Simula programming language for object-oriented programming concepts, which influenced C++." />
         </attvalues>
       </edge>
-      <edge source="Linus Torvalds" target="Linux Kernel" id="207">
+      <edge source="Linus Torvalds" target="Linux Kernel" id="209">
         <attvalues>
           <attvalue for="1" value="Torvalds created the Linux kernel, which became the foundation of many operating systems, emphasizing open-source development and community collaboration." />
         </attvalues>
       </edge>
-      <edge source="Linus Torvalds" target="Git" id="208">
+      <edge source="Linus Torvalds" target="Git" id="210">
         <attvalues>
           <attvalue for="1" value="Torvalds created Git, a distributed version control system, to manage the development of the Linux kernel. Git has since become the most widely used version control system in software development." />
         </attvalues>
       </edge>
-      <edge source="Linus Torvalds" target="Android Operating System" id="209">
+      <edge source="Linus Torvalds" target="Android Operating System" id="211">
         <attvalues>
           <attvalue for="1" value="Android OS, developed by Google, is based on the Linux kernel and powers the majority of smartphones worldwide." />
         </attvalues>
       </edge>
-      <edge source="Linus Torvalds" target="Ubuntu" id="210">
+      <edge source="Linus Torvalds" target="Ubuntu" id="212">
         <attvalues>
           <attvalue for="1" value="Ubuntu is one of the most popular Linux distributions, known for its ease of use and widespread adoption in desktop and server environments." />
         </attvalues>
       </edge>
-      <edge source="Linus Torvalds" target="Red Hat Enterprise Linux (RHEL)" id="211">
+      <edge source="Linus Torvalds" target="Red Hat Enterprise Linux (RHEL)" id="213">
         <attvalues>
           <attvalue for="1" value="RHEL is a commercially supported distribution of Linux, widely used in enterprise environments for its stability and support services." />
         </attvalues>
       </edge>
-      <edge source="Linus Torvalds" target="Docker" id="212">
+      <edge source="Linus Torvalds" target="Docker" id="214">
         <attvalues>
           <attvalue for="1" value="Docker, a platform for developing, shipping, and running applications in containers, uses Linux container technologies." />
         </attvalues>
       </edge>
-      <edge source="Linus Torvalds" target="Kubernetes" id="213">
+      <edge source="Linus Torvalds" target="Kubernetes" id="215">
         <attvalues>
           <attvalue for="1" value="Kubernetes, an open-source system for automating the deployment, scaling, and management of containerized applications, heavily relies on Linux." />
         </attvalues>
       </edge>
-      <edge source="Linus Torvalds" target="Supercomputing" id="214">
+      <edge source="Linus Torvalds" target="Supercomputing" id="216">
         <attvalues>
           <attvalue for="1" value="Linux dominates the supercomputing world, with nearly all of the top 500 supercomputers running on Linux." />
         </attvalues>
       </edge>
-      <edge source="Linus Torvalds" target="Cloud Computing" id="215">
+      <edge source="Linus Torvalds" target="Cloud Computing" id="217">
         <attvalues>
           <attvalue for="1" value="Major cloud service providers like AWS, Google Cloud, and Microsoft Azure use Linux extensively to run their infrastructure and services." />
         </attvalues>
       </edge>
-      <edge source="Linus Torvalds" target="Embedded Systems" id="216">
+      <edge source="Linus Torvalds" target="Embedded Systems" id="218">
         <attvalues>
           <attvalue for="1" value="Linux is widely used in embedded systems, from smart TVs and routers to industrial automation and automotive systems." />
         </attvalues>
       </edge>
-      <edge source="Linus Torvalds" target="Scientific Research" id="217">
+      <edge source="Linus Torvalds" target="Scientific Research" id="219">
         <attvalues>
           <attvalue for="1" value="Linux is used in scientific research for tasks ranging from data analysis to running experiments, particularly in fields like bioinformatics and physics." />
         </attvalues>
       </edge>
-      <edge source="Linus Torvalds" target="Web Servers" id="218">
+      <edge source="Linus Torvalds" target="Web Servers" id="220">
         <attvalues>
           <attvalue for="1" value="The majority of web servers on the internet run on Linux, including popular web server software like Apache and Nginx." />
         </attvalues>
       </edge>
-      <edge source="Linus Torvalds" target="MySQL" id="219">
+      <edge source="Linus Torvalds" target="MySQL" id="221">
         <attvalues>
           <attvalue for="1" value="MySQL, one of the most popular relational database management systems, is often run on Linux servers." />
         </attvalues>
       </edge>
-      <edge source="Linus Torvalds" target="Network Routing" id="220">
+      <edge source="Linus Torvalds" target="Network Routing" id="222">
         <attvalues>
           <attvalue for="1" value="Linux is used in network routing and switching equipment, enabling the backbone of the internet." />
         </attvalues>
       </edge>
-      <edge source="Linus Torvalds" target="Andrew S. Tanenbaum" id="221">
+      <edge source="Linus Torvalds" target="Andrew S. Tanenbaum" id="223">
         <attvalues>
           <attvalue for="1" value="Torvalds was influenced by Tanenbaum's MINIX operating system while developing Linux." />
         </attvalues>
       </edge>
-      <edge source="Linus Torvalds" target="Richard Stallman" id="222">
+      <edge source="Linus Torvalds" target="Richard Stallman" id="224">
         <attvalues>
           <attvalue for="1" value="Torvalds was influenced by Stallman's GNU Project, which provided many of the necessary tools for Linux." />
         </attvalues>
       </edge>
-      <edge source="Linus Torvalds" target="Dennis Ritchie" id="223">
+      <edge source="Linus Torvalds" target="Dennis Ritchie" id="225">
         <attvalues>
           <attvalue for="1" value="Torvalds was influenced by Ritchie's creation of the C programming language, which he used to write the Linux kernel." />
         </attvalues>
       </edge>
-      <edge source="Linus Torvalds" target="Ken Thompson" id="224">
+      <edge source="Linus Torvalds" target="Ken Thompson" id="226">
         <attvalues>
           <attvalue for="1" value="Torvalds benefited from Thompson's work on the Unix operating system, which inspired the design and development of Linux." />
         </attvalues>
       </edge>
-      <edge source="Dennis Ritchie" target="C Programming Language" id="225">
+      <edge source="Dennis Ritchie" target="C Programming Language" id="227">
         <attvalues>
           <attvalue for="1" value="Ritchie co-created the C programming language, which became one of the most widely used programming languages in the world." />
         </attvalues>
       </edge>
-      <edge source="Dennis Ritchie" target="Unix Operating System" id="226">
+      <edge source="Dennis Ritchie" target="Unix Operating System" id="228">
         <attvalues>
           <attvalue for="1" value="Ritchie, along with Ken Thompson, developed the Unix operating system, which has influenced many modern operating systems." />
         </attvalues>
       </edge>
-      <edge source="Dennis Ritchie" target="Ken Thompson" id="227">
+      <edge source="Dennis Ritchie" target="Ken Thompson" id="229">
         <attvalues>
           <attvalue for="1" value="Thompson's development of the B programming language and the Unix operating system directly influenced Ritchie's creation of the C programming language." />
         </attvalues>
       </edge>
-      <edge source="Dennis Ritchie" target="Unix-like Operating Systems" id="228">
+      <edge source="Dennis Ritchie" target="Unix-like Operating Systems" id="230">
         <attvalues>
           <attvalue for="1" value="Operating systems such as Linux, BSD, and macOS are directly influenced by Unix." />
         </attvalues>
       </edge>
-      <edge source="Dennis Ritchie" target="C++" id="229">
+      <edge source="Dennis Ritchie" target="C++" id="231">
         <attvalues>
           <attvalue for="1" value="Bjarne Stroustrup's C++ programming language was developed as an extension of C, incorporating object-oriented features." />
         </attvalues>
       </edge>
-      <edge source="Dennis Ritchie" target="Operating Systems" id="230">
+      <edge source="Dennis Ritchie" target="Operating Systems" id="232">
         <attvalues>
           <attvalue for="1" value="Many operating systems, including Windows and various embedded systems, are written in C or heavily influenced by it." />
         </attvalues>
       </edge>
-      <edge source="Dennis Ritchie" target="Database Management Systems" id="231">
+      <edge source="Dennis Ritchie" target="Database Management Systems" id="233">
         <attvalues>
           <attvalue for="1" value="Popular databases such as MySQL, PostgreSQL, and SQLite are written in C." />
         </attvalues>
       </edge>
-      <edge source="Dennis Ritchie" target="Compilers and Interpreters" id="232">
+      <edge source="Dennis Ritchie" target="Compilers and Interpreters" id="234">
         <attvalues>
           <attvalue for="1" value="Compilers for various programming languages are often written in C due to its efficiency and control." />
         </attvalues>
       </edge>
-      <edge source="Dennis Ritchie" target="Network Protocols" id="233">
+      <edge source="Dennis Ritchie" target="Network Protocols" id="235">
         <attvalues>
           <attvalue for="1" value="Network protocols and applications, such as TCP/IP and HTTP servers, are commonly implemented in C." />
         </attvalues>
       </edge>
-      <edge source="Dennis Ritchie" target="Embedded Systems" id="234">
+      <edge source="Dennis Ritchie" target="Embedded Systems" id="236">
         <attvalues>
           <attvalue for="1" value="C is extensively used in embedded systems programming for its efficiency and control over hardware." />
         </attvalues>
       </edge>
-      <edge source="Dennis Ritchie" target="Web Servers" id="235">
+      <edge source="Dennis Ritchie" target="Web Servers" id="237">
         <attvalues>
           <attvalue for="1" value="Web servers like Apache and Nginx are written in C." />
         </attvalues>
       </edge>
-      <edge source="Dennis Ritchie" target="Operating Systems Kernels" id="236">
+      <edge source="Dennis Ritchie" target="Operating Systems Kernels" id="238">
         <attvalues>
           <attvalue for="1" value="The kernels of many operating systems, such as the Linux kernel, are written in C." />
         </attvalues>
       </edge>
-      <edge source="Dennis Ritchie" target="Programming Languages" id="237">
+      <edge source="Dennis Ritchie" target="Programming Languages" id="239">
         <attvalues>
           <attvalue for="1" value="Many modern programming languages, including Python, Ruby, and PHP, have their interpreters or core libraries written in C." />
         </attvalues>
       </edge>
-      <edge source="Dennis Ritchie" target="Device Drivers" id="238">
+      <edge source="Dennis Ritchie" target="Device Drivers" id="240">
         <attvalues>
           <attvalue for="1" value="Device drivers for various hardware components are often written in C to interact closely with hardware." />
         </attvalues>
       </edge>
-      <edge source="Dennis Ritchie" target="John McCarthy" id="239">
+      <edge source="Dennis Ritchie" target="John McCarthy" id="241">
         <attvalues>
           <attvalue for="1" value="McCarthy's work on the Lisp programming language influenced Ritchie's development of C." />
         </attvalues>
       </edge>
-      <edge source="Richard Stallman" target="GNU Project" id="240">
+      <edge source="Richard Stallman" target="GNU Project" id="242">
         <attvalues>
           <attvalue for="1" value="Stallman founded the GNU Project to create a free Unix-like operating system, which laid the groundwork for the free software movement." />
         </attvalues>
       </edge>
-      <edge source="Richard Stallman" target="Free Software Foundation (FSF)" id="241">
+      <edge source="Richard Stallman" target="Free Software Foundation (FSF)" id="243">
         <attvalues>
           <attvalue for="1" value="Stallman established the FSF to promote computer users' rights to use, study, copy, modify, and redistribute computer programs." />
         </attvalues>
       </edge>
-      <edge source="Richard Stallman" target="Emacs" id="242">
+      <edge source="Richard Stallman" target="Emacs" id="244">
         <attvalues>
           <attvalue for="1" value="Stallman developed the Emacs text editor, which has become one of the most popular and extensible text editors in use today." />
         </attvalues>
       </edge>
-      <edge source="Richard Stallman" target="GNU General Public License (GPL)" id="243">
+      <edge source="Richard Stallman" target="GNU General Public License (GPL)" id="245">
         <attvalues>
           <attvalue for="1" value="Stallman authored the GPL, a widely used free software license that ensures software freedom for all users." />
         </attvalues>
       </edge>
-      <edge source="Richard Stallman" target="Free Software Movement" id="244">
+      <edge source="Richard Stallman" target="Free Software Movement" id="246">
         <attvalues>
           <attvalue for="1" value="Stallman's advocacy and principles have been foundational to the free software movement, influencing countless developers and projects." />
         </attvalues>
       </edge>
-      <edge source="Richard Stallman" target="Copyleft" id="245">
+      <edge source="Richard Stallman" target="Copyleft" id="247">
         <attvalues>
           <attvalue for="1" value="Stallman introduced the concept of copyleft, which uses copyright law to protect the rights of users to freely use, modify, and share software." />
         </attvalues>
       </edge>
-      <edge source="Richard Stallman" target="Software Freedom" id="246">
+      <edge source="Richard Stallman" target="Software Freedom" id="248">
         <attvalues>
           <attvalue for="1" value="Stallman's work has deeply influenced the principles and practices of software freedom, impacting software development and distribution worldwide." />
         </attvalues>
       </edge>
-      <edge source="Richard Stallman" target="Open Source Movement" id="247">
+      <edge source="Richard Stallman" target="Open Source Movement" id="249">
         <attvalues>
           <attvalue for="1" value="While distinct from the free software movement, the open source movement has been influenced by Stallman's ideas and advocacy." />
         </attvalues>
       </edge>
-      <edge source="Richard Stallman" target="Linux Kernel" id="248">
+      <edge source="Richard Stallman" target="Linux Kernel" id="250">
         <attvalues>
           <attvalue for="1" value="Stallman's GNU tools and utilities, combined with the Linux kernel, have resulted in many widely used GNU/Linux distributions." />
         </attvalues>
       </edge>
-      <edge source="Richard Stallman" target="Debian" id="249">
+      <edge source="Richard Stallman" target="Debian" id="251">
         <attvalues>
           <attvalue for="1" value="Stallman's work on free software principles influenced the Debian project, one of the oldest and most significant GNU/Linux distributions." />
         </attvalues>
       </edge>
-      <edge source="Richard Stallman" target="Creative Commons" id="250">
+      <edge source="Richard Stallman" target="Creative Commons" id="252">
         <attvalues>
           <attvalue for="1" value="Stallman's advocacy for free software and copyleft principles influenced the creation of the Creative Commons licenses." />
         </attvalues>
       </edge>
-      <edge source="Richard Stallman" target="Ethical Software Development" id="251">
+      <edge source="Richard Stallman" target="Ethical Software Development" id="253">
         <attvalues>
           <attvalue for="1" value="Stallman's work has fostered a global conversation on the ethical implications of software development and distribution." />
         </attvalues>
       </edge>
-      <edge source="Richard Stallman" target="Internet Privacy and Freedom" id="252">
+      <edge source="Richard Stallman" target="Internet Privacy and Freedom" id="254">
         <attvalues>
           <attvalue for="1" value="Stallman has been a vocal advocate for internet privacy and freedom, influencing policies and awareness around these issues." />
         </attvalues>
       </edge>
-      <edge source="Richard Stallman" target="Open Hardware" id="253">
+      <edge source="Richard Stallman" target="Open Hardware" id="255">
         <attvalues>
           <attvalue for="1" value="Stallman's ideas have also influenced the open hardware movement, which seeks to apply open-source principles to hardware design and development." />
         </attvalues>
       </edge>
-      <edge source="Richard Stallman" target="LibrePlanet" id="254">
+      <edge source="Richard Stallman" target="LibrePlanet" id="256">
         <attvalues>
           <attvalue for="1" value="Stallman started the LibrePlanet project to support free software advocacy and community events worldwide." />
         </attvalues>
       </edge>
-      <edge source="Richard Stallman" target="Ken Thompson" id="255">
+      <edge source="Richard Stallman" target="Ken Thompson" id="257">
         <attvalues>
           <attvalue for="1" value="Stallman was influenced by Thompson's work on Unix, which inspired the development of the GNU operating system." />
         </attvalues>
       </edge>
-      <edge source="Richard Stallman" target="Dennis Ritchie" id="256">
+      <edge source="Richard Stallman" target="Dennis Ritchie" id="258">
         <attvalues>
           <attvalue for="1" value="Ritchie's development of the C programming language and Unix system programming significantly influenced Stallman's work." />
         </attvalues>
       </edge>
-      <edge source="Ken Thompson" target="Unix" id="257">
+      <edge source="Ken Thompson" target="Unix" id="259">
         <attvalues>
           <attvalue for="1" value="Thompson co-created the Unix operating system, which has had a profound influence on modern operating systems, software development, and computing environments." />
         </attvalues>
       </edge>
-      <edge source="Ken Thompson" target="B Programming Language" id="258">
+      <edge source="Ken Thompson" target="B Programming Language" id="260">
         <attvalues>
           <attvalue for="1" value="Thompson developed the B programming language, a precursor to the C programming language." />
         </attvalues>
       </edge>
-      <edge source="Ken Thompson" target="C Programming Language" id="259">
+      <edge source="Ken Thompson" target="C Programming Language" id="261">
         <attvalues>
           <attvalue for="1" value="While not the primary author, Thompson's work on Unix influenced the development of the C programming language by Dennis Ritchie." />
         </attvalues>
       </edge>
-      <edge source="Ken Thompson" target="Plan 9 from Bell Labs" id="260">
+      <edge source="Ken Thompson" target="Plan 9 from Bell Labs" id="262">
         <attvalues>
           <attvalue for="1" value="Thompson co-created Plan 9, a distributed operating system designed as the successor to Unix." />
         </attvalues>
       </edge>
-      <edge source="Ken Thompson" target="Go Programming Language" id="261">
+      <edge source="Ken Thompson" target="Go Programming Language" id="263">
         <attvalues>
           <attvalue for="1" value="Thompson contributed to the development of the Go programming language, known for its simplicity and efficiency." />
         </attvalues>
       </edge>
-      <edge source="Ken Thompson" target="Regular Expressions" id="262">
+      <edge source="Ken Thompson" target="Regular Expressions" id="264">
         <attvalues>
           <attvalue for="1" value="Thompson introduced regular expressions to computer science, which are now widely used in text processing and search algorithms." />
         </attvalues>
       </edge>
-      <edge source="Ken Thompson" target="Multics" id="263">
+      <edge source="Ken Thompson" target="Multics" id="265">
         <attvalues>
           <attvalue for="1" value="Thompson worked on the Multics operating system project before developing Unix, and many concepts from Multics influenced Unix." />
         </attvalues>
       </edge>
-      <edge source="Ken Thompson" target="Unix Philosophy" id="264">
+      <edge source="Ken Thompson" target="Unix Philosophy" id="266">
         <attvalues>
           <attvalue for="1" value="Thompson's design principles and philosophies in Unix have influenced software engineering practices and the development of various Unix-like systems." />
         </attvalues>
       </edge>
-      <edge source="Ken Thompson" target="Thompson's Hack" id="265">
+      <edge source="Ken Thompson" target="Thompson's Hack" id="267">
         <attvalues>
           <attvalue for="1" value="Thompson created the first known computer virus as a demonstration of the importance of secure software development." />
         </attvalues>
       </edge>
-      <edge source="Ken Thompson" target="Shell Scripting" id="266">
+      <edge source="Ken Thompson" target="Shell Scripting" id="268">
         <attvalues>
           <attvalue for="1" value="Thompson developed the first Unix shell, which has influenced the design and functionality of many modern shell environments." />
         </attvalues>
       </edge>
-      <edge source="Ken Thompson" target="Unix Tools and Utilities" id="267">
+      <edge source="Ken Thompson" target="Unix Tools and Utilities" id="269">
         <attvalues>
           <attvalue for="1" value="Thompson's work led to the creation and improvement of numerous Unix tools and utilities that are still in use today." />
         </attvalues>
       </edge>
-      <edge source="Ken Thompson" target="Distributed Systems" id="268">
+      <edge source="Ken Thompson" target="Distributed Systems" id="270">
         <attvalues>
           <attvalue for="1" value="Thompson's work on Plan 9 and other projects has influenced the development and understanding of distributed systems." />
         </attvalues>
       </edge>
-      <edge source="Ken Thompson" target="Programming Languages" id="269">
+      <edge source="Ken Thompson" target="Programming Languages" id="271">
         <attvalues>
           <attvalue for="1" value="Thompson's principles and practices have influenced the design and implementation of various programming languages." />
         </attvalues>
       </edge>
-      <edge source="Ken Thompson" target="Software Engineering Education" id="270">
+      <edge source="Ken Thompson" target="Software Engineering Education" id="272">
         <attvalues>
           <attvalue for="1" value="Thompson's books, papers, and software have been instrumental in educating software engineers and influencing software engineering curricula." />
         </attvalues>
       </edge>
-      <edge source="Ken Thompson" target="John McCarthy" id="271">
+      <edge source="Ken Thompson" target="John McCarthy" id="273">
         <attvalues>
           <attvalue for="1" value="Thompson was influenced by McCarthy's work on artificial intelligence and LISP, which impacted Thompson's approach to programming languages and operating systems." />
         </attvalues>
       </edge>
-      <edge source="Ken Thompson" target="Dennis Ritchie" id="272">
+      <edge source="Ken Thompson" target="Dennis Ritchie" id="274">
         <attvalues>
           <attvalue for="1" value="Ritchie and Thompson co-developed the Unix operating system, and Ritchie's work on the C programming language significantly influenced Thompson's work." />
         </attvalues>
       </edge>
-      <edge source="James Gosling" target="Java Programming Language" id="273">
+      <edge source="James Gosling" target="Java Programming Language" id="275">
         <attvalues>
           <attvalue for="1" value="James Gosling created Java, a general-purpose programming language known for its portability, security features (like bytecode verification), and robustness." />
         </attvalues>
       </edge>
-      <edge source="James Gosling" target="Java Virtual Machine (JVM)" id="274">
+      <edge source="James Gosling" target="Java Virtual Machine (JVM)" id="276">
         <attvalues>
           <attvalue for="1" value="The JVM, integral to Java's 'write once, run anywhere' principle, enables Java bytecode execution across diverse platforms." />
         </attvalues>
       </edge>
-      <edge source="James Gosling" target="Android Operating System" id="275">
+      <edge source="James Gosling" target="Android Operating System" id="277">
         <attvalues>
           <attvalue for="1" value="Android OS utilizes Java as its primary programming language for app development, leveraging its performance, scalability, and extensive ecosystem." />
         </attvalues>
       </edge>
-      <edge source="James Gosling" target="Eclipse IDE" id="276">
+      <edge source="James Gosling" target="Eclipse IDE" id="278">
         <attvalues>
           <attvalue for="1" value="Eclipse, a popular integrated development environment, is written in Java and supports various programming languages, offering tools for software development." />
         </attvalues>
       </edge>
-      <edge source="James Gosling" target="Apache Tomcat" id="277">
+      <edge source="James Gosling" target="Apache Tomcat" id="279">
         <attvalues>
           <attvalue for="1" value="Tomcat, an open-source servlet container, uses Java to provide a web server environment for Java-based applications." />
         </attvalues>
       </edge>
-      <edge source="James Gosling" target="Spring Framework" id="278">
+      <edge source="James Gosling" target="Spring Framework" id="280">
         <attvalues>
           <attvalue for="1" value="Spring, a lightweight Java framework, simplifies Java EE development by providing comprehensive infrastructure support." />
         </attvalues>
       </edge>
-      <edge source="James Gosling" target="Minecraft" id="279">
+      <edge source="James Gosling" target="Minecraft" id="281">
         <attvalues>
           <attvalue for="1" value="Minecraft, a popular sandbox video game, is written in Java and features block-building, exploration, and creative gameplay." />
         </attvalues>
       </edge>
-      <edge source="James Gosling" target="Hadoop" id="280">
+      <edge source="James Gosling" target="Hadoop" id="282">
         <attvalues>
           <attvalue for="1" value="Apache Hadoop, a framework for distributed storage and processing of large datasets, is implemented in Java." />
         </attvalues>
       </edge>
-      <edge source="James Gosling" target="Netflix Streaming Service" id="281">
+      <edge source="James Gosling" target="Netflix Streaming Service" id="283">
         <attvalues>
           <attvalue for="1" value="Netflix uses Java for its backend services and microservices architecture, supporting scalable and reliable video streaming." />
         </attvalues>
       </edge>
-      <edge source="James Gosling" target="Twitter Backend" id="282">
+      <edge source="James Gosling" target="Twitter Backend" id="284">
         <attvalues>
           <attvalue for="1" value="Twitter's backend systems, including messaging, data processing, and analytics, are predominantly built in Java for performance and scalability." />
         </attvalues>
       </edge>
-      <edge source="James Gosling" target="Amazon Web Services (AWS)" id="283">
+      <edge source="James Gosling" target="Amazon Web Services (AWS)" id="285">
         <attvalues>
           <attvalue for="1" value="Various AWS services, such as Amazon DynamoDB and Amazon Elastic Beanstalk, offer Java SDKs for cloud-based applications and services." />
         </attvalues>
       </edge>
-      <edge source="James Gosling" target="Bjarne Stroustrup" id="284">
+      <edge source="James Gosling" target="Bjarne Stroustrup" id="286">
         <attvalues>
           <attvalue for="1" value="Gosling's work on the Oak programming language (which became Java) was influenced by C++, particularly in its syntax and object-oriented features." />
         </attvalues>
       </edge>
-      <edge source="James Gosling" target="Objective-C" id="285">
+      <edge source="James Gosling" target="Objective-C" id="287">
         <attvalues>
           <attvalue for="1" value="Gosling was influenced by Objective-C's message-passing paradigm and dynamic typing when designing Java." />
         </attvalues>
       </edge>
-      <edge source="Brian Kernighan" target="The C Programming Language (Book)" id="286">
+      <edge source="Brian Kernighan" target="The C Programming Language (Book)" id="288">
         <attvalues>
           <attvalue for="1" value="Co-authored by Kernighan and Ritchie, this book is one of the most influential texts in computer science and has educated countless programmers." />
         </attvalues>
       </edge>
-      <edge source="Brian Kernighan" target="Unix" id="287">
+      <edge source="Brian Kernighan" target="Unix" id="289">
         <attvalues>
           <attvalue for="1" value="Kernighan contributed to the development and documentation of the Unix operating system, which has influenced many modern operating systems." />
         </attvalues>
       </edge>
-      <edge source="Brian Kernighan" target="AWK Programming Language" id="288">
+      <edge source="Brian Kernighan" target="AWK Programming Language" id="290">
         <attvalues>
           <attvalue for="1" value="Kernighan co-created AWK, a powerful text-processing programming language used in Unix-like operating systems." />
         </attvalues>
       </edge>
-      <edge source="Brian Kernighan" target="AMPL (A Mathematical Programming Language)" id="289">
+      <edge source="Brian Kernighan" target="AMPL (A Mathematical Programming Language)" id="291">
         <attvalues>
           <attvalue for="1" value="Kernighan co-developed AMPL, a high-level language for describing and solving large-scale optimization problems." />
         </attvalues>
       </edge>
-      <edge source="Brian Kernighan" target="The Practice of Programming (Book)" id="290">
+      <edge source="Brian Kernighan" target="The Practice of Programming (Book)" id="292">
         <attvalues>
           <attvalue for="1" value="Co-authored with Rob Pike, this book emphasizes the importance of writing clear and efficient code." />
         </attvalues>
       </edge>
-      <edge source="Brian Kernighan" target="Unix Tools and Utilities" id="291">
+      <edge source="Brian Kernighan" target="Unix Tools and Utilities" id="293">
         <attvalues>
           <attvalue for="1" value="Kernighan's work has led to the creation and improvement of numerous Unix tools and utilities." />
         </attvalues>
       </edge>
-      <edge source="Brian Kernighan" target="Software Engineering Education" id="292">
+      <edge source="Brian Kernighan" target="Software Engineering Education" id="294">
         <attvalues>
           <attvalue for="1" value="Kernighan's books and papers have been instrumental in educating software engineers and influencing software engineering curricula." />
         </attvalues>
       </edge>
-      <edge source="Brian Kernighan" target="C Programming Language Evolution" id="293">
+      <edge source="Brian Kernighan" target="C Programming Language Evolution" id="295">
         <attvalues>
           <attvalue for="1" value="Kernighan's work with Ritchie influenced the evolution of the C programming language and its widespread adoption." />
         </attvalues>
       </edge>
-      <edge source="Brian Kernighan" target="Programming Languages" id="294">
+      <edge source="Brian Kernighan" target="Programming Languages" id="296">
         <attvalues>
           <attvalue for="1" value="Kernighan's principles and practices have influenced the design and implementation of various programming languages." />
         </attvalues>
       </edge>
-      <edge source="Brian Kernighan" target="Shell Scripting" id="295">
+      <edge source="Brian Kernighan" target="Shell Scripting" id="297">
         <attvalues>
           <attvalue for="1" value="Kernighan's contributions to Unix have also influenced the development and use of shell scripting." />
         </attvalues>
       </edge>
-      <edge source="Brian Kernighan" target="Linux" id="296">
+      <edge source="Brian Kernighan" target="Linux" id="298">
         <attvalues>
           <attvalue for="1" value="The Unix principles and tools Kernighan contributed to have heavily influenced the development of Linux." />
         </attvalues>
       </edge>
-      <edge source="Brian Kernighan" target="Plan 9 from Bell Labs" id="297">
+      <edge source="Brian Kernighan" target="Plan 9 from Bell Labs" id="299">
         <attvalues>
           <attvalue for="1" value="Kernighan's Unix experience influenced his contributions to the Plan 9 operating system." />
         </attvalues>
       </edge>
-      <edge source="Brian Kernighan" target="Data Structures and Algorithms" id="298">
+      <edge source="Brian Kernighan" target="Data Structures and Algorithms" id="300">
         <attvalues>
           <attvalue for="1" value="Kernighan's educational materials have significantly influenced the teaching and understanding of data structures and algorithms." />
         </attvalues>
       </edge>
-      <edge source="Brian Kernighan" target="Dennis Ritchie" id="299">
+      <edge source="Brian Kernighan" target="Dennis Ritchie" id="301">
         <attvalues>
           <attvalue for="1" value="Ritchie and Kernighan co-authored 'The C Programming Language' book, which had a significant impact on the development of software engineering." />
         </attvalues>
       </edge>
-      <edge source="Brian Kernighan" target="Ken Thompson" id="300">
+      <edge source="Brian Kernighan" target="Ken Thompson" id="302">
         <attvalues>
           <attvalue for="1" value="Thompson's work on Unix and the B programming language influenced Kernighan's contributions to Unix and his development of AWK and AMPL." />
         </attvalues>
       </edge>
-      <edge source="Robert Noyce" target="Mark Dean" id="301">
+      <edge source="Robert Noyce" target="Mark Dean" id="303">
         <attvalues>
           <attvalue for="1" value="Noyce's invention of the integrated circuit influenced Dean's work on the IBM PC." />
         </attvalues>
       </edge>
-      <edge source="Mark Dean" target="Vint Cerf" id="302">
+      <edge source="Mark Dean" target="Vint Cerf" id="304">
         <attvalues>
           <attvalue for="1" value="Dean's work on personal computing influenced Cerf's development of internet protocols." />
         </attvalues>
       </edge>
-      <edge source="Vint Cerf" target="Robert Kahn" id="303">
+      <edge source="Vint Cerf" target="Robert Kahn" id="305">
         <attvalues>
           <attvalue for="1" value="Cerf's collaboration with Kahn led to the creation of TCP/IP protocols." />
         </attvalues>
       </edge>
-      <edge source="Robert Kahn" target="Tim Berners-Lee" id="304">
+      <edge source="Robert Kahn" target="Tim Berners-Lee" id="306">
         <attvalues>
           <attvalue for="1" value="Kahn's work on internet protocols influenced Berners-Lee's invention of the World Wide Web." />
         </attvalues>
       </edge>
-      <edge source="Ray Tomlinson" target="Email" id="305">
+      <edge source="Ray Tomlinson" target="Email" id="307">
         <attvalues>
           <attvalue for="1" value="Tomlinson is best known for implementing the first email program on the ARPANET system, the precursor to the Internet." />
         </attvalues>
       </edge>
-      <edge source="Ray Tomlinson" target="\@ Symbol in Email Addresses" id="306">
+      <edge source="Ray Tomlinson" target="\@ Symbol in Email Addresses" id="308">
         <attvalues>
           <attvalue for="1" value="Tomlinson chose the @ symbol to separate the username from the destination address, a convention still used in email addresses today." />
         </attvalues>
       </edge>
-      <edge source="Ray Tomlinson" target="Networked Communication" id="307">
+      <edge source="Ray Tomlinson" target="Networked Communication" id="309">
         <attvalues>
           <attvalue for="1" value="Tomlinson's work on email demonstrated the potential for direct, electronic communication between people, laying the groundwork for future networked communication technologies." />
         </attvalues>
       </edge>
-      <edge source="Ray Tomlinson" target="MIME (Multipurpose Internet Mail Extensions)" id="308">
+      <edge source="Ray Tomlinson" target="MIME (Multipurpose Internet Mail Extensions)" id="310">
         <attvalues>
           <attvalue for="1" value="Tomlinson's email protocol influenced the development of MIME, which extended email to support multimedia content." />
         </attvalues>
       </edge>
-      <edge source="Ray Tomlinson" target="Web-based Email" id="309">
+      <edge source="Ray Tomlinson" target="Web-based Email" id="311">
         <attvalues>
           <attvalue for="1" value="Tomlinson's pioneering work laid the foundation for the development of web-based email services like Hotmail and Gmail." />
         </attvalues>
       </edge>
-      <edge source="Ray Tomlinson" target="Email Clients" id="310">
+      <edge source="Ray Tomlinson" target="Email Clients" id="312">
         <attvalues>
           <attvalue for="1" value="Tomlinson's innovations influenced the development of various email clients, such as Microsoft Outlook, Mozilla Thunderbird, and Apple Mail." />
         </attvalues>
       </edge>
-      <edge source="Ray Tomlinson" target="Instant Messaging" id="311">
+      <edge source="Ray Tomlinson" target="Instant Messaging" id="313">
         <attvalues>
           <attvalue for="1" value="The principles of Tomlinson's email system contributed to the development of instant messaging services." />
         </attvalues>
       </edge>
-      <edge source="Ray Tomlinson" target="Collaborative Software" id="312">
+      <edge source="Ray Tomlinson" target="Collaborative Software" id="314">
         <attvalues>
           <attvalue for="1" value="Tomlinson's work on networked communication paved the way for collaborative software tools such as Slack, Microsoft Teams, and Trello." />
         </attvalues>
       </edge>
-      <edge source="Ray Tomlinson" target="Cloud Services" id="313">
+      <edge source="Ray Tomlinson" target="Cloud Services" id="315">
         <attvalues>
           <attvalue for="1" value="Email's integration into cloud services and its use as a primary communication tool influenced the development of cloud-based applications." />
         </attvalues>
       </edge>
-      <edge source="Ray Tomlinson" target="Spam Filtering" id="314">
+      <edge source="Ray Tomlinson" target="Spam Filtering" id="316">
         <attvalues>
           <attvalue for="1" value="Tomlinson's creation of email systems necessitated the development of spam filtering technologies to manage unsolicited emails." />
         </attvalues>
       </edge>
-      <edge source="Ray Tomlinson" target="Email Security" id="315">
+      <edge source="Ray Tomlinson" target="Email Security" id="317">
         <attvalues>
           <attvalue for="1" value="Tomlinson's work highlighted the importance of secure communication, influencing the development of email security protocols like PGP and SSL/TLS." />
         </attvalues>
       </edge>
-      <edge source="Ray Tomlinson" target="ARPANET" id="316">
+      <edge source="Ray Tomlinson" target="ARPANET" id="318">
         <attvalues>
           <attvalue for="1" value="Tomlinson's work on email was made possible by the development of ARPANET, the precursor to the modern Internet." />
         </attvalues>
       </edge>
-      <edge source="Ray Tomlinson" target="Leonard Kleinrock" id="317">
+      <edge source="Ray Tomlinson" target="Leonard Kleinrock" id="319">
         <attvalues>
           <attvalue for="1" value="Kleinrock's work on packet-switching theory was fundamental to the development of ARPANET, which Tomlinson used to create email." />
         </attvalues>
       </edge>
-      <edge source="Ray Tomlinson" target="Paul Baran" id="318">
+      <edge source="Ray Tomlinson" target="Paul Baran" id="320">
         <attvalues>
           <attvalue for="1" value="Baran's concept of packet-switching influenced the development of ARPANET, enabling Tomlinson's creation of the first email system." />
         </attvalues>
       </edge>
-      <edge source="Ray Tomlinson" target="J.C.R. Licklider" id="319">
+      <edge source="Ray Tomlinson" target="J.C.R. Licklider" id="321">
         <attvalues>
           <attvalue for="1" value="Licklider's vision for a connected global network laid the groundwork for the development of ARPANET, which supported Tomlinson's email innovation." />
         </attvalues>
       </edge>
-      <edge source="Ray Tomlinson" target="Vint Cerf" id="320">
+      <edge source="Ray Tomlinson" target="Vint Cerf" id="322">
         <attvalues>
           <attvalue for="1" value="Cerf's work on TCP/IP protocols was crucial for the functionality of ARPANET and subsequent internet systems used for email communication." />
         </attvalues>
       </edge>
-      <edge source="Ray Tomlinson" target="Robert Kahn" id="321">
+      <edge source="Ray Tomlinson" target="Robert Kahn" id="323">
         <attvalues>
           <attvalue for="1" value="Kahn, along with Cerf, developed TCP/IP protocols that made ARPANET scalable, indirectly supporting Tomlinson's email system." />
         </attvalues>
       </edge>
-      <edge source="Mitchell Baker" target="Mozilla Firefox" id="322">
+      <edge source="Mitchell Baker" target="Mozilla Firefox" id="324">
         <attvalues>
           <attvalue for="1" value="As the 'chief lizard wrangler' at Mozilla, Baker's leadership was crucial in the development and success of Mozilla Firefox, a popular open-source web browser." />
         </attvalues>
       </edge>
-      <edge source="Mitchell Baker" target="Open Source Advocacy" id="323">
+      <edge source="Mitchell Baker" target="Open Source Advocacy" id="325">
         <attvalues>
           <attvalue for="1" value="Baker's work at Mozilla helped to promote and advance the principles of the open-source movement in the software industry." />
         </attvalues>
       </edge>
-      <edge source="Mitchell Baker" target="Bugzilla" id="324">
+      <edge source="Mitchell Baker" target="Bugzilla" id="326">
         <attvalues>
           <attvalue for="1" value="Under Baker's leadership, Mozilla developed Bugzilla, a widely used open-source bug tracking system." />
         </attvalues>
       </edge>
-      <edge source="Mitchell Baker" target="Thunderbird" id="325">
+      <edge source="Mitchell Baker" target="Thunderbird" id="327">
         <attvalues>
           <attvalue for="1" value="Baker's influence extended to Mozilla Thunderbird, an open-source email client developed by Mozilla." />
         </attvalues>
       </edge>
-      <edge source="Mitchell Baker" target="Web Standards" id="326">
+      <edge source="Mitchell Baker" target="Web Standards" id="328">
         <attvalues>
           <attvalue for="1" value="Baker's work helped push for the adoption and implementation of web standards, making the web more accessible and interoperable." />
         </attvalues>
       </edge>
-      <edge source="Mitchell Baker" target="Privacy and Security" id="327">
+      <edge source="Mitchell Baker" target="Privacy and Security" id="329">
         <attvalues>
           <attvalue for="1" value="Baker has been a strong advocate for privacy and security on the internet, influencing Mozilla's policies and product features." />
         </attvalues>
       </edge>
-      <edge source="Mitchell Baker" target="Open Data" id="328">
+      <edge source="Mitchell Baker" target="Open Data" id="330">
         <attvalues>
           <attvalue for="1" value="Baker's advocacy for open data has influenced how organizations approach data transparency and accessibility." />
         </attvalues>
       </edge>
-      <edge source="Mitchell Baker" target="Collaborative Software Development" id="329">
+      <edge source="Mitchell Baker" target="Collaborative Software Development" id="331">
         <attvalues>
           <attvalue for="1" value="Baker's leadership in open-source projects has influenced the development of collaborative software development practices and tools." />
         </attvalues>
       </edge>
-      <edge source="Mitchell Baker" target="Digital Rights" id="330">
+      <edge source="Mitchell Baker" target="Digital Rights" id="332">
         <attvalues>
           <attvalue for="1" value="Baker's work has supported the broader movement for digital rights, ensuring that the internet remains open and free." />
         </attvalues>
       </edge>
-      <edge source="Mitchell Baker" target="Rust Programming Language" id="331">
+      <edge source="Mitchell Baker" target="Rust Programming Language" id="333">
         <attvalues>
           <attvalue for="1" value="Mozilla, under Baker's influence, developed the Rust programming language, known for its safety and performance." />
         </attvalues>
       </edge>
-      <edge source="Mitchell Baker" target="Fennec (Firefox for Android)" id="332">
+      <edge source="Mitchell Baker" target="Fennec (Firefox for Android)" id="334">
         <attvalues>
           <attvalue for="1" value="Baker's influence extended to mobile platforms with the development of Fennec, the mobile version of Firefox for Android." />
         </attvalues>
       </edge>
-      <edge source="Mitchell Baker" target="SeaMonkey" id="333">
+      <edge source="Mitchell Baker" target="SeaMonkey" id="335">
         <attvalues>
           <attvalue for="1" value="Baker's leadership helped maintain the SeaMonkey project, a continuation of the Mozilla Application Suite offering an all-in-one internet suite." />
         </attvalues>
       </edge>
-      <edge source="Mitchell Baker" target="Firefox OS" id="334">
+      <edge source="Mitchell Baker" target="Firefox OS" id="336">
         <attvalues>
           <attvalue for="1" value="Baker played a role in the development of Firefox OS, a mobile operating system based on open web standards." />
         </attvalues>
       </edge>
-      <edge source="Mitchell Baker" target="Netscape" id="335">
+      <edge source="Mitchell Baker" target="Netscape" id="337">
         <attvalues>
           <attvalue for="1" value="Baker's career began at Netscape Communications Corporation, where she played a pivotal role in the company's open-source initiatives." />
         </attvalues>
       </edge>
-      <edge source="Mitchell Baker" target="Mozilla Foundation" id="336">
+      <edge source="Mitchell Baker" target="Mozilla Foundation" id="338">
         <attvalues>
           <attvalue for="1" value="Baker was instrumental in the creation of the Mozilla Foundation, which took over the management of the Mozilla project from Netscape." />
         </attvalues>
       </edge>
-      <edge source="Mitchell Baker" target="Open Source Movement" id="337">
+      <edge source="Mitchell Baker" target="Open Source Movement" id="339">
         <attvalues>
           <attvalue for="1" value="Baker was influenced by the principles of the open-source movement, advocating for software freedom and transparency." />
         </attvalues>
       </edge>
-      <edge source="Mitchell Baker" target="Jamie Zawinski" id="338">
+      <edge source="Mitchell Baker" target="Jamie Zawinski" id="340">
         <attvalues>
           <attvalue for="1" value="As a fellow Netscape employee and key figure in the Mozilla project, Zawinski's contributions and advocacy for open source influenced Baker." />
         </attvalues>
       </edge>
-      <edge source="Shafi Goldwasser" target="Zero-Knowledge Proofs" id="339">
+      <edge source="Shafi Goldwasser" target="Zero-Knowledge Proofs" id="341">
         <attvalues>
           <attvalue for="1" value="Goldwasser co-invented zero-knowledge proofs, a fundamental concept in cryptography that allows one party to prove to another that they know a value without revealing the value itself." />
         </attvalues>
       </edge>
-      <edge source="Shafi Goldwasser" target="Probabilistic Encryption" id="340">
+      <edge source="Shafi Goldwasser" target="Probabilistic Encryption" id="342">
         <attvalues>
           <attvalue for="1" value="Goldwasser's research introduced probabilistic encryption, enhancing the security of cryptographic schemes by incorporating randomness." />
         </attvalues>
       </edge>
-      <edge source="Shafi Goldwasser" target="Complexity Theory" id="341">
+      <edge source="Shafi Goldwasser" target="Complexity Theory" id="343">
         <attvalues>
           <attvalue for="1" value="Her work has deepened the understanding of computational complexity, particularly in the context of cryptographic algorithms." />
         </attvalues>
       </edge>
-      <edge source="Shafi Goldwasser" target="Interactive Proof Systems" id="342">
+      <edge source="Shafi Goldwasser" target="Interactive Proof Systems" id="344">
         <attvalues>
           <attvalue for="1" value="Goldwasser's contributions to interactive proof systems have laid the groundwork for modern secure computation and cryptographic protocols." />
         </attvalues>
       </edge>
-      <edge source="Shafi Goldwasser" target="Modern Cryptographic Protocols" id="343">
+      <edge source="Shafi Goldwasser" target="Modern Cryptographic Protocols" id="345">
         <attvalues>
           <attvalue for="1" value="Her pioneering work in cryptography has influenced the development of secure communication protocols used in modern computing." />
         </attvalues>
       </edge>
-      <edge source="Shafi Goldwasser" target="Public-Key Cryptography" id="344">
+      <edge source="Shafi Goldwasser" target="Public-Key Cryptography" id="346">
         <attvalues>
           <attvalue for="1" value="Goldwasser's research has enhanced the field of public-key cryptography, making secure digital communications more robust." />
         </attvalues>
       </edge>
-      <edge source="Shafi Goldwasser" target="Privacy-Preserving Computation" id="345">
+      <edge source="Shafi Goldwasser" target="Privacy-Preserving Computation" id="347">
         <attvalues>
           <attvalue for="1" value="Her work on privacy-preserving computation techniques has been instrumental in advancing secure data analysis and sharing." />
         </attvalues>
       </edge>
-      <edge source="Shafi Goldwasser" target="Homomorphic Encryption" id="346">
+      <edge source="Shafi Goldwasser" target="Homomorphic Encryption" id="348">
         <attvalues>
           <attvalue for="1" value="Goldwasser's contributions have been pivotal in the development of homomorphic encryption, allowing computation on encrypted data without decryption." />
         </attvalues>
       </edge>
-      <edge source="Shafi Goldwasser" target="Blockchain Technology" id="347">
+      <edge source="Shafi Goldwasser" target="Blockchain Technology" id="349">
         <attvalues>
           <attvalue for="1" value="The cryptographic principles developed by Goldwasser have influenced the security protocols used in blockchain technology." />
         </attvalues>
       </edge>
-      <edge source="Shafi Goldwasser" target="Digital Signatures" id="348">
+      <edge source="Shafi Goldwasser" target="Digital Signatures" id="350">
         <attvalues>
           <attvalue for="1" value="Her work on cryptographic algorithms has improved the security and reliability of digital signatures, essential for authentication and data integrity." />
         </attvalues>
       </edge>
-      <edge source="Shafi Goldwasser" target="Secure Multiparty Computation" id="349">
+      <edge source="Shafi Goldwasser" target="Secure Multiparty Computation" id="351">
         <attvalues>
           <attvalue for="1" value="Goldwasser's research has significantly advanced secure multiparty computation, enabling parties to jointly compute a function while keeping inputs private." />
         </attvalues>
       </edge>
-      <edge source="Shafi Goldwasser" target="Trusted Computing" id="350">
+      <edge source="Shafi Goldwasser" target="Trusted Computing" id="352">
         <attvalues>
           <attvalue for="1" value="Her cryptographic frameworks have been foundational in the development of trusted computing technologies, ensuring system integrity and security." />
         </attvalues>
       </edge>
-      <edge source="Shafi Goldwasser" target="Martin Hellman" id="351">
+      <edge source="Shafi Goldwasser" target="Martin Hellman" id="353">
         <attvalues>
           <attvalue for="1" value="Goldwasser's work on cryptographic algorithms was influenced by Hellman's pioneering work in public-key cryptography." />
         </attvalues>
       </edge>
-      <edge source="Shafi Goldwasser" target="Whitfield Diffie" id="352">
+      <edge source="Shafi Goldwasser" target="Whitfield Diffie" id="354">
         <attvalues>
           <attvalue for="1" value="Goldwasser was influenced by Diffie's contributions to cryptography, particularly the Diffie-Hellman key exchange protocol." />
         </attvalues>
       </edge>
-      <edge source="Shafi Goldwasser" target="Leonard Adleman" id="353">
+      <edge source="Shafi Goldwasser" target="Leonard Adleman" id="355">
         <attvalues>
           <attvalue for="1" value="Adleman's work in cryptography, particularly the RSA algorithm, influenced Goldwasser's research." />
         </attvalues>
       </edge>
-      <edge source="Shafi Goldwasser" target="Silvio Micali" id="354">
+      <edge source="Shafi Goldwasser" target="Silvio Micali" id="356">
         <attvalues>
           <attvalue for="1" value="Goldwasser's collaborator and co-recipient of the Turing Award, Micali significantly influenced her work in cryptography." />
         </attvalues>
       </edge>
-      <edge source="Shafi Goldwasser" target="John McCarthy" id="355">
+      <edge source="Shafi Goldwasser" target="John McCarthy" id="357">
         <attvalues>
           <attvalue for="1" value="McCarthy's work in artificial intelligence and formal methods influenced Goldwasser's approach to computational complexity and cryptography." />
         </attvalues>
       </edge>
-      <edge source="Martin Hellman" target="Diffie-Hellman Key Exchange" id="356">
+      <edge source="Martin Hellman" target="Diffie-Hellman Key Exchange" id="358">
         <attvalues>
           <attvalue for="1" value="Hellman co-invented the Diffie-Hellman key exchange protocol, a fundamental breakthrough in cryptography allowing secure exchange of cryptographic keys over a public channel." />
         </attvalues>
       </edge>
-      <edge source="Martin Hellman" target="Public-Key Cryptography" id="357">
+      <edge source="Martin Hellman" target="Public-Key Cryptography" id="359">
         <attvalues>
           <attvalue for="1" value="His work with Whitfield Diffie laid the groundwork for public-key cryptography, which is essential for secure communications in the digital age." />
         </attvalues>
       </edge>
-      <edge source="Martin Hellman" target="Internet Security" id="358">
+      <edge source="Martin Hellman" target="Internet Security" id="360">
         <attvalues>
           <attvalue for="1" value="Hellman's contributions to cryptographic protocols have been instrumental in developing secure internet communication standards." />
         </attvalues>
       </edge>
-      <edge source="Martin Hellman" target="Digital Signatures" id="359">
+      <edge source="Martin Hellman" target="Digital Signatures" id="361">
         <attvalues>
           <attvalue for="1" value="The principles of public-key cryptography developed by Hellman have enabled the creation and implementation of digital signatures, crucial for verifying the authenticity of digital documents." />
         </attvalues>
       </edge>
-      <edge source="Martin Hellman" target="Secure Email" id="360">
+      <edge source="Martin Hellman" target="Secure Email" id="362">
         <attvalues>
           <attvalue for="1" value="Hellman's cryptographic innovations underpin many secure email systems, ensuring privacy and authenticity of electronic communications." />
         </attvalues>
       </edge>
-      <edge source="Martin Hellman" target="E-commerce Security" id="361">
+      <edge source="Martin Hellman" target="E-commerce Security" id="363">
         <attvalues>
           <attvalue for="1" value="His work in cryptography has enabled secure online transactions, forming the backbone of e-commerce security." />
         </attvalues>
       </edge>
-      <edge source="Martin Hellman" target="SSL/TLS Protocols" id="362">
+      <edge source="Martin Hellman" target="SSL/TLS Protocols" id="364">
         <attvalues>
           <attvalue for="1" value="Hellman's contributions to cryptography have influenced the development of SSL/TLS protocols, which secure web communications." />
         </attvalues>
       </edge>
-      <edge source="Martin Hellman" target="VPN Technology" id="363">
+      <edge source="Martin Hellman" target="VPN Technology" id="365">
         <attvalues>
           <attvalue for="1" value="The secure communication principles developed by Hellman have been applied in VPN technology, ensuring private and secure internet connections." />
         </attvalues>
       </edge>
-      <edge source="Martin Hellman" target="Blockchain Security" id="364">
+      <edge source="Martin Hellman" target="Blockchain Security" id="366">
         <attvalues>
           <attvalue for="1" value="Hellman's cryptographic methods have been foundational in developing the security protocols used in blockchain technology." />
         </attvalues>
       </edge>
-      <edge source="Martin Hellman" target="Cryptanalysis" id="365">
+      <edge source="Martin Hellman" target="Cryptanalysis" id="367">
         <attvalues>
           <attvalue for="1" value="His work has also advanced the field of cryptanalysis, improving methods for evaluating and breaking cryptographic systems." />
         </attvalues>
       </edge>
-      <edge source="Martin Hellman" target="Quantum Cryptography" id="366">
+      <edge source="Martin Hellman" target="Quantum Cryptography" id="368">
         <attvalues>
           <attvalue for="1" value="Hellman's research has influenced the emerging field of quantum cryptography, which aims to develop secure communication methods resistant to quantum computing attacks." />
         </attvalues>
       </edge>
-      <edge source="Martin Hellman" target="Claude Shannon" id="367">
+      <edge source="Martin Hellman" target="Claude Shannon" id="369">
         <attvalues>
           <attvalue for="1" value="Shannon's work on information theory and communication significantly influenced Hellman's approach to cryptographic systems." />
         </attvalues>
       </edge>
-      <edge source="Martin Hellman" target="Whitfield Diffie" id="368">
+      <edge source="Martin Hellman" target="Whitfield Diffie" id="370">
         <attvalues>
           <attvalue for="1" value="Hellman collaborated with Diffie on the development of public-key cryptography, and their partnership was mutually influential." />
         </attvalues>
       </edge>
-      <edge source="Martin Hellman" target="Ralph Merkle" id="369">
+      <edge source="Martin Hellman" target="Ralph Merkle" id="371">
         <attvalues>
           <attvalue for="1" value="Merkle's work on public-key distribution and cryptographic protocols influenced Hellman's research." />
         </attvalues>
       </edge>
-      <edge source="Whitfield Diffie" target="Diffie-Hellman Key Exchange" id="370">
+      <edge source="Whitfield Diffie" target="Diffie-Hellman Key Exchange" id="372">
         <attvalues>
           <attvalue for="1" value="Diffie co-invented the Diffie-Hellman key exchange protocol, which allows secure key exchange over an insecure channel." />
         </attvalues>
       </edge>
-      <edge source="Whitfield Diffie" target="Public-Key Cryptography" id="371">
+      <edge source="Whitfield Diffie" target="Public-Key Cryptography" id="373">
         <attvalues>
           <attvalue for="1" value="Diffie's work with Hellman laid the groundwork for public-key cryptography, a critical technology for secure digital communications." />
         </attvalues>
       </edge>
-      <edge source="Whitfield Diffie" target="Internet Security" id="372">
+      <edge source="Whitfield Diffie" target="Internet Security" id="374">
         <attvalues>
           <attvalue for="1" value="Diffie's contributions to cryptography are fundamental to the development of secure internet protocols and communications." />
         </attvalues>
       </edge>
-      <edge source="Whitfield Diffie" target="Digital Signatures" id="373">
+      <edge source="Whitfield Diffie" target="Digital Signatures" id="375">
         <attvalues>
           <attvalue for="1" value="The principles of public-key cryptography developed by Diffie enable the use of digital signatures to verify authenticity." />
         </attvalues>
       </edge>
-      <edge source="Whitfield Diffie" target="Secure Email" id="374">
+      <edge source="Whitfield Diffie" target="Secure Email" id="376">
         <attvalues>
           <attvalue for="1" value="Diffie's innovations in cryptography underpin secure email systems, ensuring privacy and integrity of electronic communications." />
         </attvalues>
       </edge>
-      <edge source="Whitfield Diffie" target="E-commerce Security" id="375">
+      <edge source="Whitfield Diffie" target="E-commerce Security" id="377">
         <attvalues>
           <attvalue for="1" value="His work in cryptography has been crucial for enabling secure online transactions in e-commerce." />
         </attvalues>
       </edge>
-      <edge source="Whitfield Diffie" target="SSL/TLS Protocols" id="376">
+      <edge source="Whitfield Diffie" target="SSL/TLS Protocols" id="378">
         <attvalues>
           <attvalue for="1" value="Diffie's contributions to cryptographic methods have influenced the development of SSL/TLS protocols for securing web communications." />
         </attvalues>
       </edge>
-      <edge source="Whitfield Diffie" target="VPN Technology" id="377">
+      <edge source="Whitfield Diffie" target="VPN Technology" id="379">
         <attvalues>
           <attvalue for="1" value="The secure communication principles developed by Diffie are applied in VPN technology to ensure private internet connections." />
         </attvalues>
       </edge>
-      <edge source="Whitfield Diffie" target="Blockchain Security" id="378">
+      <edge source="Whitfield Diffie" target="Blockchain Security" id="380">
         <attvalues>
           <attvalue for="1" value="Diffie's cryptographic methods have been foundational for the security protocols used in blockchain technology." />
         </attvalues>
       </edge>
-      <edge source="Whitfield Diffie" target="Cryptanalysis" id="379">
+      <edge source="Whitfield Diffie" target="Cryptanalysis" id="381">
         <attvalues>
           <attvalue for="1" value="His work has advanced the field of cryptanalysis, improving methods for evaluating and breaking cryptographic systems." />
         </attvalues>
       </edge>
-      <edge source="Whitfield Diffie" target="Quantum Cryptography" id="380">
+      <edge source="Whitfield Diffie" target="Quantum Cryptography" id="382">
         <attvalues>
           <attvalue for="1" value="Diffie's research has influenced the emerging field of quantum cryptography, aiming to develop secure communication methods resistant to quantum computing attacks." />
         </attvalues>
       </edge>
-      <edge source="Whitfield Diffie" target="Claude Shannon" id="381">
+      <edge source="Whitfield Diffie" target="Claude Shannon" id="383">
         <attvalues>
           <attvalue for="1" value="Shannon's work on information theory provided a theoretical foundation for Diffie's cryptographic research." />
         </attvalues>
       </edge>
-      <edge source="Whitfield Diffie" target="Ralph Merkle" id="382">
+      <edge source="Whitfield Diffie" target="Ralph Merkle" id="384">
         <attvalues>
           <attvalue for="1" value="Merkle's ideas on public-key cryptosystems were foundational to Diffie's development of key exchange methods." />
         </attvalues>
       </edge>
-      <edge source="Whitfield Diffie" target="Martin Hellman" id="383">
+      <edge source="Whitfield Diffie" target="Martin Hellman" id="385">
         <attvalues>
           <attvalue for="1" value="Diffie collaborated with Hellman to create the Diffie-Hellman key exchange, a pioneering method in cryptography." />
         </attvalues>
       </edge>
-      <edge source="Sophie Wilson" target="ARM Architecture" id="384">
+      <edge source="Sophie Wilson" target="ARM Architecture" id="386">
         <attvalues>
           <attvalue for="1" value="Wilson co-designed the ARM architecture, which has become a cornerstone in modern microprocessors, used extensively in mobile and embedded devices." />
         </attvalues>
       </edge>
-      <edge source="Sophie Wilson" target="RISC Architecture" id="385">
+      <edge source="Sophie Wilson" target="RISC Architecture" id="387">
         <attvalues>
           <attvalue for="1" value="Her work on ARM architecture contributed to the development and popularization of RISC (Reduced Instruction Set Computing) principles." />
         </attvalues>
       </edge>
-      <edge source="Sophie Wilson" target="Mobile Devices" id="386">
+      <edge source="Sophie Wilson" target="Mobile Devices" id="388">
         <attvalues>
           <attvalue for="1" value="The ARM architecture designed by Wilson is used in nearly all mobile devices today, including smartphones and tablets." />
         </attvalues>
       </edge>
-      <edge source="Sophie Wilson" target="Embedded Systems" id="387">
+      <edge source="Sophie Wilson" target="Embedded Systems" id="389">
         <attvalues>
           <attvalue for="1" value="ARM processors, thanks to Wilson's design, are a mainstay in embedded systems, ranging from automotive to IoT devices." />
         </attvalues>
       </edge>
-      <edge source="Sophie Wilson" target="Raspberry Pi" id="388">
+      <edge source="Sophie Wilson" target="Raspberry Pi" id="390">
         <attvalues>
           <attvalue for="1" value="The popular Raspberry Pi single-board computers use ARM processors, bringing computing to education and hobbyists worldwide." />
         </attvalues>
       </edge>
-      <edge source="Sophie Wilson" target="Digital Signal Processing (DSP)" id="389">
+      <edge source="Sophie Wilson" target="Digital Signal Processing (DSP)" id="391">
         <attvalues>
           <attvalue for="1" value="Wilson's ARM architecture has significantly impacted DSP applications, improving performance in audio and video processing." />
         </attvalues>
       </edge>
-      <edge source="Sophie Wilson" target="Networking Equipment" id="390">
+      <edge source="Sophie Wilson" target="Networking Equipment" id="392">
         <attvalues>
           <attvalue for="1" value="ARM processors are widely used in networking equipment, providing efficient processing for routers, switches, and other devices." />
         </attvalues>
       </edge>
-      <edge source="Sophie Wilson" target="Consumer Electronics" id="391">
+      <edge source="Sophie Wilson" target="Consumer Electronics" id="393">
         <attvalues>
           <attvalue for="1" value="Many consumer electronics, including smart TVs and wearables, rely on ARM-based processors designed from Wilson's architecture." />
         </attvalues>
       </edge>
-      <edge source="Sophie Wilson" target="Cloud Computing" id="392">
+      <edge source="Sophie Wilson" target="Cloud Computing" id="394">
         <attvalues>
           <attvalue for="1" value="ARM-based servers are becoming more prevalent in data centers, enhancing cloud computing with energy-efficient processing." />
         </attvalues>
       </edge>
-      <edge source="Sophie Wilson" target="Video Game Consoles" id="393">
+      <edge source="Sophie Wilson" target="Video Game Consoles" id="395">
         <attvalues>
           <attvalue for="1" value="Several video game consoles incorporate ARM processors, benefiting from their efficient performance and power usage." />
         </attvalues>
       </edge>
-      <edge source="Sophie Wilson" target="John von Neumann" id="394">
+      <edge source="Sophie Wilson" target="John von Neumann" id="396">
         <attvalues>
           <attvalue for="1" value="Wilson's work on computer architecture was influenced by von Neumann's pioneering concepts in stored-program computers." />
         </attvalues>
       </edge>
-      <edge source="Sophie Wilson" target="Alan Turing" id="395">
+      <edge source="Sophie Wilson" target="Alan Turing" id="397">
         <attvalues>
           <attvalue for="1" value="Wilson's work in computing and her contributions to microprocessor design were inspired by Turing's foundational theories in computer science." />
         </attvalues>
       </edge>
-      <edge source="Sophie Wilson" target="Steve Furber" id="396">
+      <edge source="Sophie Wilson" target="Steve Furber" id="398">
         <attvalues>
           <attvalue for="1" value="Collaborated closely with Furber on the design of the ARM architecture, which has become a dominant force in microprocessors." />
+        </attvalues>
+      </edge>
+      <edge source="Mark Zuckerberg" target="Vannevar Bush" id="399">
+        <attvalues>
+          <attvalue for="1" value="" />
+        </attvalues>
+      </edge>
+      <edge source="Mark Zuckerberg" target="Tim Berners-Lee" id="400">
+        <attvalues>
+          <attvalue for="1" value="" />
+        </attvalues>
+      </edge>
+      <edge source="Larry Page" target="John McCarthy" id="401">
+        <attvalues>
+          <attvalue for="1" value="" />
+        </attvalues>
+      </edge>
+      <edge source="Larry Page" target="Vannevar Bush" id="402">
+        <attvalues>
+          <attvalue for="1" value="" />
+        </attvalues>
+      </edge>
+      <edge source="Sergey Brin" target="John McCarthy" id="403">
+        <attvalues>
+          <attvalue for="1" value="" />
+        </attvalues>
+      </edge>
+      <edge source="Sergey Brin" target="Vannevar Bush" id="404">
+        <attvalues>
+          <attvalue for="1" value="" />
+        </attvalues>
+      </edge>
+      <edge source="Elon Musk" target="Robert Noyce" id="405">
+        <attvalues>
+          <attvalue for="1" value="" />
+        </attvalues>
+      </edge>
+      <edge source="Jeff Bezos" target="Robert Noyce" id="406">
+        <attvalues>
+          <attvalue for="1" value="" />
+        </attvalues>
+      </edge>
+      <edge source="Bill Gates" target="John von Neumann" id="407">
+        <attvalues>
+          <attvalue for="1" value="" />
+        </attvalues>
+      </edge>
+      <edge source="Satya Nadella" target="John von Neumann" id="408">
+        <attvalues>
+          <attvalue for="1" value="" />
         </attvalues>
       </edge>
     </edges>
