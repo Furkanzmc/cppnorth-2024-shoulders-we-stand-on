@@ -129,7 +129,7 @@
 > the present high ground of modern computing, if we are looking and sifting history for that
 > transition, then that transition was made explicitly by Ada in that 1843 paper.
 - There are some controversy over her contributions. Babbage apparently had the early programs for
-  the Analytical Engine.
+  the Analytical Enginer.r
 - Programming language Ada is named after her.
 ```ada
 with Ada.Text_IO;

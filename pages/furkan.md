@@ -294,3 +294,49 @@ timeline
   In the same year he started the Rapid Arithmetical Machine project to investigate the problems of
   constructing an electronic digital computer.
 -->
+
+---
+layout: image-left
+image: /assets/people/lady-ada-lovelace.png
+---
+
+# Lady Ada Lovelace
+
+<!--
+- Next up, Lady Ada Lovelace. She was the first computer programmer. But I learned something that
+  makes her even more impressive than that...
+-->
+
+---
+layout: center
+clicks: 2
+dragPos:
+  square: 684,186,255,266,11
+---
+
+<div v-if="[0, 2, 3].indexOf($slidev.nav.clicks) > -1">
+
+```mermaid
+timeline
+    Early Days : Poet father, mathmatician mother
+               : Mother encouraged math**
+```
+
+</div>
+
+<div v-if="$slidev.nav.clicks === 1">
+
+## ~~Lady~~ Diva Ada Lovelace
+
+<img v-drag="'square'" src="/assets/diva-ada-lovelace.png" style="border-radius: 10%;">
+
+</div>
+
+<!--
+## Intro
+
+- Lady Ada Lovelace was the daughter of the famous poet Lord Byron, although she never had a
+  relationship with him due to her parents' separation when she was just a month old.
+- Her mother, Lady Byron, was a skilled mathematician and encouraged Ada's interest in mathematics
+  and logic as a way to steer her away from her father's artistic temperament.
+-->
