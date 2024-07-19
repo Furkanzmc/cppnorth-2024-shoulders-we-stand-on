@@ -3,10 +3,10 @@ layout: image-left
 image: https://i.pinimg.com/736x/15/d5/e1/15d5e17569e6f3ef1595c61c8ab56518--fred-rogers-successful-people.jpg
 ---
 
-Would you just take, along with me, 10 seconds to think of the people who have helped you become who
-you are, those who cared about you and wanted what was best for you in life.
-
-- Fred Rogers
+> Would you just take, along with me, 10 seconds to think of the people who have helped you become
+> who you are, those who cared about you and wanted what was best for you in life.
+> 
+> - Fred Rogers
 
 ---
 dragPos:
@@ -135,6 +135,8 @@ timeline
                 
 ```
 <!--
+## Intor
+
 - He was quite a chap!
 - Keen interest in mathematics. A number driven person.
 - Known as the father of computers.
@@ -149,6 +151,9 @@ timeline
   distributed the work to 80 human computers who only knew what work they were doing and subtraction
   and addition. For the first time, mass production was applied to mathematics and Babbage thought
   this work could be taken over by machines entirely.
+
+## Difference Engine
+
 - Difference engine was meant for solving polynomial equations. He created this to help with
   mathematical tables for the nautical almanac.
 - This first difference engine would have been composed of around 25,000 parts, weighed fifteen
@@ -159,5 +164,18 @@ timeline
   greatest at the time, and the tools he built were high quality.
   He demanded too much money and they didn't finish the project.
 - Difference Engine inspired the novel... [The Difference Engine](https://en.wikipedia.org/wiki/The_Difference_Engine)
--
+
+## Analytical Engine
+
+- Before the construction of the Difference Engine began, he started working on Analytical Engine.
+- Difference Engine was meant for a mechanized computation. But Analytical Engine could handle any
+  computation, making it a general purpose computer.
+- It was programmed using punch cards. It allowed for sequential control, looping, and branching.
+- Despite the importance of his work, the analytical engine was unknown to the builders of the
+  electromechanical and electronic computing machines in 1930s and 1940s. J. Presper Eckert and John
+  W. Mauchly similarly were not aware of the details of Babbage's analytical engine work prior to
+  the completion of their design for the first electronic general-purpose computer, the ENIAC.
+- Vannevar Bush's paper Instrumental Analysis (1936) included several references to Babbage's work.
+  In the same year he started the Rapid Arithmetical Machine project to investigate the problems of
+  constructing an electronic digital computer.
 -->
