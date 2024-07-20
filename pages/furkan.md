@@ -340,3 +340,44 @@ timeline
 - Her mother, Lady Byron, was a skilled mathematician and encouraged Ada's interest in mathematics
   and logic as a way to steer her away from her father's artistic temperament.
 -->
+
+---
+clicks: 1
+---
+
+<div style="text-align: center;">
+<div style="auto">
+
+```mermaid
+graph LR
+    Lovelace -- 🕊️🎶♥️🦌🌎 --> Babbage
+    Babbage -- 01001101 01100001 01110100 01101000 --> Lovelace
+```
+
+</div>
+</div>
+
+<div v-if="$slidev.nav.clicks === 1">
+
+> Supposing, for instance, that the fundamental relations of pitched sounds in the science of
+> harmony and of musical composition were susceptible of such expression and adaptations, the engine
+> might compose elaborate and scientific pieces of music of any degree of complexity or extent.
+
+</div>
+
+<!--
+- Charles Babbage considered the Analytical Engine to be a merely a calculation machine. But Ada
+  Lovelace saw a potential for representing natural objects with numbers.
+-->
+
+---
+layout: image-left
+image: /assets/people/alan-turing.jpg
+---
+
+# Alan Turing
+
+<!--
+- Next up, Lady Ada Lovelace. She was the first computer programmer. But I learned something that
+  makes her even more impressive than that...
+-->
