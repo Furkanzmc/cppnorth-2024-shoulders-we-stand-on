@@ -226,7 +226,18 @@ graph TD
 Distributed Programming
 Early pioneers of the research on distributed computing. His paper “Self-stabilizing Systems in Spite of Distributed Control” started the sub-field of self-stabilization.
 Coordinating Concurrent Processes (1965) denotes the first synchronization mechanism for concurrent processes, the semaphore with its two operations, commonly known as P and V.
+
+
 Semaphores: The Dining Philosophers problem (1971)
+The Dining Philosophers Problem is a classic synchronization problem in computer science, introduced by Dijkstra in 1965. 
+- Five philosophers sitting around a table, each alternating between thinking and eating. 
+- There is a single fork between each pair of philosophers, and to eat, a philosopher needs both adjacent forks. 
+- The challenge is to ensure that no philosopher starves while preventing deadlock, where everyone is stuck waiting for a fork.
+
+- Dijkstra’s exploration of this problem was pivotal in understanding and solving issues of concurrency in computing. 
+- His work led to the development of synchronization techniques like semaphores and monitors, which are crucial for managing resource allocation in multi-threaded and distributed systems.
+
+Today, the principles from this influence various areas of computer science, including operating systems, database management, and parallel computing. It remains a fundamental example for teaching and demonstrating synchronization and resource sharing in concurrent programming.
 -->
 
 ---
@@ -283,82 +294,73 @@ graph TD
 - **Elegance**: Known for elegant writing and handwriting. Inspired the creation of Dijkstra Regular font.
 
 ---
-
+layout: image-left
+image: /assets/people/donald-knuth.jpg
+class: donald-knuth
+---
 # Donald Knuth (1938-present)
 
+<div v-if="$slidev.nav.clicks === 2">
+  <v-drag pos="662,264,275,_">
+      <img src="/assets/dijkstra-writing.png" style="border-radius: 8%;">
+  </v-drag>
+</div>
+
+<div>
 - **Impactful Work:**
   - **"The Art of Computer Programming" (1968)**
   - Knuth-Morris-Pratt (KMP) Algorithm
   - TeX typesetting system
-
+</div>
 ---
 
-```plantuml
-@startuml
-skinparam backgroundColor #EEEBDC
-skinparam node {
-    FontColor #017C7A
-}
+# Knuth's Influences and Contributions
 
-title Donald Knuth: Contributions and Influence
+```mermaid
+mindmap
+  root((Donald Knuth))
+    Influences
+      Lovelace["Ada Lovelace"]
+        Lovelace_desc1["Pioneer of programming concepts"]:::influence1
+        Lovelace_desc2["Combined mathematical rigor with creativity"]:::influence1
+      Neumann["John von Neumann"]
+        Neumann_desc1["Structured approach to computing"]:::influence2
+        Neumann_desc2["Foundational work in computer science"]:::influence2
+    Contributions
+      Programming["The Art of Computer Programming"]
+        Programming_desc["Comprehensive coverage of fundamental algorithms"]:::contribution1
+      TeX["TeX Typesetting System"]
+        TeX_desc["Revolutionized digital typesetting and publishing"]:::contribution2
+      KMP["Knuth-Morris-Pratt Algorithm"]
+        KMP_desc["Efficient string-searching algorithm"]:::contribution3
+      Literate["Literate Programming"]
+        Literate_desc["Integration of code and documentation"]:::contribution4
+      Analysis["Algorithm Analysis"]
+        Analysis_desc["Detailed study of algorithms and programming techniques"]:::contribution5
+      Software["Software Engineering"]
+        Software_desc["Modern software engineering practices"]:::contribution6
+      Education["Computer Science Education"]
+        Education_desc["Cornerstone of computer science education"]:::contribution7
 
-actor "Computer Scientist" as CS
-
-node "Donald Knuth" as Knuth {
-    skinparam {
-        BackgroundColor #FFFF99
-        FontColor #017C7A
-    }
-    [The Art of Computer Programming (1968)]
-    [TeX Typesetting System]
-    [Knuth-Morris-Pratt Algorithm]
-    [Literate Programming]
-}
-
-node "Contributions" {
-    skinparam {
-        BackgroundColor #FFCC99
-        FontColor #017C7A
-    }
-    [Fundamental Algorithms]
-    [Seminumerical Algorithms]
-    [Sorting and Searching]
-    [Combinatorial Algorithms]
-}
-
-node "Influence" {
-    skinparam {
-        BackgroundColor #99CCFF
-        FontColor #017C7A
-    }
-    [Modern Software Engineering]
-    [Algorithm Analysis]
-    [Computer Science Education]
-}
-
-node "Applications" {
-    skinparam {
-        BackgroundColor #CCFF99
-        FontColor #017C7A
-    }
-    [Text Processing]
-    [Bioinformatics]
-    [Data Compression]
-    [Network Security]
-    [Natural Language Processing]
-    [Digital Forensics]
-}
-
-CS -down-> Knuth
-Knuth -down-> Contributions
-Contributions -down-> Influence
-Influence -down-> Applications
-
-@enduml
-
+%% Define the styles for each node and description
+classDef influence1 fill:#ffb86c,stroke:#ff79c6,stroke-width:2px;
+classDef influence2 fill:#50fa7b,stroke:#bd93f9,stroke-width:2px;
+classDef contribution1 fill:#8be9fd,stroke:#ffb86c,stroke-width:2px;
+classDef contribution2 fill:#ff79c6,stroke:#ffb86c,stroke-width:2px;
+classDef contribution3 fill:#bd93f9,stroke:#ff79c6,stroke-width:2px;
+classDef contribution4 fill:#ffb86c,stroke:#50fa7b,stroke-width:2px;
+classDef contribution5 fill:#f1fa8c,stroke:#ff79c6,stroke-width:2px;
+classDef contribution6 fill:#6272a4,stroke:#bd93f9,stroke-width:2px;
+classDef contribution7 fill:#ff5555,stroke:#8be9fd,stroke-width:2px;
 ```
 
-<!-- 
+<div v-if="$slidev.nav.clicks === 1">
+  <v-drag pos="662,264,275,_">
+      <img src="/assets/dijkstra-writing.png" style="border-radius: 8%;">
+  </v-drag>
+</div>
+
+<!--
 1. The Art of Computer Programming (1968):
   - Comprehensive coverage of fundamental algorithms
 2. TeX Typesetting System:
@@ -367,40 +369,40 @@ Influence -down-> Applications
   - Efficient string-searching algorithm
 4. Literate Programming:
   - Integration of code and documentation
- -->
 
----
+Influences
+- Ada Lovelace:
+  - Ada Lovelace was a pioneer of programming concepts. She combined mathematical rigor with creativity, which greatly inspired Knuth. Her visionary work laid the foundation for what would become modern computer programming.
+- John von Neumann:
+  - Another major influence on Knuth was John von Neumann. Known for his structured approach to computing, von Neumann's foundational work in computer science shaped Knuth's methodical and analytical approach to algorithms and programming."
+Contributions:
+- The Art of Computer Programming:
+  - Knuth's most famous work is 'The Art of Computer Programming'. This comprehensive coverage of fundamental algorithms is often considered the bible of computer programming. It's an essential resource for anyone studying or working in the field.
+- TeX Typesetting System:
+  - Knuth revolutionized digital typesetting with the creation of the TeX system. This tool is widely used in academia for producing technical documents, ensuring high-quality typesetting.
+- Knuth-Morris-Pratt Algorithm:
+  - One of his notable algorithms is the Knuth-Morris-Pratt algorithm, an efficient string-searching algorithm crucial for text processing applications. It helps in finding patterns within strings quickly and effectively.
+- Literate Programming:
+  - Knuth also introduced the concept of literate programming, which integrates code and documentation. This promotes writing programs that are not only functional but also easy to understand and maintain.
+- Algorithm Analysis:
+  - His detailed study of algorithms and programming techniques emphasizes the importance of efficient algorithms. This has been instrumental in advancing the field of computer science.
+Software Engineering:
+  - Knuth's contributions to modern software engineering practices focus on clarity and efficiency in coding. His work has helped establish best practices that are still followed today.
+Computer Science Education:
+  0 Lastly, Knuth's impact on computer science education cannot be overstated. His work has become a cornerstone of computer science education, educating generations of programmers and computer scientists."
 
-## "The Art of Computer Programming" (TAOCP)
+"Despite his immense contributions, Knuth initially experienced imposter syndrome. He once said, 'I certainly felt like an imposter for many years. There were so many other people who seemed so much more capable than I was. I just kept working hard and doing what I loved, hoping that someday I would belong.' This is a reminder that even the most accomplished individuals can have self-doubt. However, his perseverance and dedication have left an indelible mark on the field of computer science."
 
-- **Comprehensive Analysis:**
-  - Detailed study of algorithms and programming techniques
-  - Cornerstone of computer science education and practice
-- **Rigorous Approach:**
-
-<div v-if="$slidev.nav.clicks === 1">
-  <v-drag pos="662,264,275,_">
-      <img src="/assets/dijkstra-writing.png" style="border-radius: 8%;">
-  </v-drag>
-</div>
-
-
----
-
-- ## Influences
-
-<!-- 
-- **Ada Lovelace:**
-  - Pioneer of programming concepts
-  - Combined mathematical rigor with creativity
-  - Inspired Knuth's approach to blending precise analysis with innovative problem-solving
-- **John von Neumann:**
-  - Structured approach to computing
-  - Foundational work in computer science
-  - Influenced Knuth's systematic analysis of algorithms and interdisciplinary approach
-
-- **Imposter Syndrome:** Initially experienced imposter syndrome 
+"Knuth's influences and contributions have profoundly shaped the landscape of computer science, and his work continues to inspire and guide new generations in the field."
 -->
+---
+layout: quote
+---
+
+<image>
+
+'I certainly felt like an imposter for many years. There were so many other people who seemed so much more capable than I was. I just kept working hard and doing what I loved, hoping that someday I would belong.'
+
 ---
 
 ## Welcoming (and Rewarding) Feedback
@@ -418,12 +420,6 @@ Influence -down-> Applications
 ---
 
 # Niklaus Wirth
-
-## A Learner's Language, Pascal
-
----
-
-## Key Contributions
 
 - **Pascal Programming Language:**
   - Emphasized structured programming and data structuring

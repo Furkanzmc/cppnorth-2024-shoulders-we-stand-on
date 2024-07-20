@@ -8,7 +8,7 @@ background: /assets/intro-background.jpg
 title: The Shoulders We Stand On
 info: |
   ## The Shoulders We Stand On
-  
+
   A reflection on all the people who helped us get to where we are today.
 
   Contribute at [GitHub](https://github.com/Furkanzmc/cppnorth-2024-shoulders-we-stand-on)
@@ -52,7 +52,7 @@ mdc: true
 </div>
 
 ---
-src: ./pages/furkan.md
+<!-- src: ./pages/furkan.md -->
 ---
 
 ---
@@ -80,11 +80,7 @@ class: my-custom-class
 
 ---
 layout: iframe-left
-
-# the web page source
 url: https://ouestware.gitlab.io/retina/1.0.0-beta.1/#/graph/?url=https%3A%2F%2Fouestware.gitlab.io%2Fretina%2F1.0.0-beta.1%2Fdataset.gexf&sa%5B%5D=s&sa%5B%5D=r&ca%5B%5D=t&ca%5B%5D=c
-
-# a custom class name to the content
 class: my-custom-class
 ---
 
