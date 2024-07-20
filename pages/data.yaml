@@ -120,6 +120,8 @@ Acts:
 
     - name: Vannevar Bush
       influenced-by:
+        - name: Emanuel Goldberg
+          description: "Goldberg's work on microfilm and information retrieval systems influenced Bush's vision of the Memex. Statistical Machine was the inspiration behind Memex. Source: https://en.wikipedia.org/wiki/Emanuel_Goldberg"
         - name: Frank B. Jewett
           description: "Jewett's work in electrical engineering and as the head of Bell Labs provided Bush with significant support and inspiration. Source: https://en.wikipedia.org/wiki/Frank_B._Jewett"
         - name: Arthur Edwin Kennelly
@@ -141,6 +143,8 @@ Acts:
           description: "Nelson's work on hypertext and project Xanadu was influenced by Bush's Memex concept. Source: https://en.wikipedia.org/wiki/Ted_Nelson"
         - name: Hypertext
           description: "Bush's idea of the Memex, a system for storing and linking information, directly influenced the development of hypertext systems. Source: https://en.wikipedia.org/wiki/Hypertext"
+        - name: Andries van Dam
+          description: "He worked with Ted Nelson to create Hypertext Editing System"
         - name: World Wide Web
           description: "Tim Berners-Lee's invention of the World Wide Web was influenced by Bush's Memex and the idea of linking information. Source: https://en.wikipedia.org/wiki/Tim_Berners-Lee"
         - name: Digital Libraries
@@ -171,6 +175,8 @@ Acts:
         - name: Alan Turing
           description: "Turing's concept of the Turing machine influenced von Neumann's work on the theoretical foundations of computing. Source: https://en.wikipedia.org/wiki/Alan_Turing"
       influences:
+        - name: Samuel N. Alexander
+          description: "He developed the SEAC computer based on the report that Nuemann wrote which described the von Neumann arcitecture."
         - name: J.C.R. Licklider
           description: "Von Neumann's architecture and concepts influenced Licklider's vision for interactive computing. Source: https://en.wikipedia.org/wiki/J._C._R._Licklider"
         - name: Claude Shannon

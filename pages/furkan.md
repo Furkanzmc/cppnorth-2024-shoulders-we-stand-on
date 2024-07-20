@@ -75,7 +75,7 @@ dragPos:
     <img src="/assets/people/dennis-ritchie-ken-thomson.jpg" style="border-radius: 50%;">
 </v-drag>
 
-<v-drag pos="582,210,261,_,12">
+<v-drag pos="700,250,261,_,12">
     <img src="/assets/people/grace-hopper.jpg" style="border-radius: 50%;">
 </v-drag>
 
@@ -85,6 +85,10 @@ dragPos:
 
 <v-drag pos="223,287,261,_,-15">
     <img src="/assets/people/margaret-hamilton.jpeg" style="border-radius: 50%;">
+</v-drag>
+
+<v-drag pos="469,236,261,_,-13">
+    <img src="/assets/people/howard-stark.webp" style="border-radius: 50%;">
 </v-drag>
 
 ---
@@ -497,4 +501,86 @@ timeline
 > the only way I can get some release.
 - He was Walton Athletic Club's best runner, a fact discovered when he passed the group while
   running alone.
+-->
+
+---
+layout: image-left
+image: /assets/people/vannevar-bush.jpg
+---
+
+# Vannevar Bush
+
+
+<!--
+- He did more than science and influenced a lot of the policies surrounding science.
+-->
+
+---
+clicks: 2
+---
+
+```mermaid
+mindmap
+  root((Vannevar Bush))
+    Analog Computers
+      Diffirential Analyzer
+      Digital Circuit Design
+    Office of Scientific Research and Development
+      Radar
+      Proximity Fuze
+      Manhattan Project
+    Memex**
+      Inspired by Emanuel Goldberg
+      Focus on Information Management
+```
+
+<div v-if="$slidev.nav.clicks === 1">
+
+<v-drag-arrow two-way pos="618,288,-263,23" />
+
+<v-drag pos="605,132,300,_,-6">
+    <img src="/assets/hyper-text-editing-system-ibm.jpg" style="border-radius: 8%;">
+</v-drag>
+
+</div>
+
+<!--
+- Being in the military role probably made him think of what would happen after the war.
+- In his article he describes memex, and an imaginary account of probably the world's first wiki
+  rabbit hole.
+- In As We May Think, he talks about how the spreading of scientific knowledge is an important task.
+  He says in the past, Mendel's research on laws of genetics was lost for generations because it
+  didn't make it into the hands of people who could expand on it.
+- Ted Nelson was inspired by his ideas and in a paper where he coined the term  "hypertext" he
+  referenced Bush a lot. He then created Hypertext Editing System along with Andries van Dam
+- It seems that he didn't show that much of an interest in digital computing.
+  https://www.encyclopedia.com/science/encyclopedias-almanacs-transcripts-and-maps/vannevar-bush
+-->
+
+---
+layout: image-left
+image: /assets/people/john-von-neumann.webp
+---
+
+# John von Neumann
+
+> Most mathematicians prove what they can, von Neumann proves what he wants
+
+<!--
+- Next up is another genious who also lived around the same time as Turing and Bush.
+- He contributed to computer science, game theory, quantum mechanics, celluar automata, and
+  mathematics.
+- He was also pretty social and liked to tell jokes in multiple languages.
+-->
+
+---
+dragPos:
+  square: 323,26,369,492
+---
+
+<img v-drag="'square'" src="/assets/john-von-neumann-report.jpg" style="border-radius: 4%;">
+
+<!--
+- We can thank probably thank this paper for us having the job we do.
+- He was among the first people to talk about the time complexity of algorithms.
 -->

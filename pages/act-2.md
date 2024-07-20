@@ -550,7 +550,7 @@ dragPos:
 
 ## IDF Under the Hood
 
-<img v-drag="'square'" src="assets/idf.png" style="border-radius: 10%;">
+<!-- <img v-drag="'square'" src="assets/idf.png" style="border-radius: 10%;"> -->
 
 <!--
 - **Inverse Document Frequency (IDF):**
