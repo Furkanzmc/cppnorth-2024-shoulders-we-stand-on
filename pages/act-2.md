@@ -101,7 +101,7 @@ class: mcarthy-profile-class
 
 # Slide 12
 
-```mermaid {theme: 'neutral', scale: 0.5}
+```mermaid {theme: 'neutral', scale: 0.62}
 graph TD
     %% Edsger W. Dijkstra's life
     A(1930: Born in Rotterdam, Netherlands) --> B(1952: Programming at the Mathematical Center)
@@ -123,11 +123,11 @@ graph TD
 
     classDef grayout fill:transparent,stroke:transparent,stroke-width:0px,color:transparent;
     classDef highlight fill:#fbd91f,stroke:#33,stroke-width:4px;
-    
+
     class X1 highlight;
     class X2 highlight;
     class C,D,E,F,G,Y1,Y2,Y3,Y4 grayout;
-    
+
     linkStyle 1,2,3,4,5,6,7,8,9,10,11 display:none;
 ```
 
