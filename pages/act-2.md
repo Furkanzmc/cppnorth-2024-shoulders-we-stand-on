@@ -121,35 +121,21 @@ graph TD
     E --> Y3(Research in Distributed Systems)
     F --> Y4(Concepts in Concurrent Programming)
 
-    classDef grayout fill:#272935,stroke:#272935,stroke-width:1px,color:#272935;
+    classDef grayout fill:transparent,stroke:transparent,stroke-width:0px,color:transparent;
     classDef highlight fill:#fbd91f,stroke:#33,stroke-width:4px;
     
     class X1 highlight;
     class X2 highlight;
-    class C grayout;
-    class D grayout;
-    class E grayout;
-    class F grayout;
-    class G grayout;
-    class Y1 grayout;
-    class Y2 grayout;
-    class Y3 grayout;
-    class Y4 grayout;
+    class C,D,E,F,G,Y1,Y2,Y3,Y4 grayout;
     
-    linkStyle 1 stroke:#272935,stroke-width:1px;
-    linkStyle 2 stroke:#272935,stroke-width:1px;
-    linkStyle 3 stroke:#272935,stroke-width:1px;
-    linkStyle 4 stroke:#272935,stroke-width:1px;
-    linkStyle 5 stroke:#272935,stroke-width:1px;
-    linkStyle 6 stroke:#272935,stroke-width:1px;
-    linkStyle 7 stroke:#272935,stroke-width:1px;
-    linkStyle 8 stroke:#272935,stroke-width:1px;
-    linkStyle 9 stroke:#272935,stroke-width:1px;
-    linkStyle 10 stroke:#272935,stroke-width:1px;
-    linkStyle 11 stroke:#272935,stroke-width:1px;
+    linkStyle 1,2,3,4,5,6,7,8,9,10,11 display:none;
 ```
 
-<!-- Building on the programming foundations laid by Ada Lovelace and John von Neumann's computing principles, Dijkstra's contributions have been pivotal in developing algorithms and programming methodologies -->
+<!--
+- Building on the programming foundations laid by Ada Lovelace and John von Neumann's computing
+  principles, Dijkstra's contributions have been pivotal in developing algorithms and programming
+  methodologies
+-->
 
 ---
 
