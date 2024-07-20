@@ -574,13 +574,126 @@ image: /assets/people/john-von-neumann.webp
 -->
 
 ---
-dragPos:
-  square: 323,26,369,492
+layout: centre
+clicks: 4
 ---
 
-<img v-drag="'square'" src="/assets/john-von-neumann-report.jpg" style="border-radius: 4%;">
+<div v-if="[0, 1, 3, 4].indexOf($slidev.nav.clicks) > -1">
+
+```mermaid
+mindmap
+  root((John von Neumann))
+    Game Theory
+    Von Neumann Architecture
+    Quantum Mechanics
+    Fluid Dynamics
+    Merge Sort
+```
+
+</div>
+
+<div v-if="$slidev.nav.clicks === 1">
+
+<v-drag pos="605,132,300,_,-6">
+    <img src="/assets/a-beautiful-mind.jpg" style="border-radius: 8%;">
+</v-drag>
+
+</div>
+
+<div v-if="$slidev.nav.clicks === 3">
+
+<v-drag pos="605,132,300,_,-6">
+    <img src="/assets/john-von-neumann-report.jpg" style="border-radius: 8%;">
+</v-drag>
+
+</div>
+
+<div v-if="$slidev.nav.clicks === 4">
+
+<v-drag pos="142,285,300,_,-7">
+    <img src="/assets/merge-sort.gif" style="border-radius: 8%;">
+</v-drag>
+
+</div>
+
+<div v-if="$slidev.nav.clicks === 2">
+
+```mermaid
+mindmap
+  root((Game Theory Applications))
+    Business and Economics
+      Market Competition
+      Auctions and Bidding
+      Negotiations and Bargaining
+      Pricing Strategies
+      Market Entry Decisions
+      Resource Allocation
+    Political Science and Policy
+      Voting Behavior
+      International Relations
+      Coalition Formation
+      Environmental Policy
+    Biology
+      Evolutionary Dynamics
+      Animal Behavior
+      Population Dynamics
+    Computer Science
+      AI Algorithms
+      Resource Allocation in Distributed Systems
+      Network Routing
+    Military Strategy
+      Conflict Scenarios
+      Deterrence Strategies
+    Social Sciences
+      Social Dilemmas
+      Group Dynamics
+      Cooperation and Competition
+    Everyday Decision Making
+      Salary Negotiations
+      Strategic Decisions
+      Navigating Social Dilemmas
+    Finance
+      Investment Strategies
+      Risk Management
+    Sports
+      Strategic Decisions in Games
+    Cybersecurity
+      Network Defense Strategies
+```
+
+</div>
 
 <!--
-- We can thank probably thank this paper for us having the job we do.
+- This is the paper that introduced the concept of stored-program computers which later was known as
+  von Neumann architecture. It was 101 pages.
 - He was among the first people to talk about the time complexity of algorithms.
+- He was the first person to also create a mathematical foundations for Quantum Mechanics, in his
+  book called... "Mathematical Foundations of Quantum Mechanics"
+- He invented the merge sort algorithm because there was a need to efficiently sort data on
+  computers during World War II.
+- He formalized game theory which gave us a fantastic movie called "A Beautiful Mind".
+- Game theory helped us understand how people make decisions in competitive situations and how
+  decisions affect outcomes.
 -->
+
+---
+layout: image-left
+image: /assets/people/j-c-r-licklider.webp
+---
+
+# Joseph Carl Robnett Licklider
+
+> ... most of the significant advances in computer technology—including the work that my group did at
+> Xerox PARC—were simply extrapolations of Lick's vision. They were not really new visions of their
+> own. So he was really the father of it all" - Robert Taylor
+
+---
+
+```mermaid
+mindmap
+  root((J.C.R. Licklider))
+    Interactive Computing
+    Man-Computer Symbiosis
+    ARPANET
+    Human-Computer Communication
+```

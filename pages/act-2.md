@@ -269,7 +269,7 @@ graph TD
 
 <div v-if="$slidev.nav.clicks === 1">
   <v-drag pos="662,264,275,_">
-      <img src="/assets/edsger-dijkstra-1.jpg" style="border-radius: 8%;">
+      <!-- <img src="/assets/edsger-dijkstra-1.jpg" style="border-radius: 8%;"> -->
   </v-drag>
 </div>
 
