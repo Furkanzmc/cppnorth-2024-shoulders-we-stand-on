@@ -1,6 +1,6 @@
 ---
-theme: default
-title: Act 2: Pioneers of Artificial Intelligence and Structured Programming
+theme: dracula
+title: Act 2: The Theoretical Foundations 
 ---
 
 # (8) Act 2: The Theoretical Foundations
@@ -99,9 +99,9 @@ class: mcarthy-profile-class
 
 ---
 
-# Slide 12
+# Dijkstra's Formative Influences
 
-```mermaid {theme: 'neutral', scale: 0.62}
+```mermaid {theme: 'neutral', scale: 0.5}
 graph TD
     %% Edsger W. Dijkstra's life
     A(1930: Born in Rotterdam, Netherlands) --> B(1952: Programming at the Mathematical Center)
@@ -126,9 +126,12 @@ graph TD
 
     class X1 highlight;
     class X2 highlight;
-    class C,D,E,F,G,Y1,Y2,Y3,Y4 grayout;
+    class C highlight;
+    class Y1 highlight;
+    
+    class D,E,F,G,Y2,Y3,Y4 grayout;
 
-    linkStyle 1,2,3,4,5,6,7,8,9,10,11 display:none;
+    linkStyle 2,3,4,5,9,10,11 display:none;
 ```
 
 <!--
@@ -139,7 +142,7 @@ graph TD
 
 ---
 
-# Dijsktra's Influences in Structured PRogramming
+# A Case for Structured Programming
 
 ```mermaid {theme: 'neutral', scale: 0.5}
 graph TD
@@ -161,29 +164,15 @@ graph TD
     E --> Y3(Research in Distributed Systems)
     F --> Y4(Concepts in Concurrent Programming)
 
-    classDef grayout fill:#272935,stroke:#272935,stroke-width:1px,color:#272935;
+    classDef grayout fill:transparent,stroke:transparent,stroke-width:0px,color:transparent;
     classDef highlight fill:#fbd91f,stroke:#33,stroke-width:4px;
+
+    class D highlight;
+    class Y2 highlight;
     
-    class B highlight;
-    class C highlight;
-    class D grayout;
-    class E grayout;
-    class F grayout;
-    class G grayout;
-    class Y1 grayout;
-    class Y2 grayout;
-    class Y3 grayout;
-    class Y4 grayout;
-    
-    linkStyle 3 stroke:#272935,stroke-width:1px;
-    linkStyle 4 stroke:#272935,stroke-width:1px;
-    linkStyle 5 stroke:#272935,stroke-width:1px;
-    linkStyle 6 stroke:#272935,stroke-width:1px;
-    linkStyle 7 stroke:#272935,stroke-width:1px;
-    linkStyle 8 stroke:#272935,stroke-width:1px;
-    linkStyle 9 stroke:#272935,stroke-width:1px;
-    linkStyle 10 stroke:#272935,stroke-width:1px;
-    linkStyle 11 stroke:#272935,stroke-width:1px;
+    class E,F,G,Y3,Y4 grayout;
+
+    linkStyle 3,4,5,10,11 display:none;
 ```
 
 <!-- Structured Programming
@@ -192,7 +181,7 @@ His advocacy for structured programming has led to more reliable and maintainabl
 Coined the phrase “2 or more, use a for”, alluding to the fact that when you find yourself processing more than one instance of a data structure, it is time to encapsulate that logic inside a loop. -->
 ---
 
-# Dijsktra's Influences in Structured PRogramming
+# Dining with Philosophers
 
 ```mermaid {theme: 'neutral', scale: 0.5}
 graph TD
@@ -214,32 +203,32 @@ graph TD
     E --> Y3(Research in Distributed Systems)
     F --> Y4(Concepts in Concurrent Programming)
 
-    classDef grayout fill:#272935,stroke:#272935,stroke-width:1px,color:#272935;
+    classDef grayout fill:transparent,stroke:transparent,stroke-width:0px,color:transparent;
     classDef highlight fill:#fbd91f,stroke:#33,stroke-width:4px;
-    
-    class D highlight;
+
     class E highlight;
-    class F grayout;
-    class G grayout;
-    class Y1 grayout;
-    class Y2 grayout;
-    class Y3 grayout;
-    class Y4 grayout;
+    class F highlight;
+    class Y3 highlight;
+    class Y4 highlight;
     
-    linkStyle 5 stroke:#272935,stroke-width:1px;
-    linkStyle 6 stroke:#272935,stroke-width:1px;
-    linkStyle 7 stroke:#272935,stroke-width:1px;
-    linkStyle 8 stroke:#272935,stroke-width:1px;
-    linkStyle 9 stroke:#272935,stroke-width:1px;
-    linkStyle 10 stroke:#272935,stroke-width:1px;
-    linkStyle 11 stroke:#272935,stroke-width:1px;
+    class G grayout;
+
+    linkStyle 5 display:none;
 ```
 
-<!-- Distributed Programming
+<div v-if="$slidev.nav.clicks === 1">
+  <v-drag pos="662,264,275,_">
+      <img src="/assets/dining.webp" style="border-radius: 8%;">
+  </v-drag>
+</div>
+
+<!--
+Distributed Programming
 Early pioneers of the research on distributed computing. His paper “Self-stabilizing Systems in Spite of Distributed Control” started the sub-field of self-stabilization.
 Coordinating Concurrent Processes (1965) denotes the first synchronization mechanism for concurrent processes, the semaphore with its two operations, commonly known as P and V.
-Semaphores: The Dining Philosophers problem (1971) 
- -->
+Semaphores: The Dining Philosophers problem (1971)
+-->
+
 ---
 
 # Dijkstra's Legacy
@@ -266,28 +255,33 @@ graph TD
 
     classDef highlight fill:#fbd91f,stroke:#33,stroke-width:4px;
     
-    class C highlight;
-    class D highlight;
-    class E highlight;
+    class Y1 highlight;
+    class Y2 highlight;
+    class Y3 highlight;
+    class Y4 highlight;
 ```
 
 <!-- His work has had a lasting impact on software engineering practices, influencing how complex software systems are designed and implemented. Examples include routing algorithms in network communication and optimization algorithms in various fields. -->
 
 ---
-layout: image-right
-image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhSPLSXw4JR675YgNB40FgSLIoHqTwk-s80toDXALGZXfH61Q5B_-FJsJinxC514Xm7ulZwNO4XRK-P6yVXxppdsp74OdDVeoSS2kxqE-OnlOnmTZXeNn9jlGapmF1zGy-F3ZR4nOQQE4jG/s1600/dijkstra.jpg
-class: dijkstra-writing-class
----
 
 ## (12) For fun...
+
+<div v-if="$slidev.nav.clicks === 1">
+  <v-drag pos="662,264,275,_">
+      <img src="/assets/edsger-dijkstra-1.jpg" style="border-radius: 8%;">
+  </v-drag>
+</div>
+
+<div v-if="$slidev.nav.clicks === 2">
+  <v-drag pos="662,264,275,_">
+      <img src="/assets/dijkstra-writing.png" style="border-radius: 8%;">
+  </v-drag>
+</div>
 
 - **Background**: Originally studied theoretical physics, persuaded to stay in programming.
 - **Elegance**: Known for elegant writing and handwriting. Inspired the creation of Dijkstra Regular font.
 
----
-layout: image-right
-image: https://www-cs-faculty.stanford.edu/~knuth/taocp-thumb.jpg
-class: taocp-book
 ---
 
 # Donald Knuth (1938-present)
@@ -299,6 +293,84 @@ class: taocp-book
 
 ---
 
+```plantuml
+@startuml
+skinparam backgroundColor #EEEBDC
+skinparam node {
+    FontColor #017C7A
+}
+
+title Donald Knuth: Contributions and Influence
+
+actor "Computer Scientist" as CS
+
+node "Donald Knuth" as Knuth {
+    skinparam {
+        BackgroundColor #FFFF99
+        FontColor #017C7A
+    }
+    [The Art of Computer Programming (1968)]
+    [TeX Typesetting System]
+    [Knuth-Morris-Pratt Algorithm]
+    [Literate Programming]
+}
+
+node "Contributions" {
+    skinparam {
+        BackgroundColor #FFCC99
+        FontColor #017C7A
+    }
+    [Fundamental Algorithms]
+    [Seminumerical Algorithms]
+    [Sorting and Searching]
+    [Combinatorial Algorithms]
+}
+
+node "Influence" {
+    skinparam {
+        BackgroundColor #99CCFF
+        FontColor #017C7A
+    }
+    [Modern Software Engineering]
+    [Algorithm Analysis]
+    [Computer Science Education]
+}
+
+node "Applications" {
+    skinparam {
+        BackgroundColor #CCFF99
+        FontColor #017C7A
+    }
+    [Text Processing]
+    [Bioinformatics]
+    [Data Compression]
+    [Network Security]
+    [Natural Language Processing]
+    [Digital Forensics]
+}
+
+CS -down-> Knuth
+Knuth -down-> Contributions
+Contributions -down-> Influence
+Influence -down-> Applications
+
+@enduml
+
+```
+
+<!-- 
+1. The Art of Computer Programming (1968):
+  - Comprehensive coverage of fundamental algorithms
+2. TeX Typesetting System:
+  - Revolutionized digital typesetting and publishing
+3. Knuth-Morris-Pratt Algorithm:
+  - Efficient string-searching algorithm
+4. Literate Programming:
+  - Integration of code and documentation
+ -->
+
+---
+
 ## "The Art of Computer Programming" (TAOCP)
 
 - **Comprehensive Analysis:**
@@ -306,9 +378,18 @@ class: taocp-book
   - Cornerstone of computer science education and practice
 - **Rigorous Approach:**
 
+<div v-if="$slidev.nav.clicks === 1">
+  <v-drag pos="662,264,275,_">
+      <img src="/assets/dijkstra-writing.png" style="border-radius: 8%;">
+  </v-drag>
+</div>
+
+
 ---
 
 - ## Influences
+
+<!-- 
 - **Ada Lovelace:**
   - Pioneer of programming concepts
   - Combined mathematical rigor with creativity
@@ -317,17 +398,22 @@ class: taocp-book
   - Structured approach to computing
   - Foundational work in computer science
   - Influenced Knuth's systematic analysis of algorithms and interdisciplinary approach
-<!-- - **Imposter Syndrome:** Initially experienced imposter syndrome -->
----
-layout: image-left
-image: https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Knuth_reward_check.jpg/800px-Knuth_reward_check.jpg
-class: knuth-cert
+
+- **Imposter Syndrome:** Initially experienced imposter syndrome 
+-->
 ---
 
-## Fun Fact
+## Welcoming (and Rewarding) Feedback
+
 - **Error Rewards:**
   - Mails you $2.56 (1 hexadecimal dollar) for every mistake found in his book (stopped in 2008)
   - Now sends a cheque-like certificate (and real money if requested)
+
+<div v-if="$slidev.nav.clicks === 2">
+  <v-drag pos="662,264,275,_">
+      <img src="/assets/knuth-cert.png" style="border-radius: 8%;">
+  </v-drag>
+</div>
 
 ---
 
@@ -451,21 +537,22 @@ class: knuth-cert
 
 - **Information Retrieval:**
   - Pioneered work in search engine algorithms
-  - Developed IDF, a fundamental component of TF-IDF weighting
+  - Developed Inverse Document Frequency (IDF), a fundamental component of TF-IDF weighting
 
 - **Natural Language Processing (NLP):**
   - Enabled machines to understand and process human language
   - Advanced research in machine translation, chatbots, and automated summarization
 
 ---
-layout: center
-image: https://media.licdn.com/dms/image/C5612AQFwKf3fbE3xOQ/article-cover_image-shrink_720_1280/0/1575991068890?e=1726704000&v=beta&t=qJRsADb9iXkRHq5TiaPxQOSsPwvftfVJOB7jmloDM_Q
-class: idf
+dragPos:
+  square: 56,120,852,428
 ---
 
 ## IDF Under the Hood
 
-<!-- 
+<img v-drag="'square'" src="assets/idf.png" style="border-radius: 10%;">
+
+<!--
 - **Inverse Document Frequency (IDF):**
   - Evaluates the importance of a word in a document relative to a collection of documents (corpus)
   - Highlights unique terms specific to a document
@@ -475,7 +562,9 @@ class: idf
   - Assigns weights to terms based on their importance in the retrieval process
 
 - **Automatic Thesaurus Generation:**
-  - Enhances query expansion using synonyms and related terms -->
+  - Enhances query expansion using synonyms and related terms
+-->
+
 ---
 
 ## Impact and Applications
@@ -493,6 +582,9 @@ class: idf
 
 ## Influence and Legacy
 
+
+
+<!-- 
 - **Inspired By:**
   - Alan Turing's foundational work in computing
   - Claude Shannon's work in information theory
@@ -501,5 +593,6 @@ class: idf
   - Crucial for the development of search engines like Google
   - Influenced fields of information retrieval, machine learning, and AI
   - IDF remains a fundamental concept in search algorithms
+ -->
 
 ---
