@@ -1,66 +1,105 @@
-# Act 2: The Theoretical Foundations
-
-Establishing the <span v-mark.underline.orange>core principles and theories</span> that underpin modern technology, building upon the visionaries' ideas from Act 1.
-
 ---
-layout: iframe
-
-# the web page source
-url: https://ouestware.gitlab.io/retina/1.0.0-beta.1/#/graph/?url=https%3A%2F%2Fgist.githubusercontent.com%2Fqhou%2F7d4319be71ded33d0d7f277f4d33623d%2Fraw%2F02434f83b34d77bc5d3ce6e8a284a4abbeceb332%2Fact2.gexf&r=d&s=r&sa=r
-
-# a custom class name to the content
-class: act-2-class
-
----
-
----
-title: Act 2: Pioneers of Artificial Intelligence and Structured Programming
 theme: default
+title: Act 2: Pioneers of Artificial Intelligence and Structured Programming
 ---
 
-# John McCarthy (1927-2011)
+# (8) Act 2: The Theoretical Foundations
 
-## The Father of Artificial Intelligence
+Establishing the core principles and theories that underpin modern technology, building upon the visionaries' ideas from Act 1.
+
+---
+
+# (9)John McCarthy (1927-2011)
 
 - <span v-mark.underline.pink>**Time-sharing**</span>: Innovated the concept of sharing computing resources among multiple users.
 - <span v-mark.underline.pink>**Lisp (1958)**</span>: One of the earliest high-level programming languages, influencing modern languages and AI research.
 - <span v-mark.underline.pink>**Artificial Intelligence**</span>: Coined the term "AI" in 1955
 <br>  
 
-  "AI is the science and engineering of making intelligent machines, especially intelligent computer programs. Intelligence is the computational part of the ability to achieve goals in the world."
+<!-- Building on Alan Turing's theoretical foundations of computation, McCarthy's contributions have driven the development of intelligent systems that impact industries such as healthcare, finance, and autonomous vehicles.  -->
+
+---
+
+# Lisp (List Processing Language)
+
+```lisp {monaco}
+;; Define a macro to create a knock-knock joke
+(defmacro knock-knock (who &rest response)
+  `(progn
+     (format t "Knock, knock.~%")
+     (format t "Who's there?~%")
+     (format t ,(format nil "~a." who) ~%)
+     (format t ,(format nil "~a who?" who) ~%)
+     (format t ,@response)))
+
+;; Use the macro to create an AI-themed joke
+(knock-knock "AI"
+  "AI who?"
+  "AI think, therefore AI am!")
+
+;; Run the jokes
+(format t "~%AI-themed knock-knock joke examples:~%")
+(knock-knock "Bot"
+  "Bot who?"
+  "Botter not forget to laugh at my jokes!")
+```
+
+<!-- Explanation:
+1. Homoiconicity:
+Lisp code and data share the same structure. The knock-knock macro treats joke components as data, generating code dynamically.
+Impact: Enabled metaprogramming and influenced languages like Python and JavaScript.
+
+2. Macros:
+Create new syntactic constructs for more expressive and concise code.
+Impact: Influenced languages with powerful macro systems like Clojure and Rust.
+
+3. Code Generation:
+Generate and transform code to improve efficiency and reduce redundancy. The macro generates format calls, eliminating manual repetition.
+Impact: Advanced compiler design and optimization techniques.
+
+4. Syntactic Abstraction:
+Provide high-level abstractions for better readability and maintainability.
+Impact: Influenced the development of higher-level languages.
+
+5. Domain-Specific Languages (DSLs):
+Facilitate creation of specialized, intuitive language constructs. The macro acts as a mini-DSL for jokes.
+Impact: Inspired DSLs in web development, data analysis, and more.
+
+[Impact of Lisp's Design Choices]:
+a. Influenced languages like Haskell and Scala.
+b. Inspired expressive and efficient coding practices in contemporary languages.
+c. Ideal for AI research, impacting natural language processing and machine learning.
+-->
 
 ---
 layout: image-left
-
-# the image source
 image: https://news.stanford.edu/__data/assets/image/0025/81178/Mccarthy_portrait_news.jpeg
-
-# a custom class name to the content
 class: mcarthy-profile-class
 ---
 
-# McCarthy's Impact
+# (10) McCarthy
+**The Father of Artificial Intelligence**
 
-- **Foundations of AI**: Laid groundwork for machine learning, natural language processing, and robotics.
-- **Industries**: Contributions impact healthcare, finance, autonomous vehicles, and more.
-- **Inspiration**: His pioneering efforts continue to inspire research and innovation in AI.
+"AI is the science and engineering of making intelligent machines, especially intelligent computer programs. Intelligence is the computational part of the ability to achieve goals in the world."
 
 ---
-title: Act 2: Pioneers of Artificial Intelligence and Structured Programming
-theme: default
----
 
-# Edsger W. Dijkstra (1930-2002)
+# 11.Edsger W. Dijkstra (1930-2002)
 
-## "A Note on Two Problems in Connexion with Graphs" (1959)
+- **Dijkstra's Algorithm (Shortest Path)**
+- **Structured Programming**
+- **Distributed Programming**
 
+<!-- 
 - **Dijkstra's Algorithm**: Introduced for shortest paths, fundamental in network routing, GIS, and optimization.
 - **Structured Programming**: Advocated for principles leading to reliable and maintainable software.
   - “A Case against the GO TO Statement” (EWD215)
   - Coined: “2 or more, use a for”
-- **Distributed Programming**: Early pioneer with contributions like self-stabilizing systems and semaphores.
+- **Distributed Programming**: Early pioneer with contributions like self-stabilizing systems and semaphores. -->
 
 ---
+
+# Slide 12
 
 ```mermaid {theme: 'neutral', scale: 0.5}
 graph TD
@@ -71,7 +110,6 @@ graph TD
     D --> E(1965: Semaphore Concept in 'Coordinating Concurrent Processes')
     E --> F(1971: Introduced Dining Philosophers Problem)
     F --> G(1984: Turing Award for contributions to programming languages)
-    G --> H(2002: Passed away in Nuenen, Netherlands)
 
     %% Influences on Dijkstra
     X1(Ada Lovelace's Algorithms) --> C
@@ -82,28 +120,228 @@ graph TD
     D --> Y2(Structured Programming Principles)
     E --> Y3(Research in Distributed Systems)
     F --> Y4(Concepts in Concurrent Programming)
+
+    classDef grayout fill:#272935,stroke:#272935,stroke-width:1px,color:#272935;
+    classDef highlight fill:#fbd91f,stroke:#33,stroke-width:4px;
+    
+    class X1 highlight;
+    class X2 highlight;
+    class C grayout;
+    class D grayout;
+    class E grayout;
+    class F grayout;
+    class G grayout;
+    class Y1 grayout;
+    class Y2 grayout;
+    class Y3 grayout;
+    class Y4 grayout;
+    
+    linkStyle 1 stroke:#272935,stroke-width:1px;
+    linkStyle 2 stroke:#272935,stroke-width:1px;
+    linkStyle 3 stroke:#272935,stroke-width:1px;
+    linkStyle 4 stroke:#272935,stroke-width:1px;
+    linkStyle 5 stroke:#272935,stroke-width:1px;
+    linkStyle 6 stroke:#272935,stroke-width:1px;
+    linkStyle 7 stroke:#272935,stroke-width:1px;
+    linkStyle 8 stroke:#272935,stroke-width:1px;
+    linkStyle 9 stroke:#272935,stroke-width:1px;
+    linkStyle 10 stroke:#272935,stroke-width:1px;
+    linkStyle 11 stroke:#272935,stroke-width:1px;
 ```
+
+<!-- Building on the programming foundations laid by Ada Lovelace and John von Neumann's computing principles, Dijkstra's contributions have been pivotal in developing algorithms and programming methodologies -->
+
+---
+
+# Dijsktra's Influences in Structured PRogramming
+
+```mermaid {theme: 'neutral', scale: 0.5}
+graph TD
+    %% Edsger W. Dijkstra's life
+    A(1930: Born in Rotterdam, Netherlands) --> B(1952: Programming at the Mathematical Center)
+    B --> C(1959: Developed Dijkstra's Algorithm)
+    C --> D(1968: Published 'A Case against the GO TO Statement')
+    D --> E(1965: Semaphore Concept in 'Coordinating Concurrent Processes')
+    E --> F(1971: Introduced Dining Philosophers Problem)
+    F --> G(1984: Turing Award for contributions to programming languages)
+
+    %% Influences on Dijkstra
+    X1(Ada Lovelace's Algorithms) --> C
+    X2(John von Neumann's Principles) --> C
+
+    %% Dijkstra's influences on others
+    C --> Y1(Network Routing Algorithms)
+    D --> Y2(Structured Programming Principles)
+    E --> Y3(Research in Distributed Systems)
+    F --> Y4(Concepts in Concurrent Programming)
+
+    classDef grayout fill:#272935,stroke:#272935,stroke-width:1px,color:#272935;
+    classDef highlight fill:#fbd91f,stroke:#33,stroke-width:4px;
+    
+    class B highlight;
+    class C highlight;
+    class D grayout;
+    class E grayout;
+    class F grayout;
+    class G grayout;
+    class Y1 grayout;
+    class Y2 grayout;
+    class Y3 grayout;
+    class Y4 grayout;
+    
+    linkStyle 3 stroke:#272935,stroke-width:1px;
+    linkStyle 4 stroke:#272935,stroke-width:1px;
+    linkStyle 5 stroke:#272935,stroke-width:1px;
+    linkStyle 6 stroke:#272935,stroke-width:1px;
+    linkStyle 7 stroke:#272935,stroke-width:1px;
+    linkStyle 8 stroke:#272935,stroke-width:1px;
+    linkStyle 9 stroke:#272935,stroke-width:1px;
+    linkStyle 10 stroke:#272935,stroke-width:1px;
+    linkStyle 11 stroke:#272935,stroke-width:1px;
+```
+
+<!-- Structured Programming
+His advocacy for structured programming has led to more reliable and maintainable software, advancing the field of software engineering.
+“A Case against the GO TO Statement” (EWD215), regarded as a major step towards the widespread deprecation of the GOTO statement and its effective replacement by structured control constructs, such as the while loop.
+Coined the phrase “2 or more, use a for”, alluding to the fact that when you find yourself processing more than one instance of a data structure, it is time to encapsulate that logic inside a loop. -->
+---
+
+# Dijsktra's Influences in Structured PRogramming
+
+```mermaid {theme: 'neutral', scale: 0.5}
+graph TD
+    %% Edsger W. Dijkstra's life
+    A(1930: Born in Rotterdam, Netherlands) --> B(1952: Programming at the Mathematical Center)
+    B --> C(1959: Developed Dijkstra's Algorithm)
+    C --> D(1968: Published 'A Case against the GO TO Statement')
+    D --> E(1965: Semaphore Concept in 'Coordinating Concurrent Processes')
+    E --> F(1971: Introduced Dining Philosophers Problem)
+    F --> G(1984: Turing Award for contributions to programming languages)
+
+    %% Influences on Dijkstra
+    X1(Ada Lovelace's Algorithms) --> C
+    X2(John von Neumann's Principles) --> C
+
+    %% Dijkstra's influences on others
+    C --> Y1(Network Routing Algorithms)
+    D --> Y2(Structured Programming Principles)
+    E --> Y3(Research in Distributed Systems)
+    F --> Y4(Concepts in Concurrent Programming)
+
+    classDef grayout fill:#272935,stroke:#272935,stroke-width:1px,color:#272935;
+    classDef highlight fill:#fbd91f,stroke:#33,stroke-width:4px;
+    
+    class D highlight;
+    class E highlight;
+    class F grayout;
+    class G grayout;
+    class Y1 grayout;
+    class Y2 grayout;
+    class Y3 grayout;
+    class Y4 grayout;
+    
+    linkStyle 5 stroke:#272935,stroke-width:1px;
+    linkStyle 6 stroke:#272935,stroke-width:1px;
+    linkStyle 7 stroke:#272935,stroke-width:1px;
+    linkStyle 8 stroke:#272935,stroke-width:1px;
+    linkStyle 9 stroke:#272935,stroke-width:1px;
+    linkStyle 10 stroke:#272935,stroke-width:1px;
+    linkStyle 11 stroke:#272935,stroke-width:1px;
+```
+
+<!-- Distributed Programming
+Early pioneers of the research on distributed computing. His paper “Self-stabilizing Systems in Spite of Distributed Control” started the sub-field of self-stabilization.
+Coordinating Concurrent Processes (1965) denotes the first synchronization mechanism for concurrent processes, the semaphore with its two operations, commonly known as P and V.
+Semaphores: The Dining Philosophers problem (1971) 
+ -->
+---
+
+# Dijkstra's Legacy
+
+```mermaid {theme: 'neutral', scale: 0.5}
+graph TD
+    %% Edsger W. Dijkstra's life
+    A(1930: Born in Rotterdam, Netherlands) --> B(1952: Programming at the Mathematical Center)
+    B --> C(1959: Developed Dijkstra's Algorithm)
+    C --> D(1968: Published 'A Case against the GO TO Statement')
+    D --> E(1965: Semaphore Concept in 'Coordinating Concurrent Processes')
+    E --> F(1971: Introduced Dining Philosophers Problem)
+    F --> G(1984: Turing Award for contributions to programming languages)
+
+    %% Influences on Dijkstra
+    X1(Ada Lovelace's Algorithms) --> C
+    X2(John von Neumann's Principles) --> C
+
+    %% Dijkstra's influences on others
+    C --> Y1(Network Routing Algorithms)
+    D --> Y2(Structured Programming Principles)
+    E --> Y3(Research in Distributed Systems)
+    F --> Y4(Concepts in Concurrent Programming)
+
+    classDef highlight fill:#fbd91f,stroke:#33,stroke-width:4px;
+    
+    class C highlight;
+    class D highlight;
+    class E highlight;
+```
+
+<!-- His work has had a lasting impact on software engineering practices, influencing how complex software systems are designed and implemented. Examples include routing algorithms in network communication and optimization algorithms in various fields. -->
 
 ---
 layout: image-right
-
-# the image source
 image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhSPLSXw4JR675YgNB40FgSLIoHqTwk-s80toDXALGZXfH61Q5B_-FJsJinxC514Xm7ulZwNO4XRK-P6yVXxppdsp74OdDVeoSS2kxqE-OnlOnmTZXeNn9jlGapmF1zGy-F3ZR4nOQQE4jG/s1600/dijkstra.jpg
-
-# a custom class name to the content
 class: dijkstra-writing-class
 ---
 
-## Fun Fact
+## (12) For fun...
 
 - **Background**: Originally studied theoretical physics, persuaded to stay in programming.
 - **Elegance**: Known for elegant writing and handwriting. Inspired the creation of Dijkstra Regular font.
+
+---
+layout: image-right
+image: https://www-cs-faculty.stanford.edu/~knuth/taocp-thumb.jpg
+class: taocp-book
 ---
 
-# Donald Knuth
+# Donald Knuth (1938-present)
 
-## The Art of Computer Programming
+- **Impactful Work:**
+  - **"The Art of Computer Programming" (1968)**
+  - Knuth-Morris-Pratt (KMP) Algorithm
+  - TeX typesetting system
 
+---
+
+## "The Art of Computer Programming" (TAOCP)
+
+- **Comprehensive Analysis:**
+  - Detailed study of algorithms and programming techniques
+  - Cornerstone of computer science education and practice
+- **Rigorous Approach:**
+
+---
+
+- ## Influences
+- **Ada Lovelace:**
+  - Pioneer of programming concepts
+  - Combined mathematical rigor with creativity
+  - Inspired Knuth's approach to blending precise analysis with innovative problem-solving
+- **John von Neumann:**
+  - Structured approach to computing
+  - Foundational work in computer science
+  - Influenced Knuth's systematic analysis of algorithms and interdisciplinary approach
+<!-- - **Imposter Syndrome:** Initially experienced imposter syndrome -->
+---
+layout: image-left
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Knuth_reward_check.jpg/800px-Knuth_reward_check.jpg
+class: knuth-cert
+---
+
+## Fun Fact
+- **Error Rewards:**
+  - Mails you $2.56 (1 hexadecimal dollar) for every mistake found in his book (stopped in 2008)
+  - Now sends a cheque-like certificate (and real money if requested)
 
 ---
 
@@ -113,17 +351,169 @@ class: dijkstra-writing-class
 
 ---
 
+## Key Contributions
+
+- **Pascal Programming Language:**
+  - Emphasized structured programming and data structuring
+  - Released freely as a "public good," aiding educators and tech companies
+
+- **"Go To Statement Considered Harmful":**
+  - Coined the famous phrase as editor of Communications of the ACM
+
+---
+
+## Pascal's Influence
+
+- **Educational Impact:**
+  - Pascal became essential for teaching programming
+  - Fostered good programming practices and efficient code
+
+- **Practical Applications:**
+  - Powered early Apple computers
+  - Used in early versions of apps like Skype and Photoshop
+
+---
+
+## Influences
+
+- **Edsger W. Dijkstra:**
+  - Structured programming principles
+  - Advocate for clarity and simplicity in code
+
+- **Ada Lovelace:**
+  - Early programming concepts and innovations
+  - Vision of the potential of computing
+
+- **Influence on Modern Languages:**
+  - Inspired Modula-2 and Ada
+
+- **1984 Turing Award:**
+  - Recognized for developing innovative computer languages
+
+
+---
+
 # Alan Kay
 
-## Usability and efficiency with Smalltalk, OOP, GUI
+- **Smalltalk Programming Language:**
+  - Pioneered object-oriented programming (OOP)
+  - Revolutionized software development with concepts like encapsulation, inheritance, and polymorphism
+
+- **Graphical User Interfaces (GUIs):**
+  - Made computers more accessible and user-friendly
+  - Influenced modern operating systems and applications
+- - **2003 Turing Award:**
+  - Recognized for pioneering work in object-oriented programming and GUIs
 
 ---
 
+## Impact and Legacy
+
+- **Object-Oriented Programming:**
+  - Simplified modeling of complex systems
+  - Enhanced code reusability
+  - Influenced modern languages like Java and C++
+
+- **GUI Design:**
+  - Shaped user interfaces for better usability and efficiency
+  - Inspired the design of modern software interfaces
 
 ---
 
-# Karen Spärck Jones
+## Inspired By
 
-## Information retrieval with IDF
+- **Douglas Engelbart:**
+  - Work on interactive computing
+  - Development of the mouse and graphical interfaces
+
+- **J.C.R. Licklider:**
+  - Vision of human-computer symbiosis
+  - Emphasis on user-centered computing
+
+---
+
+## Relationship with Bob Taylor and Xerox PARC
+
+- **Bob Taylor:**
+  - Leader at Xerox PARC who recruited Kay
+  - Fostered a collaborative and innovative environment
+  - Key figure in the development of personal computing
+
+- **Xerox PARC:**
+  - Hub for groundbreaking computer science research
+  - Enabled Kay to develop Smalltalk and GUI concepts
+  - Influenced future technologies and computing paradigms
+
+---
+
+## Bob Taylor's Highlights and Contributions
+
+- **Creation of ARPAnet:**
+  - Early precursor to the internet
+
+- **Leadership at Xerox PARC:**
+  - Recruited top talent, including Alan Kay
+  - Facilitated development of groundbreaking technologies
+
+- **Emphasis on Collaboration:**
+  - Promoted interdisciplinary teamwork
+  - Fostered an environment of innovation and creativity
+
+---
+
+# Karen Spärck Jones - Pioneer of Information Retrieval
+
+- **Information Retrieval:**
+  - Pioneered work in search engine algorithms
+  - Developed IDF, a fundamental component of TF-IDF weighting
+
+- **Natural Language Processing (NLP):**
+  - Enabled machines to understand and process human language
+  - Advanced research in machine translation, chatbots, and automated summarization
+
+---
+layout: center
+image: https://media.licdn.com/dms/image/C5612AQFwKf3fbE3xOQ/article-cover_image-shrink_720_1280/0/1575991068890?e=1726704000&v=beta&t=qJRsADb9iXkRHq5TiaPxQOSsPwvftfVJOB7jmloDM_Q
+class: idf
+---
+
+## IDF Under the Hood
+
+<!-- 
+- **Inverse Document Frequency (IDF):**
+  - Evaluates the importance of a word in a document relative to a collection of documents (corpus)
+  - Highlights unique terms specific to a document
+  - Reduces the weight of common words
+
+- **Relevance Weighting:**
+  - Assigns weights to terms based on their importance in the retrieval process
+
+- **Automatic Thesaurus Generation:**
+  - Enhances query expansion using synonyms and related terms -->
+---
+
+## Impact and Applications
+
+- **Search Engines:**
+  - Laid the groundwork for modern search engines
+  - Improved relevance of search results
+  - Widely used in document retrieval and text mining
+
+- **Social Implications of Computing:**
+  - Advocated for women in computing
+  - Famous quote: "Computing is too important to be left to men"
+
+---
+
+## Influence and Legacy
+
+- **Inspired By:**
+  - Alan Turing's foundational work in computing
+  - Claude Shannon's work in information theory
+
+- **Impact:**
+  - Crucial for the development of search engines like Google
+  - Influenced fields of information retrieval, machine learning, and AI
+  - IDF remains a fundamental concept in search algorithms
 
 ---
