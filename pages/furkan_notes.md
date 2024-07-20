@@ -9,6 +9,7 @@
 
 # Random Notes
 
+- Reference to that XKCD comic about that one guy whose library is being used in everything.
 - "Software is not a product of a single brain, it's a cooperative effort." - Dennis Ritchie.
 > This is a good quote to use for the slides.
 > https://www.bookey.app/quote-author/dennis-ritchie

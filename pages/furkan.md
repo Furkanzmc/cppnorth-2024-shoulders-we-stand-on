@@ -688,6 +688,10 @@ image: /assets/people/j-c-r-licklider.webp
 > own. So he was really the father of it all" - Robert Taylor
 
 ---
+clicks: 6
+---
+
+<div v-if="[0].indexOf($slidev.nav.clicks) > -1">
 
 ```mermaid
 mindmap
@@ -696,4 +700,147 @@ mindmap
     Man-Computer Symbiosis
     ARPANET
     Human-Computer Communication
+    Project MAC
+      Multics
+    The Computer as a Communication Device
 ```
+
+</div>
+
+
+<div v-if="[1, 2, 3, 4, 5, 6].indexOf($slidev.nav.clicks) > -1">
+
+```mermaid
+mindmap
+  root((The Computer as a Communication Device))
+    Computers as Communication Tools
+    Collaborative Work
+    Online Communities
+    Interactive Computing
+    Networked Computers
+    Information Accessibility
+    User-Friendly Interfaces
+    Decentralized Information Systems
+```
+
+</div>
+
+<div v-if="[2, 3, 4, 5, 6].indexOf($slidev.nav.clicks) > -1">
+
+<v-drag pos="460,10,55,_,-6">
+    <img src="/assets/facetime.png" style="border-radius: 8%;">
+</v-drag>
+
+<v-drag pos="394,6,77,_,-6">
+    <img src="/assets/msn-messenger.png" style="border-radius: 8%;">
+</v-drag>
+
+</div>
+
+<div v-if="[3, 4, 5, 6].indexOf($slidev.nav.clicks) > -1">
+
+<v-drag pos="685,141,62,_,15">
+    <img src="/assets/zoom.png" style="border-radius: 8%;">
+</v-drag>
+
+<v-drag pos="695,184,77,_,-6">
+    <img src="/assets/slack.png" style="border-radius: 8%;">
+</v-drag>
+
+</div>
+
+<div v-if="[4, 5, 6].indexOf($slidev.nav.clicks) > -1">
+
+<v-drag pos="148,61,62,_,15">
+    <img src="/assets/twitter.png" style="border-radius: 8%;">
+</v-drag>
+
+<v-drag pos="201,36,77,_,-6">
+    <img src="/assets/reddit.webp" style="border-radius: 8%;">
+</v-drag>
+
+</div>
+
+<div v-if="[5, 6, 7].indexOf($slidev.nav.clicks) > -1">
+
+<v-drag pos="38,364,261,_,15">
+    <img src="/assets/ivan-sutherland-sketchpad.png" style="border-radius: 8%;">
+</v-drag>
+
+<v-drag pos="34,171,45,_,-6">
+    <img src="/assets/alias.png" style="border-radius: 8%;">
+</v-drag>
+
+</div>
+
+<div v-if="[6, 7, 8].indexOf($slidev.nav.clicks) > -1">
+
+<v-drag pos="431,295,67,_,15">
+    <img src="/assets/wikipedia.png" style="border-radius: 8%;">
+</v-drag>
+
+</div>
+
+<!--
+- Ken Thompson, who co-created Unix, was a researcher on the Multics project.
+- He believed that computers or AI should enhance human intelligence, not replace it.
+- He helped fund projects that contributed to GUIs, the mouse, and the internet. His contributions
+  were mostly in form of ideas and funding.
+-->
+
+---
+layout: image-left
+image: /assets/people/douglas-engelbart.jpg
+---
+
+# Douglas Engelbart
+
+<!--
+- Douglas Engelbart is among my favorites to talk about. He and his team not only invented the
+  mouse, but essentially DEMOED everything that we use in modern computing today.
+
+- He called the device a mouse because the tail came out from behind. His group called the cursor a
+  bug, but that didn't catch on.
+-->
+
+---
+clicks: 8
+---
+
+<div v-if="$slidev.nav.clicks === 0">
+
+> What did he do?...
+
+</div>
+
+<div v-if="$slidev.nav.clicks > 0">
+
+<v-drag pos="387,14,445,_,15">
+    <img src="/assets/mouse.png" style="border-radius: 8%;">
+</v-drag>
+
+</div>
+
+<div v-if="$slidev.nav.clicks > 1">
+
+<v-drag pos="105,188,403,_,-19">
+    <img src="/assets/video-conferencing.png" style="border-radius: 8%;">
+</v-drag>
+
+</div>
+
+<div v-if="$slidev.nav.clicks > 2">
+
+<v-drag pos="475,244,451,_,11">
+    <img src="/assets/hypertext.png" style="border-radius: 8%;">
+</v-drag>
+
+</div>
+
+<div v-if="$slidev.nav.clicks > 3">
+
+<v-drag pos="191,143,403,_,-19">
+    <img src="/assets/collaborative-editing.png" style="border-radius: 8%;">
+</v-drag>
+
+</div>
