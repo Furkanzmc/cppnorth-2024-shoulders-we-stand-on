@@ -77,10 +77,11 @@ gantt
 
 ---
 
+# Turing Award Winners
+
 ```mermaid
 gantt
     dateFormat  YYYY
-    title Turing Aware Winners
 
     section Turing Award Winners
     Maurice Wilkes          :wil_award, 1967, 1967
@@ -95,5 +96,5 @@ gantt
     Vint Cerf               :cer_award, 2004, 2004
     Robert Kahn             :kah_award, 2004, 2004
     Martin Hellman          :hel_award, 2015, 2015
-
+```
 ---

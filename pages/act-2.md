@@ -3,18 +3,23 @@ theme: dracula
 title: Act 2: The Theoretical Foundations 
 ---
 
-# (8) Act 2: The Theoretical Foundations
+# Act 2: The Theoretical Foundations
 
 Establishing the core principles and theories that underpin modern technology, building upon the visionaries' ideas from Act 1.
 
 ---
+layout: image-right
+image: assets/people/john-mccarthy.avif
+class: mcarthy-profile-class
+---
 
-# (9)John McCarthy (1927-2011)
+# John McCarthy (1927-2011)
 
 - <span v-mark.underline.pink>**Time-sharing**</span>: Innovated the concept of sharing computing resources among multiple users.
 - <span v-mark.underline.pink>**Lisp (1958)**</span>: One of the earliest high-level programming languages, influencing modern languages and AI research.
 - <span v-mark.underline.pink>**Artificial Intelligence**</span>: Coined the term "AI" in 1955
 <br>  
+"AI is the science and engineering of making intelligent machines, especially intelligent computer programs. Intelligence is the computational part of the ability to achieve goals in the world."
 
 <!-- Building on Alan Turing's theoretical foundations of computation, McCarthy's contributions have driven the development of intelligent systems that impact industries such as healthcare, finance, and autonomous vehicles.  -->
 
@@ -70,17 +75,6 @@ a. Influenced languages like Haskell and Scala.
 b. Inspired expressive and efficient coding practices in contemporary languages.
 c. Ideal for AI research, impacting natural language processing and machine learning.
 -->
-
----
-layout: image-left
-image: https://news.stanford.edu/__data/assets/image/0025/81178/Mccarthy_portrait_news.jpeg
-class: mcarthy-profile-class
----
-
-# (10) McCarthy
-**The Father of Artificial Intelligence**
-
-"AI is the science and engineering of making intelligent machines, especially intelligent computer programs. Intelligence is the computational part of the ability to achieve goals in the world."
 
 ---
 
@@ -276,13 +270,7 @@ graph TD
 
 ---
 
-## (12) For fun...
-
-<div v-if="$slidev.nav.clicks === 1">
-  <v-drag pos="662,264,275,_">
-      <!-- <img src="/assets/edsger-dijkstra-1.jpg" style="border-radius: 8%;"> -->
-  </v-drag>
-</div>
+## For fun...
 
 <div v-if="$slidev.nav.clicks === 2">
   <v-drag pos="662,264,275,_">
