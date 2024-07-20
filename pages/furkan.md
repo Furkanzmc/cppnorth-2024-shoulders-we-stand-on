@@ -340,3 +340,161 @@ timeline
 - Her mother, Lady Byron, was a skilled mathematician and encouraged Ada's interest in mathematics
   and logic as a way to steer her away from her father's artistic temperament.
 -->
+
+---
+clicks: 1
+---
+
+<div style="text-align: center;">
+<div style="auto">
+
+```mermaid
+graph LR
+    Lovelace -- 🕊️🎶♥️🦌🌎 --> Babbage
+    Babbage -- 01001101 01100001 01110100 01101000 --> Lovelace
+```
+
+</div>
+</div>
+
+<div v-if="$slidev.nav.clicks === 1">
+
+> Supposing, for instance, that the fundamental relations of pitched sounds in the science of
+> harmony and of musical composition were susceptible of such expression and adaptations, the engine
+> might compose elaborate and scientific pieces of music of any degree of complexity or extent.
+
+</div>
+
+<!--
+- Charles Babbage considered the Analytical Engine to be a merely a calculation machine. But Ada
+  Lovelace saw a potential for representing natural objects with numbers.
+-->
+
+---
+layout: image-left
+image: /assets/people/alan-turing.jpg
+---
+
+# Alan Turing
+
+<!--
+- Let's fast word to Alan Turing. He was a mathematician, logician, and computer scientist who
+  played a pivotal role in the development of theoretical computer science and artificial
+  intelligence.
+-->
+
+---
+layout: center
+clicks: 2
+dragPos:
+  square: 686,55,268,408,11
+---
+
+```mermaid
+timeline
+    Early Days : Loved math and science
+               : Friendship Christopher Morcom**
+               : King's College, Cambridge
+```
+
+<!--
+## Intro
+
+- He had great interest in math and science from an early age.
+- In public school, his great skills were not appreciated because the school placed more emphasis on
+  classics.
+- Developed a friendship with Christopher Morcom, who shared his interest in science and
+  mathematics. Sadly, he died early from TB that he got from drinking contaminated milk.
+- Turing coped with this grief by working even harder. What would have happened if Turing was the
+  one who died?
+-->
+
+---
+clicks: 3
+---
+
+<div style="text-align: center;" v-if="$slidev.nav.clicks < 3">
+<div style="auto">
+
+```mermaid
+timeline
+    University Years : King's College, Cambridge
+                     : Studied under Alonzo Church
+                     : Developed the Turing Machine**
+```
+
+</div>
+</div>
+
+<!--
+- During his time at Cambridge, he studied under the mathematician Alonzo Church.
+- He developed the concept of the Turing Machine, a fundamental model of computation that underpins
+  much of computer science theory.
+> "von Neumann ... firmly emphasised to me, and to others I am sure, that the fundamental conception
+> is owing to Turing—insofar as not anticipated by Babbage, Lovelace and others." Letter by Stanley
+> Frankel to Brian Randell, 1972, quoted in Jack Copeland (2004) The Essential Turing, p. 22.
+-->
+
+---
+clicks: 3
+---
+
+<div style="text-align: center;" v-if="$slidev.nav.clicks < 3">
+<div style="auto">
+
+```mermaid
+timeline
+    Later Years : Great runner!
+                : Bletchley Park
+                : Cracked Enigma**
+                : Artificial Intelligence**
+                
+```
+
+</div>
+</div>
+
+<div v-if="$slidev.nav.clicks === 1">
+
+<v-drag pos="601,54,300,_,-6">
+    <img src="/assets/on-your-left.gif" style="border-radius: 8%;">
+</v-drag>
+
+</div>
+
+<div style="text-align: center;" v-if="$slidev.nav.clicks === 3">
+<div style="auto">
+
+```mermaid
+timeline
+    Early Days : Loved math and science
+               : Friendship Christopher Morcom**
+               : King's College, Cambridge
+    University Years : King's College, Cambridge
+                     : Studied under Alonzo Church
+                     : Developed the Turing Machine
+    Later Years : Great runner!
+                : Bletchley Park
+                : Cracked Enigma**
+                : Artificial Intelligence**
+                
+```
+
+</div>
+</div>
+
+<!--
+## Bletchley Park and Enigma
+
+- During World War II, Turing worked at Bletchley Park, the UK's codebreaking center.
+- He played a pivotal role in cracking the German Enigma code, significantly contributing to the
+  Allied victory.
+- His work laid the groundwork for modern computing and artificial intelligence.
+- Turing's contributions extended beyond codebreaking; he proposed the concept of artificial
+  intelligence and the famous Turing Test to evaluate a machine's ability to exhibit intelligent
+  behavior equivalent to that of a human.
+> I have such a stressful job that the only way I can get it out of my mind is by running hard; it's
+> the only way I can get some release.
+- He was Walton Athletic Club's best runner, a fact discovered when he passed the group while
+  running alone.
+-->
