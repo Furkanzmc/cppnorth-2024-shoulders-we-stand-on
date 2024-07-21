@@ -1,5 +1,11 @@
 # Pioneers of Practice
 
+<!--
+- Now let's take a look at some of the people who have made significant contributions in their field
+  by putting their and others ideas into practice and building things that have had a lasting impact
+  on us.
+-->
+
 ---
 layout: image-left
 image: /assets/people/grace-hopper.jpg
@@ -10,11 +16,8 @@ image: /assets/people/grace-hopper.jpg
 > AKA "Amazing Grace" AKA "Grandma COBOL"
 
 <!--
-- Grace Hopper was a computer scientist and United States Navy rear admiral. She was one of the
-  first programmers of the Harvard Mark I computer in 1944 and invented the first compiler for a
-  computer programming language. She popularized the idea of machine-independent programming
-  languages, which led to the development of COBOL, an early high-level programming language still
-  in use today.
+- I'm sure you are already familiar with her.
+- Let's learn a bit about her.
 -->
 
 ---
@@ -45,19 +48,25 @@ A Pioneer of Programming
 </v-click>
 
 <v-click>
+<v-drag pos="78,455,315,_">
+And she retired twice...
+</v-drag>
+</v-click>
+
+<v-click>
 <v-drag pos="606,261,280,_">
 Effortlessly Funny!
 <img src="/assets/grace-hopper-letterman.jpg" style="border-radius: 8%;">
 </v-drag>
 </v-click>
 
-<v-click>
-<v-drag pos="78,455,315,_">
-And she retired twice...
-</v-drag>
-</v-click>
-
 <!--
+- She was a computer scientist who worked on the Harvard Mark I computer and invented the first
+  compiler for a programming language.
+- She was a United States Navy Rear Admiral and because when her great grandfather was a rear
+  admiral, she wanted to be one too.
+- She was a pioneer of programming languages. She created COBOL, and the first compiler for a
+  programming language. She strongly believed in being able to write programs in English.
 - She was called back to duty twice after retiring from the Navy.
 -->
 
@@ -89,8 +98,10 @@ And she retired twice...
 [Source Video](https://www.youtube.com/watch?v=oE2uls6iIEU)
 
 <!--
-- She was a professor of mathematics at Vassar College. You can see from the Letterman video that
-  she was great at explaining complex ideas in a simple way.
+- She used to carry some wires with her to explain a nanosecond. And that's what she does on
+  Letterman as well. And she says when an admiral asks you why it takes damn long to send a message
+  you tell them that between here and the satellite there are a very large number of nanoseconds.
+- We really enjoyed watching this video.
 -->
 
 ---
@@ -126,7 +137,7 @@ PROCEDURE DIVISION.
 -->
 
 ---
-clicks: 2
+clicks: 1
 ---
 
 <div v-if="$slidev.nav.clicks === 0">

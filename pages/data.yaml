@@ -500,8 +500,6 @@ Acts:
           description: "Standardized coding practices and manuals developed by Hopper set benchmarks for software quality and reliability in military applications. Source: https://en.wikipedia.org/wiki/Grace_Hopper"
         - name: Legacy in Education Programs
           description: "Hopper's initiatives in computing education continue to impact STEM programs and inspire new generations of computer scientists. Source: https://en.wikipedia.org/wiki/Grace_Hopper"
-        - name: Open Source Advocacy
-          description: "Hopper's early advocacy for open standards and collaborative software development principles laid foundations for the modern open source movement. Source: https://en.wikipedia.org/wiki/Open_source"
 
     - name: Margaret Hamilton
       influenced-by:
