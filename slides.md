@@ -52,7 +52,7 @@ mdc: true
 </div>
 
 ---
-<!-- src: ./pages/furkan.md -->
+src: ./pages/furkan.md
 ---
 
 ---
