@@ -36,4 +36,9 @@
 - Xerox PARC: https://spectrum.ieee.org/xerox-parc
 - Bob Taylor profile: https://www.wired.com/2017/04/youve-never-heard-tech-legend-bob-taylor-invented-almost-everything/
 - Karen Jones profile: https://www.nytimes.com/2019/01/02/obituaries/karen-sparck-jones-overlooked.html
+
+# Act 4 References
+
 - Tim Berners-Lee profile: https://www.britannica.com/biography/Tim-Berners-Lee
+- Mosaic browser: https://www.wired.com/2010/04/0422mosaic-web-browser/
+- WWW: https://www.npr.org/2023/04/30/1172276538/world-wide-web-internet-anniversary

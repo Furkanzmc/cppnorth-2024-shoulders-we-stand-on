@@ -229,15 +229,29 @@ image: /assets/people/cerf-kahn.jpg
 
 ## Vint Cerf & Robert Kahn
 
-**Co-design of the TCP/IP protocols (1973)**
-  - Enabled different networks to communicate, creating the "internet"
-  - Simplified data transmission and scalability
+** Fathers of the Internet**
+
+- Co-design of the TCP/IP protocols (1973)
+- Enabled different networks to communicate, creating the "internet"
+- Simplified data transmission and scalability
 
 <!-- 
-- Cerf was inspired by Robert Noyce’s innovations and culture of innovation, went on to co-design TCP/IP protocols with Rohbert Kahn
+- 'fathers of the Internet.' 
+- Their development of the Transmission Control Protocol (TCP) and the Internet Protocol (IP) was pivotal in creating a global communication network that we now know as the Internet.
+
+- The TCP/IP protocols are essential b/c they ensure that data is reliably transmitted across networks. 
+- TCP manages the breakdown and reassembly of data packets, 
+- while IP handles the addressing and routing of these packets to their correct destinations"
+
+- This enabled different networks to interconnect, creating a 'network of networks.' 
+- Provided the scalability and flexibility needed for the rapid expansion of the Internet.
+
+- Note: Cerf was inspired by Robert Noyce’s innovations and culture of innovation, went on to co-design TCP/IP protocols with Rohbert Kahn
  -->
 
 ---
+
+<v-drag>
 
 ```plantuml
 @startuml
@@ -263,6 +277,51 @@ World -> Internet: Establish unified communication standard
 
 @enduml
 ```
+
+</v-drag>
+
+<!-- 
+- In the early 1970s, the concept of interconnected computer networks was in its infancy
+- Cerf and Kahn met in the early 1970s
+  - Kahn, who was working on ARPANET, envisioned an open-architecture network
+  - He collaborated with Cerf, who was an expert in networking protocols, to bring this vision to life.
+- Challenge: The existing networks were heterogeneous and could not easily communicate with one another
+  - There was a need for interconnectivity between diverse computer systems
+- To address these challenges, Cerf and Kahn developed TCP/IP
+  - Enabled different networks to communicate effectively
+  - Provided the scalability and flexibility necessary for the Internet’s growth
+ -->
+
+---
+
+# Why TCP/IP Alone Wasn't Enough
+
+- TCP/IP Fundamentals
+  - Reliable data transfer and addressing
+- Missing Elements
+  - User-friendly access
+  - Information organization
+  - Interoperability
+
+<v-click>
+    <v-drag pos="700,250,261,_,12">
+        <img src="/assets/mosaic.webp" style="border-radius: 50%;">
+    </v-drag>
+</v-click>
+
+<!-- 
+
+1. User-friendly access
+   - Early Internet users faced the challenge of using CLIs
+   - Graphical web browsers played a critical role in making the Internet accessible to a broader audience
+2. Information Organization
+   - The concept of hypertext, which allows linking between different pieces of information, became essential. 
+   - HTML provided a way to structure content
+   - URLs made it possible to locate and access specific resources on the web  
+3. Interoperability
+   - Different systems and technologies could not work together seamlessly
+ -  A cohesive and unified Internet experience 
+ -->
 ---
 layout: image-right
 image: /assets/people/berners-lee.webp
@@ -272,43 +331,52 @@ image: /assets/people/berners-lee.webp
 
 **Inventor the World Wide Web (1989)**
 
-## Key Contributions
-
-- **World Wide Web:**
-  - Developed HTML, HTTP, and URLs
-  - Created the foundation for accessing and sharing information globally
-
-- **Web Technologies:**
-  - Transformed communication, commerce, education, and entertainment
-  - Enabled countless web-based applications and services
-
----
-
-
 <!-- 
-
-
-# The Problem at CERN
-
-- Challenges in sharing information among scientists
-- Different computers and software systems
-- Need for a universal system to share information
-
+"With the Internet's infrastructure in place, Tim Berners-Lee envisioned a universal information space. In 1989, he invented the World Wide Web, which leveraged the existing network protocols to create a system for accessing and linking documents globally."
+ -->
 ---
 
-# Invention of the World Wide Web
+```mermaid {scale:0.5}
+timeline
+    section WWW
+    title Tim Berners-Lee's Achievements and Work
+    1980: Challenges in sharing information
+    1989: Proposed the World Wide Web
+    : HTML, URI, and HTTP
+    : Web navigation and linking
+    1991: First website live
+    : Beginning of the web as we know it
+    1990s: Revolution in industries
+    : Rapid growth of the internet
+    : Creation of the digital economy
+    section Web Standards
+    1994: Founded World Wide Web Consortium (W3C)
+    : Ensuring open standards and accessibility
+    : Crucial role in developing web standards
+    2016: Launched Solid
+    : Web decentralization, data ownership, and privacy
+```
 
-- Proposed the World Wide Web in 1989
-- Created HTML, URI, and HTTP
-- Foundation of web navigation and linking
+<v-click>
+    <v-drag pos="735,152,225,_">
+    <img src="/assets/www.webp">
+    </v-drag>
+</v-click>
 
----
-
-# The First Website
-
-- Went live in 1991
-- Explained the concept and usage of the World Wide Web
-- Beginning of the web as we know it
+<!--
+- The Problem at CERN
+  - Challenges in sharing information among scientists
+  - Different computers and software systems
+  - Need for a universal system to share information
+1. Created browser-editor rather (WorldWideWeb)
+2. HTML, HTTP, and URLs, 
+ - The concept of hypertext, which allows linking between different pieces of information, became essential. 
+ - HTML provided a way to structure content
+ - URLs made it possible to locate and access specific resources on the web  
+3. W3C
+  - Different systems and technologies could not work together seamlessly
+  -  A cohesive and unified Internet experience
+-->
 
 ---
 
@@ -318,56 +386,38 @@ image: /assets/people/berners-lee.webp
 - Rapid growth of the internet
 - Creation of the digital economy
 
-<img src="/assets/global-internet-use.png" style="border-radius: 8%; height: 70%;">
-
---- 
-
-# W3C and Web Standards
-
-- Founded World Wide Web Consortium (W3C) in 1994
-- Ensuring open standards and accessibility
-- Crucial role in developing web standards
+<v-drag>
+    <img src="/assets/global-internet-use.png"">
+</v-drag>
 
 ---
 
 # Current and Future Work
 
 - Advocates for a free and open web
-- Current project: Solid - decentralizing the web
+- Current project: Solid (Social Linked Web) - decentralizing the web
 - Vision for a universal and open platform
 
-## The Problem
+<v-drag pos="146,295,192,710">
+    <img src="/assets/solid.png">
+</v-drag>
 
-- Centralized platforms control user data
-- Privacy concerns and data misuse
-- Limited interoperability between services
+<v-click>
+    <v-drag pos="399,238,495,541">
+        <img src="/assets/solid-pod.webp">
+    </v-drag>
+</v-click>
 
-## Solid's Vision
+<!--
+- The Problem
+  - Centralized platforms control user data
+  - Privacy concerns and data misuse
+  - Limited interoperability between services
 
-- Decentralization: Data is stored in "pods" that users control
-- Interoperability: Standardized protocols for data exchange
-- User Empowerment: Users decide who can access their data and how
-- 
- -->
+- Proposed solution
+  - Aims to reshape the way web applications work by giving users more control over their personal data. 
+  - Instead of storing data in centralized servers owned by companies, Solid allows users to store their data in personal online data stores (Pods) that they control. 
+  - This means users can decide who accesses their data and for what purposes.
 
----
-
-## How Solid Works
-
-- Data Pods: Personal online data stores
-- Users host their own data or use trusted pod providers
-- Applications interact with data pods via standard protocols
-
-## Benefits of Solid
-
-- Privacy: Users have full control over their data
-- Portability: Data can be moved easily between services
-- Innovation: New applications can be built on a standardized, open data infrastructure
-
-### Current Status and Future Plans
-
-- Growing community of developers and organizations
-- Ongoing development and pilot projects
-- Vision for a more equitable and user-centric web
-
----
+- Solid's Vision: Decentralization, interoperability, user empowerment. Open Source.
+-->
