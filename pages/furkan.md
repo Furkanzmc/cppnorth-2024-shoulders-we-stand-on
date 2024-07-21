@@ -114,18 +114,9 @@ image: /assets/placeholder-graph.png
 ---
 layout: image-left
 image: /assets/people/charles-babbage.jpg
-clicks: 1
-dragPos:
-  square: 589,113,313,419,8
 ---
 
 # Charles Babbage
-
-<div v-if="$slidev.nav.clicks === 1">
-
-<img v-drag="'square'" src="/assets/charles-babbage-brain.png" style="border-radius: 10%;">
-
-</div>
 
 <!--
 - Every journey has a beginning. The beginning for this one is endless, but we'll have to choose
@@ -133,48 +124,10 @@ dragPos:
 -->
 
 ---
-layout: center
-dragPos:
-  square: 686,55,268,408,11
+clicks: 2
 ---
 
-```mermaid
-timeline
-    Early Days : Afluent family
-               : Life-threatening fever**
-               : Good school
-```
-
-<!--
-## Intro
-
-- He was quite a chap!
-- Keen interest in mathematics. A number driven person.
-- Known as the father of computers.
-- His father was a banker and when he died, he left a considerable inheritance for him. During this
-  university years, he relied on his father's support.
-- Had a Life-threatening fever, what would have happened if he died?...
-- Went to good schools, had access to books and tutors. Pivotal moment!
--->
-
----
-clicks: 3
----
-
-<div style="text-align: center;" v-if="$slidev.nav.clicks < 3">
-<div style="auto">
-
-```mermaid
-timeline
-    University Years : University of Cambridge
-                     : The Ghost Club**
-                     : Analytical Society
-```
-
-</div>
-</div>
-
-<div style="text-align: center;" v-if="$slidev.nav.clicks === 3">
+<div style="text-align: center;">
 <div style="auto">
 
 ```mermaid
@@ -207,6 +160,15 @@ timeline
 </div>
 
 <!--
+## Intro
+
+- He was quite a chap!
+- Keen interest in mathematics. A number driven person.
+- Known as the father of computers.
+- His father was a banker and when he died, he left a considerable inheritance for him. During this
+  university years, he relied on his father's support.
+- Had a Life-threatening fever, what would have happened if he died?...
+- Went to good schools, had access to books and tutors. Pivotal moment!
 - During university, came in contact with other mathematicians and influential people.
 - He joined [The Ghost Club](https://www.ghostclub.org.uk/), which is still active today! What would
   have happened if he got too into it and didn't pursue science?
@@ -220,32 +182,12 @@ timeline
 clicks: 3
 ---
 
-<div style="text-align: center;" v-if="$slidev.nav.clicks < 3">
+<div style="text-align: center;">
 <div style="auto">
 
 ```mermaid
 timeline
     Later Years : Royal Astronomical Society
-                : The Difference Engine
-                : Analytical Engine**
-                
-```
-
-</div>
-</div>
-
-<div style="text-align: center;" v-if="$slidev.nav.clicks === 3">
-<div style="auto">
-
-```mermaid
-timeline
-    Early Days : Afluent family
-               : Life-threatening fever**
-               : Good school
-    University Years : University of Cambridge
-                     : The Ghost Club**
-                     : Analytical Society
-    Later Years : Royal Astronomical Society**
                 : The Difference Engine
                 : Analytical Engine**
                 
@@ -266,6 +208,14 @@ timeline
 
 <v-drag pos="106,-15,813,_,-6">
     <img src="/assets/analytical-engine.jpg" style="border-radius: 8%;">
+</v-drag>
+
+</div>
+
+<div v-if="$slidev.nav.clicks === 3">
+
+<v-drag pos="656,61,281,_,-6">
+    <img src="/assets/charles-babbage-brain.png" style="border-radius: 8%;">
 </v-drag>
 
 </div>
@@ -313,7 +263,7 @@ image: /assets/people/lady-ada-lovelace.png
 
 ---
 layout: center
-clicks: 2
+clicks: 1
 dragPos:
   square: 684,186,255,266,11
 ---
@@ -388,18 +338,31 @@ image: /assets/people/alan-turing.jpg
 -->
 
 ---
-layout: center
 clicks: 2
-dragPos:
-  square: 686,55,268,408,11
 ---
+
+<div style="text-align: center;" v-if="$slidev.nav.clicks < 3">
+<div style="auto">
 
 ```mermaid
 timeline
     Early Days : Loved math and science
                : Friendship Christopher Morcom**
                : King's College, Cambridge
+    University Years : Studied under Alonzo Church
+                     : Developed the Turing Machine**
 ```
+
+</div>
+</div>
+
+<div v-if="$slidev.nav.clicks === 1">
+
+<v-drag pos="601,54,300,_,-6">
+    <img src="/assets/turing-machine.jpg" style="border-radius: 8%;">
+</v-drag>
+
+</div>
 
 <!--
 ## Intro
@@ -411,26 +374,6 @@ timeline
   mathematics. Sadly, he died early from TB that he got from drinking contaminated milk.
 - Turing coped with this grief by working even harder. What would have happened if Turing was the
   one who died?
--->
-
----
-clicks: 3
----
-
-<div style="text-align: center;" v-if="$slidev.nav.clicks < 3">
-<div style="auto">
-
-```mermaid
-timeline
-    University Years : King's College, Cambridge
-                     : Studied under Alonzo Church
-                     : Developed the Turing Machine**
-```
-
-</div>
-</div>
-
-<!--
 - During his time at Cambridge, he studied under the mathematician Alonzo Church.
 - He developed the concept of the Turing Machine, a fundamental model of computation that underpins
   much of computer science theory.
@@ -440,7 +383,7 @@ timeline
 -->
 
 ---
-clicks: 3
+clicks: 2
 ---
 
 <div style="text-align: center;" v-if="$slidev.nav.clicks < 3">
@@ -464,27 +407,6 @@ timeline
     <img src="/assets/on-your-left.gif" style="border-radius: 8%;">
 </v-drag>
 
-</div>
-
-<div style="text-align: center;" v-if="$slidev.nav.clicks === 3">
-<div style="auto">
-
-```mermaid
-timeline
-    Early Days : Loved math and science
-               : Friendship Christopher Morcom**
-               : King's College, Cambridge
-    University Years : King's College, Cambridge
-                     : Studied under Alonzo Church
-                     : Developed the Turing Machine
-    Later Years : Great runner!
-                : Bletchley Park
-                : Cracked Enigma**
-                : Artificial Intelligence**
-                
-```
-
-</div>
 </div>
 
 <!--
@@ -568,8 +490,6 @@ image: /assets/people/john-von-neumann.webp
 
 <!--
 - Next up is another genious who also lived around the same time as Turing and Bush.
-- He contributed to computer science, game theory, quantum mechanics, celluar automata, and
-  mathematics.
 - He was also pretty social and liked to tell jokes in multiple languages.
 -->
 
@@ -804,7 +724,7 @@ image: /assets/people/douglas-engelbart.jpg
 -->
 
 ---
-clicks: 5
+clicks: 4
 ---
 
 <div v-if="$slidev.nav.clicks === 0">
@@ -815,7 +735,7 @@ clicks: 5
 
 <div v-if="$slidev.nav.clicks > 0">
 
-<v-drag pos="385,53,445,_,15">
+<v-drag pos="451,42,445,_,15">
     <img src="/assets/mouse.gif" style="border-radius: 8%;">
 </v-drag>
 
@@ -823,7 +743,7 @@ clicks: 5
 
 <div v-if="$slidev.nav.clicks > 1">
 
-<v-drag pos="174,123,403,_,-7">
+<v-drag pos="59,44,403,_,-7">
     <img src="/assets/video-conferencing.gif" style="border-radius: 8%;">
 </v-drag>
 
@@ -831,7 +751,7 @@ clicks: 5
 
 <div v-if="$slidev.nav.clicks > 2">
 
-<v-drag pos="384,269,451,_,11">
+<v-drag pos="450,295,451,_">
     <img src="/assets/hypertext.gif" style="border-radius: 8%;">
 </v-drag>
 
@@ -839,7 +759,7 @@ clicks: 5
 
 <div v-if="$slidev.nav.clicks > 3">
 
-<v-drag pos="355,204,403,_,13">
+<v-drag pos="89,299,403,_,7">
     <img src="/assets/collaborative-editing.gif" style="border-radius: 8%;">
 </v-drag>
 
