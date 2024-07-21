@@ -1,17 +1,14 @@
----
-theme: seriph
-background: https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849825_960_720.jpg
----
-
 # Act 4: Building the Infrastructure
+
 Developing the infrastructure that supports modern computing and connectivity, transforming theoretical advancements into practical systems.
 
 ---
 
 ## Robert Noyce (1927-1990)
+
 **"Mayor of Silicon Valley"**
 
-```mermaid {scale: 0.5, alt: 'Robert Noyce's Key Career Milestones'}
+```mermaid {scale: 0.5}
 timeline
     title Key Career Milestones
     section Early Work
@@ -26,10 +23,15 @@ timeline
 ```
 
 ---
+layout: centre
+---
 
 # Noyce's Early Work
 
-```mermaid {scale: 0.5, alt: 'A Timeline of Noyce's work'}
+<div style="text-align: center;">
+<div style="auto">
+
+```mermaid {scale: 0.5}
 timeline
     title Robert Noyce's Impactful Work and Cultural Influence
     section Early Work
@@ -39,11 +41,17 @@ timeline
         : Experiences a rigid management style
 ```
 
+</div>
+</div>
+
 ---
 
 # Fairchild and the First Integrated Circuit
 
-```mermaid {scale: 0.5, alt: 'A Timeline of Noyce's work'}
+<div style="text-align: center;">
+<div style="auto">
+
+```mermaid {scale: 0.5}
 timeline
     title Robert Noyce's Impactful Work and Cultural Influence
     section Fairchild Semiconductor
@@ -56,11 +64,17 @@ timeline
         : Revolutionizes the electronics industry
 ```
 
+</div>
+</div>
+
 ---
 
 # Intel and the Future
 
-```mermaid {scale: 0.5, alt: 'A Timeline of Noyce's work'}
+<div style="text-align: center;">
+<div style="auto">
+
+```mermaid {scale: 0.5}
 timeline
     title Robert Noyce's Impactful Work and Cultural Influence
     section Intel Corporation
@@ -68,13 +82,18 @@ timeline
         : Expands the open culture with a flat hierarchy, open communication, and employee autonomy
     1971 : Launches the world's first commercially available microprocessor, the Intel 4004
         : Plays a key role in Intel's development and growth
-        : Creates significant advances in semiconductor technology
+    1970s : Creates significant advances in semiconductor technology
         : Establishes Intel as a model for open organizational culture
         : Solidifies key principles in the industry that became characteristic of Silicon Valley
 ```
+
+</div>
+</div>
+
 ---
 
 ## Mark Dean (1957-present)
+
 **Co-creator of the IBM personal computer (1981)**
 
 ## Key Contributions
@@ -84,12 +103,11 @@ timeline
 - **Diverse Contributions**: From computer architecture to artificial intelligence, his work spans multiple critical areas in technology.
 - **Educational Impact**: Professor Emeritus at the University of Tennessee, shaping the next generation of engineers.
 
-
 ---
 
 # Co-invention of the ISA Bus
 
-``` mermaid
+```mermaid
 graph TD
     A[Patent No. 4,528,626<br>ISA Bus<br>1985]
     B[Patent No. 6266745<br>Utilization of Nodes by Threads<br>2001]
@@ -112,9 +130,9 @@ graph TD
     classDef highlight fill:#fbd91f,stroke:#33,stroke-width:4px;
 
     class A highlight;
-    class B, C, D, E, F, H grayout;
+    class B,C,D,E,F,H grayout;
 
-    linkStyle 1,2,3,4,5,7 display:none;
+    linkStyle 1,2,3,4,5,6 display:none;
 ```
 
 <!-- 
@@ -127,7 +145,7 @@ Beyond these patents, Dean played a crucial role in developing the Color Graphic
 
 # Efficiency of Distribution Computing Systems
 
-``` mermaid
+```mermaid
 graph TD
     A[Patent No. 4,528,626<br>ISA Bus<br>1985]
     B[Patent No. 6266745<br>Utilization of Nodes by Threads<br>2001]
@@ -149,8 +167,8 @@ graph TD
     classDef grayout fill:transparent,stroke:transparent,stroke-width:0px,color:transparent;
     classDef highlight fill:#fbd91f,stroke:#33,stroke-width:4px;
 
-    class B, C, D, H highlight;
-    class E, F grayout;
+    class B,C,D,H highlight;
+    class E,F grayout;
 
     linkStyle 4,5,6 display:none;
 ```
@@ -169,7 +187,7 @@ In 2007, his innovative approach to data storage led to Patent No. 7206163 for a
 
 ---
 
-``` mermaid
+```mermaid
 graph TD
     A[Patent No. 4,528,626<br>ISA Bus<br>1985]
     B[Patent No. 6266745<br>Utilization of Nodes by Threads<br>2001]
@@ -190,7 +208,7 @@ graph TD
 
     classDef highlight fill:#fbd91f,stroke:#33,stroke-width:4px;
 
-    class E, F highlight;
+    class E,F highlight;
 ```
 <!-- 
 Mark Dean’s contributions to artificial intelligence are also noteworthy. In 2015, he was awarded two patents related to neural networks. Patent No. 20150106311 focused on constructing and reusing components of artificial neural networks, while Patent No. 20150106316 provided methods for real-time monitoring of these networks. These patents are significant in advancing the field of AI, enabling more efficient and adaptive neural network models.
@@ -210,15 +228,6 @@ Mark Dean’s contributions to artificial intelligence are also noteworthy. In 2
 ## Vint Cerf (1943-present) & Robert Kahn (1938-present)
 
 **Co-design of the TCP/IP protocols (1973)**
-
----
-
-# Vint Cerf & Robert Kahn: Development of TCP/IP
-
-- **TCP/IP Protocols:**
-  - Foundation of the Internet’s architecture
-  - Ensured reliable, ordered, and error-checked data delivery (TCP)
-  - Managed addressing and routing of data packets (IP)
 
 - **Network Compatibility:**
   - Enabled different networks to communicate, creating the "internet"
@@ -280,8 +289,6 @@ World -> Internet: Establish unified communication standard
 
 # The Problem at CERN
 
-![Image](https://example.com/cern.jpg)
-
 - Challenges in sharing information among scientists
 - Different computers and software systems
 - Need for a universal system to share information
@@ -298,8 +305,6 @@ World -> Internet: Establish unified communication standard
 
 # The First Website
 
-![Image](https://example.com/first-website.jpg)
-
 - Went live in 1991
 - Explained the concept and usage of the World Wide Web
 - Beginning of the web as we know it
@@ -308,17 +313,15 @@ World -> Internet: Establish unified communication standard
 
 # Global Impact
 
-![Image](/assets/global-internet-use.png)
-
 - Revolutionized communication, business, education, entertainment
 - Rapid growth of the internet
 - Creation of the digital economy
 
+<img src="/assets/global-internet-use.png" style="border-radius: 8%; height: 70%;">
+
 --- 
 
 # W3C and Web Standards
-
-![Image](https://example.com/w3c-logo.jpg)
 
 - Founded World Wide Web Consortium (W3C) in 1994
 - Ensuring open standards and accessibility
@@ -327,8 +330,6 @@ World -> Internet: Establish unified communication standard
 ---
 
 # Current and Future Work
-
-![Image](https://example.com/solid-project.jpg)
 
 - Advocates for a free and open web
 - Current project: Solid - decentralizing the web

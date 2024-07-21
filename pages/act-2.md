@@ -19,7 +19,8 @@ class: mcarthy-profile-class
 - <span v-mark.underline.pink>**Lisp (1958)**</span>: One of the earliest high-level programming languages, influencing modern languages and AI research.
 - <span v-mark.underline.pink>**Artificial Intelligence**</span>: Coined the term "AI" in 1955
 <br>  
-"AI is the science and engineering of making intelligent machines, especially intelligent computer programs. Intelligence is the computational part of the ability to achieve goals in the world."
+
+> "AI is the science and engineering of making intelligent machines, especially intelligent computer programs. Intelligence is the computational part of the ability to achieve goals in the world."
 
 <!-- Building on Alan Turing's theoretical foundations of computation, McCarthy's contributions have driven the development of intelligent systems that impact industries such as healthcare, finance, and autonomous vehicles.  -->
 
@@ -173,6 +174,9 @@ graph TD
 His advocacy for structured programming has led to more reliable and maintainable software, advancing the field of software engineering.
 “A Case against the GO TO Statement” (EWD215), regarded as a major step towards the widespread deprecation of the GOTO statement and its effective replacement by structured control constructs, such as the while loop.
 Coined the phrase “2 or more, use a for”, alluding to the fact that when you find yourself processing more than one instance of a data structure, it is time to encapsulate that logic inside a loop. -->
+
+---
+clicks: 2
 ---
 
 # Dining with Philosophers
@@ -272,11 +276,9 @@ graph TD
 
 ## For fun...
 
-<div v-if="$slidev.nav.clicks === 2">
-  <v-drag pos="662,264,275,_">
-      <img src="/assets/dijkstra-writing.png" style="border-radius: 8%;">
-  </v-drag>
-</div>
+<v-drag pos="242,137,475,_">
+    <img src="/assets/dijkstra-writing.png" style="border-radius: 8%;">
+</v-drag>
 
 - **Background**: Originally studied theoretical physics, persuaded to stay in programming.
 - **Elegance**: Known for elegant writing and handwriting. Inspired the creation of Dijkstra Regular font.
@@ -286,20 +288,14 @@ layout: image-left
 image: /assets/people/donald-knuth.jpg
 class: donald-knuth
 ---
+
 # Donald Knuth (1938-present)
 
-<div v-if="$slidev.nav.clicks === 2">
-  <v-drag pos="662,264,275,_">
-      <img src="/assets/dijkstra-writing.png" style="border-radius: 8%;">
-  </v-drag>
-</div>
-
-<div>
 - **Impactful Work:**
   - **"The Art of Computer Programming" (1968)**
   - Knuth-Morris-Pratt (KMP) Algorithm
   - TeX typesetting system
-</div>
+
 ---
 
 # Knuth's Influences and Contributions
@@ -309,44 +305,27 @@ mindmap
   root((Donald Knuth))
     Influences
       Lovelace["Ada Lovelace"]
-        Lovelace_desc1["Pioneer of programming concepts"]:::influence1
-        Lovelace_desc2["Combined mathematical rigor with creativity"]:::influence1
+        Lovelace_desc1["Pioneer of programming concepts"]
+        Lovelace_desc2["Combined mathematical rigor with creativity"]
       Neumann["John von Neumann"]
-        Neumann_desc1["Structured approach to computing"]:::influence2
-        Neumann_desc2["Foundational work in computer science"]:::influence2
+        Neumann_desc1["Structured approach to computing"]
+        Neumann_desc2["Foundational work in computer science"]
     Contributions
       Programming["The Art of Computer Programming"]
-        Programming_desc["Comprehensive coverage of fundamental algorithms"]:::contribution1
+        Programming_desc["Comprehensive coverage of fundamental algorithms"]
       TeX["TeX Typesetting System"]
-        TeX_desc["Revolutionized digital typesetting and publishing"]:::contribution2
+        TeX_desc["Revolutionized digital typesetting and publishing"]
       KMP["Knuth-Morris-Pratt Algorithm"]
-        KMP_desc["Efficient string-searching algorithm"]:::contribution3
+        KMP_desc["Efficient string-searching algorithm"]
       Literate["Literate Programming"]
-        Literate_desc["Integration of code and documentation"]:::contribution4
+        Literate_desc["Integration of code and documentation"]
       Analysis["Algorithm Analysis"]
-        Analysis_desc["Detailed study of algorithms and programming techniques"]:::contribution5
+        Analysis_desc["Detailed study of algorithms and programming techniques"]
       Software["Software Engineering"]
-        Software_desc["Modern software engineering practices"]:::contribution6
+        Software_desc["Modern software engineering practices"]
       Education["Computer Science Education"]
-        Education_desc["Cornerstone of computer science education"]:::contribution7
-
-%% Define the styles for each node and description
-classDef influence1 fill:#ffb86c,stroke:#ff79c6,stroke-width:2px;
-classDef influence2 fill:#50fa7b,stroke:#bd93f9,stroke-width:2px;
-classDef contribution1 fill:#8be9fd,stroke:#ffb86c,stroke-width:2px;
-classDef contribution2 fill:#ff79c6,stroke:#ffb86c,stroke-width:2px;
-classDef contribution3 fill:#bd93f9,stroke:#ff79c6,stroke-width:2px;
-classDef contribution4 fill:#ffb86c,stroke:#50fa7b,stroke-width:2px;
-classDef contribution5 fill:#f1fa8c,stroke:#ff79c6,stroke-width:2px;
-classDef contribution6 fill:#6272a4,stroke:#bd93f9,stroke-width:2px;
-classDef contribution7 fill:#ff5555,stroke:#8be9fd,stroke-width:2px;
+        Education_desc["Cornerstone of computer science education"]
 ```
-
-<div v-if="$slidev.nav.clicks === 1">
-  <v-drag pos="662,264,275,_">
-      <img src="/assets/dijkstra-writing.png" style="border-radius: 8%;">
-  </v-drag>
-</div>
 
 <!--
 1. The Art of Computer Programming (1968):
@@ -383,11 +362,10 @@ Computer Science Education:
 
 "Knuth's influences and contributions have profoundly shaped the landscape of computer science, and his work continues to inspire and guide new generations in the field."
 -->
+
 ---
 layout: quote
 ---
-
-<image>
 
 'I certainly felt like an imposter for many years. There were so many other people who seemed so much more capable than I was. I just kept working hard and doing what I loved, hoping that someday I would belong.'
 
@@ -399,11 +377,9 @@ layout: quote
   - Mails you $2.56 (1 hexadecimal dollar) for every mistake found in his book (stopped in 2008)
   - Now sends a cheque-like certificate (and real money if requested)
 
-<div v-if="$slidev.nav.clicks === 2">
-  <v-drag pos="662,264,275,_">
-      <img src="/assets/knuth-cert.png" style="border-radius: 8%;">
-  </v-drag>
-</div>
+<v-drag pos="315,219,628,_">
+<img src="/assets/knuth-cert.jpeg" style="border-radius: 8%;">
+</v-drag>
 
 ---
 
@@ -529,12 +505,12 @@ layout: quote
 
 ---
 dragPos:
-  square: 56,120,852,428
+  square: 152,110,649,379
 ---
 
 ## IDF Under the Hood
 
-<!-- <img v-drag="'square'" src="assets/idf.png" style="border-radius: 10%;"> -->
+<img v-drag="'square'" src="/assets/idf.png" style="border-radius: 10%;">
 
 <!--
 - **Inverse Document Frequency (IDF):**
