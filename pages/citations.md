@@ -8,7 +8,6 @@
 - Mark Dean profile: https://blog.teachcomputing.org/mark-dean/
 - Mark Dean's timeline of work: Image created by OpenAI's DALL-E, detailing Mark Dean's contributions to computer science, 2024.
 - Mark Dean cartoon profile: https://tuntimo.com/profile/mark-dean/
-- https://firstrender.net/
 - https://thenewstack.io/could-unix-happen-today-brian-kernighan-looks-back-and-forward/
 - https://lore.kernel.org/lkml/CA+55aFy+Hv9O5citAawS+mVZO+ywCKd9NQ2wxUmGsz9ZJzqgJQ@mail.gmail.com/
 > Torvalds apologizes.
@@ -19,3 +18,12 @@
 - Dartmouth Round Table pictures: https://medium.com/@nickyverd/the-first-ever-ai-conference-tracing-the-evolution-and-the-history-of-ai-82347f93a89f
 - https://www.gnu.org/gnu/thegnuproject.html
 - https://www.pbs.org/newshour/science/internet-got-started-simple-hello
+- https://www.ias.edu/von-neumann
+
+# Act 1 References
+
+- Source code of Sketchpad: https://computerhistory.org/art-of-code/
+- Sketchpad Demo: https://www.youtube.com/watch?v=6orsmFndx_o
+- Head mounted display: https://www.youtube.com/watch?v=IrLJN9gDz2c
+- https://medium.com/javascript-scene/the-forgotten-history-of-oop-88d71b9b2d9f
+- https://firstrender.net/

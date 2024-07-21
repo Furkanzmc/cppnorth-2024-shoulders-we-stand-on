@@ -8,6 +8,16 @@ image: https://i.pinimg.com/736x/15/d5/e1/15d5e17569e6f3ef1595c61c8ab56518--fred
 > 
 > - Fred Rogers
 
+<!--
+- I have this exercise that I do sometimes. I'd like to pause whatever moment I find myself in and
+  try to think back to all the decisions that I had to make, all the things that had to happen, and
+  all the people I needed to have in my life to end up where I am today. It's a humbling experience
+  and helps me appreciate the people around me, and be grateful for the things I have.
+- As I was reading a book, I came across this quote from Fred Rogers and I thought this fits
+  perfectly to our talk. Because we we'll take the rest of the talk to think back to all the people
+  without whose contributions we wouldn't be where we are today.
+-->
+
 ---
 dragPos:
   square: 247,129,476,287
@@ -52,8 +62,12 @@ gitGraph
 </v-click>
 
 <!--
-- We have to pick a starting point.
-- Different choices would different versions of me.
+- So we are going to start with the question of "How did I get here?"
+- It is very possible that if I made a different choice, or were in a different circumstance, I
+  wouldn't have ended up here. I was talking a co-worker, Hossein, about this talk and he said if
+  PCs were delayed by just a few years, he probably would have his job.
+- So, along the way, we invite you to think about how things would have turned out differently if
+  some of the contributions weren't there, or they took different life trajectories.
 -->
 
 ---
@@ -91,29 +105,34 @@ dragPos:
     <img src="/assets/people/howard-stark.webp" style="border-radius: 50%;">
 </v-drag>
 
+<!--
+- After we explore all the lives that touched us, we'll end up with a graph similar to this.
+-->
+
 ---
-layout: image
-image: /assets/placeholder-graph.png
+layout: iframe
+
+# the web page source
+url: https://ouestware.gitlab.io/retina/1.0.0-beta.1/#/graph/?url=https%3A%2F%2Fraw.githubusercontent.com%2FFurkanzmc%2Fcppnorth-2024-shoulders-we-stand-on%2Fmaster%2Fpublic%2Fassets%2Fgraph.gexf&c=a&s=r&sa=r&ca=a
+
+# a custom class name to the content
+class: my-custom-class
 ---
 
 <!--
-- Imagine this was your dependency graph.
-- But this is how advancements in human knowledge works. One person depending on another, one giant
-  standing on the shoulder of another.
-- Jonathan Blows talk [Preventing the Collapse of
-  Civilization](https://www.youtube.com/watch?v=ZSRHeXYDLko) gives similar examples. He talks about
-  how we need to create a culture of teaching each other and keeping knowledge alive to keep
-  progressing the technology. Recommended watch.
-- If anybody there didn't have the influence or the life they did, we could have ended up in a
-  different place.
-- Let's listen to Mr Rogers, and do him one better, and instead of taking 10 seconds, take the rest
-  of the talk to go through these influences, discover what they did for us, and exercise our minds
-  about how things could have turned out if that person ended up in a different path.
+- Imagine this was your dependency graph. You would go mad! But it is because of these connections
+  that all the good work in the world were done. Like we say in Turkey, you can't make a wall with
+  one stone. And you can advance human knowledge with one person.
 -->
 
 ---
 
 # Sparks of Innovation and Inspiration
+
+<!--
+- We will start our journey with the people who were the early thinkers and pioneers in the field of
+  computing.
+-->
 
 ---
 layout: image-left
@@ -123,8 +142,7 @@ image: /assets/people/charles-babbage.jpg
 # Charles Babbage
 
 <!--
-- Every journey has a beginning. The beginning for this one is endless, but we'll have to choose
-  somewhere. So this is where we begin.
+- And this journey begins with Charles Babbage.
 -->
 
 ---
@@ -166,20 +184,25 @@ timeline
 <!--
 ## Intro
 
-- He was quite a chap!
 - Keen interest in mathematics. A number driven person.
 - Known as the father of computers.
 - His father was a banker and when he died, he left a considerable inheritance for him. During this
   university years, he relied on his father's support.
 - Had a Life-threatening fever, what would have happened if he died?...
 - Went to good schools, had access to books and tutors. Pivotal moment!
-- During university, came in contact with other mathematicians and influential people.
-- He joined [The Ghost Club](https://www.ghostclub.org.uk/), which is still active today! What would
-  have happened if he got too into it and didn't pursue science?
-- In 1812, the French government calculated these tables in a different way. Their mathematicians
-  distributed the work to 80 human computers who only knew what work they were doing and subtraction
-  and addition. For the first time, mass production was applied to mathematics and Babbage thought
-  this work could be taken over by machines entirely.
+- During university, came in contact with other mathematicians and influential people. This is a
+  theme that we'll see throughout. Every person we talk about had a network of people who helped
+  them along the way.
+- Something that I didn't expect from such a number driven person, though, was to be part of [The
+  Ghost Club](https://www.ghostclub.org.uk/). I wonder what would have happened if he got too much
+  into it and pursued an career in ghost hunting instead? Would the movie Ghost Busters be inspired
+  by him?
+- In university, he helped found Analytical Society. This was a group of students who were interested
+  in mathematics and wanted to reform the mathematics curriculum.
+- Around that time, In 1812, the French government calculated these tables in a different way. Their
+  mathematicians distributed the work to 80 human computers who only knew what work they were doing
+  and subtraction and addition. For the first time, mass production was applied to mathematics and
+  Babbage thought this work could be taken over by machines entirely.
 -->
 
 ---
@@ -227,16 +250,13 @@ timeline
 <!--
 ## Difference Engine
 
-- Difference engine was meant for solving polynomial equations. He created this to help with
-  mathematical tables for the nautical almanac.
-- This first difference engine would have been composed of around 25,000 parts, weighed fifteen
-  short tons (13,600 kg), and would have been 8 ft (2.4 m) tall. **If a moth flew into this, it
-  would have just died. Imagine having "bug free" apps!**
-- It was never built because the machinist responsible for building the machine refused to do it
-  unless he was prepaid. The machinist who was building it Joseph Clement. He was one of the
-  greatest at the time, and the tools he built were high quality.
-  He demanded too much money and they didn't finish the project.
-- Difference Engine inspired the novel... [The Difference Engine](https://en.wikipedia.org/wiki/The_Difference_Engine)
+- In his later years, he was assigned to a project in the Royal Astronomical Society to compute
+  mathematical tables. That grunt work really helped him understand how error prone manual
+  calculations are so he wanted to do something about it.
+- That's when he inventd the Difference Engine. It was meant for solving polynomial equations. He
+  created this to help with mathematical tables for the nautical almanac. Sadly, it never got built
+  because the engineer he was working with demanded too much money.
+- It wasn't all bad though, Difference Engine inspired the novel... [The Difference Engine](https://en.wikipedia.org/wiki/The_Difference_Engine) Which apparently is an important novel in the genre of steam punk.
 
 ## Analytical Engine
 
@@ -244,6 +264,9 @@ timeline
 - Difference Engine was meant for a mechanized computation. But Analytical Engine could handle any
   computation, making it a general purpose computer.
 - It was programmed using punch cards. It allowed for sequential control, looping, and branching.
+  So, pretty much like a modern computer.
+- You know you are an important figure when they out your brain in a jar.
+
 - Despite the importance of his work, the analytical engine was unknown to the builders of the
   electromechanical and electronic computing machines in 1930s and 1940s. J. Presper Eckert and John
   W. Mauchly similarly were not aware of the details of Babbage's analytical engine work prior to
@@ -261,8 +284,10 @@ image: /assets/people/lady-ada-lovelace.png
 # Lady Ada Lovelace
 
 <!--
-- Next up, Lady Ada Lovelace. She was the first computer programmer. But I learned something that
-  makes her even more impressive than that...
+- Around the time Babbage was working on Analytical Engine, Lady Ada Lovelace took notice and had
+  multiple interactions with Babbage.
+- You probably know her as the first computer programmer, but I learned something about her that I
+  think makes her even more impressive.
 -->
 
 ---
@@ -324,8 +349,13 @@ graph LR
 </div>
 
 <!--
+- Through her brilliance and social connections, her path crossed with Charles Babbage. In her
+  notes, she wrote the first algorithm intended for implementation on Charles Babbage's Analytical
+  Engine. But in her notes, she mentioned something else.
 - Charles Babbage considered the Analytical Engine to be a merely a calculation machine. But Ada
-  Lovelace saw a potential for representing natural objects with numbers.
+  Lovelace saw a potential for representing natural objects with numbers. She saw the potential for
+  computers way before even one of them was built. And these days, everything we do with computers
+  is manipulating symbols.
 -->
 
 ---
@@ -336,9 +366,11 @@ image: /assets/people/alan-turing.jpg
 # Alan Turing
 
 <!--
-- Let's fast word to Alan Turing. He was a mathematician, logician, and computer scientist who
-  played a pivotal role in the development of theoretical computer science and artificial
-  intelligence.
+- Fast forward a few decades, and we get to a time when a lot was happening in the world. Especially
+  the world of wars...
+- Alan Turing, who I'm sure you already know, was a very influential figure of his time.
+- He was a mathematician, logician, and computer scientist who played a pivotal role in the
+  development of theoretical computer science and artificial intelligence.
 -->
 
 ---
@@ -352,9 +384,7 @@ clicks: 2
 timeline
     Early Days : Loved math and science
                : Friendship Christopher Morcom**
-               : King's College, Cambridge
-    University Years : Studied under Alonzo Church
-                     : Developed the Turing Machine**
+    University Years : Developed the Turing Machine**
 ```
 
 </div>
@@ -378,12 +408,10 @@ timeline
   mathematics. Sadly, he died early from TB that he got from drinking contaminated milk.
 - Turing coped with this grief by working even harder. What would have happened if Turing was the
   one who died?
-- During his time at Cambridge, he studied under the mathematician Alonzo Church.
-- He developed the concept of the Turing Machine, a fundamental model of computation that underpins
-  much of computer science theory.
-> "von Neumann ... firmly emphasised to me, and to others I am sure, that the fundamental conception
-> is owing to Turing—insofar as not anticipated by Babbage, Lovelace and others." Letter by Stanley
-> Frankel to Brian Randell, 1972, quoted in Jack Copeland (2004) The Essential Turing, p. 22.
+- In his university years, he developed the concept of the Turing Machine, a fundamental model of
+  computation that underpins much of computer science theory.
+- Von Neumann, who is already a genius in his own right, said that Turing's created the central
+  concept of the modern computer.
 -->
 
 ---
@@ -399,6 +427,7 @@ timeline
                 : Bletchley Park
                 : Cracked Enigma**
                 : Artificial Intelligence**
+                : Turing Test
                 
 ```
 
@@ -414,19 +443,18 @@ timeline
 </div>
 
 <!--
-## Bletchley Park and Enigma
-
+- He was Walton Athletic Club's best runner, a fact discovered when he passed the group while
+  running alone.
+> I have such a stressful job that the only way I can get it out of my mind is by running hard; it's
+> the only way I can get some release.
 - During World War II, Turing worked at Bletchley Park, the UK's codebreaking center.
 - He played a pivotal role in cracking the German Enigma code, significantly contributing to the
   Allied victory.
-- His work laid the groundwork for modern computing and artificial intelligence.
 - Turing's contributions extended beyond codebreaking; he proposed the concept of artificial
   intelligence and the famous Turing Test to evaluate a machine's ability to exhibit intelligent
   behavior equivalent to that of a human.
-> I have such a stressful job that the only way I can get it out of my mind is by running hard; it's
-> the only way I can get some release.
-- He was Walton Athletic Club's best runner, a fact discovered when he passed the group while
-  running alone.
+- Unfortunately, I won't be doing any justice to all his contributions in this talk, but thankfully
+  I don't have to convince you on this one.
 -->
 
 ---
@@ -438,7 +466,9 @@ image: /assets/people/vannevar-bush.jpg
 
 
 <!--
-- He did more than science and influenced a lot of the policies surrounding science.
+- Next up is Vannevar Bush, who was a very influential figure in the 20th century.
+- He did more than science and influenced a lot of the policies surrounding science. He also starred
+  in the movie Oppenheimer. :)
 -->
 
 ---
@@ -471,16 +501,26 @@ mindmap
 </div>
 
 <!--
-- Being in the military role probably made him think of what would happen after the war.
-- In his article he describes memex, and an imaginary account of probably the world's first wiki
-  rabbit hole.
+- Much like most of the bright minds of the time, he spent a lot of time in military research. But
+  he was always concerned about what would happen to science and scientists after the war.
+- He did a lot of work in analog computers and apparently didn't have much interest in digital
+  computing.
+- He lead the Office of Scientific Research and Development during World War II. He was responsible
+  for the development of radar and the proximity fuze.
+
+- In an article called "As We May Think", he talks about how the spreading of scientific knowledge
+  is an important task.
 - In As We May Think, he talks about how the spreading of scientific knowledge is an important task.
   He says in the past, Mendel's research on laws of genetics was lost for generations because it
   didn't make it into the hands of people who could expand on it.
-- Ted Nelson was inspired by his ideas and in a paper where he coined the term  "hypertext" he
-  referenced Bush a lot. He then created Hypertext Editing System along with Andries van Dam
+- In his article he describes memex, and an imaginary account of probably the world's first wiki
+  rabbit hole.
+- Ted Nelson was inspired by his ideas and in a paper where he coined the term "hypertext" he
+  referenced Bush a lot. He then created Hypertext Editing System along with Andries van Dam in 1967
 - It seems that he didn't show that much of an interest in digital computing.
   https://www.encyclopedia.com/science/encyclopedias-almanacs-transcripts-and-maps/vannevar-bush
+- In order for the memex to work though, a lot more things needed to be invented. Let's see the next
+  person who helped with that.
 -->
 
 ---
@@ -493,16 +533,15 @@ image: /assets/people/john-von-neumann.webp
 > Most mathematicians prove what they can, von Neumann proves what he wants
 
 <!--
-- Next up is another genious who also lived around the same time as Turing and Bush.
 - He was also pretty social and liked to tell jokes in multiple languages.
 -->
 
 ---
 layout: center
-clicks: 4
+clicks: 5
 ---
 
-<div v-if="[0, 1, 3, 4].indexOf($slidev.nav.clicks) > -1">
+<div v-if="[0, 1, 3, 4, 5].indexOf($slidev.nav.clicks) > -1">
 
 ```mermaid {scale: 1.5}
 mindmap
@@ -588,16 +627,17 @@ mindmap
 </div>
 
 <!--
-- This is the paper that introduced the concept of stored-program computers which later was known as
-  von Neumann architecture. It was 101 pages.
-- He was among the first people to talk about the time complexity of algorithms.
-- He was the first person to also create a mathematical foundations for Quantum Mechanics, in his
-  book called... "Mathematical Foundations of Quantum Mechanics"
-- He invented the merge sort algorithm because there was a need to efficiently sort data on
-  computers during World War II.
 - He formalized game theory which gave us a fantastic movie called "A Beautiful Mind".
 - Game theory helped us understand how people make decisions in competitive situations and how
   decisions affect outcomes.
+- This is the paper that introduced the concept of stored-program computers which later was known as
+  von Neumann architecture. It was 101 pages.
+- He was among the first people to talk about the time complexity of algorithms.
+- He invented the merge sort algorithm because there was a need to efficiently sort data on
+  computers during World War II.
+- Just going by all these contributions, his impact on our lives are probably immeasurable.
+- He was the first person to also create a mathematical foundations for Quantum Mechanics, in his
+  book called... "Mathematical Foundations of Quantum Mechanics"
 -->
 
 ---
@@ -607,9 +647,10 @@ image: /assets/people/j-c-r-licklider.webp
 
 # Joseph Carl Robnett Licklider
 
-> ... most of the significant advances in computer technology—including the work that my group did at
-> Xerox PARC—were simply extrapolations of Lick's vision. They were not really new visions of their
-> own. So he was really the father of it all" - Robert Taylor
+<!--
+- He contributed with ideas and funding to many projects that led to the development of the internet
+  and modern computing.
+-->
 
 ---
 clicks: 6
@@ -629,8 +670,11 @@ mindmap
     The Computer as a Communication Device
 ```
 
-</div>
+> ... most of the significant advances in computer technology—including the work that my group did at
+> Xerox PARC—were simply extrapolations of Lick's vision. They were not really new visions of their
+> own. So he was really the father of it all" - Robert Taylor
 
+</div>
 
 <div v-if="[1, 2, 3, 4, 5, 6].indexOf($slidev.nav.clicks) > -1">
 
@@ -706,10 +750,18 @@ mindmap
 </div>
 
 <!--
-- Ken Thompson, who co-created Unix, was a researcher on the Multics project.
 - He believed that computers or AI should enhance human intelligence, not replace it.
+- He funded Project MAC, which was a research project that led to the development of Multics, a
+  time-sharing operating system. It was the first time-sharing operating system that was developed.
 - He helped fund projects that contributed to GUIs, the mouse, and the internet. His contributions
   were mostly in form of ideas and funding.
+- Ken Thompson, who co-created Unix, was a researcher on the Multics project.
+- His paper "The Computer as a Communication Device" was the first to talk about the idea of
+  computers as communication tools. He envisioned a world where people could communicate with each
+  other through computers. He was talking about Facetime, MSN Messenger, Zoom, Slack, Twitter,
+  Reddit, Alias, Wikipedia, and Sketchpad.
+- Remember how I said he helped fund projects that contributed to GUI, the mouse? Now let's see how
+  those came about.
 -->
 
 ---
@@ -722,9 +774,6 @@ image: /assets/people/douglas-engelbart.jpg
 <!--
 - Douglas Engelbart is among my favorites to talk about. He and his team not only invented the
   mouse, but essentially DEMOED everything that we use in modern computing today.
-
-- He called the device a mouse because the tail came out from behind. His group called the cursor a
-  bug, but that didn't catch on.
 -->
 
 ---
@@ -733,7 +782,7 @@ clicks: 4
 
 <div v-if="$slidev.nav.clicks === 0">
 
-# What did he do?...
+# What did he, along with his team at SRI, do?...
 
 </div>
 
@@ -769,6 +818,19 @@ clicks: 4
 
 </div>
 
+<!--
+- All of this is in 1968.
+- They invented the mouse!
+- Video conferencing!
+- Hyper text, which remember Vannevar Bush also talked about.
+- They invented collaborative editing. About 50 years before we had one...
+- He called the device a mouse because the tail came out from behind. His group called the cursor a
+  bug, but that didn't catch on.
+- All these gifs are from the demo that they did in 1968. It was called "The Mother of All Demos".
+  I highly recommend giving it a watch in its entirety. Everything there will look primitive, but
+  it's very impressive to see how they managed to do so much with what they had.
+-->
+
 ---
 layout: image-left
 image: /assets/people/ivan-sutherland.jpg
@@ -781,47 +843,6 @@ image: /assets/people/ivan-sutherland.jpg
   interface and the first virtual reality head-mounted display.
 - His pioneering work in computer graphics laid the foundation for modern computer graphics and
   inspired computer scientists.
-- From 1968 to 1974, Sutherland was a professor at the University of Utah. Among his students there
-  were Alan Kay, inventor of the Smalltalk language, Gordon W. Romney (computer and cybersecurity
-  scientist), who rendered the first 3D images at U of U, Henri Gouraud, who devised the Gouraud
-  shading technique, Frank Crow, who went on to develop antialiasing methods, Jim Clark, founder of
-  Silicon Graphics, Henry Fuchs, and Edwin Catmull, co-founder of Pixar and now president of Walt
-  Disney and Pixar Animation Studios.
--->
-
----
-clicks: 3
----
-
-```mermaid {scale: 0.8}
-graph LR
-    Ivan-->AK[Alan Kay]
-    Ivan-->GR[Gordon W Romney]
-    Ivan-->HG[Henri Gouraud]
-    Ivan-->FC[Frank Crow]
-    Ivan-->JC[Jim Clark]
-    Ivan-->HF[Henry Fuchs]
-    Ivan-->EC[Edwin Catmull]
-    
-    AK-->SL[Smalltalk language]
-    GR-->CG[3D images at U of U]
-    HG-->GST[Gouraud shading technique]
-    FC-->AM[Antialiasing methods]
-    JC-->SG[Silicon Graphics]
-    HF-->CGS[Computer graphics research]
-    EC-->PX[Disney and Pixar Animation Studios]
-```
-
-<div v-if="$slidev.nav.clicks > 0">
-
-<v-drag pos="513,18,180,_">
-    <img src="/assets/first-soma-3d.jpg" style="border-radius: 8%;">
-</v-drag>
-
-</div>
-
-<!--
-- His students also went on to do great work in their fields.
 -->
 
 ---
@@ -839,6 +860,7 @@ clicks: 4
 # First Head Mounted Display
 
 <v-drag pos="68,137,329,_">
+The Sword of Damocles
     <img src="/assets/first-head-mounded-display.gif" style="border-radius: 8%;">
 </v-drag>
 
@@ -871,16 +893,55 @@ clicks: 4
 </div>
 
 <!--
-- Sketchpad didn't do anything useful other than to demonstrate the potential of computer graphics.
+- He created the first head mounted display. It was called the Sword of Damocles because it was
+  hanging from the ceiling. And the image they see in the display was adjusted according to the data
+  coming from the sensor.
+- He broke new new ground in 3D computer modeling and visual simulation. He was able to design
+  things with geometric constraints and ask Sketchpad to draw them or fix the shapes.
 - Sketchpad had objects and instances. You could create a master object and then create instances of
   it. This is the basis of object-oriented programming.
 - First CAD application.
+- Sketchpad didn't do anything useful other than to demonstrate the potential of computer graphics.
 -->
 
 ---
+clicks: 1
+---
 
-# Resources
+```mermaid {scale: 0.8}
+graph LR
+    Ivan-->AK[Alan Kay]
+    Ivan-->GR[Gordon W Romney]
+    Ivan-->HG[Henri Gouraud]
+    Ivan-->FC[Frank Crow]
+    Ivan-->JC[Jim Clark]
+    Ivan-->HF[Henry Fuchs]
+    Ivan-->EC[Edwin Catmull]
+    
+    AK-->SL[Smalltalk language]
+    GR-->CG[3D images at U of U]
+    HG-->GST[Gouraud shading technique]
+    FC-->AM[Antialiasing methods]
+    JC-->SG[Silicon Graphics]
+    HF-->CGS[Computer graphics research]
+    EC-->PX[Disney and Pixar Animation Studios]
+```
 
-- Source code of Sketchpad: https://computerhistory.org/art-of-code/
-- Sketchpad Demo: https://www.youtube.com/watch?v=6orsmFndx_o
-- Head mounted display: https://www.youtube.com/watch?v=IrLJN9gDz2c
+<div v-if="$slidev.nav.clicks > 0">
+
+<v-drag pos="513,18,180,_">
+    <img src="/assets/first-soma-3d.jpg" style="border-radius: 8%;">
+</v-drag>
+
+</div>
+
+<!--
+- Sutherland's work in sketchpad was a direct influence for object oriented programming.
+- His students also went on to do great work in their fields.
+- From 1968 to 1974, Sutherland was a professor at the University of Utah. Among his students there
+  were Alan Kay, inventor of the Smalltalk language, Gordon W. Romney (computer and cybersecurity
+  scientist), who rendered the first 3D images at U of U, Henri Gouraud, who devised the Gouraud
+  shading technique, Frank Crow, who went on to develop antialiasing methods, Jim Clark, founder of
+  Silicon Graphics, Henry Fuchs, and Edwin Catmull, co-founder of Pixar and now president of Walt
+  Disney and Pixar Animation Studios.
+-->
