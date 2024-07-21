@@ -17,3 +17,5 @@
 - Lazarus: https://github.com/AliDehbansiahkarbon/ChatGPTPluginForLazarus?tab=readme-ov-file
 - Lisp features: https://softwaredominos.com/home/software-engineering-and-computer-science/from-s-expressions-to-ai-a-deep-dive-into-lisp-programming-language/
 - Dartmouth Round Table pictures: https://medium.com/@nickyverd/the-first-ever-ai-conference-tracing-the-evolution-and-the-history-of-ai-82347f93a89f
+- https://www.gnu.org/gnu/thegnuproject.html
+- https://www.pbs.org/newshour/science/internet-got-started-simple-hello
