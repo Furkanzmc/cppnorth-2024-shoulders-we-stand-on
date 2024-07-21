@@ -540,6 +540,8 @@ Acts:
 
     - name: Bjarne Stroustrup
       influenced-by:
+        - name: Roger Needham
+          description: "Stroustrup spent significant time learning from Needham during his PhD studies"
         - name: Grace Hopper
           description: "Hopper's work on compilers and early programming languages influenced Stroustrup's approach to language design and software engineering."
           sources:

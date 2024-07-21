@@ -9,3 +9,7 @@
 - Mark Dean's timeline of work: Image created by OpenAI's DALL-E, detailing Mark Dean's contributions to computer science, 2024.
 - Mark Dean cartoon profile: https://tuntimo.com/profile/mark-dean/
 - https://firstrender.net/
+- https://thenewstack.io/could-unix-happen-today-brian-kernighan-looks-back-and-forward/
+- https://lore.kernel.org/lkml/CA+55aFy+Hv9O5citAawS+mVZO+ywCKd9NQ2wxUmGsz9ZJzqgJQ@mail.gmail.com/
+> Torvalds apologizes.
+- https://xkcd.com/2347/

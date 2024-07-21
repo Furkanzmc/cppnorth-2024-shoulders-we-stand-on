@@ -190,23 +190,311 @@ image: /assets/people/margaret-hamilton.jpeg
 clicks: 2
 ---
 
+<div v-if="[0, 1].indexOf($slidev.nav.clicks) > -1">
+
 ```mermaid
 graph TD
   A[SAGE] -->|Semi-Automatic Ground Environment| B[MIT Instrumentation Lab]
   B -->|Apollo Guidance Computer| C[Margaret Hamilton]
 ```
 
+</div>
+
 <div v-if="$slidev.nav.clicks === 1">
 
-<v-drag pos="297,94,407,_">
+<v-drag pos="364,108,322,_">
 <img src="/assets/apollo-guidance-computer.jpg" style="border-radius: 8%;">
 </v-drag>
 
 
 </div>
 
+<div v-if="$slidev.nav.clicks === 2">
+
+```mermaid
+mindmap
+  root((Core Principles in Computer Programming))
+    Asynchronous Software Design
+    Priority-Driven Task Execution
+    Error Detection and Recovery
+    Man-in-the-Loop Interfaces
+    Robust Software Architecture
+    Preventative Software Design
+    Systems Theory of Control
+    Software Engineering as a Discipline
+```
+
+</div>
+
 <!--
+- She feared that there might be a problem in the software, the mission fails, and it gets traced
+  back to her. She felt heavy responsibility.
 - When she first started, they gave her a program which nobody could figure out or run. The person
   who wrote it took delight in writing his comments in Greek and Latin. And she was able to get it
   to work and print out answers in Greek and Latin.
+
+1. Asynchronous Software Design: Hamilton developed software that could operate asynchronously,
+   allowing different processes to run independently and in parallel.
+
+2. Priority-Driven Task Execution: Every job in the software was assigned a unique priority,
+   allowing the system to manage multiple tasks efficiently.
+
+3. Error Detection and Recovery: Hamilton developed software to detect system errors and recover
+   from them in real-time, which was crucial for the Apollo missions.
+
+4. Man-in-the-Loop Interfaces: She created priority-display-interface-routines that allowed the
+   software to communicate asynchronously in real-time with the astronauts, enabling human-computer
+   interaction within a distributed system environment.
+
+5. Robust Software Architecture: Hamilton's approach ensured that no software bugs were ever
+   reported during any crewed Apollo missions, demonstrating the reliability of her software design.
+
+6. Preventative Software Design: After incidents like the "Lauren bug," Hamilton advocated for and
+   implemented preventative measures in the software to avoid potential user errors.
+
+7. Systems Theory of Control: Hamilton led an empirical study of Apollo and later efforts, resulting
+   in her systems theory of control, which informed her later work.
+
+8. Software Engineering as a Discipline: Hamilton coined the term "software engineering" to
+   distinguish it from hardware engineering and to give legitimacy to the field as a distinct
+   engineering discipline.
+
+These principles were groundbreaking at the time and laid the foundation for many aspects of modern
+software engineering. Hamilton's work on the Apollo project demonstrated the critical importance of
+software in complex systems and helped establish many of the practices that are still used in
+software development today.
+
+Citations:
+[1] https://www.dpma.de/english/our_office/publications/ingeniouswomen/apollosfrauen/margarethamilton/index.html
+[2] https://science.nasa.gov/people/margaret-hamilton/
+[3] https://www.theguardian.com/technology/2019/jul/13/margaret-hamilton-computer-scientist-interview-software-apollo-missions-1969-moon-landing-nasa-women
+[4] https://wehackthemoon.com/bios/margaret-hamilton
+[5] https://en.wikipedia.org/wiki/Margaret_Hamilton_%28software_engineer%29
+-->
+
+---
+
+# Dennis Ritchie, Ken Thomson, and Brian Kernighan
+
+<div style="display: flex; flex-direction: column;">
+<img src="/assets/people/brian-kernighan.jpg" style="border-radius: 8%; height: 40%;">
+<img src="/assets/people/dennis-ritchie-ken-thomson.jpg" style="border-radius: 8%; height: 40%;">
+</div>
+
+<!--
+- Ken Thomson had an ability to think through a problem and write code that just works. They once
+  received a computer while they were at bell labs. But the software on it was horrible. Brian
+  Kernighan left for dinner, and by the time he came back Ken Thomson has written a disassembler
+  for the device to see the assembly code so he can fix things.
+  https://www.youtube.com/watch?v=fL2QwyxcJ5s
+-->
+
+---
+
+```mermaid
+graph TD
+    A[Ken Thompson] --> S(ed Text Editor\nBelle Chess Computer\nRegular Expressions)
+    A --> C(Unix Operating System)
+    C --> F[Brian Kernighan]
+    D[Dennis Ritchie] --> E(C Programming Language)
+    I --> E
+    A --> E
+    F --> E
+    D --> C
+    F --> G(The C Programming Language Book)
+    D --> G
+    F --> H(AWK Programming Language)
+    C --> I(Unix Philosophy)
+    A --> L(Plan 9 Operating System)
+    D --> L
+    D --> U(Multics)
+    F --> UNIX[Unix Utilities]
+    A --> UNIX
+    D --> UNIX
+    UNIX --> grep\nsed\nsed\ntr\ncut\nsort\nuniq\nwc\ncat\nls\ncp\nmv\nrm
+
+    classDef highlight stroke-width:4px;
+    class A highlight
+    class D highlight
+    class F highlight
+```
+
+<!--
+Dennis Ritchie, Ken Thompson, and Brian Kernighan collectively made monumental contributions to the
+field of computer science, particularly through their work at Bell Laboratories. Here are the key
+details of their contributions:
+
+### Dennis Ritchie
+
+1. **C Programming Language**:
+   - Ritchie created the C programming language, which has become one of the most widely used
+     programming languages in the world. It has influenced many other languages, including C++, C#,
+     and JavaScript.
+   
+2. **Unix Operating System**:
+   - Alongside Ken Thompson, Ritchie co-created the Unix operating system. Unix has been
+     foundational in the development of many modern operating systems, including Linux and BSD.
+
+3. **B Programming Language**:
+   - Ritchie also contributed to the development of the B programming language, which was a
+     precursor to C.
+
+4. **Plan 9 and Inferno Operating Systems**:
+   - Ritchie was involved in the development of the Plan 9 and Inferno operating systems, which
+     aimed to improve upon Unix.
+
+### Ken Thompson
+
+1. **Unix Operating System**:
+   - Thompson was the primary architect of the Unix operating system. His work laid the groundwork
+     for many features that are standard in modern operating systems.
+
+2. **B Programming Language**:
+   - Thompson created the B programming language, which was later developed into C by Ritchie.
+
+3. **Regular Expressions**:
+   - Thompson introduced regular expressions into text processing tools, which have become a
+     fundamental aspect of many programming languages and tools.
+
+4. **Plan 9 Operating System**:
+   - Thompson also worked on the Plan 9 operating system, which sought to extend and improve Unix
+     concepts.
+
+### Brian Kernighan
+
+1. **Unix Operating System**:
+   - Kernighan contributed to the development of Unix, particularly in the areas of documentation
+     and utilities.
+
+2. **C Programming Language**:
+   - Kernighan co-authored "The C Programming Language" book with Dennis Ritchie, which is
+     considered the definitive guide to C and has been instrumental in teaching the language to
+     generations of programmers.
+
+3. **AWK Programming Language**:
+   - Kernighan co-created the AWK programming language, a powerful text-processing language used in
+     Unix and Unix-like systems.
+
+4. **Software Tools**:
+   - Kernighan co-authored the book "Software Tools," which introduced many programmers to the
+     principles of software engineering and Unix programming.
+
+### Collective Contributions
+
+1. **Unix Philosophy**:
+   - The trio's work on Unix introduced the Unix philosophy, which emphasizes simplicity,
+     modularity, and reusability in software design.
+
+2. **Influence on Modern Computing**:
+   - Their collective work has had a profound impact on modern computing. Unix and C are
+     foundational technologies that underpin much of today's software infrastructure, including
+     operating systems, development tools, and programming languages.
+
+3. **Educational Impact**:
+   - Their books and papers have educated countless programmers and computer scientists, spreading
+     their innovative ideas and practices throughout the industry.
+
+Citations:
+[1] https://techjourney.it-jobs.de/en/it-heroes/dennis-ritchie/
+[2] https://en.wikipedia.org/wiki/Dennis_Ritchie
+[3] https://proftomcrick.com/2011/11/27/dennis-m-ritchie-1941-2011/
+[4] https://www.cringely.com/2011/10/18/remembering-dennis-ritchie/
+[5] https://www.cemetech.net/forum/viewtopic.php?start=0&t=6891
+-->
+
+---
+layout: image-left
+image: /assets/people/bjarne-stroustrup.webp
+---
+
+# Bjarne Stroustrup
+
+<!--
+- And the person we have to thank for C++ and the existence of this conference!
+-->
+
+---
+
+```mermaid
+mindmap
+  root((Bjarne Stroustrup's Contributions))
+    C[C with Classes]
+      C++
+        Games
+        Embedded Systems
+        Distributed Systems
+        CAD Applications
+        ...
+    Research Interests
+      Design
+      Programming Techniques
+      Distributed Systems
+      Performance
+      Reliability
+      Maintainability
+    Founding Member of C++ Standards Committee
+    Influence on Software Engineering
+```
+
+<!--
+- He had influences on software design with his papers on programming and C++.
+-->
+
+---
+layout: image-left
+image: /assets/people/linus-torvalds.jpg
+---
+
+# Linus Torvalds
+
+<!--
+- Let's talk about the person whose work essentially powers most of the things we use today from
+  smartphones, supercomputers, smartwatches, embedded systems and probably things I don't even know
+  exists...
+-->
+
+---
+clicks: 1
+---
+
+```mermaid
+graph LR
+    A[Linus Torvalds] --> B(Linux Kernel)
+    A --> C(Git Version Control System)    
+    B --> D(Open Source Development Model)
+    B --> E(Android OS Base)
+    B --> F(Embedded Systems)
+    B --> G(Supercomputers)
+    B --> H(Web Servers)
+    A --> L(Advocacy for Open Source)
+
+    classDef highlight fill:#f9f,stroke:#333,stroke-width:4px;
+    class B,C,D highlight;
+```
+
+<div v-if="$slidev.nav.clicks === 1">
+<v-drag pos="697,108,272,_">
+<img src="/assets/xkcd-dependency.png" style="border-radius: 8%;">
+</v-drag>
+ 
+</div>
+
+<!--
+- Rare surname: There are only about 30 people in the world with the surname Torvalds, and they're
+  all relatives. His grandfather changed the spelling from Torvald to Torvalds.
+- Family life: His wife is a six-time Finnish national karate champion.
+-->
+
+---
+layout: quote
+---
+
+> In my quest for a better patch, this made sense to me.
+> I know now this was not OK and I am truly sorry. - Linus Torvalds
+
+[Source](https://lore.kernel.org/lkml/CA+55aFy+Hv9O5citAawS+mVZO+ywCKd9NQ2wxUmGsz9ZJzqgJQ@mail.gmail.com/)
+
+<!--
+- We also know him for his flippant attitude and crude comments. But, that doesn't seem to be the
+  case any more. His attitude in recent videos are much calmer.
 -->
