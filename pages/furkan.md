@@ -574,7 +574,7 @@ image: /assets/people/john-von-neumann.webp
 -->
 
 ---
-layout: centre
+layout: center
 clicks: 4
 ---
 

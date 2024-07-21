@@ -23,7 +23,7 @@ timeline
 ```
 
 ---
-layout: centre
+layout: center
 ---
 
 # Noyce's Early Work
