@@ -764,7 +764,7 @@ image: assets/people/alan-kay.jpg
 
 # Brief Timeline of Contributions 
 
-```mermaid
+```mermaid {scale: 0.5}
 graph TB
     subgraph Early Life and Education
         A1969[1969: Ph.D. in Computer Science, University of Utah]
@@ -806,7 +806,7 @@ graph TB
 - In 1979, he left Xerox Parc to Atari, and from there, to Apple Computer . 
 - He continued to influence UI design and multimedia systems as a Fellow.
 
-- In 1996, Kay co-created Squeak, an open-source Smalltalk programming system. 
+- In 1996, Kay co-created Squeak, an open-source Smalltalk programming system.
 -->
 
 ---
@@ -980,12 +980,7 @@ image: /assets/people/karen-jones.webp
   </v-drag>
 </v-click>
 ---
-
-
----
 layout: quote
 ---
 
 "Computing is too important to be left to men" - Karen Spärck Jones 
-
----

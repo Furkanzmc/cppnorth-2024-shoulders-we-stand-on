@@ -36,3 +36,4 @@
 - Xerox PARC: https://spectrum.ieee.org/xerox-parc
 - Bob Taylor profile: https://www.wired.com/2017/04/youve-never-heard-tech-legend-bob-taylor-invented-almost-everything/
 - Karen Jones profile: https://www.nytimes.com/2019/01/02/obituaries/karen-sparck-jones-overlooked.html
+- Tim Berners-Lee profile: https://www.britannica.com/biography/Tim-Berners-Lee

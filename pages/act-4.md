@@ -1,10 +1,10 @@
-# Act 4: Building the Infrastructure
+# Building the Infrastructure
 
 Developing the infrastructure that supports modern computing and connectivity, transforming theoretical advancements into practical systems.
 
 ---
 
-## Robert Noyce (1927-1990)
+## Robert Noyce
 
 **"Mayor of Silicon Valley"**
 
@@ -92,7 +92,7 @@ timeline
 
 ---
 
-## Mark Dean (1957-present)
+## Mark Dean
 
 **Co-creator of the IBM personal computer (1981)**
 
@@ -107,7 +107,7 @@ timeline
 
 # Co-invention of the ISA Bus
 
-```mermaid
+```mermaid {scale: 0.5}
 graph TD
     A[Patent No. 4,528,626<br>ISA Bus<br>1985]
     B[Patent No. 6266745<br>Utilization of Nodes by Threads<br>2001]
@@ -145,7 +145,7 @@ Beyond these patents, Dean played a crucial role in developing the Color Graphic
 
 # Efficiency of Distribution Computing Systems
 
-```mermaid
+```mermaid {scale: 0.5}
 graph TD
     A[Patent No. 4,528,626<br>ISA Bus<br>1985]
     B[Patent No. 6266745<br>Utilization of Nodes by Threads<br>2001]
@@ -187,7 +187,7 @@ In 2007, his innovative approach to data storage led to Patent No. 7206163 for a
 
 ---
 
-```mermaid
+```mermaid {scale: 0.5}
 graph TD
     A[Patent No. 4,528,626<br>ISA Bus<br>1985]
     B[Patent No. 6266745<br>Utilization of Nodes by Threads<br>2001]
@@ -222,16 +222,22 @@ Mark Dean’s contributions to artificial intelligence are also noteworthy. In 2
 - **Educational Contributions**: Mentored and taught the next generation of engineers, ensuring the continuation of technological advancement.
 - **Recognition**: His work has been acknowledged with numerous awards and honors, cementing his legacy in the field of computer science.
 
-
+---
+layout: image-left
+image: /assets/people/cerf-kahn.jpg
 ---
 
-## Vint Cerf (1943-present) & Robert Kahn (1938-present)
+## Vint Cerf & Robert Kahn
 
 **Co-design of the TCP/IP protocols (1973)**
-
-- **Network Compatibility:**
   - Enabled different networks to communicate, creating the "internet"
   - Simplified data transmission and scalability
+
+<!-- 
+- Cerf was inspired by Robert Noyce’s innovations and culture of innovation, went on to co-design TCP/IP protocols with Rohbert Kahn
+ -->
+
+---
 
 ```plantuml
 @startuml
@@ -257,21 +263,12 @@ World -> Internet: Establish unified communication standard
 
 @enduml
 ```
-
+---
+layout: image-right
+image: /assets/people/berners-lee.webp
 ---
 
-## Impact and Influence
-
-- **Modern Internet:**
-  - Laid the groundwork for global communication and information sharing
-  - Influenced network design and cybersecurity
-
-- **Influence:**
-  - Cerf was inspired by Robert Noyce’s innovations and culture of innovation
-
----
-
-## Tim Berners-Lee (1955-present)
+## Tim Berners-Lee
 
 **Inventor the World Wide Web (1989)**
 
@@ -286,6 +283,10 @@ World -> Internet: Establish unified communication standard
   - Enabled countless web-based applications and services
 
 ---
+
+
+<!-- 
+
 
 # The Problem at CERN
 
@@ -346,6 +347,8 @@ World -> Internet: Establish unified communication standard
 - Decentralization: Data is stored in "pods" that users control
 - Interoperability: Standardized protocols for data exchange
 - User Empowerment: Users decide who can access their data and how
+- 
+ -->
 
 ---
 
