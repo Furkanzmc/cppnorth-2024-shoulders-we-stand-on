@@ -179,7 +179,34 @@ image: /assets/people/margaret-hamilton.jpeg
 
 <!--
 
+- She is among the people who helped humans go to the moon and back, she developed robust error
+  detection and prevention systems, and gave us a job title.
 - She was the lead software engineer for the Apollo space program and she made important
   advancements in software engineering, in fact, she coined the term "software engineering".
 
+-->
+
+---
+clicks: 2
+---
+
+```mermaid
+graph TD
+  A[SAGE] -->|Semi-Automatic Ground Environment| B[MIT Instrumentation Lab]
+  B -->|Apollo Guidance Computer| C[Margaret Hamilton]
+```
+
+<div v-if="$slidev.nav.clicks === 1">
+
+<v-drag pos="297,94,407,_">
+<img src="/assets/apollo-guidance-computer.jpg" style="border-radius: 8%;">
+</v-drag>
+
+
+</div>
+
+<!--
+- When she first started, they gave her a program which nobody could figure out or run. The person
+  who wrote it took delight in writing his comments in Greek and Latin. And she was able to get it
+  to work and print out answers in Greek and Latin.
 -->

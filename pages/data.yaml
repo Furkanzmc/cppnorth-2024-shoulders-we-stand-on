@@ -525,6 +525,18 @@ Acts:
         - name: Error Detection and Recovery
           description: "Hamilton's work on error detection and recovery mechanisms in software systems influenced reliability engineering practices across various industries."
           source: "https://www.nasa.gov/content/margaret-hamilton-apollo-software-engineer-awarded-presidential-medal-of-freedom"
+        - name: Hal Laning
+          description: Worked on the design of the Apollo Guidance Computer's software.
+        - name: Dan Lickly
+          description: Contributed to the development of the software for the Apollo Guidance Computer.
+        - name: Fred Martin
+          description: Involved in the software engineering efforts for the Apollo missions.
+        - name: Howard "Bill" Tindall
+          description: Played a significant role in the development of the software and procedures for the Apollo missions.
+        - name: Deborah R. Shaughnessy
+          description: Part of the software engineering team at MIT's Instrumentation Laboratory.
+        - name: Richard Battin
+          description: Worked on the guidance and navigation software for the Apollo missions.
 
     - name: Bjarne Stroustrup
       influenced-by:
