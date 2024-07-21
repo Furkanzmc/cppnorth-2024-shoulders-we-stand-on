@@ -52,11 +52,15 @@ mdc: true
 </div>
 
 ---
-src: ./pages/furkan.md
+src: ./pages/act-1.md
 ---
 
 ---
 src: ./pages/act-2.md
+---
+
+---
+src: ./pages/act-3.md
 ---
 
 ---

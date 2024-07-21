@@ -386,25 +386,69 @@ Acts:
 
   Act_2:
     - name: John McCarthy
+      influenced-by:
+        - name: Alan Turing
+          description: "McCarthy was influenced by Alan Turing's groundbreaking work on computation and the Turing machine, which shaped McCarthy's development of artificial intelligence and formal methods."
       influences:
+        - name: Artificial Intelligence
+          description: "McCarthy's work laid the foundations for artificial intelligence, coining the term in 1955."
+        - name: Lisp
+          description: "McCarthy created Lisp in 1958, pioneering its development and establishing it as a foundational language in artificial intelligence research."
         - name: Edsger W. Dijkstra
-          description: "McCarthy's work on artificial intelligence influenced Dijkstra's development of algorithms."
+          description: "McCarthy's contributions to algorithmic thinking and programming language theory helped shape Edsger W. Dijkstra's rigorous approach to computing problems and structured programming."
     - name: Edsger W. Dijkstra
+      influenced-by: 
+        - name: Ada Lovelace
+          description: "Ada Lovelace's pioneering work on algorithms and her vision of the potential of computing machines inspired Dijkstra's disciplined approach to programming and algorithm design."
+        - name: John von Neumann
+          description: "John von Neumann's development of computer architecture and his emphasis on mathematical rigor and algorithm theory significantly influenced Dijkstra's work on operating systems, formal methods, and algorithm design."
       influences:
         - name: Donald Knuth
-          description: "Dijkstra's work on structured programming influenced Knuth's work on algorithm analysis."
+          description: "Edsger W. Dijkstra influenced Donald Knuth through his advocacy of structured programming and formal verification, which became foundational elements in Knuth's work on algorithm analysis and programming practices."
     - name: Donald Knuth
+      influenced-by: 
+        - name: Ada Lovelace
+          description: "Donald Knuth was influenced by Ada Lovelace's early vision of algorithmic computation, which inspired his comprehensive approach to documenting and analyzing algorithms."
+        - name: John von Neumann
+          description: "Donald Knuth was influenced by John von Neumann's contributions to computer architecture and the theory of computation, which underpinned Knuth's development of efficient algorithms and his analytical approach to computer science."
       influences:
         - name: Niklaus Wirth
           description: "Knuth's work on algorithms and programming influenced Wirth's development of programming languages."
     - name: Niklaus Wirth
+      influenced-by: 
+        - name: Edsger W. Dijkstra
+          description: "Edsger W. Dijkstra's principles of structured programming and formal verification significantly shaped Wirth's approach to language design and software engineering."
+        - name: Ada Lovelace
+          description: "Ada Lovelace's visionary concepts of algorithmic computation inspired Wirth's foundational work in programming languages and compiler construction."
       influences:
         - name: Alan Kay
-          description: "Wirth's work on programming languages influenced Kay's development of object-oriented programming."
+          description: "Alan Kay's work on object-oriented programming and the development of Smalltalk was influenced by Wirth's contributions to programming language theory and design."
+        - name: Modula-2
+          description: "Wirth's design and development of the Modula-2 programming language drew upon his earlier work on Pascal, emphasizing modularity and system programming."
     - name: Alan Kay
+      influenced-by:
+        - name: Douglas Engelbart
+          description: "Douglas Engelbart's pioneering work on human-computer interaction and the development of the mouse deeply influenced Alan Kay's vision for personal computing and interactive systems."
+        - name: J.C.R. Licklider
+          description: "J.C.R. Licklider's vision of interactive computing and his support for ARPANET research significantly shaped Kay's ideas about networked computing and collaborative work environments."
+        - name: Robert William Taylor
+          description: "Kay was influenced by Taylor's vision for collaborative computing environments and his leadership at Xerox PARC, which fostered innovations that significantly impacted Kay's work on personal computing and user interfaces."
       influences:
         - name: Karen Spärck Jones
-          description: "Kay's work on object-oriented programming influenced Spärck Jones's research on information retrieval and natural language processing."
+          description: "Karen Spärck Jones' work on natural language processing and information retrieval was influenced by Kay's concepts of human-computer interaction and computing as a communication medium."
+        - name: Modern object-oriented programming languages (e.g. Java and C++)
+          description: "Kay's development of Smalltalk and the principles of object-oriented programming had a profound impact on the design and evolution of modern programming languages like Java and C++."
+    - name: Karen Spärck Jones
+      influenced-by: 
+        - name: Alan Turing
+          description: "Alan Turing's foundational work in computation and artificial intelligence inspired Karen Spärck Jones' research in natural language processing and information retrieval."
+        - name: Claude Shannon
+          description: "Claude Shannon's theories of information and communication influenced Spärck Jones' approaches to statistical modeling and the representation of information in computational systems."
+      influences:
+        - name: Inverse Document Frequency (IDF)
+          description: "Jones introduced and developed IDF, which improved the accuracy and relevance of search results."
+        - name: Search Engines
+          description: "Karen Spärck Jones' pioneering work on inverse document frequency and relevance weighting laid the groundwork for modern search engine algorithms and information retrieval systems."
 
   Act_3:
     - name: Grace Hopper
@@ -1061,23 +1105,79 @@ Acts:
             - "https://en.wikipedia.org/wiki/LibrePlanet"
             - "https://www.libreplanet.org/wiki/Main_Page"
 
-  Act_4:
+  Act_4: 
     - name: Robert Noyce
+      influenced-by:
+        - name: Shockley Semiconductor
+          description: "Noyce learned from Shockley’s mistakes and introduced a more open and autonomous working atmosphere at Fairchild Semiconductor and Intel."
+        - name: Jack Kilby
+          description: "Noyce conceived the idea of manufacturing an entire circuit on a single chip, improving upon Jack Kilby’s initial methods of making individual components."
       influences:
-        - name: Mark Dean
-          description: "Noyce's invention of the integrated circuit influenced Dean's work on the IBM PC."
+        - name: Integrated Circuits
+          description: "Noyce's development of the first monolithic integrated circuit revolutionized electronics, enabling the creation of smaller, more powerful, and more reliable devices."
+        - name: Silicon Valley Culture
+          description: "Noyce's leadership style and workplace innovations contributed to the open and collaborative culture that became a hallmark of Silicon Valley."
+        - name: Open, Autonomous Work Atmosphere
+          description: "Noyce fostered an open atmosphere and gave employees ample room to accomplish what they wanted."
+        - name: Growth of the semiconductor industry
+          description: "Noyce's invention spurred the growth of the semiconductor industry and enabled the exponential growth of computing power, driving advancements in technology and transforming everyday life."
+        - name: Hardware Development
+          description: "Noyce's work directly influenced the development of hardware that supports modern software applications."
+        - name: Leadership and Ethics
+          description: "Noyce’s leadership style and ethical approach to business set an example for subsequent generations of tech leaders."
+        - name: Vint Cerf & Robert Kahn
+          description: "Cerf, in his various roles (including at DARPA, ICANN, and Google), has similarly emphasized ethical considerations and responsible stewardship of technology."
     - name: Mark Dean
+      influenced-by:
+        - name: IBM
+          description: "Dean's work at IBM, where he co-created the IBM personal computer, set the standard for personal computers."
       influences:
-        - name: Vint Cerf
-          description: "Dean's work on personal computing influenced Cerf's development of internet protocols."
-    - name: Vint Cerf
+        - name: Industry Standard Architecture (ISA) Bus
+          description: "He helped develop the ISA bus, which allowed different parts of a computer, like the keyboard, mouse, and printer, to connect and communicate with each other."
+        - name: Personal Computers
+          description: "Dean's contributions to the design of the IBM PC and its components have influenced the design of subsequent generations of personal computers and peripherals, promoting interoperability and standardization in the computer industry."
+        - name: Color Monitor
+          description: "Dean was instrumental in creating the first color computer monitor, which made computers more user-friendly and visually appealing."
+        - name: Microprocessor Upgrades
+          description: "He worked on improving microprocessors, the brains of the computer, allowing computers to run more complex programs and perform better overall."
+    - name: Vint Cerf and Robert Kahn
+      influenced-by:
+        - name: ARPANET
+          description: "Cerf and Kahn's work on ARPANET and their desire to connect different networks led to the development of TCP/IP protocols."
+        - name: Global Networking Experts
+          description: "While working on the protocols,they invited global networking experts to contribute to Internet design, enhancing protocols and promoting global Internet expansion."
+        - name: Robert Noyce
+          description: "Noyce's pioneering work in semiconductor technology and his entrepreneurial leadership created the technological and cultural foundation that enabled Cerf's development."
       influences:
-        - name: Robert Kahn
-          description: "Cerf's collaboration with Kahn led to the creation of TCP/IP protocols."
-    - name: Robert Kahn
+        - name: Transmission Control Protocol (TCP)
+          description: "TCP ensured reliable, ordered, and error-checked data delivery."
+        - name: Internet Protocol (IP)
+          description: "IP managed addressing and routing of data packets across networks."
+        - name: New TCP/IP architecture
+          description: "Cerf, Jon Postel, and Danny Cohen redefined TCP that simplified the operation of internet gateways and increased the number and diversity of networks connected to the Internet."
+        - name: Internet Communication Standards
+          description: "Their protocols established a unified communication standard, allowing global communication and information sharing."
+        - name: Modern Internet
+          description: "Cerf and Kahn's TCP/IP protocols laid the groundwork for the modern Internet, enabling different networks to communicate and creating a network of networks."
+    - name: Tim Berners-Lee
+      influenced-by:
+        - name: Vannevar Bush
+          description: "Bush's vision of hypertext and the Memex influenced Berners-Lee’s ideas on interconnected information systems."
+        - name: Douglas Engelbart
+          description: "Engelbart’s work on interactive computing and the development of the mouse influenced Berners-Lee’s development of the World Wide Web."
+        - name: Robert Cailliau
+          description: "Cailliau collaborated with Berners-Lee on the World Wide Web project, helping to refine and promote the concept."
       influences:
-        - name: Tim Berners-Lee
-          description: "Kahn's work on internet protocols influenced Berners-Lee's invention of the World Wide Web."
+        - name: World Wide Web
+          description: "Berners-Lee's invention made the internet accessible to the general public and fostered the development of countless web-based applications and services, driving the growth of the digital economy."
+        - name: Digital Economy
+          description: "The Web enabled new forms of social interaction and innovation, revolutionizing commerce and communication on a global scale."
+        - name: HTML and HTTP
+          description: "Berners-Lee developed the foundational technologies of the web, including HTML and HTTP, which are still used today."
+        - name: Web Standards
+          description: "His advocacy for open standards led to the creation of the World Wide Web Consortium (W3C), ensuring the web remains accessible and interoperable."
+        - name: Linked Data
+          description: "Berners-Lee's vision of a semantic web aims to connect and share data across different systems, enhancing the usability and accessibility of information."
 
   Act_5:
     - name: Ray Tomlinson

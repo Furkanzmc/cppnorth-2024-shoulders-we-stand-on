@@ -112,6 +112,10 @@ image: /assets/placeholder-graph.png
 -->
 
 ---
+
+# Sparks of Innovation and Inspiration
+
+---
 layout: image-left
 image: /assets/people/charles-babbage.jpg
 ---
