@@ -1,11 +1,22 @@
----
-theme: dracula
-title: Act 2: The Theoretical Foundations 
----
-
-# Act 2: The Theoretical Foundations
+# The Theoretical Foundations
 
 Establishing the core principles and theories that underpin modern technology, building upon the visionaries' ideas from Act 1.
+
+---
+layout: iframe
+url: https://ouestware.gitlab.io/retina/1.0.0-beta.1/#/graph/?url=https%3A%2F%2Fgist.githubusercontent.com%2Fqhou%2F7d4319be71ded33d0d7f277f4d33623d%2Fraw%2Fc132ecf1c48ea14e38b0126b68d2cc079dd43047%2Fact2.gexf&r=d&c=a&s=r&sa=r&ca=a
+class: act-2
+---
+
+# Figures
+
+<!-- 
+- With Turing laying the theoretical groundwork for modern computing with his concept of the Turing machine. 
+- His work on computational theory and the famous Turing Test set the stage for the development of AI
+- Along that, von Neumann's revolution in computer architecture influenced early computer designs and set the stage for practical implementations of Turing’s theoretical ideas.
+- Stage was set for futher advancements 
+- These early pioneers influenced a new wave of computer scientists who would take these concepts further and apply them to emerging fields like AI
+  -->
 
 ---
 layout: image-right
@@ -15,80 +26,338 @@ class: mcarthy-profile-class
 
 # John McCarthy (1927-2011)
 
-- <span v-mark.underline.pink>**Time-sharing**</span>: Innovated the concept of sharing computing resources among multiple users.
-- <span v-mark.underline.pink>**Lisp (1958)**</span>: One of the earliest high-level programming languages, influencing modern languages and AI research.
 - <span v-mark.underline.pink>**Artificial Intelligence**</span>: Coined the term "AI" in 1955
-<br>  
+- <span v-mark.underline.pink>**Lisp (1958)**</span>: One of the earliest high-level programming languages, influencing modern languages and AI research.
+- <span v-mark.underline.pink>**Time-sharing**</span>: Innovated the concept of sharing computing resources among multiple users.
 
-> "AI is the science and engineering of making intelligent machines, especially intelligent computer programs. Intelligence is the computational part of the ability to achieve goals in the world."
+<!-- 
 
-<!-- Building on Alan Turing's theoretical foundations of computation, McCarthy's contributions have driven the development of intelligent systems that impact industries such as healthcare, finance, and autonomous vehicles.  -->
+- One of the key figures who built on these foundations was John McCarthy. 
+- Inspired by Turing and von Neumann's work, McCarthy made strides in AI and programming languages
+- Best known 
+  - Coined the term AI while organizing the Dartmouth Round Table in 1956
+  - Considered the birth of AI as a field of study. 
+  - He believed that machines could be made to simulate any aspect of human intelligence.
+- In addition
+  - Lisp, a programming language designed for AI research
+  - Let's take a quick tour on Lisp’s unique capabilities that makes it a powerful tool for AI development.
+ -->
 
+---
+
+# Organizing the First AI Conference
+
+**Dartmouth Roundtable (1956)**
+
+<div v-if="$slidev.nav.clicks > 0">
+
+<v-drag pos="114,216,168,_">
+    <img src="/assets/ai-invitation.webp" style="border-radius: 8%;">
+</v-drag>
+
+</div>
+
+<div v-if="$slidev.nav.clicks > 1">
+
+<v-drag pos="306,218,168,_">
+    <img src="/assets/ai-proposal.webp" style="border-radius: 8%;">
+</v-drag>
+
+</div>
+
+<div v-if="$slidev.nav.clicks > 2">
+
+<v-drag pos="495,218,168,_">
+    <img src="/assets/ai-plaque.webp" style="border-radius: 8%;">
+</v-drag>
+
+</div>
+
+<!-- 
+- McCarthy and others organized the Dartmouth Roundtable of 1956, where the term of AI was coined
+- Considered the birth of AI as a field. 
+- (click) Invitations sent for the seminar
+- Here, leading minds like McCarthy, Minsky, Shannon, and Newell gathered to discuss and develop the foundational ideas of AI. 
+- Laid the groundwork for many AI advancements we see today
+- (click) plaque at Dartmouth commemorating the seminal event in AI history 
+
+ -->
+
+---
+clicks: 3
 ---
 
 # Lisp (List Processing Language)
 
-```lisp {monaco}
-;; Define a macro to create a knock-knock joke
-(defmacro knock-knock (who &rest response)
-  `(progn
-     (format t "Knock, knock.~%")
-     (format t "Who's there?~%")
-     (format t ,(format nil "~a." who) ~%)
-     (format t ,(format nil "~a who?" who) ~%)
-     (format t ,@response)))
+<div v-if="$slidev.nav.clicks > 0">
 
-;; Use the macro to create an AI-themed joke
-(knock-knock "AI"
-  "AI who?"
-  "AI think, therefore AI am!")
+<v-drag pos="114,216,168,_">
+    <img src="/assets/lisp-1.png" style="border-radius: 8%;">
+</v-drag>
 
-;; Run the jokes
-(format t "~%AI-themed knock-knock joke examples:~%")
-(knock-knock "Bot"
-  "Bot who?"
-  "Botter not forget to laugh at my jokes!")
+</div>
+
+<div v-if="$slidev.nav.clicks > 1">
+
+<v-drag pos="306,218,168,_">
+    <img src="/assets/lisp-2.png" style="border-radius: 8%;">
+</v-drag>
+
+</div>
+
+<div v-if="$slidev.nav.clicks > 2">
+
+<v-drag pos="495,218,168,_">
+    <img src="/assets/lisp-3.png" style="border-radius: 8%;">
+</v-drag>
+
+</div>
+
+<!-- 
+1. Interactive Programming
+  - Modify and test code on the go
+  - Interpreter that can evaluate expressions real-time and alter program state
+2. Symbolic Computation
+  - Excels at symbolic data structs: lists, graphs
+3. Powerful Macros
+  - Unique aspect: macro system
+  - You can define custom syntax and language constructs 
+  - Macros allow you to create new abstractions and extend the language as you wish
+  - Lets look at an example for this
+ -->
+
+---
+
+# Lisp Macros in Action
+```lisp
+  ;; Define a macro to create a knock-knock joke
+  (defmacro knock-knock (who &rest response)
+    `(progn
+      (format t "Knock, knock.~%")
+      (format t "Who's there?~%")
+      (format t ,(format nil "~a." who) ~%)
+      (format t ,(format nil "~a who?" who) ~%)
+      (format t ,@response)))
+
+  ;; Use the macro to create an AI-themed joke
+  (knock-knock "AI"
+    "AI who?"
+    "AI think, therefore AI am!")
+
+  ;; Run the jokes
+  (format t "~%AI-themed knock-knock joke examples:~%")
+  (knock-knock "Bot"
+    "Bot who?"
+    "Botter not forget to laugh at my jokes!")
 ```
 
-<!-- Explanation:
-1. Homoiconicity:
-Lisp code and data share the same structure. The knock-knock macro treats joke components as data, generating code dynamically.
-Impact: Enabled metaprogramming and influenced languages like Python and JavaScript.
+<!-- 
+In this example: 
+- knock-knock macro shows how macros can simplify and enhance code
+- This macro provides a template for a knock-knock joke
+- Use to generate multiple jokes with diff setups and punchlines
+- Powerful flexibility to create new language features
+ -->
+  
+---
 
-2. Macros:
-Create new syntactic constructs for more expressive and concise code.
-Impact: Influenced languages with powerful macro systems like Clojure and Rust.
+# Lisp (List Processing Language)
 
-3. Code Generation:
-Generate and transform code to improve efficiency and reduce redundancy. The macro generates format calls, eliminating manual repetition.
-Impact: Advanced compiler design and optimization techniques.
+<v-drag pos="114,216,168,_">
+    <img src="/assets/lisp-1.png" style="border-radius: 8%;">
+</v-drag>
 
-4. Syntactic Abstraction:
-Provide high-level abstractions for better readability and maintainability.
-Impact: Influenced the development of higher-level languages.
+<v-drag pos="306,218,168,_">
+    <img src="/assets/lisp-2.png" style="border-radius: 8%;">
+</v-drag>
 
-5. Domain-Specific Languages (DSLs):
-Facilitate creation of specialized, intuitive language constructs. The macro acts as a mini-DSL for jokes.
-Impact: Inspired DSLs in web development, data analysis, and more.
+<v-drag pos="495,218,168,_">
+    <img src="/assets/lisp-3.png" style="border-radius: 8%;">
+</v-drag>
 
-[Impact of Lisp's Design Choices]:
-a. Influenced languages like Haskell and Scala.
-b. Inspired expressive and efficient coding practices in contemporary languages.
-c. Ideal for AI research, impacting natural language processing and machine learning.
+<v-click>
+
+<v-drag pos="688,219,161,_">
+    <img src="/assets/lisp-4.png" style="border-radius: 8%;">
+</v-drag>
+
+</v-click>
+
+<!--
+Last but not least, its continued relevance in AI and ML research
 -->
 
 ---
 
-# 11.Edsger W. Dijkstra (1930-2002)
+# AI Research Relevance of Lisp
+
+<div style="text-align: center;">
+<div style="auto">
+
+```mermaid {scale: 0.4}
+graph LR
+    A[Lisp Uses Today]
+    
+    subgraph AI_and_ML[AI & ML]
+        direction TB
+        B1[Knowledge Representation]
+        B2[Reasoning]
+        B3[Natural Language Processing]
+    end
+    
+    subgraph Formal_Methods[Formal Methods & Verification]
+        direction TB
+        C1[Software Verification]
+        C2[Hardware Verification]
+        C3[Theorem Proving]
+    end
+    
+    subgraph Language_Design[Language Design & Compilers]
+        direction TB
+        D1[Programming Language Design]
+        D2[Compiler Techniques]
+        D3[Domain-Specific Languages]
+    end
+    
+    subgraph Symbolic_Math[Symbolic Mathematics]
+        direction TB
+        E1[Symbolic Expressions]
+        E2[Algebraic Operations]
+    end
+    
+    subgraph Robotics[Robotics & Autonomous Systems]
+        direction TB
+        F1[Planning]
+        F2[Reasoning]
+        F3[Simulation]
+    end
+    
+    subgraph Knowledge_Systems[Knowledge-Based Systems]
+        direction TB
+        G1[Expert Systems]
+        G2[Decision Support Systems]
+    end
+    
+    subgraph Prototyping[Algorithm Prototyping]
+        direction TB
+        H1[Bioinformatics]
+        H2[Data Mining]
+        H3[Computational Linguistics]
+    end
+    
+    subgraph Education[Education & Teaching]
+        direction TB
+        I1[Programming Languages Courses]
+        I2[AI Courses]
+        I3[Symbolic Computation Courses]
+    end
+    
+    A --> AI_and_ML
+    A --> Formal_Methods
+    A --> Language_Design
+    A --> Symbolic_Math
+    A --> Robotics
+    A --> Knowledge_Systems
+    A --> Prototyping
+    A --> Education
+```
+
+</div>
+</div>
+
+---
+layout: quote
+---
+
+Actually... let's really LISP this list
+
+---
+
+# AI Research Relevance of Lisp
+
+<div style="text-align: center;">
+<div style="auto">
+
+```lisp
+(defun print-lisp-uses (indent items)
+  (dolist (item items)
+    (if (listp item)
+        (progn
+          (format t "~v@{- ~a~%}" indent (first item))
+          (print-lisp-uses (+ indent 2) (rest item)))
+        (format t "~v@{- ~a~%}" indent item))))
+
+(let ((lisp-uses
+       '("Lisp Uses Today"
+         ("Artificial Intelligence and Machine Learning"
+          "Knowledge Representation"
+          "Reasoning"
+          "Natural Language Processing")
+         ("Formal Methods and Verification"
+          "Software Verification"
+          "Hardware Verification"
+          "Theorem Proving")
+         ("Language Design and Compilers"
+          "Programming Language Design"
+          "Compiler Techniques"
+          "Domain-Specific Languages")
+         ("Symbolic Mathematics and Computer Algebra Systems"
+          "Symbolic Expressions"
+          "Algebraic Operations")
+         ("Robotics and Autonomous Systems"
+          "Planning"
+          "Reasoning"
+          "Simulation")
+         ("Knowledge-Based Systems"
+          "Expert Systems"
+          "Decision Support Systems")
+         ("Algorithm Prototyping and Experimentation"
+          "Bioinformatics"
+          "Data Mining"
+          "Computational Linguistics")
+         ("Education and Teaching"
+          "Programming Languages Courses"
+          "AI Courses"
+          "Symbolic Computation Courses"))))
+  (print-lisp-uses 0 lisp-uses))
+```
+
+</div>
+</div>
+
+<!-- 
+
+- From when McCarthy created Lisp in 1958, 
+- continues to be relevant in research areas
+- due to its ability to handle complex structures and strength in symbolic computation
+- 
+ -->
+
+---
+layout: iframe-left
+url: https://ouestware.gitlab.io/retina/1.0.0-beta.1/#/graph/?url=https%3A%2F%2Fgist.githubusercontent.com%2Fqhou%2F7d4319be71ded33d0d7f277f4d33623d%2Fraw%2Fc132ecf1c48ea14e38b0126b68d2cc079dd43047%2Fact2.gexf&r=d&c=a&s=r&sa=r&ca=a
+class: act-2
+---
+
+<!-- Skip to next slide -->
+
+---
+layout: image-left
+image: /assets/people/edsger-dijkstra.jpg
+---
+
+# Edsger W. Dijkstra (1930-2002)
 
 - **Dijkstra's Algorithm (Shortest Path)**
 - **Structured Programming**
 - **Distributed Programming**
 
 <!-- 
+
+
 - **Dijkstra's Algorithm**: Introduced for shortest paths, fundamental in network routing, GIS, and optimization.
 - **Structured Programming**: Advocated for principles leading to reliable and maintainable software.
-  - “A Case against the GO TO Statement” (EWD215)
+  - “A Case against the GO TO Statement” 
   - Coined: “2 or more, use a for”
 - **Distributed Programming**: Early pioneer with contributions like self-stabilizing systems and semaphores. -->
 
@@ -96,7 +365,7 @@ c. Ideal for AI research, impacting natural language processing and machine lear
 
 # Dijkstra's Formative Influences
 
-```mermaid {theme: 'neutral', scale: 0.5}
+```mermaid {scale: 0.65}
 graph TD
     %% Edsger W. Dijkstra's life
     A(1930: Born in Rotterdam, Netherlands) --> B(1952: Programming at the Mathematical Center)
@@ -139,7 +408,7 @@ graph TD
 
 # A Case for Structured Programming
 
-```mermaid {theme: 'neutral', scale: 0.5}
+```mermaid {scale: 0.65}
 graph TD
     %% Edsger W. Dijkstra's life
     A(1930: Born in Rotterdam, Netherlands) --> B(1952: Programming at the Mathematical Center)
@@ -174,14 +443,11 @@ graph TD
 His advocacy for structured programming has led to more reliable and maintainable software, advancing the field of software engineering.
 “A Case against the GO TO Statement” (EWD215), regarded as a major step towards the widespread deprecation of the GOTO statement and its effective replacement by structured control constructs, such as the while loop.
 Coined the phrase “2 or more, use a for”, alluding to the fact that when you find yourself processing more than one instance of a data structure, it is time to encapsulate that logic inside a loop. -->
-
----
-clicks: 2
 ---
 
 # Dining with Philosophers
 
-```mermaid {theme: 'neutral', scale: 0.5}
+```mermaid {scale: 0.65}
 graph TD
     %% Edsger W. Dijkstra's life
     A(1930: Born in Rotterdam, Netherlands) --> B(1952: Programming at the Mathematical Center)
@@ -242,7 +508,7 @@ Today, the principles from this influence various areas of computer science, inc
 
 # Dijkstra's Legacy
 
-```mermaid {theme: 'neutral', scale: 0.5}
+```mermaid {scale: 0.65}
 graph TD
     %% Edsger W. Dijkstra's life
     A(1930: Born in Rotterdam, Netherlands) --> B(1952: Programming at the Mathematical Center)
@@ -276,9 +542,11 @@ graph TD
 
 ## For fun...
 
-<v-drag pos="242,137,475,_">
-    <img src="/assets/dijkstra-writing.png" style="border-radius: 8%;">
-</v-drag>
+<div v-if="$slidev.nav.clicks === 2">
+  <v-drag pos="662,264,275,_">
+      <img src="/assets/dijkstra-writing.png" style="border-radius: 8%;">
+  </v-drag>
+</div>
 
 - **Background**: Originally studied theoretical physics, persuaded to stay in programming.
 - **Elegance**: Known for elegant writing and handwriting. Inspired the creation of Dijkstra Regular font.
@@ -288,14 +556,20 @@ layout: image-left
 image: /assets/people/donald-knuth.jpg
 class: donald-knuth
 ---
-
 # Donald Knuth (1938-present)
 
+<div v-if="$slidev.nav.clicks === 2">
+  <v-drag pos="662,264,275,_">
+      <img src="/assets/dijkstra-writing.png" style="border-radius: 8%;">
+  </v-drag>
+</div>
+
+<div>
 - **Impactful Work:**
   - **"The Art of Computer Programming" (1968)**
   - Knuth-Morris-Pratt (KMP) Algorithm
   - TeX typesetting system
-
+</div>
 ---
 
 # Knuth's Influences and Contributions
@@ -326,6 +600,12 @@ mindmap
       Education["Computer Science Education"]
         Education_desc["Cornerstone of computer science education"]
 ```
+
+<div v-if="$slidev.nav.clicks === 1">
+  <v-drag pos="662,264,275,_">
+      <img src="/assets/dijkstra-writing.png" style="border-radius: 8%;">
+  </v-drag>
+</div>
 
 <!--
 1. The Art of Computer Programming (1968):
@@ -362,7 +642,6 @@ Computer Science Education:
 
 "Knuth's influences and contributions have profoundly shaped the landscape of computer science, and his work continues to inspire and guide new generations in the field."
 -->
-
 ---
 layout: quote
 ---
@@ -377,51 +656,49 @@ layout: quote
   - Mails you $2.56 (1 hexadecimal dollar) for every mistake found in his book (stopped in 2008)
   - Now sends a cheque-like certificate (and real money if requested)
 
-<v-drag pos="315,219,628,_">
-<img src="/assets/knuth-cert.jpeg" style="border-radius: 8%;">
-</v-drag>
+<div v-if="$slidev.nav.clicks === 2">
+  <v-drag pos="662,264,275,_">
+      <img src="/assets/knuth-cert.jpeg" style="border-radius: 8%;">
+  </v-drag>
+</div>
 
 ---
+layout: quote
+---
+"Increasingly, people seem to misinterpret complexity as sophistication, which is baffling—the incomprehensible should cause suspicion rather than admiration."
 
+**Niklaus Wirth**
+
+---
+clicks: 2
+---
 # Niklaus Wirth
+
+- Developed programming languages: <span v-mark.circle.orange="4">Pascal (1970)</span>, Modula-2 (1979), and Oberon (1988).
 
 - **Pascal Programming Language:**
   - Emphasized structured programming and data structuring
-  - Released freely as a "public good," aiding educators and tech companies
-
-- **"Go To Statement Considered Harmful":**
-  - Coined the famous phrase as editor of Communications of the ACM
-
----
-
-## Pascal's Influence
+  - Released freely as a <span v-mark.circle.orange="4">"public good," </span> aiding educators and tech companies
 
 - **Educational Impact:**
   - Pascal became essential for teaching programming
   - Fostered good programming practices and efficient code
 
-- **Practical Applications:**
-  - Powered early Apple computers
-  - Used in early versions of apps like Skype and Photoshop
+<div v-if="$slidev.nav.clicks === 1">
 
----
+<v-drag pos="601,54,334,_,-6">
+    <img src="/assets/apple-2.jpg" style="border-radius: 8%;">
+</v-drag>
 
-## Influences
+</div>
 
-- **Edsger W. Dijkstra:**
-  - Structured programming principles
-  - Advocate for clarity and simplicity in code
+<div v-if="$slidev.nav.clicks === 2">
 
-- **Ada Lovelace:**
-  - Early programming concepts and innovations
-  - Vision of the potential of computing
+<v-drag pos="601,54,334,_,-6">
+    <img src="/assets/lazarus.png" style="border-radius: 8%;">
+</v-drag>
 
-- **Influence on Modern Languages:**
-  - Inspired Modula-2 and Ada
-
-- **1984 Turing Award:**
-  - Recognized for developing innovative computer languages
-
+</div>
 
 ---
 
@@ -430,37 +707,15 @@ layout: quote
 - **Smalltalk Programming Language:**
   - Pioneered object-oriented programming (OOP)
   - Revolutionized software development with concepts like encapsulation, inheritance, and polymorphism
-
-- **Graphical User Interfaces (GUIs):**
-  - Made computers more accessible and user-friendly
-  - Influenced modern operating systems and applications
-- - **2003 Turing Award:**
-  - Recognized for pioneering work in object-oriented programming and GUIs
-
----
-
-## Impact and Legacy
-
-- **Object-Oriented Programming:**
   - Simplified modeling of complex systems
   - Enhanced code reusability
   - Influenced modern languages like Java and C++
 
-- **GUI Design:**
-  - Shaped user interfaces for better usability and efficiency
+- **Graphical User Interfaces (GUIs):**
+  - Made computers more accessible and user-friendly
+  - Influenced modern operating systems and applications
   - Inspired the design of modern software interfaces
 
----
-
-## Inspired By
-
-- **Douglas Engelbart:**
-  - Work on interactive computing
-  - Development of the mouse and graphical interfaces
-
-- **J.C.R. Licklider:**
-  - Vision of human-computer symbiosis
-  - Emphasis on user-centered computing
 
 ---
 
@@ -505,12 +760,12 @@ layout: quote
 
 ---
 dragPos:
-  square: 152,110,649,379
+  square: 56,120,852,428
 ---
 
 ## IDF Under the Hood
 
-<img v-drag="'square'" src="/assets/idf.png" style="border-radius: 10%;">
+<!-- <img v-drag="'square'" src="assets/idf.png" style="border-radius: 10%;"> -->
 
 <!--
 - **Inverse Document Frequency (IDF):**
@@ -537,22 +792,3 @@ dragPos:
 - **Social Implications of Computing:**
   - Advocated for women in computing
   - Famous quote: "Computing is too important to be left to men"
-
----
-
-## Influence and Legacy
-
-
-
-<!-- 
-- **Inspired By:**
-  - Alan Turing's foundational work in computing
-  - Claude Shannon's work in information theory
-
-- **Impact:**
-  - Crucial for the development of search engines like Google
-  - Influenced fields of information retrieval, machine learning, and AI
-  - IDF remains a fundamental concept in search algorithms
- -->
-
----

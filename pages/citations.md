@@ -13,3 +13,7 @@
 - https://lore.kernel.org/lkml/CA+55aFy+Hv9O5citAawS+mVZO+ywCKd9NQ2wxUmGsz9ZJzqgJQ@mail.gmail.com/
 > Torvalds apologizes.
 - https://xkcd.com/2347/
+- Apple II computer: By Rama & Musée Bolo - Own work, CC BY-SA 2.0 fr, https://commons.wikimedia.org/w/index.php?curid=36639527
+- Lazarus: https://github.com/AliDehbansiahkarbon/ChatGPTPluginForLazarus?tab=readme-ov-file
+- Lisp features: https://softwaredominos.com/home/software-engineering-and-computer-science/from-s-expressions-to-ai-a-deep-dive-into-lisp-programming-language/
+- Dartmouth Round Table pictures: https://medium.com/@nickyverd/the-first-ever-ai-conference-tracing-the-evolution-and-the-history-of-ai-82347f93a89f

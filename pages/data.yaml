@@ -331,6 +331,10 @@ Acts:
         - name: William Fetter
           description: "Fetter's concept of computer-generated imagery (CGI) influenced Sutherland's work on Sketchpad and later computer graphics systems. Source: https://en.wikipedia.org/wiki/Ivan_Sutherland"
       influences:
+        - name: Tim Sweeney
+          description: "Sutherland's work on computer graphics and interactive systems influenced Sweeney's development of the Unreal Engine and Epic Games."
+        - name: John Carmack
+          description: "Carmack's work on game engines and 3D graphics was influenced by Sutherland's pioneering work in computer graphics and virtual reality."
         - name: Alan Kay
           description: "Ivan Sutherland's student at the University of Utah, who went on to develop Smalltalk and the Dynabook concept. Source: https://en.wikipedia.org/wiki/Alan_Kay"
         - name: Gordon W. Romney
@@ -1232,6 +1236,10 @@ Acts:
           sources:
             - "https://en.wikipedia.org/wiki/Email"
             - "https://www.computerhistory.org/revolution/networking/19/389"
+        - name: Sabeer Bhatia
+          description: "Co-founder of Hotmail"
+        - name: Jack Smith
+          description: "Co-founder of Hotmail"
         - name: \@ Symbol in Email Addresses
           description: "Tomlinson chose the @ symbol to separate the username from the destination address, a convention still used in email addresses today."
           sources:
@@ -1283,6 +1291,17 @@ Acts:
           sources:
             - "https://en.wikipedia.org/wiki/Pretty_Good_Privacy"
             - "https://en.wikipedia.org/wiki/Transport_Layer_Security"
+
+    - name: Sabeer Bhatia
+      description: "Co-founder of Hotmail"
+      influences:
+        - name: Email
+          description: ""
+    - name: Jack Smith
+      description: "Co-founder of Hotmail"
+      influences:
+        - name: Email
+          description: ""
 
     - name: Mitchell Baker
       influenced-by:
