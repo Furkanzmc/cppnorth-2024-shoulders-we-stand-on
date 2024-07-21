@@ -331,6 +331,18 @@ Acts:
         - name: William Fetter
           description: "Fetter's concept of computer-generated imagery (CGI) influenced Sutherland's work on Sketchpad and later computer graphics systems. Source: https://en.wikipedia.org/wiki/Ivan_Sutherland"
       influences:
+        - name: Alan Kay
+          description: "Ivan Sutherland's student at the University of Utah, who went on to develop Smalltalk and the Dynabook concept. Source: https://en.wikipedia.org/wiki/Alan_Kay"
+        - name: Gordon W. Romney
+          description: "Rendered the first 3D images. He was a student of Ivan Sutherland."
+        - name: Jim CLark
+          description: "He was a student of Ivan Sutherland. He founded Silicon Graphics and Netscape."
+        - name: Ed Catmull
+          description: "He was a student of Ivan Sutherland. He co-founded Pixar Animation Studios and was the president of Walt Disney Animation Studios."
+        - name: Pixar
+          description: "Founded by Ed Catmull and Alvy Ray Smith, influenced by Sutherland's work on computer graphics. Source: https://en.wikipedia.org/wiki/Pixar"
+        - name: Henry Fuchs
+          description: "He was a student of Ivan Sutherland. He is a computer graphics researcher and a professor at the University of North Carolina at Chapel Hill."
         - name: Virtual Reality (VR)
           description: "Sutherland's work on VR systems, including the development of the first head-mounted display (HMD), laid the foundation for modern virtual reality technology. Source: https://en.wikipedia.org/wiki/Virtual_reality"
         - name: Computer Graphics

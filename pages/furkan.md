@@ -114,9 +114,18 @@ image: /assets/placeholder-graph.png
 ---
 layout: image-left
 image: /assets/people/charles-babbage.jpg
+clicks: 1
+dragPos:
+  square: 589,113,313,419,8
 ---
 
 # Charles Babbage
+
+<div v-if="$slidev.nav.clicks === 1">
+
+<img v-drag="'square'" src="/assets/charles-babbage-brain.png" style="border-radius: 10%;">
+
+</div>
 
 <!--
 - Every journey has a beginning. The beginning for this one is endless, but we'll have to choose
@@ -125,7 +134,6 @@ image: /assets/people/charles-babbage.jpg
 
 ---
 layout: center
-clicks: 2
 dragPos:
   square: 686,55,268,408,11
 ---
@@ -136,14 +144,6 @@ timeline
                : Life-threatening fever**
                : Good school
 ```
-
-
-
-<div v-if="$slidev.nav.clicks === 1">
-
-<img v-drag="'square'" src="/assets/charles-babbage-brain.png" style="border-radius: 10%;">
-
-</div>
 
 <!--
 ## Intro
@@ -580,7 +580,7 @@ clicks: 4
 
 <div v-if="[0, 1, 3, 4].indexOf($slidev.nav.clicks) > -1">
 
-```mermaid
+```mermaid {scale: 1.5}
 mindmap
   root((John von Neumann))
     Game Theory
@@ -618,7 +618,7 @@ mindmap
 
 <div v-if="$slidev.nav.clicks === 2">
 
-```mermaid
+```mermaid {scale: 0.7}
 mindmap
   root((Game Theory Applications))
     Business and Economics
@@ -804,43 +804,159 @@ image: /assets/people/douglas-engelbart.jpg
 -->
 
 ---
-clicks: 8
+clicks: 5
 ---
 
 <div v-if="$slidev.nav.clicks === 0">
 
-> What did he do?...
+# What did he do?...
 
 </div>
 
 <div v-if="$slidev.nav.clicks > 0">
 
-<v-drag pos="387,14,445,_,15">
-    <img src="/assets/mouse.png" style="border-radius: 8%;">
+<v-drag pos="385,53,445,_,15">
+    <img src="/assets/mouse.gif" style="border-radius: 8%;">
 </v-drag>
 
 </div>
 
 <div v-if="$slidev.nav.clicks > 1">
 
-<v-drag pos="105,188,403,_,-19">
-    <img src="/assets/video-conferencing.png" style="border-radius: 8%;">
+<v-drag pos="174,123,403,_,-7">
+    <img src="/assets/video-conferencing.gif" style="border-radius: 8%;">
 </v-drag>
 
 </div>
 
 <div v-if="$slidev.nav.clicks > 2">
 
-<v-drag pos="475,244,451,_,11">
-    <img src="/assets/hypertext.png" style="border-radius: 8%;">
+<v-drag pos="384,269,451,_,11">
+    <img src="/assets/hypertext.gif" style="border-radius: 8%;">
 </v-drag>
 
 </div>
 
 <div v-if="$slidev.nav.clicks > 3">
 
-<v-drag pos="191,143,403,_,-19">
-    <img src="/assets/collaborative-editing.png" style="border-radius: 8%;">
+<v-drag pos="355,204,403,_,13">
+    <img src="/assets/collaborative-editing.gif" style="border-radius: 8%;">
 </v-drag>
 
 </div>
+
+---
+layout: image-left
+image: /assets/people/ivan-sutherland.jpg
+---
+
+# Ivan Sutherland
+
+<!--
+- He is another pioneer around the same time as Engelbart. He created the first graphical user
+  interface and the first virtual reality head-mounted display.
+- His pioneering work in computer graphics laid the foundation for modern computer graphics and
+  inspired computer scientists.
+- From 1968 to 1974, Sutherland was a professor at the University of Utah. Among his students there
+  were Alan Kay, inventor of the Smalltalk language, Gordon W. Romney (computer and cybersecurity
+  scientist), who rendered the first 3D images at U of U, Henri Gouraud, who devised the Gouraud
+  shading technique, Frank Crow, who went on to develop antialiasing methods, Jim Clark, founder of
+  Silicon Graphics, Henry Fuchs, and Edwin Catmull, co-founder of Pixar and now president of Walt
+  Disney and Pixar Animation Studios.
+-->
+
+---
+clicks: 3
+---
+
+```mermaid {scale: 0.8}
+graph LR
+    Ivan-->AK[Alan Kay]
+    Ivan-->GR[Gordon W Romney]
+    Ivan-->HG[Henri Gouraud]
+    Ivan-->FC[Frank Crow]
+    Ivan-->JC[Jim Clark]
+    Ivan-->HF[Henry Fuchs]
+    Ivan-->EC[Edwin Catmull]
+    
+    AK-->SL[Smalltalk language]
+    GR-->CG[3D images at U of U]
+    HG-->GST[Gouraud shading technique]
+    FC-->AM[Antialiasing methods]
+    JC-->SG[Silicon Graphics]
+    HF-->CGS[Computer graphics research]
+    EC-->PX[Disney and Pixar Animation Studios]
+```
+
+<div v-if="$slidev.nav.clicks > 0">
+
+<v-drag pos="513,18,180,_">
+    <img src="/assets/first-soma-3d.jpg" style="border-radius: 8%;">
+</v-drag>
+
+</div>
+
+<!--
+- His students also went on to do great work in their fields.
+-->
+
+---
+clicks: 4
+---
+
+<div v-if="$slidev.nav.clicks === 0">
+
+# Showing What's Possible...
+
+</div>
+
+<div v-if="$slidev.nav.clicks === 1">
+
+# First Head Mounted Display
+
+<v-drag pos="68,137,329,_">
+    <img src="/assets/first-head-mounded-display.gif" style="border-radius: 8%;">
+</v-drag>
+
+</div>
+
+<div v-if="$slidev.nav.clicks > 1">
+
+# Sketchpad
+
+<v-drag pos="55,107,324,_">
+    <img src="/assets/sketchpad-demo-1.gif" style="border-radius: 8%;">
+</v-drag>
+
+</div>
+
+<div v-if="$slidev.nav.clicks > 2">
+
+<v-drag pos="318,224,326,_">
+    <img src="/assets/sketchpad-demo-2.gif" style="border-radius: 8%;">
+</v-drag>
+
+</div>
+
+<div v-if="$slidev.nav.clicks > 3">
+
+<v-drag pos="585,63,326,_">
+    <img src="/assets/sketchpad-demo-3.gif" style="border-radius: 8%;">
+</v-drag>
+
+</div>
+
+<!--
+- Sketchpad didn't do anything useful other than to demonstrate the potential of computer graphics.
+- Sketchpad had objects and instances. You could create a master object and then create instances of
+  it. This is the basis of object-oriented programming.
+- First CAD application.
+-->
+
+---
+
+# Resources
+
+- Source code of Sketchpad: https://computerhistory.org/art-of-code/
+- Sketchpad Demo: https://www.youtube.com/watch?v=6orsmFndx_o
+- Head mounted display: https://www.youtube.com/watch?v=IrLJN9gDz2c
