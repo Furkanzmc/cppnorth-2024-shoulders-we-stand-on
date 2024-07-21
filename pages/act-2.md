@@ -872,25 +872,24 @@ clicks: 3
 # Xerox PARC and Robert Taylor
 
 <div v-if="$slidev.nav.clicks > 0">
-  <v-drag>
-      <img src="/assets/xerox-parc.webp">
-  </v-drag>
+<v-drag pos="69,311,290,_">
+<img src="/assets/xerox-parc.webp" style="border-radius: 4%;">
+</v-drag>
 </div>
 
 <div v-if="$slidev.nav.clicks > 1">
-  <v-drag>
-      <img src="/assets/kay-taylor-parc.png">
-  </v-drag>
+<v-drag pos="411,157,499,_">
+<img src="/assets/kay-taylor-parc.png" style="border-radius: 4%;">
+</v-drag>
 </div>
 
 <div v-if="$slidev.nav.clicks > 2">
-  <v-drag>
-      <img src="/assets/people/bob-taylor.webp">
-  </v-drag>
+<v-drag pos="70,104,290,_">
+<img src="/assets/people/bob-taylor.webp" style="border-radius: 4%;">
+</v-drag>
 </div>
 
-<!-- 
-
+<!--
 - Bob Taylor
   - Leader at Xerox PARC who recruited Kay
   - Fostered a collaborative and innovative environment
@@ -900,44 +899,39 @@ clicks: 3
   - Hub for groundbreaking computer science research
   - Enabled Kay to develop Smalltalk and GUI concepts
   - Influenced future technologies and computing paradigms
- -->
+-->
+
 ---
-clicks:4
+clicks: 2
 ---
 
 # A Gold Mine 
 
 <div v-if="$slidev.nav.clicks > 0">
 
-  <v-drag pos="656,61,281,_,-6">
-      <img src="/assets/kay-cs-degrees.png">
-  </v-drag>
+<v-drag pos="67,186,409,_">
+    <img src="/assets/kay-cs-degrees.png">
+</v-drag>
   
 </div>
 
 <div v-if="$slidev.nav.clicks > 1">
 
-  <v-drag pos="656,61,281,_,-6">
-      <img src="/assets/kay-interview-1.png">
-  </v-drag>
+<v-drag pos="496,176,439,_">
+    <img src="/assets/kay-cs-degrees.png">
+</v-drag>
 
 </div>
 
-<div v-if="$slidev.nav.clicks > 2">
+---
+layout: two-cols
+---
 
-  <v-drag pos="656,61,281,_,-6">
-      <img src="/assets/kay-interview-2.png">
-  </v-drag>
+<img src="/assets/kay-interview-1.png">
 
-</div>
+::right::
 
-<div v-if="$slidev.nav.clicks > 3">
-
-  <v-drag pos="656,61,281,_,-6">
-      <img src="/assets/kay-cs-degrees.png">
-  </v-drag>
-
-</div>
+<img src="/assets/kay-interview-2.png">
 
 ---
 layout: image-left
@@ -968,24 +962,16 @@ image: /assets/people/karen-jones.webp
 
 ## IDF Under the Hood
 
-<v-drag pos="17,82,685,_">
+<v-drag pos="63,187,490,_">
     <img src="/assets/idf.png">
 </v-drag>
 
-<v-click>
-  <v-drag pos="38,342,167,_,-8">
 - Laid the groundwork for modern search engines
 - Improved relevance of search results
 - Widely used in document retrieval and text mining
-  </v-drag>
-</v-click>
----
-
 
 ---
 layout: quote
 ---
 
 "Computing is too important to be left to men" - Karen Spärck Jones 
-
----
