@@ -23,51 +23,12 @@ dragPos:
   square: 247,129,476,287
 ---
 
-<div v-click.hide="1">
-    <img v-drag="'square'" src="/assets/how-did-i-get-here.jpg" style="border-radius: 50%;">
-</div>
-
-<v-click>
-
-```mermaid
-gitGraph
-    commit id: "Born"
-    commit id: "Uncle in IT"
-    branch new-interest
-    checkout new-interest
-    commit id: "School resources"
-    checkout main
-    merge new-interest
-    commit id: "Coming to Canada"
-    commit id: "Start up life"
-    commit id: "People I've met"
-    branch social-life
-    checkout social-life
-    commit id: "People I can depend on"
-    commit id: "Friend who pushes me"
-    checkout main
-    commit id: "A bunch of other stuff"
-    checkout social-life
-    branch career
-    checkout career
-    commit id: "Mentors"
-    commit id: "C++ Study Group"
-    checkout social-life
-    merge career
-    checkout main
-    merge social-life
-    commit id: "Here"
-```
-
-</v-click>
+<img v-drag="'square'" src="/assets/how-did-i-get-here.jpg" style="border-radius: 50%;">
 
 <!--
 - So we are going to start with the question of "How did I get here?"
-- It is very possible that if I made a different choice, or were in a different circumstance, I
-  wouldn't have ended up here. I was talking a co-worker, Hossein, about this talk and he said if
-  PCs were delayed by just a few years, he probably would have his job.
-- So, along the way, we invite you to think about how things would have turned out differently if
-  some of the contributions weren't there, or they took different life trajectories.
+- We asked this question ourselves and just started tracing our path. Hopefully, we have an accurate
+  picture of events.
 -->
 
 ---
@@ -106,7 +67,9 @@ dragPos:
 </v-drag>
 
 <!--
-- After we explore all the lives that touched us, we'll end up with a graph similar to this.
+- It was hard to pick, but we had to pick, so if you don't see some of your favorite people, it's
+  not because they don't deserve to be here, it's because we couldn't find a way to include them
+  here. But we did include a graph which hopefully includes more people.
 -->
 
 ---
