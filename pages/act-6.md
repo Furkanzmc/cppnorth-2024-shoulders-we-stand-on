@@ -1,7 +1,5 @@
 # Beyond Machines and Code
 
-**Gantt Chart of Overlaps at Institutions**
-
 ```mermaid
 gantt
     dateFormat  YYYY
