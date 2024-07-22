@@ -126,6 +126,8 @@ class: my-custom-class
 -->
 
 ---
+layout: section
+---
 
 # Sparks of Innovation and Inspiration
 
@@ -139,7 +141,9 @@ layout: image-left
 image: /assets/people/charles-babbage.jpg
 ---
 
-# Charles Babbage
+# Charles Babbage (1791 - 1871)
+
+> Father of Computers
 
 <!--
 - And this journey begins with Charles Babbage.
@@ -154,9 +158,6 @@ clicks: 2
 
 ```mermaid
 timeline
-    Early Days : Afluent family
-               : Life-threatening fever**
-               : Good school
     University Years : University of Cambridge
                      : The Ghost Club**
                      : Analytical Society
@@ -186,19 +187,11 @@ timeline
 
 - Keen interest in mathematics. A number driven person.
 - Known as the father of computers.
-- His father was a banker and when he died, he left a considerable inheritance for him. During this
-  university years, he relied on his father's support.
-- Had a Life-threatening fever, what would have happened if he died?...
 - Went to good schools, had access to books and tutors. Pivotal moment!
-- During university, came in contact with other mathematicians and influential people. This is a
-  theme that we'll see throughout. Every person we talk about had a network of people who helped
-  them along the way.
-- Something that I didn't expect from such a number driven person, though, was to be part of [The
-  Ghost Club](https://www.ghostclub.org.uk/). I wonder what would have happened if he got too much
-  into it and pursued an career in ghost hunting instead? Would the movie Ghost Busters be inspired
-  by him?
-- In university, he helped found Analytical Society. This was a group of students who were interested
-  in mathematics and wanted to reform the mathematics curriculum.
+- In university, he helped found Analytical Society. This was a group of students who were
+  interested in mathematics and wanted to reform the mathematics curriculum.
+- Mathematical tables were list of numbers showing the results of a calculation with varying
+  arguments.
 - Around that time, In 1812, the French government calculated these tables in a different way. Their
   mathematicians distributed the work to 80 human computers who only knew what work they were doing
   and subtraction and addition. For the first time, mass production was applied to mathematics and
@@ -242,6 +235,14 @@ timeline
 <div v-if="$slidev.nav.clicks === 3">
 
 <v-drag pos="656,61,281,_,-6">
+    <img src="/assets/TheDifferenceEngineBook.jpg" style="border-radius: 8%;">
+</v-drag>
+
+</div>
+
+<div v-if="$slidev.nav.clicks === 4">
+
+<v-drag pos="656,61,281,_,-6">
     <img src="/assets/charles-babbage-brain.png" style="border-radius: 8%;">
 </v-drag>
 
@@ -251,12 +252,14 @@ timeline
 ## Difference Engine
 
 - In his later years, he was assigned to a project in the Royal Astronomical Society to compute
-  mathematical tables. That grunt work really helped him understand how error prone manual
-  calculations are so he wanted to do something about it.
+  mathematical tables for nautical almanac. That grunt work really helped him understand how error
+  prone manual calculations are so he wanted to do something about it.
 - That's when he inventd the Difference Engine. It was meant for solving polynomial equations. He
   created this to help with mathematical tables for the nautical almanac. Sadly, it never got built
   because the engineer he was working with demanded too much money.
-- It wasn't all bad though, Difference Engine inspired the novel... [The Difference Engine](https://en.wikipedia.org/wiki/The_Difference_Engine) Which apparently is an important novel in the genre of steam punk.
+- It wasn't all bad though, Difference Engine inspired the novel... [The Difference
+  Engine](https://en.wikipedia.org/wiki/The_Difference_Engine) Which apparently is an important
+  novel in the genre of steam punk.
 
 ## Analytical Engine
 
@@ -265,7 +268,7 @@ timeline
   computation, making it a general purpose computer.
 - It was programmed using punch cards. It allowed for sequential control, looping, and branching.
   So, pretty much like a modern computer.
-- You know you are an important figure when they out your brain in a jar.
+- You know you are an important figure when they out your brain in a jar. Science Museum, London
 
 - Despite the importance of his work, the analytical engine was unknown to the builders of the
   electromechanical and electronic computing machines in 1930s and 1940s. J. Presper Eckert and John
@@ -284,6 +287,7 @@ image: /assets/people/lady-ada-lovelace.png
 # Lady Ada Lovelace
 
 <!--
+- The first computer needs a first programmer, and that is Lady Ada Lovelace
 - Around the time Babbage was working on Analytical Engine, Lady Ada Lovelace took notice and had
   multiple interactions with Babbage.
 - You probably know her as the first computer programmer, but I learned something about her that I
@@ -292,28 +296,13 @@ image: /assets/people/lady-ada-lovelace.png
 
 ---
 layout: center
-clicks: 1
-dragPos:
-  square: 684,186,255,266,11
 ---
-
-<div v-if="[0, 2, 3].indexOf($slidev.nav.clicks) > -1">
 
 ```mermaid
 timeline
     Early Days : Poet father, mathmatician mother
                : Mother encouraged math**
 ```
-
-</div>
-
-<div v-if="$slidev.nav.clicks === 1">
-
-## ~~Lady~~ Diva Ada Lovelace
-
-<img v-drag="'square'" src="/assets/diva-ada-lovelace.png" style="border-radius: 10%;">
-
-</div>
 
 <!--
 ## Intro
@@ -670,10 +659,10 @@ mindmap
   root((J.C.R. Licklider))
     Interactive Computing
     Man-Computer Symbiosis
-    Information Processing Techniques Office (IPTO)
+    Information Processing Techniques Office - ARPA
       ARPANET
-      Project MAC
-        Multics
+      Project MAC**
+        Multics**
     Human-Computer Communication
     The Computer as a Communication Device
 ```
@@ -758,6 +747,7 @@ mindmap
 </div>
 
 <!--
+- ARPA = Advanced Research Projects Agency
 - He believed that computers or AI should enhance human intelligence, not replace it.
 - He funded Project MAC, which was a research project that led to the development of Multics, a
   time-sharing operating system. It was the first time-sharing operating system that was developed.
@@ -913,8 +903,6 @@ The Sword of Damocles
 -->
 
 ---
-clicks: 1
----
 
 ```mermaid {scale: 0.8}
 graph LR
@@ -934,14 +922,6 @@ graph LR
     HF-->CGS[Computer graphics research]
     EC-->PX[Disney and Pixar Animation Studios]
 ```
-
-<div v-if="$slidev.nav.clicks > 0">
-
-<v-drag pos="513,18,180,_">
-    <img src="/assets/first-soma-3d.jpg" style="border-radius: 8%;">
-</v-drag>
-
-</div>
 
 <!--
 - Sutherland's work in sketchpad was a direct influence for object oriented programming.

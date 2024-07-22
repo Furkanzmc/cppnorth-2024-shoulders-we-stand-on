@@ -1,9 +1,14 @@
+---
+layout: section
+---
+
 # Pioneers of Practice
 
 <!--
 - Now let's take a look at some of the people who have made significant contributions in their field
   by putting their and others ideas into practice and building things that have had a lasting impact
   on us.
+- Speaking of having more women in tech...
 -->
 
 ---

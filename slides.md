@@ -51,6 +51,10 @@ mdc: true
     </div>
 </div>
 
+<v-drag pos="418,399,147,_">
+    <img src="/assets/slides-qr-code.png">
+</v-drag>
+
 ---
 src: ./pages/act-1.md
 ---

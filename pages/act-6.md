@@ -1,7 +1,3 @@
----
-theme: dracula
-title: Act 2: The Theoretical Foundations 
----
 # Act 6: Beyond Machines and Code
 
 **Gantt Chart of Overlaps at Institutions**
@@ -76,25 +72,36 @@ gantt
 ```
 
 ---
+layout: iframe
 
-# Turing Award Winners
+# the web page source
+url: https://ouestware.gitlab.io/retina/1.0.0-beta.1/#/graph/?url=https%3A%2F%2Fraw.githubusercontent.com%2FFurkanzmc%2Fcppnorth-2024-shoulders-we-stand-on%2Fmaster%2Fpublic%2Fassets%2Fgraph.gexf&c=a&s=r&sa=r&ca=a
 
-```mermaid
-gantt
-    dateFormat  YYYY
-
-    section Turing Award Winners
-    Maurice Wilkes          :wil_award, 1967, 1967
-    John McCarthy           :mcc_award, 1971, 1971
-    Donald Knuth            :knu_award, 1974, 1974
-    John Backus             :bac_award, 1977, 1977
-    Ken Thompson            :tho_award, 1983, 1983
-    Dennis Ritchie          :rit_award, 1983, 1983
-    Niklaus Wirth           :wir_award, 1984, 1984
-    Douglas Engelbart       :eng_award, 1997, 1997
-    Alan Kay                :kay_award, 2003, 2003
-    Vint Cerf               :cer_award, 2004, 2004
-    Robert Kahn             :kah_award, 2004, 2004
-    Martin Hellman          :hel_award, 2015, 2015
-```
+# a custom class name to the content
+class: my-custom-class
 ---
+
+---
+
+# Ending Notes
+
+- A story of people, not just machines and code
+- Ever expanding network influence
+
+<!--
+- We are grateful for the opportunity to be here today, thank you for the organizers of CppNorth for
+  creating an environment for all of us to be here to be inspired by one another.
+-->
+
+---
+
+- Slides at https://github.com/Furkanzmc/cppnorth-2024-shoulders-we-stand-on
+
+<v-drag pos="75,74,167,_">
+    <img src="/assets/slides-qr-code.png">
+</v-drag>
+
+<!--
+- If you noticed any wrong information in our talk, please let us know or create a PR. Unlike Donald
+  Knuth, we won't be sending you money but a hearfelt thank you.
+-->
