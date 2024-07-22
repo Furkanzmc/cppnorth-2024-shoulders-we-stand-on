@@ -10,14 +10,6 @@ Establishing the core principles and theories that underpin modern technology, b
  -->
 
 ---
-
-# Figures
-
-<!-- 
-- These early pioneers influenced a new wave of computer scientists who would take these concepts further and apply them to emerging fields like AI
-  -->
-
----
 layout: image-right
 image: assets/people/john-mccarthy.avif
 class: mcarthy-profile-class
