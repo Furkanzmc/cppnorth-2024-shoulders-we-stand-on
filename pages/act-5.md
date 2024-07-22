@@ -14,10 +14,6 @@ layout: section
     <img src="/assets/ray-tomlinson.jpg" style="border-radius: 8%;">
 </v-drag>
 
-<!--
-- They were trying to send "LOGIN" but the system crashed after the first two letters.
--->
-
 ---
 
 # Steve Wozniak
@@ -36,6 +32,10 @@ layout: section
 
 <v-drag pos="542,101,275,_,-10">
     <img src="/assets/daniel-bricklin-bob-frankston.jpg" style="border-radius: 8%;">
+</v-drag>
+
+<v-drag pos="512,304,275,_">
+    <img src="/assets/VisiCalc.png" style="border-radius: 8%;">
 </v-drag>
 
 ---
