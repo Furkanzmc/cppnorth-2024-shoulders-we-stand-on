@@ -203,44 +203,20 @@ image: /assets/people/margaret-hamilton.jpeg
 -->
 
 ---
-clicks: 2
----
-
-<div v-if="[0, 1].indexOf($slidev.nav.clicks) > -1">
 
 ```mermaid
 graph TD
-  A[SAGE] -->|Semi-Automatic Ground Environment| B[MIT Instrumentation Lab]
-  B -->|Apollo Guidance Computer| C[Margaret Hamilton]
+  A[MIT Instrumentation Lab] --> B[Semi-Automatic Ground Environment - SAGE]
+  B --> C[Apollo Guidance Computer - NASA]
+  C --> D[Asynchronous Software Design]
+  C --> E[Priority-Driven Task Execution]
+  C --> F[Error Detection and Recovery]
+  C --> F[Software Engineering as a Discipline]
 ```
 
-</div>
-
-<div v-if="$slidev.nav.clicks === 1">
-
-<v-drag pos="364,108,322,_">
+<v-drag pos="662,98,223,_">
 <img src="/assets/apollo-guidance-computer.jpg" style="border-radius: 8%;">
 </v-drag>
-
-
-</div>
-
-<div v-if="$slidev.nav.clicks === 2">
-
-```mermaid
-mindmap
-  root((Core Principles in Computer Programming))
-    Asynchronous Software Design
-    Priority-Driven Task Execution
-    Error Detection and Recovery
-    Man-in-the-Loop Interfaces
-    Robust Software Architecture
-    Preventative Software Design
-    Systems Theory of Control
-    Software Engineering as a Discipline
-```
-
-</div>
 
 <!--
 - She feared that there might be a problem in the software, the mission fails, and it gets traced
@@ -292,10 +268,13 @@ Citations:
 
 # Dennis Ritchie, Ken Thomson, and Brian Kernighan
 
-<div style="display: flex; flex-direction: column;">
-<img src="/assets/people/brian-kernighan.jpg" style="border-radius: 8%; height: 40%;">
-<img src="/assets/people/dennis-ritchie-ken-thomson.jpg" style="border-radius: 8%; height: 40%;">
-</div>
+<v-drag pos="452,136,272,_">
+<img src="/assets/people/brian-kernighan.jpg" style="border-radius: 8%;">
+</v-drag>
+
+<v-drag pos="150,153,316,_">
+<img src="/assets/people/dennis-ritchie-ken-thomson.jpg" style="border-radius: 8%;">
+</v-drag>
 
 <!--
 - Ken Thomson had an ability to think through a problem and write code that just works. They once
