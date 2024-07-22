@@ -211,7 +211,7 @@ graph TD
   C --> D[Asynchronous Software Design]
   C --> E[Priority-Driven Task Execution]
   C --> F[Error Detection and Recovery]
-  C --> F[Software Engineering as a Discipline]
+  C --> G[Software Engineering as a Discipline]
 ```
 
 <v-drag pos="662,98,223,_">
