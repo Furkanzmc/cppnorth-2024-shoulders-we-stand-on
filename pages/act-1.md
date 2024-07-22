@@ -580,7 +580,7 @@ mindmap
 
 <div v-if="$slidev.nav.clicks === 4">
 
-<v-drag pos="142,285,300,_,-7">
+<v-drag pos="3,356,248,_,-7">
     <img src="/assets/merge-sort.gif" style="border-radius: 8%;">
 </v-drag>
 
@@ -670,10 +670,11 @@ mindmap
   root((J.C.R. Licklider))
     Interactive Computing
     Man-Computer Symbiosis
-    ARPANET
+    Information Processing Techniques Office (IPTO)
+      ARPANET
+      Project MAC
+        Multics
     Human-Computer Communication
-    Project MAC
-      Multics
     The Computer as a Communication Device
 ```
 
