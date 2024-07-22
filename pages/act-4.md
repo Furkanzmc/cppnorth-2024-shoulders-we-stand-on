@@ -48,6 +48,7 @@ image: /assets/people/mark-dean.webp
 # Dean's Key Contributions
 
 <v-drag pos="303,114,395,395">
+
 ```mermaid {scale: 0.5}
 graph TD
     A[Patent No. 4,528,626<br>ISA Bus<br>1985]
@@ -71,6 +72,7 @@ graph TD
 
     class A highlight;
 ```
+
 </v-drag>
 
 <!--
@@ -111,8 +113,6 @@ graph TD
 
 ---
 
-
-<v-drag>
 ```mermaid
 sequenceDiagram
     actor VC as Vint Cerf (1943-present)
@@ -128,7 +128,6 @@ sequenceDiagram
     World ->> Internet: Create a network of networks
     World ->> Internet: Establish unified communication standard
 ```
-</v-drag>
 
 <!-- 
 - In the early 1970s, the concept of interconnected computer networks was in its infancy
@@ -152,6 +151,7 @@ sequenceDiagram
   - User-friendly access
   - Information organization
   - Interoperability
+
 <!-- 
 
 1. User-friendly access
@@ -165,6 +165,7 @@ sequenceDiagram
    - Different systems and technologies could not work together seamlessly
  -  A cohesive and unified Internet experience 
  -->
+
 ---
 layout: image-right
 image: /assets/people/berners-lee.webp
@@ -201,9 +202,9 @@ timeline
 ```
 
 <v-click>
-    <v-drag pos="735,152,225,_">
-    <img src="/assets/www.webp">
-    </v-drag>
+<v-drag pos="735,152,225,_">
+<img src="/assets/www.webp">
+</v-drag>
 </v-click>
 
 <!--
