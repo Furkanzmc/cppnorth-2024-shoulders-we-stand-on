@@ -453,6 +453,7 @@ Acts:
           description: "Jones introduced and developed IDF, which improved the accuracy and relevance of search results."
         - name: Search Engines
           description: "Karen Spärck Jones' pioneering work on inverse document frequency and relevance weighting laid the groundwork for modern search engine algorithms and information retrieval systems."
+  
 
   Act_3:
     - name: Grace Hopper

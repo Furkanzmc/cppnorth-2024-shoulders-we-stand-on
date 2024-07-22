@@ -111,8 +111,8 @@ graph TD
 
 ---
 
-<v-drag>
 
+<v-drag>
 ```mermaid
 sequenceDiagram
     actor VC as Vint Cerf (1943-present)
@@ -128,7 +128,6 @@ sequenceDiagram
     World ->> Internet: Create a network of networks
     World ->> Internet: Establish unified communication standard
 ```
-
 </v-drag>
 
 <!-- 

@@ -1,14 +1,8 @@
-# Building on Top of Giants
-
+---
+layout: section
 ---
 
-# Steve Wozniak
-
-- Developed the Apple I and Apple II computers
-
-<v-drag pos="508,121,275,_,15">
-    <img src="/assets/steve-wozniak.jpg" style="border-radius: 8%;">
-</v-drag>
+# Building on Top of Giants
 
 ---
 
@@ -20,9 +14,29 @@
     <img src="/assets/ray-tomlinson.jpg" style="border-radius: 8%;">
 </v-drag>
 
-<!--
-- They were trying to send "LOGIN" but the system crashed after the first two letters.
--->
+---
+
+# Steve Wozniak
+
+- Developed the Apple I (1976) and Apple II (1977) computers with Steve Jobs
+
+<v-drag pos="508,121,275,_,15">
+    <img src="/assets/steve-wozniak.jpg" style="border-radius: 8%;">
+</v-drag>
+
+---
+
+# Daniel Bricklin and Bob Frankston
+
+- Created VisiCalc in 1979
+
+<v-drag pos="542,101,275,_,-10">
+    <img src="/assets/daniel-bricklin-bob-frankston.jpg" style="border-radius: 8%;">
+</v-drag>
+
+<v-drag pos="512,304,275,_">
+    <img src="/assets/VisiCalc.png" style="border-radius: 8%;">
+</v-drag>
 
 ---
 
@@ -36,6 +50,34 @@
 
 ---
 
+# Steve Wilhite
+
+- Created the Graphics Interchange Format (GIF) in 1987
+
+<v-drag pos="555,94,275,_,9">
+    <img src="/assets/steve-wilhite.webp" style="border-radius: 8%;">
+</v-drag>
+
+<v-click>
+<v-drag pos="669,279,206,_,6">
+    <img src="/assets/Incredible-jimmy-valmer.gif" style="border-radius: 8%;">
+</v-drag>
+</v-click>
+
+<v-click>
+<v-drag pos="140,170,215,_">
+<small>Invented Discrete Cosine Transform (DCT) in 1972</small>
+<img src="/assets/people/nasir-ahmed.png" style="border-radius: 8%;">
+</v-drag>
+</v-click>
+
+<!--
+- The DCT is the most widely used data compression transformation, the basis for most digital media
+  standards (image, video and audio)
+-->
+
+---
+
 # Jarkko Oikarinen
 
 - Created the first IRC client and server in 1988
@@ -46,13 +88,27 @@
 
 ---
 
-# Steve Wilhite
+# Phil Katz
 
-- Created the Graphics Interchange Format (GIF) in 1987
+- Created the ZIP file format in 1989
 
-<v-drag pos="555,94,275,_,9">
-    <img src="/assets/steve-wilhite.webp" style="border-radius: 8%;">
+<v-drag pos="462,74,275,_,-10">
+    <img src="/assets/phil-katz.jpeg" style="border-radius: 8%;">
 </v-drag>
+
+---
+
+# Henning Schulzrinne 
+
+- Created the Session Initiation Protocol (SIP) in 1996
+
+<v-drag pos="552,149,275,_,-10">
+    <img src="/assets/henning-schulzrinne.jpg" style="border-radius: 8%;">
+</v-drag>
+
+<!--
+- This is the protocol used for voice and video calls over the Internet.
+-->
 
 ---
 
@@ -76,20 +132,6 @@
 
 ---
 
-# Henning Schulzrinne 
-
-- Created the Session Initiation Protocol (SIP) in 1996
-
-<v-drag pos="552,149,275,_,-10">
-    <img src="/assets/henning-schulzrinne.jpg" style="border-radius: 8%;">
-</v-drag>
-
-<!--
-- This is the protocol used for voice and video calls over the Internet.
--->
-
----
-
 # Ward Cunningham
 
 - Developed the first wiki
@@ -102,27 +144,3 @@
 <v-drag pos="644,294,208,_,-10">
     <img src="/assets/ward-cunningham.jpg" style="border-radius: 8%;">
 </v-drag>
-
----
-
-# Daniel Bricklin and Bob Frankston
-
-- Created VisiCalc in 1979
-
-<v-drag pos="542,101,275,_,-10">
-    <img src="/assets/daniel-bricklin-bob-frankston.jpg" style="border-radius: 8%;">
-</v-drag>
-
----
-
-# Phil Katz
-
-- Created the ZIP file format in 1989
-
-<v-drag pos="462,74,275,_,-10">
-    <img src="/assets/phil-katz.jpeg" style="border-radius: 8%;">
-</v-drag>
-
----
-
-# Us

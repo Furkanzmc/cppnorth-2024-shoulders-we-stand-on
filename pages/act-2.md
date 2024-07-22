@@ -1,4 +1,9 @@
+---
+layout: section
+---
+
 # The Theoretical Foundations
+
 
 <!-- 
 Establishing the core principles and theories that underpin modern technology, building upon the visionaries' ideas from Act 1.
