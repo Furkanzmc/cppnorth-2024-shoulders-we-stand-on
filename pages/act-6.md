@@ -92,7 +92,7 @@ layout: section
 
 # Thank You!
 
-- Slides at https://github.com/Furkanzmc/cppnorth-2024-shoulders-we-stand-on
+Slides at https://github.com/Furkanzmc/cppnorth-2024-shoulders-we-stand-on
 
 <v-drag pos="403,362,167,_">
     <img src="/assets/slides-qr-code.png">
