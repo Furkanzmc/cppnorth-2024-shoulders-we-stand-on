@@ -1,3 +1,7 @@
+---
+layout: section
+---
+
 # Building the Infrastructure
 
 <!-- Developing the infrastructure that supports modern computing and connectivity, transforming theoretical advancements into practical systems. -->
