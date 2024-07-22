@@ -494,8 +494,14 @@ mindmap
 
 <v-drag-arrow two-way pos="618,288,-263,23" />
 
-<v-drag pos="605,132,300,_,-6">
+<v-drag pos="595,105,240,_,-6">
+<small>Hypertext Editing System</small>
     <img src="/assets/hyper-text-editing-system-ibm.jpg" style="border-radius: 8%;">
+</v-drag>
+
+<v-drag pos="620,289,211,_,-6">
+<small>Memex Artist Illustration from The Atlantic</small>
+    <img src="/assets/memex-the-atlantic.png" style="border-radius: 8%;">
 </v-drag>
 
 </div>
@@ -515,6 +521,7 @@ mindmap
   didn't make it into the hands of people who could expand on it.
 - In his article he describes memex, and an imaginary account of probably the world's first wiki
   rabbit hole.
+- His Memex machine was also heavily influenced by Emanuel Goldberg's "Statistical Machine" from 1928.
 - Ted Nelson was inspired by his ideas and in a paper where he coined the term "hypertext" he
   referenced Bush a lot. He then created Hypertext Editing System along with Andries van Dam in 1967
 - It seems that he didn't show that much of an interest in digital computing.
@@ -565,7 +572,7 @@ mindmap
 
 <div v-if="$slidev.nav.clicks === 3">
 
-<v-drag pos="605,132,300,_,-6">
+<v-drag pos="263,49,300,_,-6">
     <img src="/assets/john-von-neumann-report.jpg" style="border-radius: 8%;">
 </v-drag>
 
