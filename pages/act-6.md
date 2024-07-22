@@ -1,4 +1,4 @@
-# Act 6: Beyond Machines and Code
+# Beyond Machines and Code
 
 **Gantt Chart of Overlaps at Institutions**
 
@@ -82,11 +82,10 @@ class: my-custom-class
 ---
 
 ---
-
-# Ending Notes
+layout: section
+---
 
 - A story of people, not just machines and code
-- Ever expanding network influence
 
 <!--
 - We are grateful for the opportunity to be here today, thank you for the organizers of CppNorth for
@@ -94,10 +93,14 @@ class: my-custom-class
 -->
 
 ---
+layout: section
+---
+
+# Thank You!
 
 - Slides at https://github.com/Furkanzmc/cppnorth-2024-shoulders-we-stand-on
 
-<v-drag pos="75,74,167,_">
+<v-drag pos="403,362,167,_">
     <img src="/assets/slides-qr-code.png">
 </v-drag>
 
