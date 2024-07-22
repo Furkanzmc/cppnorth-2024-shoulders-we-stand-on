@@ -251,8 +251,6 @@ image: /assets/people/cerf-kahn.jpg
 
 ---
 
-<v-drag>
-
 ```plantuml
 @startuml
 actor "Vint Cerf (1943-present)" as VC
@@ -277,8 +275,6 @@ World -> Internet: Establish unified communication standard
 
 @enduml
 ```
-
-</v-drag>
 
 <!-- 
 - In the early 1970s, the concept of interconnected computer networks was in its infancy
