@@ -426,7 +426,7 @@ timeline
     Later Years : Great runner!
                 : Bletchley Park
                 : Cracked Enigma**
-                : Artificial Intelligence**
+    Later Years : Artificial Intelligence**
                 : Turing Test
                 
 ```
