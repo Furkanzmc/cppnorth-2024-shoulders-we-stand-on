@@ -8,10 +8,7 @@ layout: section
 <!-- 
 Establishing the core principles and theories that underpin modern technology, building upon the visionaries' ideas from Act 1.
  -->
----
-layout: iframe
-url: https://ouestware.gitlab.io/retina/1.0.0-beta.1/#/graph/?url=https%3A%2F%2Fgist.githubusercontent.com%2Fqhou%2F7d4319be71ded33d0d7f277f4d33623d%2Fraw%2Fc132ecf1c48ea14e38b0126b68d2cc079dd43047%2Fact2.gexf&r=d&c=a&s=r&sa=r&ca=a
-class: act-2
+
 ---
 
 # Figures
