@@ -526,4 +526,5 @@ layout: quote
 <!--
 - We also know him for his flippant attitude and crude comments. But, that doesn't seem to be the
   case any more. His attitude in recent videos are much calmer.
+- In order for us to make better use of all these that they created, we need a better infrastructure.
 -->
