@@ -66,7 +66,7 @@ layout: section
 
 <v-click>
 <v-drag pos="140,170,215,_">
-<small>Invented Discrete Cosine Transform (DCT) in 1972</small>
+<small>Nasir Ahmed - Invented Discrete Cosine Transform (DCT) in 1972</small>
 <img src="/assets/people/nasir-ahmed.png" style="border-radius: 8%;">
 </v-drag>
 </v-click>

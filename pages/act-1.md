@@ -612,7 +612,7 @@ image: /assets/people/j-c-r-licklider.webp
 -->
 
 ---
-clicks: 6
+clicks: 1
 ---
 
 <div v-if="[0].indexOf($slidev.nav.clicks) > -1">
@@ -636,7 +636,7 @@ mindmap
 
 </div>
 
-<div v-if="[1, 2, 3, 4, 5, 6].indexOf($slidev.nav.clicks) > -1">
+<div v-if="[1].indexOf($slidev.nav.clicks) > -1">
 
 ```mermaid
 mindmap
@@ -651,10 +651,6 @@ mindmap
     Decentralized Information Systems
 ```
 
-</div>
-
-<div v-if="[2, 3, 4, 5, 6].indexOf($slidev.nav.clicks) > -1">
-
 <v-drag pos="460,10,55,_,-6">
     <img src="/assets/facetime.png" style="border-radius: 8%;">
 </v-drag>
@@ -662,10 +658,6 @@ mindmap
 <v-drag pos="394,6,77,_,-6">
     <img src="/assets/msn-messenger.png" style="border-radius: 8%;">
 </v-drag>
-
-</div>
-
-<div v-if="[3, 4, 5, 6].indexOf($slidev.nav.clicks) > -1">
 
 <v-drag pos="685,141,62,_,15">
     <img src="/assets/zoom.png" style="border-radius: 8%;">
@@ -675,10 +667,6 @@ mindmap
     <img src="/assets/slack.png" style="border-radius: 8%;">
 </v-drag>
 
-</div>
-
-<div v-if="[4, 5, 6].indexOf($slidev.nav.clicks) > -1">
-
 <v-drag pos="148,61,62,_,15">
     <img src="/assets/twitter.png" style="border-radius: 8%;">
 </v-drag>
@@ -687,10 +675,6 @@ mindmap
     <img src="/assets/reddit.webp" style="border-radius: 8%;">
 </v-drag>
 
-</div>
-
-<div v-if="[5, 6, 7].indexOf($slidev.nav.clicks) > -1">
-
 <v-drag pos="38,364,261,_,15">
     <img src="/assets/ivan-sutherland-sketchpad.png" style="border-radius: 8%;">
 </v-drag>
@@ -698,10 +682,6 @@ mindmap
 <v-drag pos="34,171,45,_,-6">
     <img src="/assets/alias.png" style="border-radius: 8%;">
 </v-drag>
-
-</div>
-
-<div v-if="[6, 7, 8].indexOf($slidev.nav.clicks) > -1">
 
 <v-drag pos="431,295,67,_,15">
     <img src="/assets/wikipedia.png" style="border-radius: 8%;">

@@ -228,18 +228,6 @@ timeline
 
 ---
 
-# Global Impact
-
-- Revolutionized communication, business, education, entertainment
-- Rapid growth of the internet
-- Creation of the digital economy
-
-<v-drag>
-    <img src="/assets/global-internet-use.png"">
-</v-drag>
-
----
-
 # Current and Future Work
 
 - Advocates for a free and open web

@@ -194,9 +194,8 @@ image: /assets/people/margaret-hamilton.jpeg
 # Margaret Hamilton
 
 <!--
-
 - She is among the people who helped humans go to the moon and back, she developed robust error
-  detection and prevention systems, and gave us a job title.
+  detection and prevention systems, **and gave us a job title.**
 - She was the lead software engineer for the Apollo space program and she made important
   advancements in software engineering, in fact, she coined the term "software engineering".
 
@@ -214,7 +213,7 @@ graph TD
   C --> G[Software Engineering as a Discipline]
 ```
 
-<v-drag pos="662,98,223,_">
+<v-drag pos="675,47,223,_">
 <img src="/assets/apollo-guidance-computer.jpg" style="border-radius: 8%;">
 </v-drag>
 
@@ -448,6 +447,8 @@ image: /assets/people/richard-stallman.jpg
 -->
 
 ---
+clicks: 1
+---
 
 ```mermaid
 graph LR
@@ -463,6 +464,12 @@ graph LR
     classDef highlight fill:#f9f,stroke:#333,stroke-width:4px;
     class A highlight
 ```
+
+<div v-if="$slidev.nav.clicks === 1">
+<v-drag pos="697,108,272,_">
+<img src="/assets/xkcd-dependency.png" style="border-radius: 8%;">
+</v-drag>
+</div>
 
 <!--
 - He is not the only person who contributed to these, but he is the person who started the free
@@ -483,8 +490,6 @@ image: /assets/people/linus-torvalds.jpg
 -->
 
 ---
-clicks: 1
----
 
 ```mermaid
 graph LR
@@ -500,13 +505,6 @@ graph LR
     classDef highlight fill:#f9f,stroke:#333,stroke-width:4px;
     class B,C,D highlight;
 ```
-
-<div v-if="$slidev.nav.clicks === 1">
-<v-drag pos="697,108,272,_">
-<img src="/assets/xkcd-dependency.png" style="border-radius: 8%;">
-</v-drag>
- 
-</div>
 
 <!--
 - Rare surname: There are only about 30 people in the world with the surname Torvalds, and they're

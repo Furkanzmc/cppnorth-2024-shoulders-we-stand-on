@@ -28,8 +28,8 @@ class: mcarthy-profile-class
 
 # John McCarthy (1927-2011)
 
-- <span v-mark.underline.pink>**Artificial Intelligence**</span>: Coined the term "AI" in 1955
-- <span v-mark.underline.pink>**Lisp (1958)**</span>: One of the earliest high-level programming languages, influencing modern languages and AI research.
+- **Artificial Intelligence**: Coined the term "AI" in 1955
+- **Lisp (1958)**: One of the earliest high-level programming languages, influencing modern languages and AI research.
 - **Time-sharing**: Innovated the concept of sharing computing resources among multiple users.
 
 <!-- 
@@ -77,7 +77,7 @@ clicks: 2
 -->
 
 ---
-clicks: 3
+clicks: 2
 ---
 
 # Coining AI and Beyond
@@ -96,15 +96,6 @@ clicks: 3
 
 <v-drag pos="25,149,520,_">
     <img src="/assets/ai-group.webp" style="border-radius: 8%;">
-</v-drag>
-
-</div>
-
-<div v-if="$slidev.nav.clicks > 2">
-
-<v-drag pos="567,82,350,_">
-“I was invited to a meeting of computer scientists and information theorists at Dartmouth College…. 
-Most of the time I had no idea what they were talking about.” - Peter Milner
 </v-drag>
 
 </div>
@@ -204,6 +195,7 @@ image: /assets/people/edsger-dijkstra.jpg
 # Dijkstra's Formative Influences
 
 <v-drag pos="-173,178,1011,399">
+
 ```mermaid {scale: 0.65}
 graph TD
     %% Edsger W. Dijkstra's life
@@ -214,10 +206,6 @@ graph TD
     E --> F(1971: Introduced Dining Philosophers Problem)
     F --> G(1984: Turing Award for contributions to programming languages)
 
-    %% Influences on Dijkstra
-    X1(Ada Lovelace's Algorithms) --> C
-    X2(John von Neumann's Principles) --> C
-
     %% Dijkstra's influences on others
     C --> Y1(Network Routing Algorithms)
     D --> Y2(Structured Programming Principles)
@@ -227,14 +215,13 @@ graph TD
     classDef grayout fill:transparent,stroke:transparent,stroke-width:0px,color:transparent;
     classDef highlight fill:#fbd91f,stroke:#33,stroke-width:4px;
 
-    class X1 highlight;
     class X2 highlight;
     class C highlight;
     class Y1 highlight;
     
     class D,E,F,G,Y2,Y3,Y4 grayout;
 
-    linkStyle 2,3,4,5,9,10,11 display:none;
+    linkStyle 2,3,4,5,7,8,9 display:none;
 ```
 </v-drag>
 
@@ -263,10 +250,6 @@ graph TD
     E --> F(1971: Introduced Dining Philosophers Problem)
     F --> G(1984: Turing Award for contributions to programming languages)
 
-    %% Influences on Dijkstra
-    X1(Ada Lovelace's Algorithms) --> C
-    X2(John von Neumann's Principles) --> C
-
     %% Dijkstra's influences on others
     C --> Y1(Network Routing Algorithms)
     D --> Y2(Structured Programming Principles)
@@ -281,7 +264,7 @@ graph TD
     
     class E,F,G,Y3,Y4 grayout;
 
-    linkStyle 3,4,5,10,11 display:none;
+    linkStyle 3,4,5,8,9 display:none;
 ```
 </v-drag>
 
@@ -296,6 +279,7 @@ clicks: 1
 # Dining with Philosophers
 
 <v-drag pos="30,135,1011,399">
+
 ```mermaid {scale: 0.65}
 graph TD
     %% Edsger W. Dijkstra's life
@@ -305,10 +289,6 @@ graph TD
     D --> E(1965: Semaphore Concept in 'Coordinating Concurrent Processes')
     E --> F(1971: Introduced Dining Philosophers Problem)
     F --> G(1984: Turing Award for contributions to programming languages)
-
-    %% Influences on Dijkstra
-    X1(Ada Lovelace's Algorithms) --> C
-    X2(John von Neumann's Principles) --> C
 
     %% Dijkstra's influences on others
     C --> Y1(Network Routing Algorithms)

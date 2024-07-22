@@ -79,7 +79,7 @@ class: my-custom-class
 layout: section
 ---
 
-- A story of people, not just machines and code
+A story of people, not just machines and code
 
 <!--
 - We are grateful for the opportunity to be here today, thank you for the organizers of CppNorth for
