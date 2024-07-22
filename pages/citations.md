@@ -13,7 +13,7 @@
 - By Hamilton Richards - manuscripts of Edsger W. Dijkstra, University Texas at Austin, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=4204157
 - The Art of Computer Programming: https://www-cs-faculty.stanford.edu/~knuth/taocp-thumb.jpg
 - Donald Knuth profile image: https://www.idnes.cz/technet/technika/donald-knuth-interview-computer-science-brno-czech-republic.A191016_112708_tec_technika_pka
-- Mark Dean profile: https://blog.teachcomputing.org/mark-dean/
+- Mark Dean profile: https://originalpeople.org/mark-e-dean/
 - Mark Dean's timeline of work: Image created by OpenAI's DALL-E, detailing Mark Dean's contributions to computer science, 2024.
 - Mark Dean cartoon profile: https://tuntimo.com/profile/mark-dean/
 - https://thenewstack.io/could-unix-happen-today-brian-kernighan-looks-back-and-forward/
@@ -42,3 +42,4 @@
 - Tim Berners-Lee profile: https://www.britannica.com/biography/Tim-Berners-Lee
 - Mosaic browser: https://www.wired.com/2010/04/0422mosaic-web-browser/
 - WWW: https://www.npr.org/2023/04/30/1172276538/world-wide-web-internet-anniversary
+- Robert Noyce profile: https://liberalartsclubband.sites.grinnell.edu/annotations/p-z/robert-noyce-general-science/

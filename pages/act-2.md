@@ -1,7 +1,8 @@
 # The Theoretical Foundations
 
+<!-- 
 Establishing the core principles and theories that underpin modern technology, building upon the visionaries' ideas from Act 1.
-
+ -->
 ---
 layout: iframe
 url: https://ouestware.gitlab.io/retina/1.0.0-beta.1/#/graph/?url=https%3A%2F%2Fgist.githubusercontent.com%2Fqhou%2F7d4319be71ded33d0d7f277f4d33623d%2Fraw%2Fc132ecf1c48ea14e38b0126b68d2cc079dd43047%2Fact2.gexf&r=d&c=a&s=r&sa=r&ca=a
@@ -11,10 +12,6 @@ class: act-2
 # Figures
 
 <!-- 
-- With Turing laying the theoretical groundwork for modern computing with his concept of the Turing machine. 
-- His work on computational theory and the famous Turing Test set the stage for the development of AI
-- Along that, von Neumann's revolution in computer architecture influenced early computer designs and set the stage for practical implementations of Turing’s theoretical ideas.
-- Stage was set for futher advancements 
 - These early pioneers influenced a new wave of computer scientists who would take these concepts further and apply them to emerging fields like AI
   -->
 
@@ -31,9 +28,7 @@ class: mcarthy-profile-class
 - **Time-sharing**: Innovated the concept of sharing computing resources among multiple users.
 
 <!-- 
-
-- One of the key figures who built on these foundations was John McCarthy. 
-- Inspired by Turing and von Neumann's work, McCarthy made strides in AI and programming languages
+- Inspired by Turing and von Neumann's work in stored-program concept, formalization of computation, game theory, and mathematical rigor, McCarthy made strides in AI and programming languages
 - Best known 
   - Coined the term AI while organizing the Dartmouth Round Table in 1956
   - Considered the birth of AI as a field of study. 
@@ -103,8 +98,8 @@ clicks: 3
 <div v-if="$slidev.nav.clicks > 2">
 
 <v-drag pos="567,82,350,_">
->“I was invited to a meeting of computer scientists and information theorists at Dartmouth College…. 
-> Most of the time I had no idea what they were talking about.” - Peter Milner
+“I was invited to a meeting of computer scientists and information theorists at Dartmouth College…. 
+Most of the time I had no idea what they were talking about.” - Peter Milner
 </v-drag>
 
 </div>
@@ -112,45 +107,27 @@ clicks: 3
 <!--
 - (click) plaque at Dartmouth commemorating the seminal event in AI history
 - 
-- (click) In the back row from left to right are Oliver Selfridge, Nathaniel Rochester, Marvin Minsky, and John McCarthy. 
-- In front on the left is Ray Solomonoff; on the right, Claude Shannon.
-- All six contributed to AI, computer science, or related fields in the decades following the Dartmouth workshop.
-
 - Middle person in front row, later discovered to be British-Canadian neuroscientist, Peter Milner
 - At the time, working on neuropsychology at McGill University
 - He’s not generally lumped in with the other AI pioneers because his research interests diverged from theirs.
-- He wrote in his 1999 autobiography: “I was invited to a meeting of computer scientists and information theorists at Dartmouth College…. Most of the time I had no idea what they were talking about.”
+- He wrote in his 1999 autobiography he wrote
 -->
 
 ---
-clicks: 3
----
 
 # Lisp (List Processing Language)
-
-<div v-if="$slidev.nav.clicks > 0">
 
 <v-drag pos="114,216,168,_">
     <img src="/assets/lisp-1.png" style="border-radius: 8%;">
 </v-drag>
 
-</div>
-
-<div v-if="$slidev.nav.clicks > 1">
-
 <v-drag pos="306,218,168,_">
     <img src="/assets/lisp-2.png" style="border-radius: 8%;">
 </v-drag>
 
-</div>
-
-<div v-if="$slidev.nav.clicks > 2">
-
 <v-drag pos="495,218,168,_">
     <img src="/assets/lisp-3.png" style="border-radius: 8%;">
 </v-drag>
-
-</div>
 
 <!-- 
 1. Interactive Programming
@@ -197,174 +174,7 @@ In this example:
 - Use to generate multiple jokes with diff setups and punchlines
 - Powerful flexibility to create new language features
  -->
-  
----
 
-# Lisp (List Processing Language)
-
-<v-drag pos="114,216,168,_">
-    <img src="/assets/lisp-1.png" style="border-radius: 8%;">
-</v-drag>
-
-<v-drag pos="306,218,168,_">
-    <img src="/assets/lisp-2.png" style="border-radius: 8%;">
-</v-drag>
-
-<v-drag pos="495,218,168,_">
-    <img src="/assets/lisp-3.png" style="border-radius: 8%;">
-</v-drag>
-
-<v-click>
-
-<v-drag pos="688,219,161,_">
-    <img src="/assets/lisp-4.png" style="border-radius: 8%;">
-</v-drag>
-
-</v-click>
-
-<!--
-Last but not least, its continued relevance in AI and ML research
--->
-
----
-
-# AI Research Relevance of Lisp
-
-<div style="text-align: center;">
-<div style="auto">
-
-```mermaid {scale: 0.4}
-graph LR
-    A[Lisp Uses Today]
-    
-    subgraph AI_and_ML[AI & ML]
-        direction TB
-        B1[Knowledge Representation]
-        B2[Reasoning]
-        B3[Natural Language Processing]
-    end
-    
-    subgraph Formal_Methods[Formal Methods & Verification]
-        direction TB
-        C1[Software Verification]
-        C2[Hardware Verification]
-        C3[Theorem Proving]
-    end
-    
-    subgraph Language_Design[Language Design & Compilers]
-        direction TB
-        D1[Programming Language Design]
-        D2[Compiler Techniques]
-        D3[Domain-Specific Languages]
-    end
-    
-    subgraph Symbolic_Math[Symbolic Mathematics]
-        direction TB
-        E1[Symbolic Expressions]
-        E2[Algebraic Operations]
-    end
-    
-    subgraph Robotics[Robotics & Autonomous Systems]
-        direction TB
-        F1[Planning]
-        F2[Reasoning]
-        F3[Simulation]
-    end
-    
-    subgraph Knowledge_Systems[Knowledge-Based Systems]
-        direction TB
-        G1[Expert Systems]
-        G2[Decision Support Systems]
-    end
-    
-    subgraph Prototyping[Algorithm Prototyping]
-        direction TB
-        H1[Bioinformatics]
-        H2[Data Mining]
-        H3[Computational Linguistics]
-    end
-    
-    subgraph Education[Education & Teaching]
-        direction TB
-        I1[Programming Languages Courses]
-        I2[AI Courses]
-        I3[Symbolic Computation Courses]
-    end
-    
-    A --> AI_and_ML
-    A --> Formal_Methods
-    A --> Language_Design
-    A --> Symbolic_Math
-    A --> Robotics
-    A --> Knowledge_Systems
-    A --> Prototyping
-    A --> Education
-```
-
-</div>
-</div>
-
----
-layout: quote
----
-
-Actually... let's really LISP this list
-
----
-
-# AI Research Relevance of Lisp
-
-```lisp
-(defun print-lisp-uses (indent items)
-  (dolist (item items)
-    (if (listp item)
-        (progn
-          (format t "~v@{- ~a~%}" indent (first item))
-          (print-lisp-uses (+ indent 2) (rest item)))
-        (format t "~v@{- ~a~%}" indent item))))
-
-(let ((lisp-uses
-       '("Lisp Uses Today"
-         ("Artificial Intelligence and Machine Learning"
-          "Knowledge Representation"
-          "Reasoning"
-          "Natural Language Processing")
-         ("Formal Methods and Verification"
-          "Software Verification"
-          "Hardware Verification"
-          "Theorem Proving")
-         ("Language Design and Compilers"
-          "Programming Language Design"
-          "Compiler Techniques"
-          "Domain-Specific Languages")
-         ("Symbolic Mathematics and Computer Algebra Systems"
-          "Symbolic Expressions"
-          "Algebraic Operations")
-         ("Robotics and Autonomous Systems"
-          "Planning"
-          "Reasoning"
-          "Simulation")
-         ("Knowledge-Based Systems"
-          "Expert Systems"
-          "Decision Support Systems")
-         ("Algorithm Prototyping and Experimentation"
-          "Bioinformatics"
-          "Data Mining"
-          "Computational Linguistics")
-         ("Education and Teaching"
-          "Programming Languages Courses"
-          "AI Courses"
-          "Symbolic Computation Courses"))))
-  (print-lisp-uses 0 lisp-uses))
-```
-
-<!-- 
-
-- From when McCarthy created Lisp in 1958, 
-- continues to be relevant in research areas
-- due to its ability to handle complex structures and strength in symbolic computation
-- 
- -->
 ---
 layout: image-left
 image: /assets/people/edsger-dijkstra.jpg
@@ -379,10 +189,6 @@ image: /assets/people/edsger-dijkstra.jpg
 - **Distributed Programming**
 
 <!-- 
-- As McCarthy was pioneering the field of artificial intelligence and creating Lisp, 
-- Dijkstra was developing fundamental principles for ensuring that algorithms, in general, were efficient and correct. 
-- Dijkstra's emphasis on algorithmic efficiency and software reliability provided a strong foundation for various areas of computer science
-
 - **Dijkstra's Algorithm**: Introduced for shortest paths, fundamental in network routing, GIS, and optimization.
 - **Structured Programming**: Advocated for principles leading to reliable and maintainable software.
   - “A Case against the GO TO Statement” 
@@ -428,6 +234,8 @@ graph TD
 </v-drag>
 
 <!--
+- Edsger Dijkstra built on Ada Lovelace’s early work on algorithms by advancing the formalization, efficiency, and complexity of algorithm design, and emphasizing the importance of structured programming and algorithmic correctness, which paved the way for modern software engineering practices.
+
 - Building on the programming foundations laid by Ada Lovelace and John von Neumann's computing
   principles, Dijkstra's contributions have been pivotal in developing algorithms and programming
   methodologies
@@ -506,7 +314,6 @@ graph TD
     classDef grayout fill:transparent,stroke:transparent,stroke-width:0px,color:transparent;
     classDef highlight fill:#fbd91f,stroke:#33,stroke-width:4px;
 
-    class E highlight;
     class F highlight;
     class Y3 highlight;
     class Y4 highlight;
@@ -525,11 +332,8 @@ graph TD
 
 <!--
 Distributed Programming
-Early pioneers of the research on distributed computing. His paper “Self-stabilizing Systems in Spite of Distributed Control” started the sub-field of self-stabilization.
-Coordinating Concurrent Processes (1965) denotes the first synchronization mechanism for concurrent processes, the semaphore with its two operations, commonly known as P and V.
+Early pioneers of the research on distributed computing
 
-
-Semaphores: The Dining Philosophers problem (1971)
 The Dining Philosophers Problem is a classic synchronization problem in computer science, introduced by Dijkstra in 1965. 
 - Five philosophers sitting around a table, each alternating between thinking and eating. 
 - There is a single fork between each pair of philosophers, and to eat, a philosopher needs both adjacent forks. 
@@ -542,44 +346,6 @@ Today, the principles from this influence various areas of computer science, inc
 -->
 
 ---
-
-# Dijkstra's Legacy
-
-<v-drag pos="31,117,1011,399">
-```mermaid {scale: 0.65}
-graph TD
-    %% Edsger W. Dijkstra's life
-    A(1930: Born in Rotterdam, Netherlands) --> B(1952: Programming at the Mathematical Center)
-    B --> C(1959: Developed Dijkstra's Algorithm)
-    C --> D(1968: Published 'A Case against the GO TO Statement')
-    D --> E(1965: Semaphore Concept in 'Coordinating Concurrent Processes')
-    E --> F(1971: Introduced Dining Philosophers Problem)
-    F --> G(1984: Turing Award for contributions to programming languages)
-
-    %% Influences on Dijkstra
-    X1(Ada Lovelace's Algorithms) --> C
-    X2(John von Neumann's Principles) --> C
-
-    %% Dijkstra's influences on others
-    C --> Y1(Network Routing Algorithms)
-    D --> Y2(Structured Programming Principles)
-    E --> Y3(Research in Distributed Systems)
-    F --> Y4(Concepts in Concurrent Programming)
-
-    classDef highlight fill:#fbd91f,stroke:#33,stroke-width:4px;
-    
-    class Y1 highlight;
-    class Y2 highlight;
-    class Y3 highlight;
-    class Y4 highlight;
-```
-</v-drag>
-
-<!--
-His work has had a lasting impact on software engineering practices, influencing how complex software systems are designed and implemented. Examples include routing algorithms in network communication and optimization algorithms in various fields.
--->
-
----
 layout: image-left
 image: /assets/dijkstra-writing.png
 ---
@@ -587,12 +353,11 @@ image: /assets/dijkstra-writing.png
 # Eloquence and Elegance
 
 - Known for elegant writing and handwriting
-- Inspired the creation of <span v-mark.circle.orange="4">Dijkstra Regular font</span>
+- Inspired the creation of Dijkstra Regular font
 
 ---
 layout: image-left
 image: assets/people/wirth.webp
-clicks: 4
 ---
 
 # Niklaus Wirth
@@ -606,7 +371,7 @@ who designed several influential programming languages,
 such as Pascal, which emphasized simplicity and efficiency in programming
 -->
 ---
-clicks: 4
+clicks: 2
 ---
 
 # Pascal's Influence
@@ -635,12 +400,22 @@ clicks: 4
 
 </div>
 
----
-layout: quote
----
 
-"Increasingly, people seem to misinterpret complexity as sophistication, which is baffling—the incomprehensible should cause suspicion rather than admiration."
-- Niklaus Wirth
+<!-- 
+- As a professor at the ETH Zurich 
+- Aime: to design a language that was easy to learn and use for teaching structured programming.
+- Developed Pascal 1968 - 1970, key features:
+  - Simplicity and Clarity
+  - Strong Typing
+  - Structured Programming- promotes the use of functions and procedures
+- Became popular in academia due to its effectiveness in teaching programming concepts
+- Many universities adopted it as the primary language for introductory CS courses.
+- Despite being primarily an educational tool, Pascal was used in commercial software development, with Turbo Pascal (fast copmiler) - Also influenced other languages: Modula-2, Ada, and Delphi
+
+- With the rise of other languages, which offered more features and better performance for large-scale software development, Pascal's popularity declined in the late 1980s and 1990s.
+- Despite popularity due to better features and performance in late 1980s and 1990s, 
+- many of the principles it championed remain foundational
+ -->
 
 ---
 layout: image-left
@@ -649,12 +424,8 @@ class: donald-knuth
 ---
 # Donald Knuth
 
-## Impactful Work
-- "The Art of Computer Programming" (1968)
-- Knuth-Morris-Pratt (KMP) Algorithm
-- TeX typesetting system
-
 <!-- 
+
 - Wirth’s contributions to programming language design were complemented by Donald Knuth’s work on the broader art of programming. 
 - Knuth’s multi-volume work 'The Art of Computer Programming' is considered a seminal text in the field, 
 - encompassing algorithms, data structures, and programming techniques
@@ -666,60 +437,38 @@ class: donald-knuth
 <div style="text-align: center;">
 <div style="auto">
 
-```mermaid
+```mermaid {scale:0.7}
 mindmap
   root((Donald Knuth))
     Influences
       Lovelace["Ada Lovelace"]
         Lovelace_desc1["Pioneer of programming concepts"]
-        Lovelace_desc2["Combined mathematical rigor with creativity"]
+        Lovelace_desc2["Formalization"]
       Neumann["John von Neumann"]
         Neumann_desc1["Structured approach to computing"]
         Neumann_desc2["Foundational work in computer science"]
     Contributions
       Programming["The Art of Computer Programming"]
-        Programming_desc["Comprehensive coverage of fundamental algorithms"]
       TeX["TeX Typesetting System"]
-        TeX_desc["Revolutionized digital typesetting and publishing"]
       KMP["Knuth-Morris-Pratt Algorithm"]
-        KMP_desc["Efficient string-searching algorithm"]
       Literate["Literate Programming"]
-        Literate_desc["Integration of code and documentation"]
       Analysis["Algorithm Analysis"]
-        Analysis_desc["Detailed study of algorithms and programming techniques"]
       Software["Software Engineering"]
-        Software_desc["Modern software engineering practices"]
       Education["Computer Science Education"]
-        Education_desc["Cornerstone of computer science education"]
 ```
 
 </div>
 </div>
 
 <!--
-Influenced by
-- Ada Lovelace:
-  - Ada Lovelace was a pioneer of programming concepts. She combined mathematical rigor with creativity, which greatly inspired Knuth. Her visionary work laid the foundation for what would become modern computer programming.
-- John von Neumann:
-  - Another major influence on Knuth was John von Neumann. Known for his structured approach to computing, von Neumann's foundational work in computer science shaped Knuth's methodical and analytical approach to algorithms and programming."
+- Ada Lovelace's early work on algorithms inspired his comprehensive study of algorithms and their analysis. 
+- Combined with John von Neumann's structured approach to computing, 
+- he created his most famous work, "The Art of Computer Programming" in 1968 
+- Revered as the definitive guide on algorithms and programming techniques.
+- Knuth’s work in algorithm analysis, including the development of "big O" notation (also smt we worry about in interviews), fundamentally changed how programmers understand algorithm efficiency and complexity.
+- Additionally, he was frustrated with typesetting quality, Knuth developed the TeX typesetting system in the late 1970s
 
-1. The Art of Computer Programming (1968):
-  - This comprehensive coverage of fundamental algorithms is often considered the bible of computer programming.
-2. TeX Typesetting System:
-  - Revolutionized digital typesetting and publishing
-  - Widely used in academia for producing technical documents, ensuring high-quality typesetting.
-3. Knuth-Morris-Pratt Algorithm:
-  - One of his notable algorithms 
-  - Efficient string-searching algorithm
-4. Literate Programming:
-  - Introduced the concept, integrating code and documentation. 
-  - This promotes writing programs that are not only functional but also easy to understand and maintain.
-5, Algorithm Analysis + Software Engineering
-  - Emphasizes the importance of efficient algorithms
-  - His work helped stablish best practices that are still followed today.
-1. Computer Science Education:
-  - His work has become a cornerstone of computer science education, 
-  - educating generations of programmers and computer scientists.
+- Knuth introduced "literate programming," advocating for code that is as readable by humans as it is executable by machines
 -->
 ---
 layout: quote
@@ -754,60 +503,14 @@ image: assets/people/alan-kay.jpg
 # Alan Kay
 
 - One of the Fathers of Object-Oriented Programming
-  - Coined "Object" and "Class"
-  - Smalltalk
-  - Squeak
-- GUIs
-  - Dyanbook (1972): "A personal computer for children of all ages"
+- Imagined a portable user-friendly computer - Dynabook
 
----
-
-# Brief Timeline of Contributions 
-
-```mermaid {scale: 0.5}
-graph TB
-    subgraph Early Life and Education
-        A1969[1969: Ph.D. in Computer Science, University of Utah]
-    end
-
-    subgraph Xerox PARC and Foundational Work
-        B1970[1970: Joined Xerox PARC]
-        B1972[1972: Developed Smalltalk Programming Language]
-        B1973[1973: Contributed to Dynabook Concept]
-        B1979[1979: Left Xerox PARC, Chief Scientist at Atari]
-    end
-
-    subgraph Apple and Industry Contributions
-        C1981[1981: Joined Atari as Chief Scientist]
-        C1984[1984: Moved to Apple Computer, became a Fellow]
-    end
-
-    subgraph Academic and Continued Contributions
-        D1996[1996: Co-created Squeak]
-        D1997[1997: Received Turing Award]
-        E2011[2011: Continued advocacy for computer science education]
-    end
-
-    A1969 --> B1970 --> B1972 --> B1973 --> B1979
-    B1979 --> C1981 --> C1984
-    C1984 --> D1996 --> D1997
-    D1997 --> E2011 
-```
-
-<!--
-- Pivotal figure in the history of computer science
-- Known for his groundbreaking work in object-oriented programming and personal computing
-
-- In 1970, Kay joined Xerox PARC, 
-- where he developed the Smalltalk programming language in 1972 (brought to life object-oriented programming)
-
-- The following year, he contributed to the Dynabook concept, a visionary idea that anticipated modern laptops and tablets.
-
-- In 1979, he left Xerox Parc to Atari, and from there, to Apple Computer . 
-- He continued to influence UI design and multimedia systems as a Fellow.
-
-- In 1996, Kay co-created Squeak, an open-source Smalltalk programming system.
--->
+<!-- 
+(holding protoype)
+- In late 1960s, Kay imagined a portable, user-friendly computer for everyone, including children. 
+- The Dynabook was designed to be as powerful as a mainframe, yet accessible and intuitive, featuring portability and a GUI.
+- While the Dynabook itself was never built, its ideas profoundly influenced modern laptops and tablets today
+ -->
 
 ---
 
@@ -823,8 +526,8 @@ graph TB
 
 ```mermaid
 graph TD
-    A[Early 1970s: Development of Smalltalk] --> B[Influenced by Seymour Papert's theories]
-    B --> C[1996: Squeak developed as open-source Smalltalk]
+    B[Influenced by Seymour Papert's theories] --> A[Early 1970s: Development of Smalltalk] 
+    A --> C[1996: Squeak developed as open-source Smalltalk]
     C --> D[1997: Squeak designed for education and multimedia]
 
     A --> A1[Key Features of Smalltalk]
@@ -878,49 +581,49 @@ clicks: 3
 </div>
 
 <div v-if="$slidev.nav.clicks > 1">
-<v-drag pos="411,157,499,_">
-<img src="/assets/kay-taylor-parc.png" style="border-radius: 4%;">
-</v-drag>
-</div>
-
-<div v-if="$slidev.nav.clicks > 2">
 <v-drag pos="70,104,290,_">
 <img src="/assets/people/bob-taylor.webp" style="border-radius: 4%;">
 </v-drag>
 </div>
 
-<!--
-- Bob Taylor
-  - Leader at Xerox PARC who recruited Kay
-  - Fostered a collaborative and innovative environment
-  - Key figure in the development of personal computing
+<div v-if="$slidev.nav.clicks > 2">
+<v-drag pos="411,157,499,_">
+<img src="/assets/kay-taylor-parc.png" style="border-radius: 4%;">
+</v-drag>
+</div>
 
-- Xerox Parc
-  - Hub for groundbreaking computer science research
-  - Enabled Kay to develop Smalltalk and GUI concepts
-  - Influenced future technologies and computing paradigms
+<!--
+Kay talks about his experience at Xerox Parc (click), 
+
+- When Alan Kay joined Xerox PARC in 1971, Bob Taylor was leading the Computer Science Laboratory (CSL). (click)
+- Taylor had been instrumental in establishing CSL at PARC in 1970. 
+- In his role, Taylor was responsible for setting the visionary direction of the lab, 
+- fostering a collaborative environment, and overseeing the groundbreaking research and development that would come out of PARC.
+
+Kay notes the protection that Taylor provided for researchers during this time
+Vicionary leaders providing researchers and IC with the space to do their best work
 -->
 
 ---
 clicks: 2
 ---
 
-# A Gold Mine 
+# A Gold Mine of Wise Words 
 
 <div v-if="$slidev.nav.clicks > 0">
 
 <v-drag pos="67,186,409,_">
-    <img src="/assets/kay-cs-degrees.png">
+    <img src="/assets/kay-quora.png">
 </v-drag>
   
 </div>
 
 <div v-if="$slidev.nav.clicks > 1">
 
-<v-drag pos="496,176,439,_">
+<v-drag pos="487,176,409,_">
     <img src="/assets/kay-cs-degrees.png">
 </v-drag>
-
+  
 </div>
 
 ---
@@ -940,38 +643,26 @@ image: /assets/people/karen-jones.webp
 
 # Karen Spärck Jones
 
-- **Information Retrieval**
-  - Pioneered work in search engine algorithms
-  - Developed Inverse Document Frequency (IDF)
-
-- **Natural Language Processing**
-  - Enabled machines to understand and process human language
-  - Advanced research in machine translation, chatbots, and automated summarization
-
+- Developed the concept of Inverse Document Frequency (IDF)
+- Revolutionized information retrieval and search engine algorithms
 <!--
-- **Inverse Document Frequency (IDF):**
-  - Evaluates the importance of a word in a document relative to a collection of documents (corpus)
-  - Highlights unique terms specific to a document
-  - Reduces the weight of common words
+- Born in 1935 in the UK, she studied history and philosophy, 
+- and was a school teacher for a short time before she started in computer science
+- this is where she really got rolling 
 
-- **Relevance Weighting:**
-  - Assigns weights to terms based on their importance in the retrieval process
--->
+- In the 1970s, Spärck Jones developed the concept of Inverse Document Frequency, or IDF. 
+- This measure evaluates the importance of a word in a document relative to a collection of documents, 
+  - helping distinguish common terms from rare ones. 
+- This concept is crucial for search engines, enabling them to rank documents by relevance to a query.
 
----
+- Beyond her technical achievements, Spärck Jones was a fierce advocate for natural language processing and gender diversity in computer science.
+- Highlighted the ethical and societal responsibilities of computer scientists
+- Believing that as technology becomes more integrated into daily life, it's essential to consider its broader impacts on society (privacy, access to information, and the potential for technology to perpetuate biases and inequalities)
 
-## IDF Under the Hood
-
-<v-drag pos="63,187,490,_">
-    <img src="/assets/idf.png">
-</v-drag>
-
-- Laid the groundwork for modern search engines
-- Improved relevance of search results
-- Widely used in document retrieval and text mining
-
+- Advocated for the involvement of women and other underrepresented groups in computing
+  -->
 ---
 layout: quote
 ---
 
-"Computing is too important to be left to men" - Karen Spärck Jones 
+"Computing is too important to be left to men" - Karen Spärck Jones
